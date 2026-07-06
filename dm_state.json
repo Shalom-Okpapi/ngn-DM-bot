@@ -1,11 +1,12 @@
 {
-  "last_update_id": 261519843,
+  "last_update_id": 261519847,
   "awaiting_amount": {},
   "last_request_at": {
-    "5503157793": 1783346506.908703
+    "5503157793": 1783371838.426016,
+    "8617443875": 1783371828.391422
   },
   "rate_cache": {
-    "fetched_at": 1783346445.391153,
+    "fetched_at": 1783371829.333584,
     "snapshot": {
       "buy": {
         "platform": "Bybit",
@@ -24,10 +25,10 @@
       "sell": {
         "platform": "Bybit",
         "trade_type": "SELL",
-        "price": 1506.65,
+        "price": 1504.0,
         "merchant_name": "GoldenPrimeEx",
         "completion_rate": 0.99,
-        "order_count": 1105,
+        "order_count": 1106,
         "min_limit": 5000.0,
         "max_limit": 700000.0,
         "available": 50000.0,
