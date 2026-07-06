@@ -55,32 +55,37 @@ def _sanitize(text: str) -> str:
     return cleaned or "Unknown"
 
 
-WELCOME_TEXT = (
-    "👋 *Welcome back!*\n\n"
-    "Here's what I can do:\n"
-    "• /current — best rates right now\n"
-    "• /search <amount> — best merchants for a specific *naira* amount "
-    "(e.g. /search 8000)\n\n"
-    "You can also just type /search and I'll ask you for the amount.\n\n"
-    "⚠️ I only show rates — I never touch your money. Always confirm the "
-    "live price before you trade."
-)
+def _build_welcome_text(name: str) -> str:
+    greeting = f"👋 *Welcome back, {_sanitize(name)}!*" if name else "👋 *Welcome back!*"
+    return (
+        f"{greeting}\n\n"
+        "Here's what I can do:\n"
+        "• /current — best rates right now\n"
+        "• /search <amount> — best merchants for a specific *naira* amount "
+        "(e.g. /search 8000)\n\n"
+        "You can also just type /search and I'll ask you for the amount.\n\n"
+        "⚠️ I only show rates — I never touch your money. Always confirm the "
+        "live price before you trade."
+    )
+
 
 # Shown to anyone who isn't authorized yet — this IS the sales pitch,
 # so /start, /current, /search all show the same thing until they've paid.
 # >>> Replace the wallet address below with your real TRC20 USDT address <<<
-PAYWALL_TEXT = (
-    "👋 *Welcome!*\n\n"
-    "I check Binance and Bybit P2P live and show you the best trusted "
-    f"{settings.ASSET}/{settings.FIAT} rates — only from merchants with a "
-    "strong track record.\n\n"
-    "• /current — best rates right now\n"
-    "• /search <amount> — best merchants for your exact trade size, in naira\n\n"
-    "This is a paid tool: *$22/month*, paid in USDT (TRC20 network) to:\n"
-    "`TAFHrQuCunTab2iK6vqfneKMLhJ3y4DmCD`\n\n"
-    "Once you've sent it, message me directly to confirm — you'll be "
-    "activated within minutes."
-)
+def _build_paywall_text(name: str) -> str:
+    greeting = f"👋 *Welcome, {_sanitize(name)}!*" if name else "👋 *Welcome!*"
+    return (
+        f"{greeting}\n\n"
+        "I check Binance and Bybit P2P live and show you the best trusted "
+        f"{settings.ASSET}/{settings.FIAT} rates — only from merchants with a "
+        "strong track record.\n\n"
+        "• /current — best rates right now\n"
+        "• /search <amount> — best merchants for your exact trade size, in naira\n\n"
+        "This is a paid tool: *$22/month*, paid in USDT (TRC20 network) to:\n"
+        "`TAFHrQuCunTab2iK6vqfneKMLhJ3y4DmCD`\n\n"
+        "Once you've sent it, message `@Oopps_io` directly to confirm — you'll "
+        "be activated within minutes."
+    )
 
 
 # ---------- state (operational — polling, cache, cooldowns) ----------
@@ -214,6 +219,15 @@ def _parse_start_source(text: str):
     if parts and parts[0] == "/start" and len(parts) == 2:
         return parts[1].strip()
     return None
+
+
+def _parse_amount(text: str):
+    cleaned = text.replace(",", "").replace("₦", "").strip()
+    try:
+        value = float(cleaned)
+        return value if value > 0 else None
+    except ValueError:
+        return None
 
 
 # ---------- formatting ----------
@@ -354,7 +368,12 @@ def handle_admin_command(auth_data: dict, chat_id, text: str) -> bool:
 
     if command == "/pending":
         ids = auth_data.get("notified_admin", [])
-        send_message(chat_id, f"Pending inquiries ({len(ids)}): {', '.join(ids) if ids else 'none'}")
+        sources = auth_data.get("inquiry_sources", {})
+        if not ids:
+            send_message(chat_id, "Pending inquiries (0): none")
+        else:
+            lines = [f"{cid} ({sources.get(cid, 'unknown source')})" for cid in ids]
+            send_message(chat_id, f"Pending inquiries ({len(ids)}):\n" + "\n".join(lines))
         return True
 
     return False
@@ -362,7 +381,7 @@ def handle_admin_command(auth_data: dict, chat_id, text: str) -> bool:
 
 # ---------- routing ----------
 
-def handle_message(state: dict, auth_data: dict, chat_id, text: str, display_name: str):
+def handle_message(state: dict, auth_data: dict, chat_id, text: str, display_name: str, greeting_name: str):
     text = (text or "").strip()
     chat_key = str(chat_id)
     _clean_expired_awaiting(state)
@@ -378,12 +397,12 @@ def handle_message(state: dict, auth_data: dict, chat_id, text: str, display_nam
         if chat_key not in auth_data["notified_admin"]:
             auth_data["notified_admin"].append(chat_key)
             notify_admin_new_inquiry(chat_key, display_name, auth_data["inquiry_sources"].get(chat_key))
-        send_message(chat_id, PAYWALL_TEXT)
+        send_message(chat_id, _build_paywall_text(greeting_name))
         return
-      
+
     if text.startswith("/start") or text == "/help":
         state["awaiting_amount"].pop(chat_key, None)
-        send_message(chat_id, WELCOME_TEXT)
+        send_message(chat_id, _build_welcome_text(greeting_name))
         return
 
     if text == "/current":
@@ -408,16 +427,6 @@ def handle_message(state: dict, auth_data: dict, chat_id, text: str, display_nam
             send_message(chat_id, "How much do you want to trade, in naira? "
                                     "Just reply with a number, like 50000.")
         return
-
-    if command == "/pending":
-        ids = auth_data.get("notified_admin", [])
-        sources = auth_data.get("inquiry_sources", {})
-        if not ids:
-            send_message(chat_id, "Pending inquiries (0): none")
-        else:
-            lines = [f"{cid} ({sources.get(cid, 'unknown source')})" for cid in ids]
-            send_message(chat_id, f"Pending inquiries ({len(ids)}):\n" + "\n".join(lines))
-        return True
 
     if chat_key in state["awaiting_amount"]:
         amount = _parse_amount(text)
@@ -473,9 +482,10 @@ def poll_once(state: dict, auth_data: dict) -> bool:
         text = message.get("text", "")
         from_user = message.get("from", {}) or {}
         display_name = from_user.get("username") or from_user.get("first_name") or "unknown"
+        greeting_name = from_user.get("first_name") or from_user.get("username") or ""
         log.info("Message from chat_id %s (%s): %r", chat_id, display_name, text)
         if chat_id is not None:
-            handle_message(state, auth_data, chat_id, text, display_name)
+            handle_message(state, auth_data, chat_id, text, display_name, greeting_name)
 
     return bool(updates)
 
