@@ -441,17 +441,23 @@ def poll_once(state: dict, auth_data: dict) -> bool:
         return False
 
     updates = data.get("result", [])
+    if updates:
+        log.info("Received %d update(s).", len(updates))
+
     for update in updates:
         state["last_update_id"] = update["update_id"]
         message = update.get("message")
         if not message:
             continue
-        if message.get("chat", {}).get("type") != "private":
+        chat_type = message.get("chat", {}).get("type")
+        if chat_type != "private":
+            log.info("Ignoring non-private message (chat type: %s).", chat_type)
             continue
         chat_id = message.get("chat", {}).get("id")
         text = message.get("text", "")
         from_user = message.get("from", {}) or {}
         display_name = from_user.get("username") or from_user.get("first_name") or "unknown"
+        log.info("Message from chat_id %s (%s): %r", chat_id, display_name, text)
         if chat_id is not None:
             handle_message(state, auth_data, chat_id, text, display_name)
 
