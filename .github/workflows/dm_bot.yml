@@ -31,11 +31,11 @@ jobs:
           DM_ADMIN_CHAT_ID: ${{ secrets.DM_ADMIN_CHAT_ID }}
         run: python dm_bot.py
 
-      - name: Commit updated DM state
+      - name: Commit updated state
         run: |
           git config user.name "dm-bot"
           git config user.email "dm-bot@users.noreply.github.com"
-          git add dm_state.json
+          git add dm_state.json authorized_users.json
           git diff --staged --quiet || git commit -m "Update DM bot state [skip ci]"
           git pull --rebase --autostash
           git push
