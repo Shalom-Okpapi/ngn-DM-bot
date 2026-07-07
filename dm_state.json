@@ -1,9 +1,12 @@
 {
-  "last_update_id": 261519872,
-  "awaiting_amount": {},
+  "last_update_id": 261519878,
+  "awaiting_amount": {
+    "6671003365": 1783444442.3893895
+  },
   "last_request_at": {
     "5503157793": 1783440976.672484,
-    "8617443875": 1783371828.391422
+    "8617443875": 1783371828.391422,
+    "6671003365": 1783444438.1471546
   },
   "rate_cache": {
     "fetched_at": 1783371829.333584,
@@ -38,7 +41,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783432168.8966177,
+      "fetched_at": 1783444439.6568346,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -111,7 +114,5 @@
     }
   },
   "consecutive_poll_failures": 0,
-  "awaiting_admin_action": {
-    "5503157793": "authorize"
-  }
+  "awaiting_admin_action": {}
 }
