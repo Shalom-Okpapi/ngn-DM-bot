@@ -24,14 +24,17 @@ HEADERS = {
 }
 
 
-def fetch_ads(trade_type: str, amount: float | None = None, rows: int = 10) -> list[dict]:
+def fetch_ads(trade_type: str, amount: float | None = None, fiat: str | None = None, rows: int = 10) -> list[dict]:
     """
     trade_type: "BUY" or "SELL" (from the perspective of the ad poster).
-    amount: trade size in NGN to search against. Defaults to
-    settings.MIN_TRADE_AMOUNT for /current; /search passes the user's
-    own amount so Binance's own server-side matching uses it too.
+    amount: trade size in the target fiat. Defaults to settings.MIN_TRADE_AMOUNT.
+    fiat: which currency to search against (e.g. "NGN", "JPY"). Defaults
+    to settings.FIAT. Must be one of settings.SUPPORTED_FIATS to be
+    reachable from the bot's commands — this client itself will happily
+    query any string Binance accepts.
     """
     amount = settings.MIN_TRADE_AMOUNT if amount is None else amount
+    fiat = settings.FIAT if fiat is None else fiat
     body = {
         "page": 1,
         "rows": rows,
@@ -39,7 +42,7 @@ def fetch_ads(trade_type: str, amount: float | None = None, rows: int = 10) -> l
         "publisherType": None,
         "asset": settings.ASSET,
         "tradeType": trade_type,
-        "fiat": settings.FIAT,
+        "fiat": fiat,
         "transAmount": amount,
         "merchantCheck": True,
     }
@@ -48,11 +51,11 @@ def fetch_ads(trade_type: str, amount: float | None = None, rows: int = 10) -> l
         resp = post_with_retry(URL, json=body, headers=HEADERS, timeout=15)
         data = resp.json()
     except Exception as e:
-        log.error("Binance P2P request failed after retry: %s", e)
+        log.error("Binance P2P request failed after retry (fiat=%s): %s", fiat, e)
         return []
 
     if not data.get("success") or not data.get("data"):
-        log.warning("Binance P2P returned no usable data: %s", data.get("message"))
+        log.warning("Binance P2P returned no usable data for fiat=%s: %s", fiat, data.get("message"))
         return []
 
     offers = []
@@ -67,14 +70,13 @@ def fetch_ads(trade_type: str, amount: float | None = None, rows: int = 10) -> l
             methods = [m for m in methods if m]
 
             adv_no = adv.get("advNo", "")
-            # Binance's own documented format for linking to this specific
-            # ad — see https://www.binance.com/en/skills/detail/binance/p2p
             link = (f"https://c2c.binance.com/en/adv?code={adv_no}" if adv_no
                     else f"https://p2p.binance.com/en/advertiserDetail?advertiserNo={merchant.get('userNo', '')}")
 
             offers.append({
                 "platform": "Binance",
                 "trade_type": trade_type,
+                "fiat": fiat,
                 "price": float(adv["price"]),
                 "merchant_name": merchant.get("nickName", "Unknown"),
                 "completion_rate": float(merchant.get("monthFinishRate") or 0),
