@@ -1,8 +1,8 @@
 {
-  "last_update_id": 261519867,
+  "last_update_id": 261519870,
   "awaiting_amount": {},
   "last_request_at": {
-    "5503157793": 1783432167.3526764,
+    "5503157793": 1783440976.672484,
     "8617443875": 1783371828.391422
   },
   "rate_cache": {
@@ -68,6 +68,43 @@
           "available": 50000.0,
           "payment_methods": [],
           "adv_no": "2050799808397766656",
+          "link": "https://www.bybit.com/fiat/trade/otc"
+        }
+      }
+    },
+    "EUR": {
+      "fetched_at": 1783440809.793586,
+      "snapshot": {
+        "buy": {
+          "platform": "Binance",
+          "trade_type": "BUY",
+          "fiat": "EUR",
+          "price": 0.945,
+          "merchant_name": "GoSwiss_ch",
+          "completion_rate": 1.0,
+          "order_count": 45,
+          "min_limit": 35000.0,
+          "max_limit": 100000.0,
+          "available": 106585.17,
+          "payment_methods": [
+            "Bank Transfer"
+          ],
+          "adv_no": "13903802476456685568",
+          "link": "https://c2c.binance.com/en/adv?code=13903802476456685568"
+        },
+        "sell": {
+          "platform": "Bybit",
+          "trade_type": "SELL",
+          "fiat": "EUR",
+          "price": 1.048,
+          "merchant_name": "Academic",
+          "completion_rate": 0.99,
+          "order_count": 214,
+          "min_limit": 250.0,
+          "max_limit": 85500.0,
+          "available": 100000.0,
+          "payment_methods": [],
+          "adv_no": "2061819712122142720",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
