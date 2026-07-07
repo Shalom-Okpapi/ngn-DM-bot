@@ -55,6 +55,20 @@ def _sanitize(text: str) -> str:
     return cleaned or "Unknown"
 
 
+_FIAT_SYMBOLS = {"NGN": "₦", "JPY": "¥", "GBP": "£", "EUR": "€"}  # CHF has no clean symbol, falls back to prefix
+
+
+def _currency_symbol(fiat: str) -> str:
+    return _FIAT_SYMBOLS.get(fiat, f"{fiat} ")
+
+
+def _format_money(fiat: str, value: float) -> str:
+    symbol = _currency_symbol(fiat)
+    if fiat == "JPY":  # yen isn't used with decimal places in practice
+        return f"{symbol}{value:,.0f}"
+    return f"{symbol}{value:,.2f}"
+
+
 def _build_welcome_text(name: str, is_admin: bool = False) -> str:
     greeting = f"👋 *Welcome back, {_sanitize(name)}!*" if name else "👋 *Welcome back!*"
     admin_block = (
@@ -64,12 +78,14 @@ def _build_welcome_text(name: str, is_admin: bool = False) -> str:
         "• /pending — see who's inquired but isn't authorized yet\n"
         "• /users — see everyone currently authorized"
     ) if is_admin else ""
+    fiat_list = ", ".join(settings.SUPPORTED_FIATS)
     return (
         f"{greeting}\n\n"
         "Here's what I can do:\n"
-        "• /current — best rates right now\n"
-        "• /search <amount> — best merchants for a specific *naira* amount "
-        "(e.g. /search 8000)"
+        "• /current [currency] — best rates right now (naira by default)\n"
+        "• /search <amount> [currency] — best merchants for a specific "
+        "amount (e.g. /search 8000, or /search 500 EUR)\n"
+        f"I check: {fiat_list}."
         f"{admin_block}\n\n"
         "You can also just type /search and I'll ask you for the amount.\n\n"
         "⚠️ I only show rates — I never touch your money. Always confirm the "
@@ -82,13 +98,15 @@ def _build_welcome_text(name: str, is_admin: bool = False) -> str:
 # >>> Replace the wallet address below with your real TRC20 USDT address <<<
 def _build_paywall_text(name: str) -> str:
     greeting = f"👋 *Welcome, {_sanitize(name)}!*" if name else "👋 *Welcome!*"
+    fiat_list = ", ".join(settings.SUPPORTED_FIATS)
     return (
         f"{greeting}\n\n"
         "I check Binance and Bybit P2P live and show you the best trusted "
-        f"{settings.ASSET}/{settings.FIAT} rates — only from merchants with a "
-        "strong track record.\n\n"
-        "• /current — best rates right now\n"
-        "• /search <amount> — best merchants for your exact trade size, in naira\n\n"
+        f"{settings.ASSET} rates — only from merchants with a strong track "
+        "record.\n\n"
+        "• /current [currency] — best rates right now (try it free, once)\n"
+        "• /search <amount> [currency] — best merchants for your exact trade size\n"
+        f"I check: {fiat_list}.\n\n"
         "This is a paid tool: *$14.99/month*, paid in USDT (TRC20 network) to:\n"
         "`TAFHrQuCunTab2iK6vqfneKMLhJ3y4DmCD`\n\n"
         "Once you've sent it, message `@Oopps_io` directly to confirm — you'll "
@@ -136,9 +154,10 @@ def save_state(state: dict) -> None:
 
 def _default_auth() -> dict:
     return {
-        "authorized": {},        # {chat_id: {"authorized_at": ts}}
-        "notified_admin": [],    # chat_ids already flagged to admin, so we don't spam
-        "inquiry_sources": {},   # {chat_id: source} — captured from /start <source> links
+        "authorized": {},         # {chat_id: {"authorized_at": ts}}
+        "notified_admin": [],     # chat_ids already flagged to admin, so we don't spam
+        "inquiry_sources": {},    # {chat_id: source} — captured from /start <source> links
+        "free_preview_used": [],  # chat_ids who've already used their one free /current
     }
 
 
@@ -247,7 +266,9 @@ def _parse_start_source(text: str):
 
 
 def _parse_amount(text: str):
-    cleaned = text.replace(",", "").replace("₦", "").strip()
+    cleaned = text.replace(",", "").strip()
+    for symbol in _FIAT_SYMBOLS.values():
+        cleaned = cleaned.replace(symbol, "")
     try:
         value = float(cleaned)
         return value if value > 0 else None
@@ -255,14 +276,58 @@ def _parse_amount(text: str):
         return None
 
 
+def _parse_fiat(text: str):
+    """Returns the fiat code if text is a recognized currency, else None."""
+    candidate = text.strip().upper()
+    return candidate if candidate in settings.SUPPORTED_FIATS else None
+
+
+def _parse_amount_and_fiat(text: str):
+    """Parses '50000' or '50000 JPY' (or 'JPY 50000') into (amount, fiat,
+    error). fiat defaults to settings.FIAT when not specified. error is
+    None on success, or a user-facing message on failure."""
+    parts = text.strip().split()
+    if not parts:
+        return None, None, None
+    fiat = settings.FIAT
+    amount = None
+    for part in parts:
+        maybe_fiat = _parse_fiat(part)
+        if maybe_fiat:
+            fiat = maybe_fiat
+            continue
+        maybe_amount = _parse_amount(part)
+        if maybe_amount is not None:
+            amount = maybe_amount
+    if amount is None:
+        fiats = ", ".join(settings.SUPPORTED_FIATS)
+        return None, None, (f"That doesn't look like a number. Try something like "
+                             f"50000, or 500 EUR. I check: {fiats}.")
+    return amount, fiat, None
+
+
+def _parse_current_fiat(text: str):
+    """Parses '/current' or '/current JPY' into (fiat, error)."""
+    parts = text.split(maxsplit=1)
+    if len(parts) == 1:
+        return settings.FIAT, None
+    fiat = _parse_fiat(parts[1])
+    if fiat is None:
+        fiats = ", ".join(settings.SUPPORTED_FIATS)
+        return None, f"I don't check {parts[1].strip()} yet. I check: {fiats}."
+    return fiat, None
+
+
 # ---------- formatting ----------
 
 def _format_offer_full(offer: dict) -> str:
+    fiat = offer.get("fiat", settings.FIAT)
     lines = [
-        f"₦{offer['price']:,.2f} per {settings.ASSET}",
+        f"{_format_money(fiat, offer['price'])} per {settings.ASSET}",
         f"Merchant: {_sanitize(offer['merchant_name'])} "
         f"({offer['completion_rate']*100:.1f}% success, {offer['order_count']} trades)",
-        f"Trade size: ₦{offer['min_limit']:,.0f} – ₦{offer['max_limit']:,.0f} | {offer['platform']}",
+        f"Trade size: {_format_money(fiat, offer['min_limit'])} – "
+        f"{_format_money(fiat, offer['max_limit'])} | {offer['platform']}",
     ]
     methods = offer.get("payment_methods") or []
     if methods:
@@ -273,9 +338,10 @@ def _format_offer_full(offer: dict) -> str:
 
 
 def _format_offer_compact(rank: int, offer: dict) -> str:
+    fiat = offer.get("fiat", settings.FIAT)
     link_line = f"\n   {offer['link']}" if offer.get("link") else ""
     return (
-        f"{rank}. ₦{offer['price']:,.2f} — {_sanitize(offer['merchant_name'])} "
+        f"{rank}. {_format_money(fiat, offer['price'])} — {_sanitize(offer['merchant_name'])} "
         f"({offer['completion_rate']*100:.1f}%, {offer['order_count']} trades, "
         f"{offer['platform']}){link_line}"
     )
@@ -283,12 +349,22 @@ def _format_offer_compact(rank: int, offer: dict) -> str:
 
 # ---------- rate caching ----------
 
-def _get_snapshot_cached(state: dict) -> dict:
+def _get_snapshot_cached(state: dict, fiat: str) -> dict:
     cache = state.get("rate_cache")
-    if cache and (time.time() - cache["fetched_at"]) <= settings.DM_RATE_CACHE_TTL_SECONDS:
-        return cache["snapshot"]
-    snapshot = aggregator.get_market_snapshot()
-    state["rate_cache"] = {"fetched_at": time.time(), "snapshot": snapshot}
+    if not isinstance(cache, dict):
+        cache = {}
+    state["rate_cache"] = cache
+
+    # An already-deployed bot's cache may still be the old flat shape
+    # ({"fetched_at":..., "snapshot":...} with no fiat key at all). That
+    # won't match any real fiat code, so cache.get(fiat) just misses
+    # cleanly below instead of crashing — the old keys just sit unused.
+    entry = cache.get(fiat)
+    if isinstance(entry, dict) and (time.time() - entry.get("fetched_at", 0)) <= settings.DM_RATE_CACHE_TTL_SECONDS:
+        return entry["snapshot"]
+
+    snapshot = aggregator.get_market_snapshot(fiat=fiat)
+    cache[fiat] = {"fetched_at": time.time(), "snapshot": snapshot}
     return snapshot
 
 
@@ -315,13 +391,13 @@ def _clean_expired_awaiting(state: dict) -> None:
 
 # ---------- command handlers (paid features) ----------
 
-def reply_current(state: dict, chat_id):
-    snapshot = _get_snapshot_cached(state)
+def reply_current(state: dict, chat_id, fiat: str, is_preview: bool = False):
+    snapshot = _get_snapshot_cached(state, fiat)
     if not snapshot["buy"] and not snapshot["sell"]:
-        send_message(chat_id, "I couldn't find trusted rates right now — try again shortly.")
+        send_message(chat_id, f"I couldn't find trusted {fiat} rates right now — try again shortly.")
         return
 
-    lines = [f"📊 *{settings.ASSET}/{settings.FIAT} — best rates right now*\n"]
+    lines = [f"📊 *{settings.ASSET}/{fiat} — best rates right now*\n"]
     if snapshot["sell"]:
         lines.append("🟢 *Best price to SELL your USDT*")
         lines.append(_format_offer_full(snapshot["sell"]))
@@ -330,21 +406,25 @@ def reply_current(state: dict, chat_id):
         lines.append("🔵 *Best price to BUY USDT*")
         lines.append(_format_offer_full(snapshot["buy"]))
     lines.append(f"\n⏱ {now_wat()}")
-    lines.append("\n⚠️ Rates can change fast — please confirm before you trade.")
+    if is_preview:
+        lines.append("\n✅ That's real, live data — your one free look. Subscribe "
+                      "for unlimited /current and /search access anytime.")
+    else:
+        lines.append("\n⚠️ Rates can change fast — please confirm before you trade.")
     send_message(chat_id, "\n".join(lines))
 
 
-def reply_search(chat_id, amount: float):
-    sell_matches = aggregator.get_top_matches("SELL", amount, limit=settings.DM_SEARCH_RESULT_LIMIT)
-    buy_matches = aggregator.get_top_matches("BUY", amount, limit=settings.DM_SEARCH_RESULT_LIMIT)
+def reply_search(chat_id, amount: float, fiat: str):
+    sell_matches = aggregator.get_top_matches("SELL", amount, fiat=fiat, limit=settings.DM_SEARCH_RESULT_LIMIT)
+    buy_matches = aggregator.get_top_matches("BUY", amount, fiat=fiat, limit=settings.DM_SEARCH_RESULT_LIMIT)
 
     if not sell_matches and not buy_matches:
         send_message(chat_id,
-            f"I couldn't find any trusted merchants for ₦{amount:,.0f} right now. "
+            f"I couldn't find any trusted merchants for {_format_money(fiat, amount)} right now. "
             "Try a different amount, or check back shortly.")
         return
 
-    lines = [f"🔍 *Merchants for ₦{amount:,.0f}*\n"]
+    lines = [f"🔍 *Merchants for {_format_money(fiat, amount)}*\n"]
     if sell_matches:
         lines.append("🟢 *Sell your USDT to:*")
         for i, offer in enumerate(sell_matches, 1):
@@ -464,6 +544,22 @@ def handle_message(state: dict, auth_data: dict, chat_id, text: str, display_nam
             sent = notify_admin_new_inquiry(chat_key, display_name, auth_data["inquiry_sources"].get(chat_key))
             if sent:
                 auth_data["notified_admin"].append(chat_key)
+
+        # One real, live /current before the paywall — makes the pitch's
+        # "try /current and see" claim literally true instead of a bait
+        # and switch. Still cooldown-protected like any other fetch.
+        if text.startswith("/current") and chat_key not in auth_data["free_preview_used"]:
+            fiat, error = _parse_current_fiat(text)
+            if error:
+                send_message(chat_id, error)
+                return
+            if not _check_cooldown(state, chat_key):
+                send_message(chat_id, "One moment — still working on your last request.")
+                return
+            auth_data["free_preview_used"].append(chat_key)
+            reply_current(state, chat_id, fiat, is_preview=True)
+            return
+
         send_message(chat_id, _build_paywall_text(greeting_name))
         return
 
@@ -473,39 +569,47 @@ def handle_message(state: dict, auth_data: dict, chat_id, text: str, display_nam
         send_message(chat_id, _build_welcome_text(greeting_name, _is_admin(chat_key)))
         return
 
-    if text == "/current":
+    if text.startswith("/current"):
         state["awaiting_amount"].pop(chat_key, None)
+        fiat, error = _parse_current_fiat(text)
+        if error:
+            send_message(chat_id, error)
+            return
         if not _check_cooldown(state, chat_key):
             send_message(chat_id, "One moment — still working on your last request.")
             return
-        reply_current(state, chat_id)
+        reply_current(state, chat_id, fiat)
         return
 
     if text.startswith("/search"):
         parts = text.split(maxsplit=1)
-        amount = _parse_amount(parts[1]) if len(parts) == 2 else None
+        amount, fiat, error = _parse_amount_and_fiat(parts[1]) if len(parts) == 2 else (None, None, None)
+        if error:
+            send_message(chat_id, error)
+            return
         if amount:
             if not _check_cooldown(state, chat_key):
                 send_message(chat_id, "One moment — still working on your last request.")
                 return
             state["awaiting_amount"].pop(chat_key, None)
-            reply_search(chat_id, amount)
+            reply_search(chat_id, amount, fiat)
         else:
+            fiats = ", ".join(settings.SUPPORTED_FIATS)
             state["awaiting_amount"][chat_key] = time.time()
-            send_message(chat_id, "How much do you want to trade, in naira? "
-                                    "Just reply with a number, like 50000.")
+            send_message(chat_id, "How much do you want to trade, and in which currency? "
+                                    f"Reply like '50000' (naira by default) or '500 EUR'. I check: {fiats}.")
         return
 
     if chat_key in state["awaiting_amount"]:
-        amount = _parse_amount(text)
-        if amount:
-            if not _check_cooldown(state, chat_key):
-                send_message(chat_id, "One moment — still working on your last request.")
-                return
-            state["awaiting_amount"].pop(chat_key, None)
-            reply_search(chat_id, amount)
-        else:
-            send_message(chat_id, "That doesn't look like a number. Try something like 50000.")
+        amount, fiat, error = _parse_amount_and_fiat(text)
+        if amount is None:
+            send_message(chat_id, error or "That doesn't look like a number. Try something like 50000.")
+            return  # keep waiting — don't clear the pending prompt
+        if not _check_cooldown(state, chat_key):
+            send_message(chat_id, "One moment — still working on your last request.")
+            return
+        state["awaiting_amount"].pop(chat_key, None)
+        reply_search(chat_id, amount, fiat)
         return
 
     send_message(chat_id, "I didn't quite get that. Try /current or /search <amount>, "
