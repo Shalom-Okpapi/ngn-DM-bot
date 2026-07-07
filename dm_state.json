@@ -1,5 +1,5 @@
 {
-  "last_update_id": 261519871,
+  "last_update_id": 261519872,
   "awaiting_amount": {},
   "last_request_at": {
     "5503157793": 1783440976.672484,
@@ -111,5 +111,7 @@
     }
   },
   "consecutive_poll_failures": 0,
-  "awaiting_admin_action": {}
+  "awaiting_admin_action": {
+    "5503157793": "authorize"
+  }
 }
