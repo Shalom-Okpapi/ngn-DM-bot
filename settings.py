@@ -39,7 +39,12 @@ DM_AWAITING_AMOUNT_TTL_SECONDS = int(os.getenv("DM_AWAITING_AMOUNT_TTL_SECONDS",
 
 # --- Market ---
 ASSET = os.getenv("ASSET", "USDT")
-FIAT = os.getenv("FIAT", "NGN")
+FIAT = os.getenv("FIAT", "NGN")  # default currency when none is specified
+# Every fiat the bot will accept in /current <fiat> and /search <amount> <fiat>.
+# Tunable without a code change — add or remove currencies here.
+SUPPORTED_FIATS = tuple(
+    f.strip().upper() for f in os.getenv("SUPPORTED_FIATS", "NGN,JPY,CHF,GBP,EUR").split(",") if f.strip()
+)
 MIN_TRADE_AMOUNT = float(os.getenv("MIN_TRADE_AMOUNT", "50000"))
 MIN_COMPLETION_RATE = float(os.getenv("MIN_COMPLETION_RATE", "0.95"))
 MIN_ORDER_COUNT = int(os.getenv("MIN_ORDER_COUNT", "20"))
