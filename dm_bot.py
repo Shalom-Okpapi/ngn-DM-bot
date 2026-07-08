@@ -235,6 +235,25 @@ def send_message(chat_id, text: str) -> bool:
         return False
 
 
+def _fetch_chat_name(chat_id) -> str | None:
+    """One-off lookup via Telegram's getChat, used as a fallback when we
+    don't already have a name on file for this chat_id — e.g., someone
+    authorized via a chat_id typed directly, who never sent a message
+    that would've been captured by handle_message. Returns None if the
+    lookup fails (the bot needs at least some prior contact with the
+    chat for getChat to work — a truly cold, never-messaged chat_id
+    still won't resolve)."""
+    try:
+        resp = requests.get(f"{API_BASE}/getChat", params={"chat_id": chat_id}, timeout=15)
+        if not resp.ok:
+            return None
+        result = resp.json().get("result", {})
+        return result.get("username") or result.get("first_name")
+    except Exception as e:
+        log.warning("getChat lookup failed for %s: %s", chat_id, e)
+        return None
+
+
 def notify_admin(message: str) -> None:
     """Operational alerts — bot health, failures."""
     if settings.DM_ADMIN_CHAT_ID:
@@ -445,6 +464,10 @@ def reply_search(chat_id, amount: float, fiat: str):
 def _do_authorize(auth_data: dict, admin_chat_id, target: str) -> None:
     auth_data["authorized"][target] = {"authorized_at": time.time()}
     auth_data["notified_admin"] = [c for c in auth_data["notified_admin"] if c != target]
+    if target not in auth_data["known_names"]:
+        fetched = _fetch_chat_name(target)
+        if fetched:
+            auth_data["known_names"][target] = fetched
     send_message(admin_chat_id, f"✅ Authorized {target}.")
     send_message(target, "🎉 You're all set! Try /current or /search <amount> whenever you like.")
 
@@ -493,7 +516,12 @@ def handle_admin_command(state: dict, auth_data: dict, chat_id, text: str) -> bo
         if not ids:
             send_message(chat_id, "Authorized users (0): none yet")
         else:
-            names = auth_data.get("known_names", {})
+            names = auth_data.setdefault("known_names", {})
+            for cid in ids:
+                if cid not in names:
+                    fetched = _fetch_chat_name(cid)
+                    if fetched:
+                        names[cid] = fetched
             lines = [f"{cid} ({_sanitize(names.get(cid, 'unknown'))})" for cid in ids]
             send_message(chat_id, f"Authorized users ({len(ids)}):\n" + "\n".join(lines))
         return True
