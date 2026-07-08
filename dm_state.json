@@ -1,8 +1,8 @@
 {
-  "last_update_id": 261519988,
+  "last_update_id": 261519992,
   "awaiting_amount": {},
   "last_request_at": {
-    "5503157793": 1783535506.5701892,
+    "5503157793": 1783553166.165939,
     "8617443875": 1783371828.391422,
     "6671003365": 1783444699.2751603,
     "6458834875": 1783497978.5755217,
@@ -44,7 +44,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783540928.935806,
+      "fetched_at": 1783553133.2556877,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -65,30 +65,30 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1516.42,
-          "merchant_name": "Polkk",
-          "completion_rate": 0.96,
-          "order_count": 25,
-          "min_limit": 4500.0,
-          "max_limit": 119822417.01,
-          "available": 79016.6425,
+          "price": 1391.2,
+          "merchant_name": "STARBOY\ud83d\udcafFX\ud83d\udc8e",
+          "completion_rate": 0.98,
+          "order_count": 413,
+          "min_limit": 50000.0,
+          "max_limit": 150000.0,
+          "available": 7586.8883,
           "payment_methods": [],
-          "adv_no": "2069720952188821504",
+          "adv_no": "2069522558095110144",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783518019.549138,
+      "fetched_at": 1783553110.9793978,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "EUR",
-          "price": 0.946,
+          "price": 0.945,
           "merchant_name": "GoSwiss_ch",
           "completion_rate": 1.0,
-          "order_count": 45,
+          "order_count": 47,
           "min_limit": 35000.0,
           "max_limit": 100000.0,
           "available": 106585.17,
@@ -102,10 +102,10 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "EUR",
-          "price": 1.052,
+          "price": 1.051,
           "merchant_name": "Academic",
           "completion_rate": 1.0,
-          "order_count": 206,
+          "order_count": 209,
           "min_limit": 250.0,
           "max_limit": 85500.0,
           "available": 100000.0,
