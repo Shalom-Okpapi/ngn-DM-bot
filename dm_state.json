@@ -1,5 +1,5 @@
 {
-  "last_update_id": 261519950,
+  "last_update_id": 261519952,
   "awaiting_amount": {},
   "last_request_at": {
     "5503157793": 1783499129.9652116,
@@ -7,7 +7,8 @@
     "6671003365": 1783444699.2751603,
     "6458834875": 1783497978.5755217,
     "7356289290": 1783510245.2560897,
-    "5396728087": 1783498082.384285
+    "5396728087": 1783498082.384285,
+    "8658029962": 1783511162.0154119
   },
   "rate_cache": {
     "fetched_at": 1783371829.333584,
@@ -42,7 +43,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783508358.3397527,
+      "fetched_at": 1783511162.846189,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -63,13 +64,13 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1393.0,
+          "price": 1393.5,
           "merchant_name": "MAI-GASKIYA\u260e\ufe0f\ud83d\udd25",
           "completion_rate": 0.95,
-          "order_count": 569,
+          "order_count": 575,
           "min_limit": 10000.0,
-          "max_limit": 54642.09,
-          "available": 39.2262,
+          "max_limit": 55000.0,
+          "available": 70.1333,
           "payment_methods": [],
           "adv_no": "2074547123118886912",
           "link": "https://www.bybit.com/fiat/trade/otc"
