@@ -1,8 +1,8 @@
 {
-  "last_update_id": 261519984,
+  "last_update_id": 261519985,
   "awaiting_amount": {},
   "last_request_at": {
-    "5503157793": 1783518686.9043667,
+    "5503157793": 1783535506.5701892,
     "8617443875": 1783371828.391422,
     "6671003365": 1783444699.2751603,
     "6458834875": 1783497978.5755217,
@@ -43,7 +43,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783517004.4436736,
+      "fetched_at": 1783535509.2444146,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -64,12 +64,12 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1512.77,
+          "price": 1516.42,
           "merchant_name": "Polkk",
           "completion_rate": 0.96,
-          "order_count": 24,
+          "order_count": 25,
           "min_limit": 4500.0,
-          "max_limit": 119534006.27,
+          "max_limit": 119822417.01,
           "available": 79016.6425,
           "payment_methods": [],
           "adv_no": "2069720952188821504",
