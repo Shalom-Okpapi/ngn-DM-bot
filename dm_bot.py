@@ -107,7 +107,7 @@ def _build_paywall_text(name: str) -> str:
         "• /current [currency] — best rates right now (try it free, once)\n"
         "• /search <amount> [currency] — best merchants for your exact trade size\n"
         f"I check: {fiat_list}.\n\n"
-        "This is a paid tool: *$9.99/month*, paid in USDT (TRC20 network) to:\n"
+        "This is a paid tool: *$14.99/month*, paid in USDT (TRC20 network) to:\n"
         "`TAFHrQuCunTab2iK6vqfneKMLhJ3y4DmCD`\n\n"
         "Once you've sent it, message `@Oopps_io` directly to confirm — you'll "
         "be activated within minutes."
@@ -158,6 +158,7 @@ def _default_auth() -> dict:
         "notified_admin": [],     # chat_ids already flagged to admin, so we don't spam
         "inquiry_sources": {},    # {chat_id: source} — captured from /start <source> links
         "free_preview_used": [],  # chat_ids who've already used their one free /current
+        "known_names": {},        # {chat_id: display_name} — captured from every message seen
     }
 
 
@@ -489,16 +490,26 @@ def handle_admin_command(state: dict, auth_data: dict, chat_id, text: str) -> bo
 
     if command == "/users":
         ids = list(auth_data["authorized"].keys())
-        send_message(chat_id, f"Authorized users ({len(ids)}): {', '.join(ids) if ids else 'none yet'}")
+        if not ids:
+            send_message(chat_id, "Authorized users (0): none yet")
+        else:
+            names = auth_data.get("known_names", {})
+            lines = [f"{cid} ({_sanitize(names.get(cid, 'unknown'))})" for cid in ids]
+            send_message(chat_id, f"Authorized users ({len(ids)}):\n" + "\n".join(lines))
         return True
 
     if command == "/pending":
         ids = auth_data.get("notified_admin", [])
-        sources = auth_data.get("inquiry_sources", {})
         if not ids:
             send_message(chat_id, "Pending inquiries (0): none")
         else:
-            lines = [f"{cid} ({sources.get(cid, 'unknown source')})" for cid in ids]
+            sources = auth_data.get("inquiry_sources", {})
+            names = auth_data.get("known_names", {})
+            lines = [
+                f"{cid} ({_sanitize(names.get(cid, 'unknown'))}, "
+                f"{_sanitize(sources.get(cid, 'unknown source'))})"
+                for cid in ids
+            ]
             send_message(chat_id, f"Pending inquiries ({len(ids)}):\n" + "\n".join(lines))
         return True
 
@@ -531,6 +542,11 @@ def handle_message(state: dict, auth_data: dict, chat_id, text: str, display_nam
     text = (text or "").strip()
     chat_key = str(chat_id)
     _clean_expired_awaiting(state)
+
+    # Keep a record of who each chat_id belongs to, so /users and /pending
+    # can show a name instead of a bare number. Refreshed on every message
+    # so it stays current if someone changes their Telegram name/username.
+    auth_data["known_names"][chat_key] = display_name
 
     if _is_admin(chat_key) and handle_admin_command(state, auth_data, chat_id, text):
         return
