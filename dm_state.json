@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783616922.4735107,
+      "fetched_at": 1783617497.17644,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783616927.3189678,
+      "fetched_at": 1783617501.7637002,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -102,7 +102,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783616924.2192032,
+      "fetched_at": 1783617498.3489766,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -137,32 +137,31 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783616925.193048,
+      "fetched_at": 1783617499.5167305,
       "snapshot": {
         "buy": null,
         "sell": {
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "CHF",
-          "price": 0.785,
-          "merchant_name": "MinameT",
-          "completion_rate": 1.0,
-          "order_count": 25,
-          "min_limit": 200.0,
+          "price": 0.79,
+          "merchant_name": "PENGUIN_Exchange",
+          "completion_rate": 0.999,
+          "order_count": 3933,
+          "min_limit": 500.0,
           "max_limit": 100000.0,
-          "available": 82855.39,
+          "available": 1960835.43,
           "payment_methods": [
-            "Twint",
-            "Instant Transfer",
-            "Bank Transfer"
+            "Bank Transfer",
+            "Cash Deposit to Bank"
           ],
-          "adv_no": "12898485017285705728",
-          "link": "https://c2c.binance.com/en/adv?code=12898485017285705728"
+          "adv_no": "12889904723657605120",
+          "link": "https://c2c.binance.com/en/adv?code=12889904723657605120"
         }
       }
     },
     "GBP": {
-      "fetched_at": 1783616926.023869,
+      "fetched_at": 1783617500.6360853,
       "snapshot": {
         "buy": null,
         "sell": {
