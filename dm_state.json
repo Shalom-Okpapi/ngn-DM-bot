@@ -44,7 +44,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783576668.2387471,
+      "fetched_at": 1783577192.6830704,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -79,7 +79,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783576671.4168227,
+      "fetched_at": 1783577195.900256,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783576668.9942358,
+      "fetched_at": 1783577193.5256577,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -125,10 +125,10 @@
           "price": 167.0,
           "merchant_name": "Fasttrade_vn",
           "completion_rate": 1.0,
-          "order_count": 29,
+          "order_count": 30,
           "min_limit": 50000.0,
           "max_limit": 239875.0,
-          "available": 956.87,
+          "available": 657.18,
           "payment_methods": [
             "Bank Transfer",
             "BANK"
@@ -140,29 +140,29 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 162.36,
-          "merchant_name": "llbbp",
-          "completion_rate": 0.996,
-          "order_count": 865,
-          "min_limit": 30000.0,
-          "max_limit": 90000.0,
-          "available": 554.0,
+          "price": 163.0,
+          "merchant_name": "Manhcandle",
+          "completion_rate": 0.988,
+          "order_count": 81,
+          "min_limit": 20000.0,
+          "max_limit": 100000.0,
+          "available": 6169.79,
           "payment_methods": [
-            "Bank Transfer"
+            "PayPay Money"
           ],
-          "adv_no": "12908412392910393344",
-          "link": "https://c2c.binance.com/en/adv?code=12908412392910393344"
+          "adv_no": "12906944096265216000",
+          "link": "https://c2c.binance.com/en/adv?code=12906944096265216000"
         }
       }
     },
     "CHF": {
-      "fetched_at": 1783576669.908161,
+      "fetched_at": 1783577194.2905178,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "CHF",
-          "price": 0.875,
+          "price": 0.874,
           "merchant_name": "GoSwiss_ch",
           "completion_rate": 1.0,
           "order_count": 46,
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783576670.6547337,
+      "fetched_at": 1783577195.0712073,
       "snapshot": {
         "buy": null,
         "sell": {
