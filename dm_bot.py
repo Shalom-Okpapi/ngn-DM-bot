@@ -85,10 +85,11 @@ def _build_welcome_text(name: str, is_admin: bool = False) -> str:
         "• /current [currency] — best rates right now (naira by default)\n"
         "• /search <amount> [currency] — best merchants for a specific "
         "amount (e.g. /search 8000, or /search 500 EUR)\n"
+        "• /trend [currency] — see how the rate's moved over 24h/7d\n"
         "• /alert <BUY|SELL> <price> [currency] — get messaged the moment "
         "the rate crosses your target (e.g. /alert SELL 1650)\n"
         "• /alerts — see your active alerts\n"
-        "• /unalert <number> — cancel one\n"
+        "• /unalert <number> — cancel one\n\n"
         f"I check: {fiat_list}."
         f"{admin_block}\n\n"
         "You can also just type /search and I'll ask you for the amount.\n\n"
@@ -110,6 +111,7 @@ def _build_paywall_text(name: str) -> str:
         "record.\n\n"
         "• /current [currency] — best rates right now (try it free, once)\n"
         "• /search <amount> [currency] — best merchants for your exact trade size\n"
+        "• /trend [currency] — see how the rate's moved over 24h/7d\n\n"
         f"I check: {fiat_list}.\n\n"
         "This is a paid tool: *$9.99/month*, paid in USDT (TRC20 network) to:\n"
         "`TAFHrQuCunTab2iK6vqfneKMLhJ3y4DmCD`\n\n"
@@ -332,7 +334,9 @@ def _parse_amount_and_fiat(text: str):
 
 
 def _parse_current_fiat(text: str):
-    """Parses '/current' or '/current JPY' into (fiat, error)."""
+    """Parses '/current' or '/current JPY' (or '/trend JPY') into
+    (fiat, error) — generic enough to reuse for any command that takes
+    just an optional trailing currency code."""
     parts = text.split(maxsplit=1)
     if len(parts) == 1:
         return settings.FIAT, None
@@ -496,6 +500,118 @@ def reply_search(chat_id, amount: float, fiat: str):
     send_message(chat_id, "\n".join(lines))
 
 
+# ---------- rate history (for /trend) ----------
+
+def _default_history() -> dict:
+    return {
+        "samples": {},          # {fiat: [{"ts": epoch, "sell": price|None, "buy": price|None}]}
+        "last_sampled_at": {},  # {fiat: epoch} - gates sampling to once per interval, per fiat
+    }
+
+
+def load_rate_history() -> dict:
+    if not os.path.exists(settings.DM_RATE_HISTORY_FILE):
+        return _default_history()
+    try:
+        with open(settings.DM_RATE_HISTORY_FILE, "r") as f:
+            data = json.load(f)
+        for key, value in _default_history().items():
+            data.setdefault(key, value)
+        return data
+    except (json.JSONDecodeError, OSError):
+        log.warning("Rate history file unreadable, starting fresh.")
+        return _default_history()
+
+
+def save_rate_history(history: dict) -> None:
+    dir_name = os.path.dirname(settings.DM_RATE_HISTORY_FILE) or "."
+    os.makedirs(dir_name, exist_ok=True)
+    fd, tmp_path = tempfile.mkstemp(dir=dir_name)
+    with os.fdopen(fd, "w") as f:
+        json.dump(history, f, indent=2)
+    os.replace(tmp_path, settings.DM_RATE_HISTORY_FILE)
+
+
+def _prune_old_samples(history: dict) -> None:
+    cutoff = time.time() - settings.DM_TREND_RETENTION_SECONDS
+    for fiat, samples in history["samples"].items():
+        history["samples"][fiat] = [s for s in samples if s["ts"] >= cutoff]
+
+
+def sample_rate_history(state: dict, history: dict) -> None:
+    """Records one rate sample per supported fiat, at most once every
+    DM_TREND_SAMPLE_INTERVAL_SECONDS, so /trend has real data to compare
+    against. Reuses the same cache /current and check_alerts use, so
+    this rarely costs an extra fetch on its own."""
+    now = time.time()
+    for fiat in settings.SUPPORTED_FIATS:
+        last = history["last_sampled_at"].get(fiat, 0)
+        if now - last < settings.DM_TREND_SAMPLE_INTERVAL_SECONDS:
+            continue
+        snapshot = _get_snapshot_cached(state, fiat)
+        sell_price = snapshot["sell"]["price"] if snapshot["sell"] else None
+        buy_price = snapshot["buy"]["price"] if snapshot["buy"] else None
+        if sell_price is None and buy_price is None:
+            continue  # nothing usable right now — try again next cycle
+        history["samples"].setdefault(fiat, []).append({"ts": now, "sell": sell_price, "buy": buy_price})
+        history["last_sampled_at"][fiat] = now
+
+    _prune_old_samples(history)
+
+
+def _find_reference_sample(samples: list, hours_ago: float):
+    """Finds a sample from approximately `hours_ago` in the past. Returns
+    None if nothing is within a reasonable tolerance of that target —
+    better to say 'not enough data yet' than compare against a sample
+    that's nowhere near the claimed period."""
+    if not samples:
+        return None
+    target_ts = time.time() - (hours_ago * 3600)
+    closest = min(samples, key=lambda s: abs(s["ts"] - target_ts))
+    tolerance = max(hours_ago * 3600 * 0.25, 3600)  # within 25% of target age, or 1h, whichever is bigger
+    if abs(closest["ts"] - target_ts) > tolerance:
+        return None
+    return closest
+
+
+def _trend_line(label: str, current: float, samples: list, hours: float, fiat: str, key: str) -> str:
+    ref = _find_reference_sample(samples, hours)
+    ref_price = ref.get(key) if ref else None
+    if ref_price is None:
+        return f"{label}: not enough history yet"
+    change = current - ref_price
+    pct = (change / ref_price * 100) if ref_price else 0
+    arrow = "🔺" if change > 0 else ("🔻" if change < 0 else "➖")
+    return f"{label}: {_format_money(fiat, ref_price)} ({arrow} {abs(pct):.1f}%)"
+
+
+def reply_trend(chat_id, fiat: str, history: dict):
+    samples = history.get("samples", {}).get(fiat, [])
+    if not samples:
+        send_message(chat_id, f"I don't have any {fiat} history yet — I just started tracking it. "
+                                "Check back in a few hours as it builds up.")
+        return
+
+    latest = samples[-1]
+    lines = [f"📈 *{settings.ASSET}/{fiat} trend*\n"]
+
+    if latest.get("sell") is not None:
+        lines.append("🟢 *SELL*")
+        lines.append(f"Now: {_format_money(fiat, latest['sell'])}")
+        lines.append(_trend_line("24h ago", latest["sell"], samples, 24, fiat, "sell"))
+        lines.append(_trend_line("7d ago", latest["sell"], samples, 24 * 7, fiat, "sell"))
+        lines.append("")
+
+    if latest.get("buy") is not None:
+        lines.append("🔵 *BUY*")
+        lines.append(f"Now: {_format_money(fiat, latest['buy'])}")
+        lines.append(_trend_line("24h ago", latest["buy"], samples, 24, fiat, "buy"))
+        lines.append(_trend_line("7d ago", latest["buy"], samples, 24 * 7, fiat, "buy"))
+
+    lines.append(f"\n⏱ {now_wat()}")
+    send_message(chat_id, "\n".join(lines))
+
+
 # ---------- rate alerts ----------
 
 def check_alerts(state: dict, auth_data: dict) -> None:
@@ -649,7 +765,7 @@ def handle_admin_command(state: dict, auth_data: dict, chat_id, text: str) -> bo
 
 # ---------- routing ----------
 
-def handle_message(state: dict, auth_data: dict, chat_id, text: str, display_name: str, greeting_name: str):
+def handle_message(state: dict, auth_data: dict, history: dict, chat_id, text: str, display_name: str, greeting_name: str):
     text = (text or "").strip()
     chat_key = str(chat_id)
     _clean_expired_awaiting(state)
@@ -706,6 +822,17 @@ def handle_message(state: dict, auth_data: dict, chat_id, text: str, display_nam
             send_message(chat_id, "One moment — still working on your last request.")
             return
         reply_current(state, chat_id, fiat)
+        return
+
+    if text.startswith("/trend"):
+        state["awaiting_amount"].pop(chat_key, None)
+        fiat, error = _parse_current_fiat(text)
+        if error:
+            send_message(chat_id, error)
+            return
+        # No cooldown here — /trend only reads already-stored history,
+        # it never triggers a live Binance/Bybit fetch on its own.
+        reply_trend(chat_id, fiat, history)
         return
 
     if text.startswith("/search"):
@@ -799,7 +926,7 @@ def handle_message(state: dict, auth_data: dict, chat_id, text: str, display_nam
 
 # ---------- polling loop ----------
 
-def poll_once(state: dict, auth_data: dict) -> bool:
+def poll_once(state: dict, auth_data: dict, history: dict) -> bool:
     try:
         resp = requests.get(f"{API_BASE}/getUpdates", params={
             "offset": state["last_update_id"] + 1,
@@ -838,7 +965,7 @@ def poll_once(state: dict, auth_data: dict) -> bool:
         greeting_name = from_user.get("first_name") or from_user.get("username") or ""
         log.info("Message from chat_id %s (%s): %r", chat_id, display_name, text)
         if chat_id is not None:
-            handle_message(state, auth_data, chat_id, text, display_name, greeting_name)
+            handle_message(state, auth_data, history, chat_id, text, display_name, greeting_name)
 
     return bool(updates)
 
@@ -855,17 +982,20 @@ def main():
 
     state = load_state()
     auth_data = load_authorized_users()
+    history = load_rate_history()
     deadline = time.monotonic() + settings.DM_POLL_WINDOW_SECONDS
     last_alert_check = 0.0
 
     while time.monotonic() < deadline:
-        had_updates = poll_once(state, auth_data)
+        had_updates = poll_once(state, auth_data, history)
 
         if time.monotonic() - last_alert_check >= settings.DM_ALERT_CHECK_INTERVAL_SECONDS:
             check_alerts(state, auth_data)
+            sample_rate_history(state, history)  # internally gated to once/hour per fiat
             last_alert_check = time.monotonic()
             save_authorized_users(auth_data)  # alerts may have triggered/been removed
             save_state(state)  # rate_cache may have been refreshed
+            save_rate_history(history)
 
         if had_updates:
             save_state(state)
@@ -873,6 +1003,7 @@ def main():
 
     save_state(state)
     save_authorized_users(auth_data)
+    save_rate_history(history)
     log.info("Polling window closed, exiting cleanly for next cron tick.")
 
 
