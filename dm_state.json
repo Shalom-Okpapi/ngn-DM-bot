@@ -44,7 +44,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783578937.7706373,
+      "fetched_at": 1783579562.3395474,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -65,21 +65,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1391.0,
-          "merchant_name": "Ayoade\ud83c\udd97",
+          "price": 1393.0,
+          "merchant_name": "SIRMUSTY-",
           "completion_rate": 0.96,
-          "order_count": 26,
-          "min_limit": 40000.0,
-          "max_limit": 100000.0,
-          "available": 248.3585,
+          "order_count": 178,
+          "min_limit": 20000.0,
+          "max_limit": 69000.0,
+          "available": 57.1435,
           "payment_methods": [],
-          "adv_no": "2034685269527445504",
+          "adv_no": "2066786694232154112",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783578940.8852253,
+      "fetched_at": 1783579567.1560795,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -102,7 +102,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "EUR",
-          "price": 1.048,
+          "price": 1.047,
           "merchant_name": "Academic",
           "completion_rate": 1.0,
           "order_count": 207,
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783578938.559186,
+      "fetched_at": 1783579563.6401331,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -137,23 +137,23 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 163.0,
-          "merchant_name": "Manhcandle",
-          "completion_rate": 0.988,
-          "order_count": 81,
-          "min_limit": 20000.0,
-          "max_limit": 100000.0,
-          "available": 6169.79,
+          "price": 159.62,
+          "merchant_name": "Khabeto_381",
+          "completion_rate": 1.0,
+          "order_count": 213,
+          "min_limit": 50000.0,
+          "max_limit": 105000.0,
+          "available": 700.0,
           "payment_methods": [
-            "PayPay Money"
+            "Bank Transfer"
           ],
-          "adv_no": "12906944096265216000",
-          "link": "https://c2c.binance.com/en/adv?code=12906944096265216000"
+          "adv_no": "12820069681375744000",
+          "link": "https://c2c.binance.com/en/adv?code=12820069681375744000"
         }
       }
     },
     "CHF": {
-      "fetched_at": 1783578939.3492503,
+      "fetched_at": 1783579564.8370416,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -195,7 +195,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783578940.1594355,
+      "fetched_at": 1783579565.9148786,
       "snapshot": {
         "buy": null,
         "sell": {
