@@ -45,7 +45,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783596373.9411669,
+      "fetched_at": 1783597361.772991,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -80,7 +80,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783596377.1509347,
+      "fetched_at": 1783597366.355424,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -101,7 +101,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783596375.0013323,
+      "fetched_at": 1783597362.8306859,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -113,7 +113,7 @@
           "order_count": 618,
           "min_limit": 9000.0,
           "max_limit": 250000.0,
-          "available": 5166.0599,
+          "available": 5466.0599,
           "payment_methods": [],
           "adv_no": "2033953116090191872",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -124,11 +124,11 @@
           "fiat": "JPY",
           "price": 158.2,
           "merchant_name": "Dracula_99",
-          "completion_rate": 0.986,
+          "completion_rate": 0.972,
           "order_count": 68,
           "min_limit": 5000.0,
-          "max_limit": 60000.0,
-          "available": 12364.21,
+          "max_limit": 100000.0,
+          "available": 12423.79,
           "payment_methods": [
             "PayPay Money"
           ],
@@ -138,7 +138,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783596375.7272463,
+      "fetched_at": 1783597363.8918712,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -163,7 +163,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783596376.4474957,
+      "fetched_at": 1783597365.1554453,
       "snapshot": {
         "buy": null,
         "sell": {
