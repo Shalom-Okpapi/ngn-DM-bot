@@ -45,7 +45,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783584948.171759,
+      "fetched_at": 1783586777.3179,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -66,39 +66,23 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1391.0,
-          "merchant_name": "Ayoade\ud83c\udd97",
-          "completion_rate": 0.96,
-          "order_count": 26,
-          "min_limit": 40000.0,
-          "max_limit": 100000.0,
-          "available": 248.3585,
+          "price": 1395.01,
+          "merchant_name": "HAJIYA@NSB",
+          "completion_rate": 1.0,
+          "order_count": 28,
+          "min_limit": 4500.0,
+          "max_limit": 50000.0,
+          "available": 19983.439,
           "payment_methods": [],
-          "adv_no": "2034685269527445504",
+          "adv_no": "2072949505534291968",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783584952.7303214,
+      "fetched_at": 1783586780.289649,
       "snapshot": {
-        "buy": {
-          "platform": "Binance",
-          "trade_type": "BUY",
-          "fiat": "EUR",
-          "price": 0.944,
-          "merchant_name": "GoSwiss_ch",
-          "completion_rate": 1.0,
-          "order_count": 46,
-          "min_limit": 35000.0,
-          "max_limit": 100000.0,
-          "available": 106585.17,
-          "payment_methods": [
-            "Bank Transfer"
-          ],
-          "adv_no": "13903802476456685568",
-          "link": "https://c2c.binance.com/en/adv?code=13903802476456685568"
-        },
+        "buy": null,
         "sell": {
           "platform": "Bybit",
           "trade_type": "SELL",
@@ -117,63 +101,46 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783584949.3185475,
+      "fetched_at": 1783586778.0471642,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "JPY",
-          "price": 164.55,
-          "merchant_name": "TheBotKing",
-          "completion_rate": 1.0,
-          "order_count": 40,
-          "min_limit": 20000.0,
-          "max_limit": 159313.11,
-          "available": 968.1745,
+          "price": 165.0,
+          "merchant_name": "CRYSTALOFFICIAl",
+          "completion_rate": 0.97,
+          "order_count": 173,
+          "min_limit": 50000.0,
+          "max_limit": 103650.0,
+          "available": 628.2,
           "payment_methods": [],
-          "adv_no": "1891083637871210496",
+          "adv_no": "1883090629256458240",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 159.62,
-          "merchant_name": "Khabeto_381",
-          "completion_rate": 1.0,
-          "order_count": 213,
-          "min_limit": 50000.0,
-          "max_limit": 105000.0,
-          "available": 700.0,
+          "price": 159.6,
+          "merchant_name": "NguyenTrung Kien",
+          "completion_rate": 0.963,
+          "order_count": 52,
+          "min_limit": 30000.0,
+          "max_limit": 500000.0,
+          "available": 6908.74,
           "payment_methods": [
             "Bank Transfer"
           ],
-          "adv_no": "12820069681375744000",
-          "link": "https://c2c.binance.com/en/adv?code=12820069681375744000"
+          "adv_no": "12856294858203156480",
+          "link": "https://c2c.binance.com/en/adv?code=12856294858203156480"
         }
       }
     },
     "CHF": {
-      "fetched_at": 1783584950.4083822,
+      "fetched_at": 1783586778.846161,
       "snapshot": {
-        "buy": {
-          "platform": "Binance",
-          "trade_type": "BUY",
-          "fiat": "CHF",
-          "price": 0.874,
-          "merchant_name": "GoSwiss_ch",
-          "completion_rate": 1.0,
-          "order_count": 46,
-          "min_limit": 600.0,
-          "max_limit": 100000.0,
-          "available": 60562.85,
-          "payment_methods": [
-            "Bank Transfer",
-            "Instant Transfer"
-          ],
-          "adv_no": "13902704855180173312",
-          "link": "https://c2c.binance.com/en/adv?code=13902704855180173312"
-        },
+        "buy": null,
         "sell": {
           "platform": "Binance",
           "trade_type": "SELL",
@@ -196,7 +163,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783584951.6121635,
+      "fetched_at": 1783586779.6004372,
       "snapshot": {
         "buy": null,
         "sell": {
