@@ -45,7 +45,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783593480.2121396,
+      "fetched_at": 1783594132.945149,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -80,7 +80,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783593484.477837,
+      "fetched_at": 1783594137.2415822,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -101,7 +101,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783593481.4124284,
+      "fetched_at": 1783594133.849906,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -110,7 +110,7 @@
           "price": 170.0,
           "merchant_name": "CeylonX",
           "completion_rate": 1.0,
-          "order_count": 615,
+          "order_count": 616,
           "min_limit": 9000.0,
           "max_limit": 250000.0,
           "available": 3945.3319,
@@ -136,7 +136,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783593482.5019271,
+      "fetched_at": 1783594134.9836338,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -161,7 +161,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783593483.5248413,
+      "fetched_at": 1783594135.9699602,
       "snapshot": {
         "buy": null,
         "sell": {
