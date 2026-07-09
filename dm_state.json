@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783614232.6047952,
+      "fetched_at": 1783614750.9226067,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783614236.6310244,
+      "fetched_at": 1783614755.3013783,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -102,7 +102,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783614233.7400928,
+      "fetched_at": 1783614752.4000487,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -114,7 +114,7 @@
           "order_count": 629,
           "min_limit": 9000.0,
           "max_limit": 250000.0,
-          "available": 3903.1115,
+          "available": 3883.1115,
           "payment_methods": [],
           "adv_no": "2033953116090191872",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -137,31 +137,32 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783614234.643383,
+      "fetched_at": 1783614753.3959577,
       "snapshot": {
         "buy": null,
         "sell": {
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "CHF",
-          "price": 0.79,
-          "merchant_name": "PENGUIN_Exchange",
-          "completion_rate": 0.999,
-          "order_count": 3930,
-          "min_limit": 500.0,
+          "price": 0.785,
+          "merchant_name": "MinameT",
+          "completion_rate": 1.0,
+          "order_count": 24,
+          "min_limit": 200.0,
           "max_limit": 100000.0,
-          "available": 1960835.43,
+          "available": 82855.39,
           "payment_methods": [
-            "Bank Transfer",
-            "Cash Deposit to Bank"
+            "Twint",
+            "Instant Transfer",
+            "Bank Transfer"
           ],
-          "adv_no": "12889904723657605120",
-          "link": "https://c2c.binance.com/en/adv?code=12889904723657605120"
+          "adv_no": "12898485017285705728",
+          "link": "https://c2c.binance.com/en/adv?code=12898485017285705728"
         }
       }
     },
     "GBP": {
-      "fetched_at": 1783614235.6951687,
+      "fetched_at": 1783614754.3460999,
       "snapshot": {
         "buy": null,
         "sell": {
