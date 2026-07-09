@@ -44,7 +44,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783576119.325754,
+      "fetched_at": 1783576668.2387471,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -67,11 +67,11 @@
           "fiat": "NGN",
           "price": 1393.0,
           "merchant_name": "SIRMUSTY-",
-          "completion_rate": 0.97,
-          "order_count": 177,
+          "completion_rate": 0.96,
+          "order_count": 178,
           "min_limit": 20000.0,
-          "max_limit": 51740.89,
-          "available": 37.1435,
+          "max_limit": 69000.0,
+          "available": 57.1435,
           "payment_methods": [],
           "adv_no": "2066786694232154112",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -79,7 +79,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783576124.0844033,
+      "fetched_at": 1783576671.4168227,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -102,21 +102,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "EUR",
-          "price": 0.877,
-          "merchant_name": "CapibaraCoins",
-          "completion_rate": 0.97,
-          "order_count": 476,
-          "min_limit": 1000.0,
+          "price": 1.05,
+          "merchant_name": "Academic",
+          "completion_rate": 1.0,
+          "order_count": 207,
+          "min_limit": 250.0,
           "max_limit": 85500.0,
           "available": 100000.0,
           "payment_methods": [],
-          "adv_no": "2032983198756339712",
+          "adv_no": "2061819712122142720",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "JPY": {
-      "fetched_at": 1783576120.5736184,
+      "fetched_at": 1783576668.9942358,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -125,10 +125,10 @@
           "price": 167.0,
           "merchant_name": "Fasttrade_vn",
           "completion_rate": 1.0,
-          "order_count": 28,
+          "order_count": 29,
           "min_limit": 50000.0,
           "max_limit": 239875.0,
-          "available": 1436.38,
+          "available": 956.87,
           "payment_methods": [
             "Bank Transfer",
             "BANK"
@@ -140,23 +140,23 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 159.6,
-          "merchant_name": "NguyenTrung Kien",
-          "completion_rate": 0.963,
-          "order_count": 52,
+          "price": 162.36,
+          "merchant_name": "llbbp",
+          "completion_rate": 0.996,
+          "order_count": 865,
           "min_limit": 30000.0,
-          "max_limit": 500000.0,
-          "available": 6908.74,
+          "max_limit": 90000.0,
+          "available": 554.0,
           "payment_methods": [
             "Bank Transfer"
           ],
-          "adv_no": "12856294858203156480",
-          "link": "https://c2c.binance.com/en/adv?code=12856294858203156480"
+          "adv_no": "12908412392910393344",
+          "link": "https://c2c.binance.com/en/adv?code=12908412392910393344"
         }
       }
     },
     "CHF": {
-      "fetched_at": 1783576121.715786,
+      "fetched_at": 1783576669.908161,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783576123.0149958,
+      "fetched_at": 1783576670.6547337,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -211,7 +211,7 @@
           "order_count": 352,
           "min_limit": 800.0,
           "max_limit": 100000.0,
-          "available": 995565.27,
+          "available": 988146.35,
           "payment_methods": [
             "Alipay"
           ],
