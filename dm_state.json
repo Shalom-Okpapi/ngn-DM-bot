@@ -45,7 +45,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783592623.5670495,
+      "fetched_at": 1783593480.2121396,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -80,7 +80,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783592628.2000353,
+      "fetched_at": 1783593484.477837,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -101,7 +101,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783592624.6235588,
+      "fetched_at": 1783593481.4124284,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -113,32 +113,30 @@
           "order_count": 615,
           "min_limit": 9000.0,
           "max_limit": 250000.0,
-          "available": 5203.0522,
+          "available": 3945.3319,
           "payment_methods": [],
           "adv_no": "2033953116090191872",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
-          "platform": "Binance",
+          "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 160.0,
-          "merchant_name": "tonyC98",
-          "completion_rate": 0.98,
-          "order_count": 189,
-          "min_limit": 30000.0,
-          "max_limit": 750000.0,
-          "available": 700.0,
-          "payment_methods": [
-            "Bank Transfer"
-          ],
-          "adv_no": "12848195147409002496",
-          "link": "https://c2c.binance.com/en/adv?code=12848195147409002496"
+          "price": 155.11,
+          "merchant_name": "P2Th\u00fb\u00f1D\u00e9R",
+          "completion_rate": 0.96,
+          "order_count": 559,
+          "min_limit": 50000.0,
+          "max_limit": 6500000.0,
+          "available": 49269.0501,
+          "payment_methods": [],
+          "adv_no": "2016869459470196736",
+          "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "CHF": {
-      "fetched_at": 1783592625.8735015,
+      "fetched_at": 1783593482.5019271,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -163,7 +161,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783592627.0953119,
+      "fetched_at": 1783593483.5248413,
       "snapshot": {
         "buy": null,
         "sell": {
