@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783620343.6834788,
+      "fetched_at": 1783620653.0385144,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783620349.254376,
+      "fetched_at": 1783620660.2134426,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -102,7 +102,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783620344.8378196,
+      "fetched_at": 1783620655.2127528,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -137,7 +137,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783620345.9084888,
+      "fetched_at": 1783620657.734199,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -178,7 +178,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783620348.0732584,
+      "fetched_at": 1783620658.8522086,
       "snapshot": {
         "buy": null,
         "sell": {
