@@ -45,7 +45,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783598215.6138656,
+      "fetched_at": 1783599059.6892815,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -80,7 +80,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783598220.017901,
+      "fetched_at": 1783599064.0017626,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -90,7 +90,7 @@
           "price": 1.05,
           "merchant_name": "Academic",
           "completion_rate": 1.0,
-          "order_count": 208,
+          "order_count": 209,
           "min_limit": 250.0,
           "max_limit": 85500.0,
           "available": 100000.0,
@@ -101,7 +101,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783598216.5787053,
+      "fetched_at": 1783599060.7682352,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -110,10 +110,10 @@
           "price": 170.0,
           "merchant_name": "CeylonX",
           "completion_rate": 1.0,
-          "order_count": 619,
+          "order_count": 620,
           "min_limit": 9000.0,
           "max_limit": 250000.0,
-          "available": 5251.0599,
+          "available": 5087.6332,
           "payment_methods": [],
           "adv_no": "2033953116090191872",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -138,7 +138,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783598217.7946002,
+      "fetched_at": 1783599061.7819538,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -163,7 +163,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783598218.9822931,
+      "fetched_at": 1783599062.913662,
       "snapshot": {
         "buy": null,
         "sell": {
