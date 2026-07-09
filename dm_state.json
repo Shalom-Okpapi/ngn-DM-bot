@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783616404.119034,
+      "fetched_at": 1783616922.4735107,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783616407.1572988,
+      "fetched_at": 1783616927.3189678,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -102,7 +102,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783616404.8638358,
+      "fetched_at": 1783616924.2192032,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -114,7 +114,7 @@
           "order_count": 629,
           "min_limit": 9000.0,
           "max_limit": 250000.0,
-          "available": 3883.1115,
+          "available": 3848.1115,
           "payment_methods": [],
           "adv_no": "2033953116090191872",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -123,7 +123,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 194.74,
+          "price": 194.77,
           "merchant_name": "AATRA",
           "completion_rate": 1.0,
           "order_count": 20,
@@ -137,7 +137,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783616405.6433487,
+      "fetched_at": 1783616925.193048,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -147,7 +147,7 @@
           "price": 0.785,
           "merchant_name": "MinameT",
           "completion_rate": 1.0,
-          "order_count": 24,
+          "order_count": 25,
           "min_limit": 200.0,
           "max_limit": 100000.0,
           "available": 82855.39,
@@ -162,7 +162,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783616406.407061,
+      "fetched_at": 1783616926.023869,
       "snapshot": {
         "buy": null,
         "sell": {
