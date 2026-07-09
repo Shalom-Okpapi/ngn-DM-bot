@@ -41,6 +41,12 @@ DM_MAX_ALERTS_PER_USER = int(os.getenv("DM_MAX_ALERTS_PER_USER", "5"))
 # Kept a bit above DM_RATE_CACHE_TTL_SECONDS so most checks hit fresh data.
 DM_ALERT_CHECK_INTERVAL_SECONDS = int(os.getenv("DM_ALERT_CHECK_INTERVAL_SECONDS", "60"))
 
+DM_RATE_HISTORY_FILE = os.getenv("DM_RATE_HISTORY_FILE", "rate_history.json")
+# How often a rate sample gets recorded per currency, for /trend. Hourly
+# is plenty for a 24h/7d comparison and keeps the history file tiny.
+DM_TREND_SAMPLE_INTERVAL_SECONDS = int(os.getenv("DM_TREND_SAMPLE_INTERVAL_SECONDS", "3600"))
+DM_TREND_RETENTION_SECONDS = int(os.getenv("DM_TREND_RETENTION_SECONDS", str(7 * 24 * 3600)))
+
 # --- Market ---
 ASSET = os.getenv("ASSET", "USDT")
 FIAT = os.getenv("FIAT", "NGN")  # default currency when none is specified
