@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783637738.5887089,
+      "fetched_at": 1783638057.1456883,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783637743.7305295,
+      "fetched_at": 1783638061.0868351,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -90,7 +90,7 @@
           "price": 0.875,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 11256,
+          "order_count": 11262,
           "min_limit": 35.0,
           "max_limit": 43662.5,
           "available": 49900.0,
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783637739.9621043,
+      "fetched_at": 1783638058.1028955,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -153,7 +153,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783637741.2664335,
+      "fetched_at": 1783638059.0560637,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -195,7 +195,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783637742.449935,
+      "fetched_at": 1783638060.0289667,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -221,7 +221,7 @@
           "price": 0.723,
           "merchant_name": "bobchris52a",
           "completion_rate": 1.0,
-          "order_count": 131,
+          "order_count": 132,
           "min_limit": 20.0,
           "max_limit": 50.0,
           "available": 1270.57,
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783637744.8755238,
+      "fetched_at": 1783638062.0421963,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -245,7 +245,7 @@
           "price": 0.998,
           "merchant_name": "AnalistaCripto",
           "completion_rate": 0.999,
-          "order_count": 1463,
+          "order_count": 1464,
           "min_limit": 50.0,
           "max_limit": 1500.0,
           "available": 4399.86,
