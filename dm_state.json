@@ -45,7 +45,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783601805.0309432,
+      "fetched_at": 1783602937.875976,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -80,7 +80,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783601808.5656135,
+      "fetched_at": 1783602942.0926743,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -101,28 +101,28 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783601806.000697,
+      "fetched_at": 1783602939.2310293,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "JPY",
-          "price": 170.0,
-          "merchant_name": "CeylonX",
-          "completion_rate": 1.0,
-          "order_count": 622,
-          "min_limit": 9000.0,
-          "max_limit": 250000.0,
-          "available": 4991.5251,
+          "price": 165.0,
+          "merchant_name": "CRYSTALOFFICIAl",
+          "completion_rate": 0.97,
+          "order_count": 178,
+          "min_limit": 30000.0,
+          "max_limit": 53650.0,
+          "available": 325.2,
           "payment_methods": [],
-          "adv_no": "2033953116090191872",
+          "adv_no": "1883090629256458240",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 160.05,
+          "price": 161.05,
           "merchant_name": "VVIP\u2b50SHOP",
           "completion_rate": 1.0,
           "order_count": 67,
@@ -136,7 +136,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783601806.8036714,
+      "fetched_at": 1783602940.259311,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -161,7 +161,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783601807.6581256,
+      "fetched_at": 1783602941.1538568,
       "snapshot": {
         "buy": null,
         "sell": {
