@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783639488.6587276,
+      "fetched_at": 1783640035.2157438,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783639492.574213,
+      "fetched_at": 1783640038.9367895,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -90,7 +90,7 @@
           "price": 0.875,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 11267,
+          "order_count": 11270,
           "min_limit": 35.0,
           "max_limit": 43616.5,
           "available": 49847.4286,
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783639489.6420546,
+      "fetched_at": 1783640036.170342,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -153,7 +153,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783639490.6476214,
+      "fetched_at": 1783640037.094803,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -195,7 +195,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783639491.6030698,
+      "fetched_at": 1783640038.074968,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -221,7 +221,7 @@
           "price": 0.723,
           "merchant_name": "bobchris52a",
           "completion_rate": 1.0,
-          "order_count": 133,
+          "order_count": 134,
           "min_limit": 20.0,
           "max_limit": 50.0,
           "available": 1240.6,
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783639493.5601475,
+      "fetched_at": 1783640039.8466773,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -245,7 +245,7 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 966,
+          "order_count": 967,
           "min_limit": 2.0,
           "max_limit": 19657.498,
           "available": 24571.8728,
