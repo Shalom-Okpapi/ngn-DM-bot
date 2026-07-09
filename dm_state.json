@@ -1,5 +1,5 @@
 {
-  "last_update_id": 261520086,
+  "last_update_id": 261520087,
   "awaiting_amount": {},
   "last_request_at": {
     "5503157793": 1783626661.828241,
@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783634138.4423559,
+      "fetched_at": 1783634704.9880924,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783634141.6033978,
+      "fetched_at": 1783634709.4354959,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783634139.2859144,
+      "fetched_at": 1783634706.2110045,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -125,10 +125,10 @@
           "price": 172.5,
           "merchant_name": "tonyC98",
           "completion_rate": 0.981,
-          "order_count": 205,
+          "order_count": 206,
           "min_limit": 5000.0,
           "max_limit": 750000.0,
-          "available": 3226.53,
+          "available": 3168.51,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -139,23 +139,23 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 156.5,
-          "merchant_name": "paypay money",
-          "completion_rate": 0.953,
-          "order_count": 20,
+          "price": 163.0,
+          "merchant_name": "BestSeller999",
+          "completion_rate": 0.958,
+          "order_count": 201,
           "min_limit": 5000.0,
-          "max_limit": 90000.0,
-          "available": 423.06,
+          "max_limit": 100000.0,
+          "available": 39070.41,
           "payment_methods": [
             "PayPay Money"
           ],
-          "adv_no": "12867773127090937856",
-          "link": "https://c2c.binance.com/en/adv?code=12867773127090937856"
+          "adv_no": "12888072323934035968",
+          "link": "https://c2c.binance.com/en/adv?code=12888072323934035968"
         }
       }
     },
     "CHF": {
-      "fetched_at": 1783634140.1294682,
+      "fetched_at": 1783634707.339892,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783634140.8548937,
+      "fetched_at": 1783634708.4137433,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783634142.369362,
+      "fetched_at": 1783634710.6453614,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -245,7 +245,7 @@
           "price": 0.998,
           "merchant_name": "AnalistaCripto",
           "completion_rate": 0.999,
-          "order_count": 1459,
+          "order_count": 1460,
           "min_limit": 50.0,
           "max_limit": 1500.0,
           "available": 4664.29,
@@ -262,7 +262,7 @@
           "price": 1.2,
           "merchant_name": "\ud835\udd3b\ud835\udd60\ud835\udd5f\ud835\udd56_\ud835\udd4f\ud835\udd54\ud835\udd59\ud835\udd52\ud835\udd5f\ud835\udd58\ud835\udd56\ud83c\udf1f",
           "completion_rate": 1.0,
-          "order_count": 685,
+          "order_count": 686,
           "min_limit": 10.0,
           "max_limit": 23011.027,
           "available": 19175.8562,
