@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783631476.6141093,
+      "fetched_at": 1783631767.0635,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783631481.4155312,
+      "fetched_at": 1783631770.6063137,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -90,7 +90,7 @@
           "price": 0.876,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 11222,
+          "order_count": 11225,
           "min_limit": 50.0,
           "max_limit": 300.0,
           "available": 49900.0,
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783631477.7015176,
+      "fetched_at": 1783631768.0070243,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783631479.003586,
+      "fetched_at": 1783631768.8340657,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783631480.1880825,
+      "fetched_at": 1783631769.6967914,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783631482.47913,
+      "fetched_at": 1783631771.571111,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -248,7 +248,7 @@
           "order_count": 1453,
           "min_limit": 50.0,
           "max_limit": 1500.0,
-          "available": 5233.37,
+          "available": 5183.1,
           "payment_methods": [
             "Banco Pichincha"
           ],
