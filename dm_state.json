@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783621257.46499,
+      "fetched_at": 1783621563.2116005,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783621261.284315,
+      "fetched_at": 1783621567.5756392,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -102,7 +102,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783621258.4778352,
+      "fetched_at": 1783621564.2828183,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -111,10 +111,10 @@
           "price": 170.0,
           "merchant_name": "CeylonX",
           "completion_rate": 1.0,
-          "order_count": 630,
+          "order_count": 631,
           "min_limit": 9000.0,
           "max_limit": 250000.0,
-          "available": 2977.7245,
+          "available": 3080.8172,
           "payment_methods": [],
           "adv_no": "2033953116090191872",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -137,13 +137,13 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783621259.453334,
+      "fetched_at": 1783621565.3971014,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "CHF",
-          "price": 0.874,
+          "price": 0.875,
           "merchant_name": "GoSwiss_ch",
           "completion_rate": 1.0,
           "order_count": 48,
@@ -164,7 +164,7 @@
           "price": 0.79,
           "merchant_name": "PENGUIN_Exchange",
           "completion_rate": 0.999,
-          "order_count": 3933,
+          "order_count": 3935,
           "min_limit": 500.0,
           "max_limit": 100000.0,
           "available": 1960835.43,
@@ -178,7 +178,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783621260.3695855,
+      "fetched_at": 1783621566.48825,
       "snapshot": {
         "buy": null,
         "sell": {
