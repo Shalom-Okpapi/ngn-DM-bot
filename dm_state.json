@@ -44,7 +44,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783580126.5649714,
+      "fetched_at": 1783580643.942044,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -65,27 +65,27 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1393.0,
-          "merchant_name": "SIRMUSTY-",
+          "price": 1391.0,
+          "merchant_name": "Ayoade\ud83c\udd97",
           "completion_rate": 0.96,
-          "order_count": 178,
-          "min_limit": 20000.0,
-          "max_limit": 69000.0,
-          "available": 57.1435,
+          "order_count": 26,
+          "min_limit": 40000.0,
+          "max_limit": 100000.0,
+          "available": 248.3585,
           "payment_methods": [],
-          "adv_no": "2066786694232154112",
+          "adv_no": "2034685269527445504",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783580131.5611575,
+      "fetched_at": 1783580647.3558888,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "EUR",
-          "price": 0.918,
+          "price": 0.931,
           "merchant_name": "Alice-reliable-24H",
           "completion_rate": 1.0,
           "order_count": 236,
@@ -99,8 +99,8 @@
             "SEPA Instant",
             "N26"
           ],
-          "adv_no": "13905300647751106560",
-          "link": "https://c2c.binance.com/en/adv?code=13905300647751106560"
+          "adv_no": "13905300187149619200",
+          "link": "https://c2c.binance.com/en/adv?code=13905300187149619200"
         },
         "sell": {
           "platform": "Bybit",
@@ -120,22 +120,25 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783580127.8334603,
+      "fetched_at": 1783580644.6921525,
       "snapshot": {
         "buy": {
-          "platform": "Bybit",
+          "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "JPY",
-          "price": 165.0,
-          "merchant_name": "CRYSTALOFFICIAl",
-          "completion_rate": 0.97,
-          "order_count": 170,
+          "price": 169.0,
+          "merchant_name": "Fasttrade_vn",
+          "completion_rate": 1.0,
+          "order_count": 31,
           "min_limit": 50000.0,
-          "max_limit": 190462.0,
-          "available": 1154.32,
-          "payment_methods": [],
-          "adv_no": "1883090629256458240",
-          "link": "https://www.bybit.com/fiat/trade/otc"
+          "max_limit": 55350.0,
+          "available": 327.52,
+          "payment_methods": [
+            "Bank Transfer",
+            "BANK"
+          ],
+          "adv_no": "12874366795206090752",
+          "link": "https://c2c.binance.com/en/adv?code=12874366795206090752"
         },
         "sell": {
           "platform": "Binance",
@@ -157,7 +160,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783580129.057729,
+      "fetched_at": 1783580645.468599,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -199,7 +202,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783580130.3029478,
+      "fetched_at": 1783580646.2453182,
       "snapshot": {
         "buy": null,
         "sell": {
