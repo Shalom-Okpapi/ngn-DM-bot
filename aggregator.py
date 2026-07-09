@@ -62,8 +62,8 @@ def _fetch_trusted_offers(trade_type: str, amount: float, fiat: str) -> list[dic
 
 
 def get_best_rate(trade_type: str, amount: float | None = None, fiat: str | None = None) -> dict | None:
-    amount = settings.MIN_TRADE_AMOUNT if amount is None else amount
     fiat = settings.FIAT if fiat is None else fiat
+    amount = settings.default_trade_amount(fiat) if amount is None else amount
     trusted = _fetch_trusted_offers(trade_type, amount, fiat)
     if not trusted:
         log.warning("No trusted offers found for %s %s at %s.", trade_type, fiat, amount)
