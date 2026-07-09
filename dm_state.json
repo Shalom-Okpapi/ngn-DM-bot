@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783611943.6313372,
+      "fetched_at": 1783612271.2645628,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783611948.3501494,
+      "fetched_at": 1783612275.9237602,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -89,20 +89,20 @@
           "trade_type": "SELL",
           "fiat": "EUR",
           "price": 1.05,
-          "merchant_name": "Academic",
-          "completion_rate": 1.0,
-          "order_count": 209,
-          "min_limit": 250.0,
+          "merchant_name": "corporate \ud83d\udcaf",
+          "completion_rate": 0.99,
+          "order_count": 617,
+          "min_limit": 10.0,
           "max_limit": 85500.0,
-          "available": 100000.0,
+          "available": 99950.0,
           "payment_methods": [],
-          "adv_no": "2061819712122142720",
+          "adv_no": "2070957163008937984",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "JPY": {
-      "fetched_at": 1783611944.9556677,
+      "fetched_at": 1783612272.4150333,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -137,7 +137,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783611945.9959865,
+      "fetched_at": 1783612273.5216327,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -147,7 +147,7 @@
           "price": 0.79,
           "merchant_name": "PENGUIN_Exchange",
           "completion_rate": 0.999,
-          "order_count": 3881,
+          "order_count": 3888,
           "min_limit": 500.0,
           "max_limit": 100000.0,
           "available": 1960835.43,
@@ -161,7 +161,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783611947.1054745,
+      "fetched_at": 1783612274.6791935,
       "snapshot": {
         "buy": null,
         "sell": {
