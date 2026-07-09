@@ -1,5 +1,5 @@
 {
-  "last_update_id": 261520040,
+  "last_update_id": 261520045,
   "awaiting_amount": {},
   "last_request_at": {
     "5503157793": 1783576279.711661,
@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783607696.9203122,
+      "fetched_at": 1783608155.5635118,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783607633.9011085,
+      "fetched_at": 1783608160.1646059,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -102,7 +102,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783607630.5465765,
+      "fetched_at": 1783608156.779303,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -137,7 +137,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783607631.696647,
+      "fetched_at": 1783608157.8083649,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -162,7 +162,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783607632.801714,
+      "fetched_at": 1783608158.974784,
       "snapshot": {
         "buy": null,
         "sell": {
