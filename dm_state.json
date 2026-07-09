@@ -45,7 +45,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783586777.3179,
+      "fetched_at": 1783587294.3560238,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -72,7 +72,7 @@
           "order_count": 28,
           "min_limit": 4500.0,
           "max_limit": 50000.0,
-          "available": 19983.439,
+          "available": 20000.0,
           "payment_methods": [],
           "adv_no": "2072949505534291968",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -80,7 +80,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783586780.289649,
+      "fetched_at": 1783587297.8518548,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -90,7 +90,7 @@
           "price": 1.048,
           "merchant_name": "Academic",
           "completion_rate": 1.0,
-          "order_count": 207,
+          "order_count": 208,
           "min_limit": 250.0,
           "max_limit": 85500.0,
           "available": 100000.0,
@@ -101,21 +101,21 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783586778.0471642,
+      "fetched_at": 1783587295.2221408,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "JPY",
-          "price": 165.0,
-          "merchant_name": "CRYSTALOFFICIAl",
-          "completion_rate": 0.97,
-          "order_count": 173,
-          "min_limit": 50000.0,
-          "max_limit": 103650.0,
-          "available": 628.2,
+          "price": 164.55,
+          "merchant_name": "TheBotKing",
+          "completion_rate": 1.0,
+          "order_count": 41,
+          "min_limit": 20000.0,
+          "max_limit": 142047.68,
+          "available": 863.2494,
           "payment_methods": [],
-          "adv_no": "1883090629256458240",
+          "adv_no": "1891083637871210496",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -138,7 +138,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783586778.846161,
+      "fetched_at": 1783587296.0799236,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -163,7 +163,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783586779.6004372,
+      "fetched_at": 1783587297.0206325,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -173,7 +173,7 @@
           "price": 0.794,
           "merchant_name": "CcccometoC",
           "completion_rate": 0.973,
-          "order_count": 352,
+          "order_count": 353,
           "min_limit": 800.0,
           "max_limit": 100000.0,
           "available": 988146.35,
