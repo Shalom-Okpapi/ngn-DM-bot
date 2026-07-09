@@ -44,7 +44,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783580643.942044,
+      "fetched_at": 1783581216.3263059,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -65,21 +65,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1391.0,
-          "merchant_name": "Ayoade\ud83c\udd97",
+          "price": 1392.0,
+          "merchant_name": "KROOS0_001\ud83d\udca5\ud83d\udca5",
           "completion_rate": 0.96,
-          "order_count": 26,
-          "min_limit": 40000.0,
-          "max_limit": 100000.0,
-          "available": 248.3585,
+          "order_count": 265,
+          "min_limit": 30000.0,
+          "max_limit": 69000.0,
+          "available": 120.0,
           "payment_methods": [],
-          "adv_no": "2034685269527445504",
+          "adv_no": "2069726965625131008",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783580647.3558888,
+      "fetched_at": 1783581219.8212166,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -120,7 +120,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783580644.6921525,
+      "fetched_at": 1783581217.1586869,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -160,13 +160,13 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783580645.468599,
+      "fetched_at": 1783581218.2748756,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "CHF",
-          "price": 0.874,
+          "price": 0.875,
           "merchant_name": "GoSwiss_ch",
           "completion_rate": 1.0,
           "order_count": 46,
@@ -202,7 +202,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783580646.2453182,
+      "fetched_at": 1783581219.0589814,
       "snapshot": {
         "buy": null,
         "sell": {
