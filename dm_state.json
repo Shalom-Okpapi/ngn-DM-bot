@@ -44,7 +44,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783581216.3263059,
+      "fetched_at": 1783582034.8507357,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -65,42 +65,38 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1392.0,
-          "merchant_name": "KROOS0_001\ud83d\udca5\ud83d\udca5",
-          "completion_rate": 0.96,
-          "order_count": 265,
-          "min_limit": 30000.0,
-          "max_limit": 69000.0,
-          "available": 120.0,
+          "price": 1393.0,
+          "merchant_name": "CELIKAN-EXPRESS",
+          "completion_rate": 1.0,
+          "order_count": 63,
+          "min_limit": 45000.0,
+          "max_limit": 65000.0,
+          "available": 100.0,
           "payment_methods": [],
-          "adv_no": "2069726965625131008",
+          "adv_no": "2075111133283020800",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783581219.8212166,
+      "fetched_at": 1783582039.7068017,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "EUR",
-          "price": 0.931,
-          "merchant_name": "Alice-reliable-24H",
+          "price": 0.944,
+          "merchant_name": "GoSwiss_ch",
           "completion_rate": 1.0,
-          "order_count": 236,
-          "min_limit": 300.0,
+          "order_count": 46,
+          "min_limit": 35000.0,
           "max_limit": 100000.0,
-          "available": 54571.54,
+          "available": 106585.17,
           "payment_methods": [
-            "BBVA",
-            "SEPA (EU) bank transfer",
-            "Bank Transfer",
-            "SEPA Instant",
-            "N26"
+            "Bank Transfer"
           ],
-          "adv_no": "13905300187149619200",
-          "link": "https://c2c.binance.com/en/adv?code=13905300187149619200"
+          "adv_no": "13903802476456685568",
+          "link": "https://c2c.binance.com/en/adv?code=13903802476456685568"
         },
         "sell": {
           "platform": "Bybit",
@@ -120,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783581217.1586869,
+      "fetched_at": 1783582036.1230764,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -160,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783581218.2748756,
+      "fetched_at": 1783582037.2929192,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -202,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783581219.0589814,
+      "fetched_at": 1783582038.4603086,
       "snapshot": {
         "buy": null,
         "sell": {
