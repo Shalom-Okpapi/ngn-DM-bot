@@ -45,7 +45,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783588435.1257677,
+      "fetched_at": 1783589290.4406533,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -66,28 +66,28 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1395.01,
-          "merchant_name": "HAJIYA@NSB",
-          "completion_rate": 1.0,
-          "order_count": 28,
+          "price": 1516.42,
+          "merchant_name": "Polkk",
+          "completion_rate": 0.95,
+          "order_count": 23,
           "min_limit": 4500.0,
-          "max_limit": 50000.0,
-          "available": 19983.439,
+          "max_limit": 119822417.01,
+          "available": 79016.6425,
           "payment_methods": [],
-          "adv_no": "2072949505534291968",
+          "adv_no": "2069720952188821504",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783588439.6046276,
+      "fetched_at": 1783589294.56921,
       "snapshot": {
         "buy": null,
         "sell": {
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "EUR",
-          "price": 1.048,
+          "price": 1.05,
           "merchant_name": "Academic",
           "completion_rate": 1.0,
           "order_count": 208,
@@ -101,7 +101,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783588436.2585278,
+      "fetched_at": 1783589291.8339097,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -125,7 +125,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 155.04,
+          "price": 155.1,
           "merchant_name": "P2Th\u00fb\u00f1D\u00e9R",
           "completion_rate": 0.96,
           "order_count": 559,
@@ -139,7 +139,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783588437.394718,
+      "fetched_at": 1783589292.557398,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -164,7 +164,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783588438.5454164,
+      "fetched_at": 1783589293.8369648,
       "snapshot": {
         "buy": null,
         "sell": {
