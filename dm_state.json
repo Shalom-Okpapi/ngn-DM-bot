@@ -1,8 +1,8 @@
 {
-  "last_update_id": 261519992,
+  "last_update_id": 261519994,
   "awaiting_amount": {},
   "last_request_at": {
-    "5503157793": 1783553166.165939,
+    "5503157793": 1783556960.9944932,
     "8617443875": 1783371828.391422,
     "6671003365": 1783444699.2751603,
     "6458834875": 1783497978.5755217,
@@ -44,7 +44,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783553133.2556877,
+      "fetched_at": 1783556962.360677,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -65,15 +65,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1391.2,
-          "merchant_name": "STARBOY\ud83d\udcafFX\ud83d\udc8e",
+          "price": 1391.0,
+          "merchant_name": "sulltantech",
           "completion_rate": 0.98,
-          "order_count": 413,
+          "order_count": 166,
           "min_limit": 50000.0,
-          "max_limit": 150000.0,
-          "available": 7586.8883,
+          "max_limit": 139100.0,
+          "available": 100.0,
           "payment_methods": [],
-          "adv_no": "2069522558095110144",
+          "adv_no": "2069529511369773056",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
