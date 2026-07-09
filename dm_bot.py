@@ -85,6 +85,10 @@ def _build_welcome_text(name: str, is_admin: bool = False) -> str:
         "• /current [currency] — best rates right now (naira by default)\n"
         "• /search <amount> [currency] — best merchants for a specific "
         "amount (e.g. /search 8000, or /search 500 EUR)\n"
+        "• /alert <BUY|SELL> <price> [currency] — get messaged the moment "
+        "the rate crosses your target (e.g. /alert SELL 1650)\n"
+        "• /alerts — see your active alerts\n"
+        "• /unalert <number> — cancel one\n"
         f"I check: {fiat_list}."
         f"{admin_block}\n\n"
         "You can also just type /search and I'll ask you for the amount.\n\n"
@@ -159,6 +163,7 @@ def _default_auth() -> dict:
         "inquiry_sources": {},    # {chat_id: source} — captured from /start <source> links
         "free_preview_used": [],  # chat_ids who've already used their one free /current
         "known_names": {},        # {chat_id: display_name} — captured from every message seen
+        "alerts": {},             # {chat_id: [{"direction","fiat","threshold","created_at"}]}
     }
 
 
@@ -338,6 +343,38 @@ def _parse_current_fiat(text: str):
     return fiat, None
 
 
+def _parse_alert(text: str):
+    """Parses '/alert SELL 1650' or '/alert 165 BUY JPY' (any token order)
+    into (direction, threshold, fiat, error). fiat defaults to
+    settings.FIAT. error is a user-facing message, or None on success."""
+    parts = text.split(maxsplit=1)
+    tokens = parts[1].split() if len(parts) == 2 else []
+
+    direction = None
+    threshold = None
+    fiat = settings.FIAT
+    for tok in tokens:
+        upper = tok.upper()
+        if upper in ("BUY", "SELL"):
+            direction = upper
+            continue
+        maybe_fiat = _parse_fiat(tok)
+        if maybe_fiat:
+            fiat = maybe_fiat
+            continue
+        maybe_price = _parse_amount(tok)
+        if maybe_price is not None:
+            threshold = maybe_price
+
+    if direction is None or threshold is None:
+        fiats = ", ".join(settings.SUPPORTED_FIATS)
+        return None, None, None, (
+            "I need a direction and a price. Try: /alert SELL 1650, or "
+            f"/alert BUY 165 JPY. I check: {fiats}."
+        )
+    return direction, threshold, fiat, None
+
+
 # ---------- formatting ----------
 
 def _format_offer_full(offer: dict) -> str:
@@ -457,6 +494,52 @@ def reply_search(chat_id, amount: float, fiat: str):
     lines.append(f"\n⏱ {now_wat()}")
     lines.append("\n⚠️ Rates can change fast — please confirm before you trade.")
     send_message(chat_id, "\n".join(lines))
+
+
+# ---------- rate alerts ----------
+
+def check_alerts(state: dict, auth_data: dict) -> None:
+    """Checks every active alert against live rates and fires + removes
+    any that have crossed their threshold. One-shot: a triggered alert
+    is removed rather than repeated, so it doesn't spam every cycle the
+    rate stays past the target. Groups fetches by fiat via the same
+    cache /current uses, so N alerts on the same currency cost one fetch,
+    not N — and share data with anyone's recent /current call too."""
+    all_alerts = auth_data.get("alerts", {})
+    if not any(all_alerts.values()):
+        return
+
+    needed_fiats = {alert["fiat"] for user_alerts in all_alerts.values() for alert in user_alerts}
+    snapshots = {fiat: _get_snapshot_cached(state, fiat) for fiat in needed_fiats}
+
+    for chat_key, user_alerts in list(all_alerts.items()):
+        still_active = []
+        for alert in user_alerts:
+            snapshot = snapshots.get(alert["fiat"], {})
+            offer = snapshot.get("sell") if alert["direction"] == "SELL" else snapshot.get("buy")
+            price = offer["price"] if offer else None
+
+            if price is None:
+                still_active.append(alert)  # couldn't check this cycle — try again next time
+                continue
+
+            crossed = (
+                (alert["direction"] == "SELL" and price >= alert["threshold"]) or
+                (alert["direction"] == "BUY" and price <= alert["threshold"])
+            )
+            if crossed:
+                verb = "sell" if alert["direction"] == "SELL" else "buy"
+                send_message(chat_key, (
+                    f"🔔 *Alert triggered!*\n\n"
+                    f"You can now {verb} {settings.ASSET} at "
+                    f"{_format_money(alert['fiat'], price)} — your target was "
+                    f"{_format_money(alert['fiat'], alert['threshold'])}.\n\n"
+                    f"Use /current {alert['fiat']} to see the live merchant.\n\n"
+                    "This alert is used up — set a new one with /alert if you want to keep watching."
+                ))
+            else:
+                still_active.append(alert)
+        all_alerts[chat_key] = still_active
 
 
 # ---------- admin commands ----------
@@ -644,6 +727,60 @@ def handle_message(state: dict, auth_data: dict, chat_id, text: str, display_nam
                                     f"Reply like '50000' (naira by default) or '500 EUR'. I check: {fiats}.")
         return
 
+    if text == "/alerts":
+        user_alerts = auth_data["alerts"].get(chat_key, [])
+        if not user_alerts:
+            send_message(chat_id, "No active alerts. Set one with /alert SELL 1650 "
+                                    "(or /alert BUY 165 JPY).")
+        else:
+            lines = [f"{i}. {a['direction']} {_format_money(a['fiat'], a['threshold'])}"
+                     for i, a in enumerate(user_alerts, 1)]
+            send_message(chat_id, "🔔 *Your active alerts:*\n" + "\n".join(lines) +
+                                    "\n\nCancel one with /unalert <number>, or /unalert all.")
+        return
+
+    if text.startswith("/alert"):
+        direction, threshold, fiat, error = _parse_alert(text)
+        if error:
+            send_message(chat_id, error)
+            return
+        user_alerts = auth_data["alerts"].setdefault(chat_key, [])
+        if len(user_alerts) >= settings.DM_MAX_ALERTS_PER_USER:
+            send_message(chat_id, f"You've hit the limit of {settings.DM_MAX_ALERTS_PER_USER} "
+                                    "active alerts. Cancel one with /unalert <number> first.")
+            return
+        user_alerts.append({
+            "direction": direction, "fiat": fiat, "threshold": threshold, "created_at": time.time(),
+        })
+        verb = "at or above" if direction == "SELL" else "at or below"
+        send_message(chat_id, f"🔔 Alert set: I'll message you the moment you can "
+                                f"{direction.lower()} {settings.ASSET} {verb} "
+                                f"{_format_money(fiat, threshold)}.")
+        return
+
+    if text.startswith("/unalert"):
+        user_alerts = auth_data["alerts"].get(chat_key, [])
+        parts = text.split(maxsplit=1)
+        if len(parts) != 2:
+            send_message(chat_id, "Which one? Try /unalert 1 (see /alerts for numbers), "
+                                    "or /unalert all.")
+            return
+        arg = parts[1].strip().lower()
+        if arg == "all":
+            auth_data["alerts"][chat_key] = []
+            send_message(chat_id, "All your alerts are cancelled.")
+            return
+        try:
+            idx = int(arg) - 1
+            if idx < 0:
+                raise ValueError
+            removed = user_alerts.pop(idx)
+            send_message(chat_id, f"Cancelled: {removed['direction']} "
+                                    f"{_format_money(removed['fiat'], removed['threshold'])}")
+        except (ValueError, IndexError):
+            send_message(chat_id, f"I don't see alert #{arg}. Check /alerts for the current list.")
+        return
+
     if chat_key in state["awaiting_amount"]:
         amount, fiat, error = _parse_amount_and_fiat(text)
         if amount is None:
@@ -719,9 +856,17 @@ def main():
     state = load_state()
     auth_data = load_authorized_users()
     deadline = time.monotonic() + settings.DM_POLL_WINDOW_SECONDS
+    last_alert_check = 0.0
 
     while time.monotonic() < deadline:
         had_updates = poll_once(state, auth_data)
+
+        if time.monotonic() - last_alert_check >= settings.DM_ALERT_CHECK_INTERVAL_SECONDS:
+            check_alerts(state, auth_data)
+            last_alert_check = time.monotonic()
+            save_authorized_users(auth_data)  # alerts may have triggered/been removed
+            save_state(state)  # rate_cache may have been refreshed
+
         if had_updates:
             save_state(state)
             save_authorized_users(auth_data)
