@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783625481.106701,
+      "fetched_at": 1783625737.9309914,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,14 +81,14 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783625485.4385998,
+      "fetched_at": 1783625744.2991357,
       "snapshot": {
         "buy": null,
         "sell": {
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "EUR",
-          "price": 1.048,
+          "price": 1.05,
           "merchant_name": "Academic",
           "completion_rate": 1.0,
           "order_count": 210,
@@ -102,7 +102,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783625482.2034342,
+      "fetched_at": 1783625739.502163,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -137,7 +137,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783625483.736468,
+      "fetched_at": 1783625741.1626003,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -178,7 +178,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783625484.6282535,
+      "fetched_at": 1783625742.7313883,
       "snapshot": {
         "buy": null,
         "sell": {
