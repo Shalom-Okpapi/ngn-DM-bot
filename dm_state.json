@@ -44,7 +44,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783579562.3395474,
+      "fetched_at": 1783580126.5649714,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -79,24 +79,28 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783579567.1560795,
+      "fetched_at": 1783580131.5611575,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "EUR",
-          "price": 0.943,
-          "merchant_name": "GoSwiss_ch",
+          "price": 0.918,
+          "merchant_name": "Alice-reliable-24H",
           "completion_rate": 1.0,
-          "order_count": 46,
-          "min_limit": 35000.0,
+          "order_count": 236,
+          "min_limit": 300.0,
           "max_limit": 100000.0,
-          "available": 106585.17,
+          "available": 54571.54,
           "payment_methods": [
-            "Bank Transfer"
+            "BBVA",
+            "SEPA (EU) bank transfer",
+            "Bank Transfer",
+            "SEPA Instant",
+            "N26"
           ],
-          "adv_no": "13903802476456685568",
-          "link": "https://c2c.binance.com/en/adv?code=13903802476456685568"
+          "adv_no": "13905300647751106560",
+          "link": "https://c2c.binance.com/en/adv?code=13905300647751106560"
         },
         "sell": {
           "platform": "Bybit",
@@ -116,7 +120,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783579563.6401331,
+      "fetched_at": 1783580127.8334603,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -153,7 +157,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783579564.8370416,
+      "fetched_at": 1783580129.057729,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -195,7 +199,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783579565.9148786,
+      "fetched_at": 1783580130.3029478,
       "snapshot": {
         "buy": null,
         "sell": {
