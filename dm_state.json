@@ -1,5 +1,5 @@
 {
-  "last_update_id": 261520075,
+  "last_update_id": 261520076,
   "awaiting_amount": {},
   "last_request_at": {
     "5503157793": 1783621883.6560721,
@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783625737.9309914,
+      "fetched_at": 1783626081.2992315,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783625744.2991357,
+      "fetched_at": 1783626086.1352024,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -102,7 +102,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783625739.502163,
+      "fetched_at": 1783626082.7043967,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -114,7 +114,7 @@
           "order_count": 637,
           "min_limit": 9000.0,
           "max_limit": 250000.0,
-          "available": 3779.3352,
+          "available": 3419.6649,
           "payment_methods": [],
           "adv_no": "2033953116090191872",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -137,7 +137,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783625741.1626003,
+      "fetched_at": 1783626083.8538966,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -178,7 +178,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783625742.7313883,
+      "fetched_at": 1783626084.9924324,
       "snapshot": {
         "buy": null,
         "sell": {
