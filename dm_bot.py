@@ -84,7 +84,7 @@ def _command_list_text(is_admin: bool = False) -> str:
         "• /search <amount> currency — best merchants for a specific "
         "amount (e.g. /search 8000, or /search 500 EUR)\n"
         "• /trend <currency> — see how the rate's moved over 24h/7d\n"
-        "• /alert <BUY|SELL> <price> currency — get messaged the moment "
+        "• /alert <BUY|SELL> <price> <currency> — get messaged the moment "
         "the rate crosses your target (e.g. /alert SELL 1650)\n"
         "• /alerts — see your active alerts\n"
         "• /unalert <number> — cancel one\n\n"
