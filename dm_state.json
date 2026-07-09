@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783633540.8952832,
+      "fetched_at": 1783633878.2306552,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783633544.247955,
+      "fetched_at": 1783633883.1166215,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783633541.927343,
+      "fetched_at": 1783633879.4392004,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -128,7 +128,7 @@
           "order_count": 204,
           "min_limit": 5000.0,
           "max_limit": 750000.0,
-          "available": 3255.53,
+          "available": 3226.53,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783633542.826426,
+      "fetched_at": 1783633880.6316729,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783633543.520662,
+      "fetched_at": 1783633881.80363,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783633544.9606087,
+      "fetched_at": 1783633884.3448026,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -245,10 +245,10 @@
           "price": 0.998,
           "merchant_name": "AnalistaCripto",
           "completion_rate": 0.999,
-          "order_count": 1457,
+          "order_count": 1459,
           "min_limit": 50.0,
           "max_limit": 1500.0,
-          "available": 4664.29,
+          "available": 4714.56,
           "payment_methods": [
             "Banco Pichincha"
           ],
@@ -264,8 +264,8 @@
           "completion_rate": 1.0,
           "order_count": 685,
           "min_limit": 10.0,
-          "max_limit": 24111.772,
-          "available": 20093.144,
+          "max_limit": 23011.027,
+          "available": 19175.8562,
           "payment_methods": [],
           "adv_no": "2013559487527952384",
           "link": "https://www.bybit.com/fiat/trade/otc"
