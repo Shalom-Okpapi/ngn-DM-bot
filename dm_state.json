@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783623496.083741,
+      "fetched_at": 1783623981.923906,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783623502.6716063,
+      "fetched_at": 1783623986.787987,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -102,7 +102,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783623498.2688634,
+      "fetched_at": 1783623983.1744907,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -137,7 +137,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783623500.8385725,
+      "fetched_at": 1783623984.278716,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -164,7 +164,7 @@
           "price": 0.79,
           "merchant_name": "PENGUIN_Exchange",
           "completion_rate": 0.999,
-          "order_count": 3937,
+          "order_count": 3938,
           "min_limit": 500.0,
           "max_limit": 100000.0,
           "available": 1960835.43,
@@ -178,7 +178,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783623501.8359761,
+      "fetched_at": 1783623985.4193068,
       "snapshot": {
         "buy": null,
         "sell": {
