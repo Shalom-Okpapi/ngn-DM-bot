@@ -45,7 +45,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783590983.1297805,
+      "fetched_at": 1783591553.4211257,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -80,7 +80,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783590987.1299384,
+      "fetched_at": 1783591556.8624713,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -101,25 +101,22 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783590984.0444536,
+      "fetched_at": 1783591554.2887952,
       "snapshot": {
         "buy": {
-          "platform": "Binance",
+          "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "JPY",
-          "price": 169.0,
-          "merchant_name": "Fasttrade_vn",
+          "price": 170.0,
+          "merchant_name": "CeylonX",
           "completion_rate": 1.0,
-          "order_count": 31,
-          "min_limit": 50000.0,
-          "max_limit": 55350.0,
-          "available": 327.52,
-          "payment_methods": [
-            "Bank Transfer",
-            "BANK"
-          ],
-          "adv_no": "12874366795206090752",
-          "link": "https://c2c.binance.com/en/adv?code=12874366795206090752"
+          "order_count": 615,
+          "min_limit": 9000.0,
+          "max_limit": 250000.0,
+          "available": 5436.3855,
+          "payment_methods": [],
+          "adv_no": "2033953116090191872",
+          "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
           "platform": "Binance",
@@ -141,7 +138,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783590984.9870412,
+      "fetched_at": 1783591555.3030822,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -166,7 +163,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783590985.830269,
+      "fetched_at": 1783591556.0720644,
       "snapshot": {
         "buy": null,
         "sell": {
