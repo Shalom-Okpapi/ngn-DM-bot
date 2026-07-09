@@ -44,7 +44,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783578341.285383,
+      "fetched_at": 1783578663.0524206,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -79,7 +79,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783578344.4286687,
+      "fetched_at": 1783578670.36053,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -102,7 +102,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "EUR",
-          "price": 1.05,
+          "price": 1.048,
           "merchant_name": "Academic",
           "completion_rate": 1.0,
           "order_count": 207,
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783578342.1416578,
+      "fetched_at": 1783578667.9080267,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -153,13 +153,13 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783578342.887891,
+      "fetched_at": 1783578668.720358,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "CHF",
-          "price": 0.874,
+          "price": 0.873,
           "merchant_name": "GoSwiss_ch",
           "completion_rate": 1.0,
           "order_count": 46,
@@ -195,7 +195,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783578343.6907635,
+      "fetched_at": 1783578669.536969,
       "snapshot": {
         "buy": null,
         "sell": {
