@@ -1,5 +1,5 @@
 {
-  "last_update_id": 261520035,
+  "last_update_id": 261520037,
   "awaiting_amount": {},
   "last_request_at": {
     "5503157793": 1783576279.711661,
@@ -11,7 +11,7 @@
     "8658029962": 1783517185.8056793,
     "1499517373": 1783540927.5702777,
     "7113359067": 1783583534.9440913,
-    "8602259176": 1783604685.8471413
+    "8602259176": 1783605173.3555007
   },
   "rate_cache": {
     "fetched_at": 1783371829.333584,
@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783604687.6260645,
+      "fetched_at": 1783605174.681677,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783604718.035272,
+      "fetched_at": 1783605054.2040057,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -102,7 +102,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783604714.7564087,
+      "fetched_at": 1783605051.6056192,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -125,8 +125,8 @@
           "fiat": "JPY",
           "price": 163.0,
           "merchant_name": "BestSeller999",
-          "completion_rate": 0.957,
-          "order_count": 200,
+          "completion_rate": 0.958,
+          "order_count": 201,
           "min_limit": 5000.0,
           "max_limit": 100000.0,
           "available": 39070.41,
@@ -139,7 +139,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783604715.8731842,
+      "fetched_at": 1783605052.5166464,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -164,7 +164,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783604716.8964717,
+      "fetched_at": 1783605053.4085965,
       "snapshot": {
         "buy": null,
         "sell": {
