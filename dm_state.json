@@ -45,7 +45,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783587294.3560238,
+      "fetched_at": 1783588435.1257677,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -72,7 +72,7 @@
           "order_count": 28,
           "min_limit": 4500.0,
           "max_limit": 50000.0,
-          "available": 20000.0,
+          "available": 19983.439,
           "payment_methods": [],
           "adv_no": "2072949505534291968",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -80,7 +80,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783587297.8518548,
+      "fetched_at": 1783588439.6046276,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -101,44 +101,45 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783587295.2221408,
+      "fetched_at": 1783588436.2585278,
       "snapshot": {
         "buy": {
-          "platform": "Bybit",
+          "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "JPY",
-          "price": 164.55,
-          "merchant_name": "TheBotKing",
+          "price": 169.0,
+          "merchant_name": "Fasttrade_vn",
           "completion_rate": 1.0,
-          "order_count": 41,
-          "min_limit": 20000.0,
-          "max_limit": 142047.68,
-          "available": 863.2494,
-          "payment_methods": [],
-          "adv_no": "1891083637871210496",
-          "link": "https://www.bybit.com/fiat/trade/otc"
+          "order_count": 31,
+          "min_limit": 50000.0,
+          "max_limit": 55350.0,
+          "available": 327.52,
+          "payment_methods": [
+            "Bank Transfer",
+            "BANK"
+          ],
+          "adv_no": "12874366795206090752",
+          "link": "https://c2c.binance.com/en/adv?code=12874366795206090752"
         },
         "sell": {
-          "platform": "Binance",
+          "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 159.6,
-          "merchant_name": "NguyenTrung Kien",
-          "completion_rate": 0.963,
-          "order_count": 52,
-          "min_limit": 30000.0,
-          "max_limit": 500000.0,
-          "available": 6908.74,
-          "payment_methods": [
-            "Bank Transfer"
-          ],
-          "adv_no": "12856294858203156480",
-          "link": "https://c2c.binance.com/en/adv?code=12856294858203156480"
+          "price": 155.04,
+          "merchant_name": "P2Th\u00fb\u00f1D\u00e9R",
+          "completion_rate": 0.96,
+          "order_count": 559,
+          "min_limit": 50000.0,
+          "max_limit": 6500000.0,
+          "available": 49269.0501,
+          "payment_methods": [],
+          "adv_no": "2016869459470196736",
+          "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "CHF": {
-      "fetched_at": 1783587296.0799236,
+      "fetched_at": 1783588437.394718,
       "snapshot": {
         "buy": null,
         "sell": {
@@ -163,7 +164,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783587297.0206325,
+      "fetched_at": 1783588438.5454164,
       "snapshot": {
         "buy": null,
         "sell": {
