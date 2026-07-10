@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783668678.6021984,
+      "fetched_at": 1783668937.1261919,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -70,10 +70,10 @@
           "price": 1396.2,
           "merchant_name": "SMARTASSIST\uf8ff",
           "completion_rate": 0.99,
-          "order_count": 177,
+          "order_count": 179,
           "min_limit": 30000.0,
           "max_limit": 51000.0,
-          "available": 200.0,
+          "available": 234.8083,
           "payment_methods": [],
           "adv_no": "2074799385679966208",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -81,21 +81,21 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783668682.359521,
+      "fetched_at": 1783668941.7196224,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "EUR",
-          "price": 0.874,
-          "merchant_name": "MA_Enterprise",
-          "completion_rate": 1.0,
-          "order_count": 140,
+          "price": 0.865,
+          "merchant_name": "Danpha\ud83e\udd11",
+          "completion_rate": 0.99,
+          "order_count": 579,
           "min_limit": 50.0,
-          "max_limit": 200.0,
-          "available": 349.6001,
+          "max_limit": 50.0,
+          "available": 63.0,
           "payment_methods": [],
-          "adv_no": "2075449596238483456",
+          "adv_no": "1958803107522723840",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783668679.5409398,
+      "fetched_at": 1783668938.3038626,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783668680.5056505,
+      "fetched_at": 1783668939.476607,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -195,7 +195,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783668681.4385269,
+      "fetched_at": 1783668940.6261902,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783668683.2753358,
+      "fetched_at": 1783668942.8217528,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -256,7 +256,7 @@
           "price": 1.2,
           "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 110,
+          "order_count": 111,
           "min_limit": 10.0,
           "max_limit": 50000.0,
           "available": 42496.0267,
