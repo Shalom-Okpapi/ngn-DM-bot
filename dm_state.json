@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783681541.581701,
+      "fetched_at": 1783681852.8538623,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -67,21 +67,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1393.6,
-          "merchant_name": "Chibson",
+          "price": 1395.5,
+          "merchant_name": "EAZI",
           "completion_rate": 0.97,
-          "order_count": 134,
-          "min_limit": 30000.0,
+          "order_count": 42,
+          "min_limit": 31000.0,
           "max_limit": 51000.0,
-          "available": 100.0,
+          "available": 338.3344,
           "payment_methods": [],
-          "adv_no": "2072879155975168000",
+          "adv_no": "2075376869976690688",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783681545.0851748,
+      "fetched_at": 1783681857.4649372,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -90,7 +90,7 @@
           "price": 0.874,
           "merchant_name": "Player123",
           "completion_rate": 1.0,
-          "order_count": 61,
+          "order_count": 64,
           "min_limit": 50.0,
           "max_limit": 100.0,
           "available": 115.0,
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783681542.4856534,
+      "fetched_at": 1783681854.025834,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -125,10 +125,10 @@
           "price": 171.38,
           "merchant_name": "Haottt",
           "completion_rate": 0.996,
-          "order_count": 414,
+          "order_count": 415,
           "min_limit": 5000.0,
           "max_limit": 150000.0,
-          "available": 768.81,
+          "available": 722.1,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -139,23 +139,23 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 161.3,
-          "merchant_name": "Dracula_99",
-          "completion_rate": 0.973,
-          "order_count": 71,
-          "min_limit": 5000.0,
+          "price": 161.4,
+          "merchant_name": "PK_CRYPTO_PRO2026",
+          "completion_rate": 0.984,
+          "order_count": 290,
+          "min_limit": 500.0,
           "max_limit": 100000.0,
-          "available": 11641.83,
+          "available": 175.0,
           "payment_methods": [
             "PayPay Money"
           ],
-          "adv_no": "12905810156590796800",
-          "link": "https://c2c.binance.com/en/adv?code=12905810156590796800"
+          "adv_no": "12835504579111698432",
+          "link": "https://c2c.binance.com/en/adv?code=12835504579111698432"
         }
       }
     },
     "CHF": {
-      "fetched_at": 1783681543.4130847,
+      "fetched_at": 1783681855.2090204,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783681544.2630014,
+      "fetched_at": 1783681856.3521,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783681545.9092395,
+      "fetched_at": 1783681858.5762765,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
