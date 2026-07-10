@@ -1,5 +1,5 @@
 {
-  "last_update_id": 261520147,
+  "last_update_id": 261520149,
   "awaiting_amount": {},
   "last_request_at": {
     "5503157793": 1783626661.828241,
@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783714050.6199212,
+      "fetched_at": 1783714228.563728,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783713968.6211584,
+      "fetched_at": 1783714232.5303917,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783713963.737623,
+      "fetched_at": 1783714229.4461248,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -160,7 +160,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783713965.7376661,
+      "fetched_at": 1783714230.292682,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -172,7 +172,7 @@
           "order_count": 206,
           "min_limit": 5.0,
           "max_limit": 3000.0,
-          "available": 11573.33,
+          "available": 11466.84,
           "payment_methods": [
             "Instant Transfer",
             "Bank Transfer",
@@ -202,7 +202,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783714078.2347758,
+      "fetched_at": 1783714231.6091764,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -239,7 +239,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783713969.8779728,
+      "fetched_at": 1783714233.401286,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
