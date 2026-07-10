@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783674439.1383686,
+      "fetched_at": 1783674979.7239676,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -67,21 +67,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1394.0,
-          "merchant_name": "fast_deal&done",
-          "completion_rate": 0.96,
-          "order_count": 133,
-          "min_limit": 30000.0,
-          "max_limit": 80000.0,
-          "available": 9679.9005,
+          "price": 1393.0,
+          "merchant_name": "Atterheer002\ud83d\udcaf",
+          "completion_rate": 0.95,
+          "order_count": 196,
+          "min_limit": 10000.0,
+          "max_limit": 100000.0,
+          "available": 100.0,
           "payment_methods": [],
-          "adv_no": "2028832297287065600",
+          "adv_no": "2075487165282447360",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783674441.9834747,
+      "fetched_at": 1783674982.9173203,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -92,8 +92,8 @@
           "completion_rate": 0.97,
           "order_count": 405,
           "min_limit": 50.0,
-          "max_limit": 150.0,
-          "available": 232.9749,
+          "max_limit": 53.62,
+          "available": 61.3502,
           "payment_methods": [],
           "adv_no": "2075507054925672448",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783674439.8644867,
+      "fetched_at": 1783674980.430669,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783674440.5833883,
+      "fetched_at": 1783674981.4670835,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783674441.3000143,
+      "fetched_at": 1783674982.164036,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -220,7 +220,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "GBP",
-          "price": 0.894,
+          "price": 0.895,
           "merchant_name": "billtoken",
           "completion_rate": 0.95,
           "order_count": 68,
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783674442.699962,
+      "fetched_at": 1783674983.630477,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
