@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783662403.843337,
+      "fetched_at": 1783662653.0355341,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -69,8 +69,8 @@
           "fiat": "NGN",
           "price": 1395.0,
           "merchant_name": "kilama",
-          "completion_rate": 0.95,
-          "order_count": 23,
+          "completion_rate": 0.96,
+          "order_count": 25,
           "min_limit": 20000.0,
           "max_limit": 50000.0,
           "available": 19864.1629,
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783662409.0614753,
+      "fetched_at": 1783662657.3836372,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783662405.4453688,
+      "fetched_at": 1783662654.0915954,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783662406.5586963,
+      "fetched_at": 1783662655.1307347,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -195,24 +195,24 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783662407.8391554,
+      "fetched_at": 1783662656.173769,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "GBP",
-          "price": 0.756,
-          "merchant_name": "\u6ef4\u6ef4wise-\u5feb\u901f\u4ea4\u6613fastest",
+          "price": 0.77,
+          "merchant_name": "FastEchangeTrading",
           "completion_rate": 1.0,
-          "order_count": 217,
-          "min_limit": 30.0,
-          "max_limit": 1000.0,
-          "available": 642.39,
+          "order_count": 41,
+          "min_limit": 10.0,
+          "max_limit": 5000.0,
+          "available": 109.57,
           "payment_methods": [
-            "Bank Transfer"
+            "Alipay"
           ],
-          "adv_no": "12904747158438912000",
-          "link": "https://c2c.binance.com/en/adv?code=12904747158438912000"
+          "adv_no": "12907037409809637376",
+          "link": "https://c2c.binance.com/en/adv?code=12907037409809637376"
         },
         "sell": {
           "platform": "Binance",
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783662410.5076811,
+      "fetched_at": 1783662658.3947313,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -258,7 +258,7 @@
           "price": 1.2,
           "merchant_name": "FIGE FX\u2b50\u2b50",
           "completion_rate": 1.0,
-          "order_count": 700,
+          "order_count": 701,
           "min_limit": 10.0,
           "max_limit": 32754.291,
           "available": 27295.2431,
