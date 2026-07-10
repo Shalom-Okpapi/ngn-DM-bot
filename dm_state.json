@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783682477.5405135,
+      "fetched_at": 1783682762.7268324,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -70,7 +70,7 @@
           "price": 1395.5,
           "merchant_name": "EAZI",
           "completion_rate": 0.97,
-          "order_count": 42,
+          "order_count": 44,
           "min_limit": 31000.0,
           "max_limit": 51000.0,
           "available": 266.3173,
@@ -81,21 +81,21 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783682482.1795597,
+      "fetched_at": 1783682766.9591446,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "EUR",
           "price": 0.874,
-          "merchant_name": "MishaMD",
-          "completion_rate": 0.97,
-          "order_count": 82,
-          "min_limit": 2.0,
-          "max_limit": 100.0,
-          "available": 570.4009,
+          "merchant_name": "MA_Enterprise",
+          "completion_rate": 1.0,
+          "order_count": 145,
+          "min_limit": 50.0,
+          "max_limit": 200.0,
+          "available": 319.4171,
           "payment_methods": [],
-          "adv_no": "2074447412321759232",
+          "adv_no": "2075449596238483456",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783682478.6492474,
+      "fetched_at": 1783682763.6855636,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783682479.853888,
+      "fetched_at": 1783682764.6799572,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783682480.9992807,
+      "fetched_at": 1783682765.9783003,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783682483.239364,
+      "fetched_at": 1783682768.2658617,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
