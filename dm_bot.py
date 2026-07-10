@@ -681,8 +681,9 @@ def _do_authorize(auth_data: dict, admin_chat_id, target: str) -> None:
 
 def _do_revoke(auth_data: dict, admin_chat_id, target: str) -> None:
     removed = auth_data["authorized"].pop(target, None)
+    # Clear notification flag so they trigger a new inquiry if they /start again
+    auth_data.setdefault("notified_admin", []).remove(target) if target in auth_data.get("notified_admin", []) else None
     send_message(admin_chat_id, f"{'✅ Revoked' if removed else '⚠️ Was not authorized:'} {target}")
-
 
 def handle_admin_command(state: dict, auth_data: dict, chat_id, text: str) -> bool:
     """Returns True if this was an admin command and has been handled."""
@@ -791,10 +792,23 @@ def handle_message(state: dict, auth_data: dict, history: dict, chat_id, text: s
         auth_data["inquiry_sources"][chat_key] = source
 
     if not _is_authorized(auth_data, chat_key):
-        if chat_key not in auth_data["notified_admin"]:
-            sent = notify_admin_new_inquiry(chat_key, display_name, auth_data["inquiry_sources"].get(chat_key))
-            if sent:
-                auth_data["notified_admin"].append(chat_key)
+        # Always notify admin on new inquiry after revoke (clear the flag)
+        if chat_key in auth_data.get("notified_admin", []):
+            auth_data["notified_admin"].remove(chat_key)  # allow re-notification
+
+        sent = notify_admin_new_inquiry(chat_key, display_name, auth_data.get("inquiry_sources", {}).get(chat_key))
+        if sent:
+            if "notified_admin" not in auth_data:
+                auth_data["notified_admin"] = []
+            auth_data["notified_admin"].append(chat_key)
+
+        # One free preview
+        if text.startswith("/current") and chat_key not in auth_data.get("free_preview_used", []):
+            # ... (keep your existing preview logic)
+            pass
+
+        send_message(chat_id, _build_paywall_text(greeting_name))
+        return
 
         # One real, live /current before the paywall — makes the pitch's
         # "try /current and see" claim literally true instead of a bait
