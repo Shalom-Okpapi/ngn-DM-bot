@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783653049.5900445,
+      "fetched_at": 1783653346.9434345,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -67,21 +67,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1388.0,
-          "merchant_name": "Judd",
-          "completion_rate": 0.99,
-          "order_count": 152,
-          "min_limit": 50000.0,
-          "max_limit": 2000000.0,
-          "available": 1951.5524,
+          "price": 1388.3,
+          "merchant_name": "RUHA_FX",
+          "completion_rate": 0.96,
+          "order_count": 9600,
+          "min_limit": 40000.0,
+          "max_limit": 88278744.9,
+          "available": 63587.6575,
           "payment_methods": [],
-          "adv_no": "2075343069049565184",
+          "adv_no": "1942555186452398080",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783653055.083793,
+      "fetched_at": 1783653349.9589348,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783653051.740072,
+      "fetched_at": 1783653347.7533078,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783653052.7975857,
+      "fetched_at": 1783653348.49733,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783653054.0099533,
+      "fetched_at": 1783653349.2033784,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783653056.4363828,
+      "fetched_at": 1783653350.6820097,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
