@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783661293.4256103,
+      "fetched_at": 1783661859.0953643,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783661297.9902353,
+      "fetched_at": 1783661863.0031667,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -90,10 +90,10 @@
           "price": 0.875,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 10925,
+          "order_count": 10926,
           "min_limit": 35.0,
-          "max_limit": 43421.56,
-          "available": 49624.6401,
+          "max_limit": 43084.69,
+          "available": 49239.6459,
           "payment_methods": [],
           "adv_no": "2015767511592116224",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783661294.4774168,
+      "fetched_at": 1783661860.178335,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783661295.6166277,
+      "fetched_at": 1783661861.1261988,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -195,13 +195,13 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783661296.8966336,
+      "fetched_at": 1783661862.0457828,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "GBP",
-          "price": 0.755,
+          "price": 0.756,
           "merchant_name": "\u6ef4\u6ef4wise-\u5feb\u901f\u4ea4\u6613fastest",
           "completion_rate": 1.0,
           "order_count": 217,
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783661299.0494325,
+      "fetched_at": 1783661864.084152,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -258,7 +258,7 @@
           "price": 1.2,
           "merchant_name": "FIGE FX\u2b50\u2b50",
           "completion_rate": 1.0,
-          "order_count": 699,
+          "order_count": 700,
           "min_limit": 10.0,
           "max_limit": 32754.291,
           "available": 27295.2431,
