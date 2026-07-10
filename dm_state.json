@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783653937.0270216,
+      "fetched_at": 1783654258.8120992,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -72,8 +72,8 @@
           "completion_rate": 0.96,
           "order_count": 9600,
           "min_limit": 40000.0,
-          "max_limit": 85972738.76,
-          "available": 61926.6288,
+          "max_limit": 79111680.75,
+          "available": 56984.5716,
           "payment_methods": [],
           "adv_no": "1942555186452398080",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783653942.285068,
+      "fetched_at": 1783654263.912869,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783653938.61772,
+      "fetched_at": 1783654260.0179222,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783653940.1076674,
+      "fetched_at": 1783654261.2025948,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,19 +197,19 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783653941.2626858,
+      "fetched_at": 1783654262.3236804,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "GBP",
-          "price": 0.755,
+          "price": 0.754,
           "merchant_name": "\u6ef4\u6ef4wise-\u5feb\u901f\u4ea4\u6613fastest",
           "completion_rate": 1.0,
           "order_count": 216,
           "min_limit": 30.0,
           "max_limit": 1000.0,
-          "available": 1000.0,
+          "available": 602.61,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783653943.3259904,
+      "fetched_at": 1783654264.95831,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
