@@ -44,11 +44,6 @@ API_BASE = f"https://api.telegram.org/bot{settings.DM_BOT_TOKEN}"
 _BREAKING_CHARS = ("_", "*", "`", "[", "]")
 
 
-if settings.DM_ADMIN_CHAT_ID:
-        log.info("Admin notifications enabled for chat_id: %s", settings.DM_ADMIN_CHAT_ID)
-else:
-        log.warning("DM_ADMIN_CHAT_ID is not set — new user notifications disabled!")
-
 def _sanitize(text: str) -> str:
     """Strip characters that break Telegram's Markdown parser."""
     if not text:
@@ -85,11 +80,11 @@ def _command_list_text(is_admin: bool = False) -> str:
     fiat_list = ", ".join(settings.SUPPORTED_FIATS)
     return (
         "Here's what I can do:\n"
-        "• /current <currency> — best rates right now (naira by default)\n"
+        "• /current currency — best rates right now (naira by default)\n"
         "• /search <amount> currency — best merchants for a specific "
         "amount (e.g. /search 8000, or /search 500 EUR)\n"
-        "• /trend <currency> — see how the rate's moved over 24h/7d\n"
-        "• /alert <BUY|SELL> <price> <currency> — get messaged the moment "
+        "• /trend currency — see how the rate's moved over 24h/7d\n"
+        "• /alert <BUY|SELL> <price> currency — get messaged the moment "
         "the rate crosses your target (e.g. /alert SELL 1650)\n"
         "• /alerts — see your active alerts\n"
         "• /unalert <number> — cancel one\n\n"
@@ -222,18 +217,13 @@ def _looks_like_chat_id(text: str) -> bool:
 # ---------- Telegram I/O ----------
 
 def send_message(chat_id, text: str) -> bool:
-    parse_mode = None
-    if chat_id != settings.DM_ADMIN_CHAT_ID:
-        parse_mode = "Markdown"   # Only use Markdown for regular users
-
     try:
         resp = requests.post(f"{API_BASE}/sendMessage", json={
             "chat_id": chat_id,
             "text": text,
-            "parse_mode": parse_mode,
+            "parse_mode": "Markdown",
             "disable_web_page_preview": True,
         }, timeout=15)
-        # ... rest of your existing error handling stays the same
         if resp.status_code == 403:
             log.info("Chat %s has blocked the bot or is unreachable — skipping.", chat_id)
             return False
@@ -280,16 +270,19 @@ def notify_admin(message: str) -> None:
 
 
 def notify_admin_new_inquiry(chat_key: str, display_name: str, source: str | None = None) -> bool:
-    """Sales alerts — someone wants in. Plain text to avoid any Markdown issues."""
+    """Sales alerts — someone wants in. Kept visually distinct from
+    operational alerts so it doesn't get lost among error logs.
+    Returns True only if the notification actually reached the admin —
+    the caller uses this to decide whether to mark the inquiry as
+    'already notified.' If this returns False, the caller should NOT
+    mark it notified, so a transient failure gets retried on their next
+    message instead of silently going untracked forever."""
     if not settings.DM_ADMIN_CHAT_ID:
         return False
-
-    source_line = f"\nCame from: {source}" if source else ""
-    text = (f"💰 New inquiry from {display_name} (chat_id: {chat_key}){source_line}\n\n"
-            f"Once they've paid, use this command:\n"
-            f"/authorize {chat_key}")
-
-    success = send_message(settings.DM_ADMIN_CHAT_ID, text)
+    source_line = f"\nCame from: {_sanitize(source)}" if source else ""
+    success = send_message(settings.DM_ADMIN_CHAT_ID,
+        f"💰 New inquiry: {_sanitize(display_name)} (chat_id {chat_key}){source_line}\n"
+        f"Once they've paid: /authorize {chat_key}")
     if success:
         log.info("Notified admin about new inquiry from %s", chat_key)
     else:
@@ -687,9 +680,12 @@ def _do_authorize(auth_data: dict, admin_chat_id, target: str) -> None:
 
 def _do_revoke(auth_data: dict, admin_chat_id, target: str) -> None:
     removed = auth_data["authorized"].pop(target, None)
-    # Clear notification flag so they trigger a new inquiry if they /start again
-    auth_data.setdefault("notified_admin", []).remove(target) if target in auth_data.get("notified_admin", []) else None
+    # Clear their "already notified" flag too, so if they message again
+    # after being revoked, that counts as a fresh inquiry rather than
+    # being silently skipped as something you've already seen.
+    auth_data["notified_admin"] = [c for c in auth_data["notified_admin"] if c != target]
     send_message(admin_chat_id, f"{'✅ Revoked' if removed else '⚠️ Was not authorized:'} {target}")
+
 
 def handle_admin_command(state: dict, auth_data: dict, chat_id, text: str) -> bool:
     """Returns True if this was an admin command and has been handled."""
@@ -798,23 +794,10 @@ def handle_message(state: dict, auth_data: dict, history: dict, chat_id, text: s
         auth_data["inquiry_sources"][chat_key] = source
 
     if not _is_authorized(auth_data, chat_key):
-        # Always notify admin on new inquiry after revoke (clear the flag)
-        if chat_key in auth_data.get("notified_admin", []):
-            auth_data["notified_admin"].remove(chat_key)  # allow re-notification
-
-        sent = notify_admin_new_inquiry(chat_key, display_name, auth_data.get("inquiry_sources", {}).get(chat_key))
-        if sent:
-            if "notified_admin" not in auth_data:
-                auth_data["notified_admin"] = []
-            auth_data["notified_admin"].append(chat_key)
-
-        # One free preview
-        if text.startswith("/current") and chat_key not in auth_data.get("free_preview_used", []):
-            # ... (keep your existing preview logic)
-            pass
-
-        send_message(chat_id, _build_paywall_text(greeting_name))
-        return
+        if chat_key not in auth_data["notified_admin"]:
+            sent = notify_admin_new_inquiry(chat_key, display_name, auth_data["inquiry_sources"].get(chat_key))
+            if sent:
+                auth_data["notified_admin"].append(chat_key)
 
         # One real, live /current before the paywall — makes the pitch's
         # "try /current and see" claim literally true instead of a bait
