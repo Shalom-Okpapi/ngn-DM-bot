@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783701939.0108848,
+      "fetched_at": 1783702252.7671454,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783701941.8455179,
+      "fetched_at": 1783702256.1562157,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -90,7 +90,7 @@
           "price": 0.874,
           "merchant_name": "bestchange.kh",
           "completion_rate": 0.99,
-          "order_count": 1218,
+          "order_count": 1220,
           "min_limit": 25.0,
           "max_limit": 2227.621,
           "available": 2548.7658,
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783701939.690563,
+      "fetched_at": 1783702253.5690749,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -151,7 +151,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783701940.4163117,
+      "fetched_at": 1783702254.6483402,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -160,10 +160,10 @@
           "price": 0.972,
           "merchant_name": "Helvetic",
           "completion_rate": 0.974,
-          "order_count": 146,
+          "order_count": 147,
           "min_limit": 20.0,
           "max_limit": 50000.0,
-          "available": 4191.09,
+          "available": 4165.37,
           "payment_methods": [
             "Instant Transfer",
             "Twint",
@@ -193,7 +193,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783701941.120908,
+      "fetched_at": 1783702255.3861017,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -230,7 +230,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783701942.5903664,
+      "fetched_at": 1783702256.9386704,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
