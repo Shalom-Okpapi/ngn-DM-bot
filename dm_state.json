@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783698052.9511893,
+      "fetched_at": 1783698339.6161094,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -67,21 +67,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1393.5,
-          "merchant_name": "FASTONE",
+          "price": 1395.51,
+          "merchant_name": "FLASH-PAY.\ud83d\udcca\ud83c\udfc5",
           "completion_rate": 0.96,
-          "order_count": 78,
-          "min_limit": 40000.0,
-          "max_limit": 80000.0,
-          "available": 300.0,
+          "order_count": 30,
+          "min_limit": 30000.0,
+          "max_limit": 54870.89,
+          "available": 39.3196,
           "payment_methods": [],
-          "adv_no": "2067902383243005952",
+          "adv_no": "2075568326732165120",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783698057.4079447,
+      "fetched_at": 1783698344.9038093,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783698054.0395544,
+      "fetched_at": 1783698341.1788554,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783698055.2214036,
+      "fetched_at": 1783698342.7255542,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783698056.350515,
+      "fetched_at": 1783698343.7463121,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783698058.5666795,
+      "fetched_at": 1783698346.0245092,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -258,7 +258,7 @@
           "price": 1.2,
           "merchant_name": "\ud835\udd3b\ud835\udd60\ud835\udd5f\ud835\udd56_\ud835\udd4f\ud835\udd54\ud835\udd59\ud835\udd52\ud835\udd5f\ud835\udd58\ud835\udd56\ud83c\udf1f",
           "completion_rate": 1.0,
-          "order_count": 694,
+          "order_count": 695,
           "min_limit": 10.0,
           "max_limit": 22138.791,
           "available": 18448.9929,
