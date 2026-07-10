@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783655736.9454126,
+      "fetched_at": 1783656055.3124723,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -67,21 +67,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1388.0,
-          "merchant_name": "Judd",
-          "completion_rate": 0.98,
-          "order_count": 152,
-          "min_limit": 50000.0,
-          "max_limit": 2000000.0,
-          "available": 1880.0,
+          "price": 1389.5,
+          "merchant_name": "MACGERRY",
+          "completion_rate": 0.96,
+          "order_count": 74,
+          "min_limit": 30000.0,
+          "max_limit": 60000.0,
+          "available": 197.0,
           "payment_methods": [],
-          "adv_no": "2075343069049565184",
+          "adv_no": "2075123666911612928",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783655741.193095,
+      "fetched_at": 1783656059.7558072,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783655737.9270353,
+      "fetched_at": 1783656056.3218617,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783655738.917738,
+      "fetched_at": 1783656057.474175,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783655740.2066827,
+      "fetched_at": 1783656058.658654,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783655742.043758,
+      "fetched_at": 1783656060.7727923,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
