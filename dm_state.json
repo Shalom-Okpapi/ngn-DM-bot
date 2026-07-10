@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783707958.249716,
+      "fetched_at": 1783708259.4985466,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783707967.3303652,
+      "fetched_at": 1783708266.7429626,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -102,7 +102,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "EUR",
-          "price": 1.05,
+          "price": 1.051,
           "merchant_name": "MikeSwift",
           "completion_rate": 0.96,
           "order_count": 24,
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783707959.3639507,
+      "fetched_at": 1783708262.3062043,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -159,7 +159,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783707965.2121334,
+      "fetched_at": 1783708264.0646572,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -201,7 +201,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783707966.293059,
+      "fetched_at": 1783708265.5216382,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783707968.4094975,
+      "fetched_at": 1783708268.0313783,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -262,7 +262,7 @@
           "price": 1.2,
           "merchant_name": "\ud835\udd3b\ud835\udd60\ud835\udd5f\ud835\udd56_\ud835\udd4f\ud835\udd54\ud835\udd59\ud835\udd52\ud835\udd5f\ud835\udd58\ud835\udd56\ud83c\udf1f",
           "completion_rate": 1.0,
-          "order_count": 695,
+          "order_count": 696,
           "min_limit": 10.0,
           "max_limit": 22117.851,
           "available": 18431.5428,
