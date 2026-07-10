@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783656055.3124723,
+      "fetched_at": 1783656362.7971103,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -70,10 +70,10 @@
           "price": 1389.5,
           "merchant_name": "MACGERRY",
           "completion_rate": 0.96,
-          "order_count": 74,
+          "order_count": 75,
           "min_limit": 30000.0,
           "max_limit": 60000.0,
-          "available": 197.0,
+          "available": 233.0,
           "payment_methods": [],
           "adv_no": "2075123666911612928",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783656059.7558072,
+      "fetched_at": 1783656367.2527006,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783656056.3218617,
+      "fetched_at": 1783656364.2219234,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783656057.474175,
+      "fetched_at": 1783656365.4037201,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783656058.658654,
+      "fetched_at": 1783656366.3491628,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783656060.7727923,
+      "fetched_at": 1783656368.122468,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -247,8 +247,8 @@
           "completion_rate": 0.99,
           "order_count": 931,
           "min_limit": 2.0,
-          "max_limit": 18867.024,
-          "available": 23583.7803,
+          "max_limit": 18849.546,
+          "available": 23561.9333,
           "payment_methods": [],
           "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
