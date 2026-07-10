@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783651854.811388,
+      "fetched_at": 1783652161.3436573,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -67,21 +67,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1388.3,
-          "merchant_name": "RUHA_FX",
-          "completion_rate": 0.96,
-          "order_count": 9600,
-          "min_limit": 40000.0,
-          "max_limit": 85483399.1,
-          "available": 61574.1548,
+          "price": 1388.5,
+          "merchant_name": "Abba Umar",
+          "completion_rate": 0.98,
+          "order_count": 172,
+          "min_limit": 50000.0,
+          "max_limit": 100000.0,
+          "available": 200.0,
           "payment_methods": [],
-          "adv_no": "1942555186452398080",
+          "adv_no": "2074995803441987584",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783651859.9398434,
+      "fetched_at": 1783652165.5898404,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -90,7 +90,7 @@
           "price": 0.874,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 10917,
+          "order_count": 10918,
           "min_limit": 35.0,
           "max_limit": 43612.6,
           "available": 49900.0,
@@ -102,7 +102,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "EUR",
-          "price": 1.048,
+          "price": 1.047,
           "merchant_name": "MikeSwift",
           "completion_rate": 0.96,
           "order_count": 24,
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783651856.1317487,
+      "fetched_at": 1783652162.3838983,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -128,7 +128,7 @@
           "order_count": 407,
           "min_limit": 5000.0,
           "max_limit": 150000.0,
-          "available": 42.87,
+          "available": 93.94,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783651857.7082374,
+      "fetched_at": 1783652163.5209796,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783651858.8122845,
+      "fetched_at": 1783652164.5175602,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -222,8 +222,8 @@
           "fiat": "GBP",
           "price": 0.728,
           "merchant_name": "ezswap2025",
-          "completion_rate": 0.958,
-          "order_count": 136,
+          "completion_rate": 0.959,
+          "order_count": 137,
           "min_limit": 10.0,
           "max_limit": 5000.0,
           "available": 29636.99,
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783651861.1533382,
+      "fetched_at": 1783652166.6717296,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
