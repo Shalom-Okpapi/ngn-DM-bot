@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783676478.249817,
+      "fetched_at": 1783676767.1722713,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -67,13 +67,13 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1397.0,
+          "price": 1397.5,
           "merchant_name": "Chibson",
           "completion_rate": 0.97,
           "order_count": 132,
           "min_limit": 30000.0,
           "max_limit": 51000.0,
-          "available": 1058.0,
+          "available": 985.7151,
           "payment_methods": [],
           "adv_no": "2072879155975168000",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783676483.0005665,
+      "fetched_at": 1783676772.8247752,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783676479.4814374,
+      "fetched_at": 1783676768.640009,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -125,7 +125,7 @@
           "price": 171.23,
           "merchant_name": "llbbp",
           "completion_rate": 0.996,
-          "order_count": 855,
+          "order_count": 856,
           "min_limit": 1500.0,
           "max_limit": 150000.0,
           "available": 531.8,
@@ -136,26 +136,24 @@
           "link": "https://c2c.binance.com/en/adv?code=12908819588959543296"
         },
         "sell": {
-          "platform": "Binance",
+          "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 161.25,
-          "merchant_name": "PK_CRYPTO_PRO2026",
-          "completion_rate": 0.983,
-          "order_count": 289,
-          "min_limit": 500.0,
-          "max_limit": 100000.0,
-          "available": 175.0,
-          "payment_methods": [
-            "PayPay Money"
-          ],
-          "adv_no": "12835504579111698432",
-          "link": "https://c2c.binance.com/en/adv?code=12835504579111698432"
+          "price": 160.01,
+          "merchant_name": "Kevin_17",
+          "completion_rate": 0.95,
+          "order_count": 70,
+          "min_limit": 3000.0,
+          "max_limit": 9159.0,
+          "available": 18295.3704,
+          "payment_methods": [],
+          "adv_no": "1965433032015847424",
+          "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "CHF": {
-      "fetched_at": 1783676480.6420984,
+      "fetched_at": 1783676770.0234337,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +195,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783676481.8725607,
+      "fetched_at": 1783676771.5779936,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -234,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783676484.2390192,
+      "fetched_at": 1783676774.2887537,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
