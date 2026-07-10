@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783671938.3592217,
+      "fetched_at": 1783672260.2310107,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -67,7 +67,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1394.2,
+          "price": 1395.2,
           "merchant_name": "Chibson",
           "completion_rate": 0.97,
           "order_count": 132,
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783671941.5595536,
+      "fetched_at": 1783672263.6489725,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783671939.0794804,
+      "fetched_at": 1783672261.0679407,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -128,7 +128,7 @@
           "order_count": 410,
           "min_limit": 5000.0,
           "max_limit": 150000.0,
-          "available": 207.31,
+          "available": 96.66,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783671939.8036256,
+      "fetched_at": 1783672261.8876407,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -195,7 +195,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783671940.8381543,
+      "fetched_at": 1783672262.853484,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783671942.293827,
+      "fetched_at": 1783672264.390007,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
