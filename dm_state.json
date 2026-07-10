@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783683050.9095309,
+      "fetched_at": 1783683591.871871,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -70,10 +70,10 @@
           "price": 1395.5,
           "merchant_name": "EAZI",
           "completion_rate": 0.95,
-          "order_count": 44,
+          "order_count": 46,
           "min_limit": 31000.0,
           "max_limit": 51000.0,
-          "available": 218.6642,
+          "available": 189.6642,
           "payment_methods": [],
           "adv_no": "2075376869976690688",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -81,21 +81,21 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783683055.7610433,
+      "fetched_at": 1783683595.0770674,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "EUR",
-          "price": 0.874,
-          "merchant_name": "MA_Enterprise",
+          "price": 0.873,
+          "merchant_name": "\ud83c\udf1fiExChange \ud83c\udf1f",
           "completion_rate": 1.0,
-          "order_count": 145,
+          "order_count": 142,
           "min_limit": 50.0,
-          "max_limit": 200.0,
-          "available": 319.4171,
+          "max_limit": 50.0,
+          "available": 100.0,
           "payment_methods": [],
-          "adv_no": "2075449596238483456",
+          "adv_no": "2074886400979218432",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -116,16 +116,16 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783683052.1720717,
+      "fetched_at": 1783683592.5892076,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "JPY",
-          "price": 171.38,
+          "price": 171.86,
           "merchant_name": "Haottt",
           "completion_rate": 0.996,
-          "order_count": 416,
+          "order_count": 417,
           "min_limit": 5000.0,
           "max_limit": 150000.0,
           "available": 628.25,
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783683053.3602645,
+      "fetched_at": 1783683593.3094604,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783683054.6267102,
+      "fetched_at": 1783683594.3673956,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783683057.1752317,
+      "fetched_at": 1783683595.7818654,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
