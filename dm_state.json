@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783656362.7971103,
+      "fetched_at": 1783656652.213633,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -67,7 +67,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1389.5,
+          "price": 1388.5,
           "merchant_name": "MACGERRY",
           "completion_rate": 0.96,
           "order_count": 75,
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783656367.2527006,
+      "fetched_at": 1783656655.7939985,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -102,7 +102,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "EUR",
-          "price": 1.047,
+          "price": 1.048,
           "merchant_name": "MikeSwift",
           "completion_rate": 0.96,
           "order_count": 24,
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783656364.2219234,
+      "fetched_at": 1783656653.343889,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783656365.4037201,
+      "fetched_at": 1783656654.224678,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783656366.3491628,
+      "fetched_at": 1783656655.0297842,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783656368.122468,
+      "fetched_at": 1783656656.6005197,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -245,7 +245,7 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 931,
+          "order_count": 932,
           "min_limit": 2.0,
           "max_limit": 18849.546,
           "available": 23561.9333,
