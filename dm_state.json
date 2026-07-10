@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783716884.2675548,
+      "fetched_at": 1783717435.7816548,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783716892.3716903,
+      "fetched_at": 1783717439.3640633,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,10 +91,10 @@
           "price": 0.876,
           "merchant_name": "ChinazesX",
           "completion_rate": 0.99,
-          "order_count": 1315,
+          "order_count": 1317,
           "min_limit": 2.0,
           "max_limit": 50.0,
-          "available": 135.4101,
+          "available": 85.4101,
           "payment_methods": [],
           "adv_no": "2056809813488037888",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783716885.1472924,
+      "fetched_at": 1783717436.9671037,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -160,7 +160,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783716886.0087228,
+      "fetched_at": 1783717437.7458258,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -202,7 +202,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783716890.8292277,
+      "fetched_at": 1783717438.6341596,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -241,7 +241,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783716893.8744152,
+      "fetched_at": 1783717440.1562936,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
