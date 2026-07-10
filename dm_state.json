@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783659362.4079866,
+      "fetched_at": 1783659665.5584292,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783659368.0982192,
+      "fetched_at": 1783659670.0120142,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783659364.034313,
+      "fetched_at": 1783659666.750589,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783659365.5423195,
+      "fetched_at": 1783659667.8192568,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -195,7 +195,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783659366.6341624,
+      "fetched_at": 1783659668.8379421,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783659369.0733068,
+      "fetched_at": 1783659671.0852458,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -258,7 +258,7 @@
           "price": 1.2,
           "merchant_name": "FIGE FX\u2b50\u2b50",
           "completion_rate": 1.0,
-          "order_count": 696,
+          "order_count": 697,
           "min_limit": 10.0,
           "max_limit": 32754.291,
           "available": 27295.2431,
