@@ -1,5 +1,5 @@
 {
-  "last_update_id": 261520134,
+  "last_update_id": 261520138,
   "awaiting_amount": {},
   "last_request_at": {
     "5503157793": 1783626661.828241,
@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783710344.9549456,
+      "fetched_at": 1783710849.2495053,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783710349.6320138,
+      "fetched_at": 1783710852.9375834,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,10 +91,10 @@
           "price": 0.876,
           "merchant_name": "GEO_PAPA",
           "completion_rate": 1.0,
-          "order_count": 2263,
+          "order_count": 2264,
           "min_limit": 20.0,
           "max_limit": 1000.0,
-          "available": 24500.5923,
+          "available": 24443.5147,
           "payment_methods": [],
           "adv_no": "1774441374821371904",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783710346.302071,
+      "fetched_at": 1783710849.9955952,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -160,7 +160,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783710347.416732,
+      "fetched_at": 1783710850.936397,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -202,7 +202,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783710348.5683925,
+      "fetched_at": 1783710851.8741195,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -239,7 +239,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783710350.685323,
+      "fetched_at": 1783710853.7658796,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -261,14 +261,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "ALKHABOSS-EX 02",
+          "merchant_name": "\ud835\udd3b\ud835\udd60\ud835\udd5f\ud835\udd56_\ud835\udd4f\ud835\udd54\ud835\udd59\ud835\udd52\ud835\udd5f\ud835\udd58\ud835\udd56\ud83c\udf1f",
           "completion_rate": 1.0,
-          "order_count": 691,
-          "min_limit": 5.0,
-          "max_limit": 20740.779,
-          "available": 17283.9825,
+          "order_count": 696,
+          "min_limit": 10.0,
+          "max_limit": 22117.851,
+          "available": 18431.5428,
           "payment_methods": [],
-          "adv_no": "1924026696129343488",
+          "adv_no": "2013559487527952384",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
