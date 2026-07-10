@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783666281.74968,
+      "fetched_at": 1783666536.7546074,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -73,7 +73,7 @@
           "order_count": 27,
           "min_limit": 20000.0,
           "max_limit": 50000.0,
-          "available": 19789.1573,
+          "available": 19754.349,
           "payment_methods": [],
           "adv_no": "2075447869292531712",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783666286.5309234,
+      "fetched_at": 1783666540.6406174,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783666283.0000668,
+      "fetched_at": 1783666537.6690674,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -125,7 +125,7 @@
           "price": 172.0,
           "merchant_name": "WUN-USDT-STORE",
           "completion_rate": 1.0,
-          "order_count": 131,
+          "order_count": 132,
           "min_limit": 3000.0,
           "max_limit": 246020.07,
           "available": 1430.3493,
@@ -153,7 +153,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783666284.1737328,
+      "fetched_at": 1783666538.7573,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -193,7 +193,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783666285.4035919,
+      "fetched_at": 1783666539.5727656,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -230,7 +230,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783666287.6026416,
+      "fetched_at": 1783666541.4926703,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
