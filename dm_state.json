@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783687563.4525013,
+      "fetched_at": 1783687857.2470639,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -67,21 +67,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1395.15,
-          "merchant_name": "MACGERRY",
+          "price": 1395.3,
+          "merchant_name": "SAIF_FX\ud83c\udf1f",
           "completion_rate": 0.96,
-          "order_count": 83,
-          "min_limit": 30000.0,
-          "max_limit": 60000.0,
-          "available": 225.0,
+          "order_count": 418,
+          "min_limit": 20000.0,
+          "max_limit": 70000.0,
+          "available": 81.5,
           "payment_methods": [],
-          "adv_no": "2075560952908337152",
+          "adv_no": "2074380004824064000",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783687568.081845,
+      "fetched_at": 1783687860.8367496,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -102,21 +102,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "EUR",
-          "price": 1.05,
-          "merchant_name": "MikeSwift",
-          "completion_rate": 0.96,
-          "order_count": 24,
+          "price": 1.051,
+          "merchant_name": "Jerrydaren",
+          "completion_rate": 1.0,
+          "order_count": 31,
           "min_limit": 50.0,
-          "max_limit": 250.0,
-          "available": 19775.0,
+          "max_limit": 186.0,
+          "available": 15000.0,
           "payment_methods": [],
-          "adv_no": "2067894679335477248",
+          "adv_no": "2052789906649972736",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "JPY": {
-      "fetched_at": 1783687564.6555088,
+      "fetched_at": 1783687858.1065958,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -153,7 +153,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783687565.8977993,
+      "fetched_at": 1783687858.8686059,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -192,7 +192,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783687566.9629672,
+      "fetched_at": 1783687859.709141,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -229,7 +229,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783687569.2110326,
+      "fetched_at": 1783687861.6127975,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
