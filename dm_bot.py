@@ -221,7 +221,10 @@ def _looks_like_chat_id(text: str) -> bool:
 
 # ---------- Telegram I/O ----------
 
-def send_message(chat_id, text: str) -> bool:
+def send_message(chat_id, text: str, parse_mode="Markdown") -> bool:
+    if chat_id == settings.DM_ADMIN_CHAT_ID:
+        parse_mode = None   # Disable Markdown for admin messages to avoid parsing bugs
+    # ... rest of function
     try:
         resp = requests.post(f"{API_BASE}/sendMessage", json={
             "chat_id": chat_id,
@@ -275,19 +278,20 @@ def notify_admin(message: str) -> None:
 
 
 def notify_admin_new_inquiry(chat_key: str, display_name: str, source: str | None = None) -> bool:
-    """Sales alerts — someone wants in."""
+    """Sales alerts — someone wants in. Plain text to avoid any Markdown issues."""
     if not settings.DM_ADMIN_CHAT_ID:
         return False
 
-    source_line = f"\nCame from: {_sanitize(source)}" if source else ""
-    text = (f"💰 **New inquiry**: {_sanitize(display_name)} (chat_id `{chat_key}`){source_line}\n\n"
-            f"Once paid: `/authorize {chat_key}`")
+    source_line = f"\nCame from: {source}" if source else ""
+    text = (f"💰 New inquiry from {display_name} (chat_id: {chat_key}){source_line}\n\n"
+            f"Once they've paid, use this command:\n"
+            f"/authorize {chat_key}")
 
     success = send_message(settings.DM_ADMIN_CHAT_ID, text)
     if success:
         log.info("Notified admin about new inquiry from %s", chat_key)
     else:
-        log.warning("Failed to notify admin about new inquiry from %s — will retry next time", chat_key)
+        log.warning("Failed to notify admin about new inquiry from %s", chat_key)
     return success
 
 
