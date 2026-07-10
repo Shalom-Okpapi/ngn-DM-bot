@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783723825.526216,
+      "fetched_at": 1783724365.2327855,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1396.1,
           "merchant_name": "FLASH-PAY.\ud83d\udcca\ud83c\udfc5",
           "completion_rate": 0.98,
-          "order_count": 52,
+          "order_count": 53,
           "min_limit": 30000.0,
           "max_limit": 100000.0,
           "available": 214.2451,
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783723830.3369362,
+      "fetched_at": 1783724370.0667686,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,7 +91,7 @@
           "price": 0.877,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 11232,
+          "order_count": 11234,
           "min_limit": 35.0,
           "max_limit": 43589.47,
           "available": 49702.9305,
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783723826.6498559,
+      "fetched_at": 1783724366.4789581,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -154,7 +154,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783723828.0258815,
+      "fetched_at": 1783724367.6021063,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -196,7 +196,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783723829.1749742,
+      "fetched_at": 1783724368.8549123,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -219,7 +219,7 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "GBP",
-          "price": 0.743,
+          "price": 0.741,
           "merchant_name": "Fast-USDT10",
           "completion_rate": 0.998,
           "order_count": 396,
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783723831.401817,
+      "fetched_at": 1783724371.2208226,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
