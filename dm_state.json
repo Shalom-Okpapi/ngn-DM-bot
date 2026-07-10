@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783668937.1261919,
+      "fetched_at": 1783669258.7063856,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -67,21 +67,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1396.2,
-          "merchant_name": "SMARTASSIST\uf8ff",
-          "completion_rate": 0.99,
-          "order_count": 179,
-          "min_limit": 30000.0,
-          "max_limit": 51000.0,
-          "available": 234.8083,
+          "price": 1393.55,
+          "merchant_name": "olabestts",
+          "completion_rate": 0.95,
+          "order_count": 214,
+          "min_limit": 10000.0,
+          "max_limit": 50000.0,
+          "available": 236.6204,
           "payment_methods": [],
-          "adv_no": "2074799385679966208",
+          "adv_no": "2075284428680687616",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783668941.7196224,
+      "fetched_at": 1783669263.379943,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783668938.3038626,
+      "fetched_at": 1783669259.8569422,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783668939.476607,
+      "fetched_at": 1783669260.855156,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -195,7 +195,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783668940.6261902,
+      "fetched_at": 1783669262.2825649,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783668942.8217528,
+      "fetched_at": 1783669264.5297775,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
