@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783682762.7268324,
+      "fetched_at": 1783683050.9095309,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -69,11 +69,11 @@
           "fiat": "NGN",
           "price": 1395.5,
           "merchant_name": "EAZI",
-          "completion_rate": 0.97,
+          "completion_rate": 0.95,
           "order_count": 44,
           "min_limit": 31000.0,
           "max_limit": 51000.0,
-          "available": 266.3173,
+          "available": 218.6642,
           "payment_methods": [],
           "adv_no": "2075376869976690688",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783682766.9591446,
+      "fetched_at": 1783683055.7610433,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783682763.6855636,
+      "fetched_at": 1783683052.1720717,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -128,7 +128,7 @@
           "order_count": 416,
           "min_limit": 5000.0,
           "max_limit": 150000.0,
-          "available": 678.3,
+          "available": 628.25,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -139,23 +139,23 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 161.4,
-          "merchant_name": "PK_CRYPTO_PRO2026",
-          "completion_rate": 0.984,
-          "order_count": 291,
-          "min_limit": 500.0,
+          "price": 163.05,
+          "merchant_name": "Dracula_99",
+          "completion_rate": 0.973,
+          "order_count": 71,
+          "min_limit": 5000.0,
           "max_limit": 100000.0,
-          "available": 167.07,
+          "available": 11641.83,
           "payment_methods": [
             "PayPay Money"
           ],
-          "adv_no": "12835504579111698432",
-          "link": "https://c2c.binance.com/en/adv?code=12835504579111698432"
+          "adv_no": "12905810156590796800",
+          "link": "https://c2c.binance.com/en/adv?code=12905810156590796800"
         }
       }
     },
     "CHF": {
-      "fetched_at": 1783682764.6799572,
+      "fetched_at": 1783683053.3602645,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783682765.9783003,
+      "fetched_at": 1783683054.6267102,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783682768.2658617,
+      "fetched_at": 1783683057.1752317,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -243,7 +243,7 @@
           "price": 0.8,
           "merchant_name": "DagestanDentist",
           "completion_rate": 1.0,
-          "order_count": 186,
+          "order_count": 187,
           "min_limit": 50.0,
           "max_limit": 1853.2,
           "available": 2316.5,
