@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783695963.6226294,
+      "fetched_at": 1783696258.9408188,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -67,21 +67,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1396.0,
-          "merchant_name": "SAIF_FX\ud83c\udf1f",
-          "completion_rate": 0.95,
-          "order_count": 428,
-          "min_limit": 20000.0,
-          "max_limit": 70000.0,
-          "available": 106.0,
+          "price": 1393.4,
+          "merchant_name": "COINS HUNTER",
+          "completion_rate": 1.0,
+          "order_count": 520,
+          "min_limit": 50000.0,
+          "max_limit": 100000.0,
+          "available": 20000.0,
           "payment_methods": [],
-          "adv_no": "2074380004824064000",
+          "adv_no": "2048847933543186432",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783695966.927702,
+      "fetched_at": 1783696262.0117648,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783695964.6079838,
+      "fetched_at": 1783696259.676805,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783695965.410729,
+      "fetched_at": 1783696260.386851,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783695966.1793232,
+      "fetched_at": 1783696261.2737298,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783695967.6577306,
+      "fetched_at": 1783696262.7329347,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
