@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783670739.8973246,
+      "fetched_at": 1783671084.1062372,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -70,7 +70,7 @@
           "price": 1393.7,
           "merchant_name": "Chibson",
           "completion_rate": 0.97,
-          "order_count": 131,
+          "order_count": 132,
           "min_limit": 30000.0,
           "max_limit": 51000.0,
           "available": 112.5696,
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783670745.448458,
+      "fetched_at": 1783671088.9695785,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -90,7 +90,7 @@
           "price": 0.875,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 10955,
+          "order_count": 10958,
           "min_limit": 35.0,
           "max_limit": 37365.69,
           "available": 42703.6462,
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783670741.29974,
+      "fetched_at": 1783671085.3750467,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783670742.458651,
+      "fetched_at": 1783671086.5152771,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -195,7 +195,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783670743.6755648,
+      "fetched_at": 1783671087.7386599,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783670746.7053099,
+      "fetched_at": 1783671090.2009008,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
