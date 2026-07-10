@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783700541.58726,
+      "fetched_at": 1783701106.7512708,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -69,7 +69,7 @@
           "fiat": "NGN",
           "price": 1396.51,
           "merchant_name": "Mary\ud83e\udd8b",
-          "completion_rate": 0.96,
+          "completion_rate": 0.95,
           "order_count": 104,
           "min_limit": 11850.0,
           "max_limit": 50500.0,
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783700546.7489543,
+      "fetched_at": 1783701111.3385906,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -90,7 +90,7 @@
           "price": 0.874,
           "merchant_name": "bestchange.kh",
           "completion_rate": 0.99,
-          "order_count": 1217,
+          "order_count": 1218,
           "min_limit": 25.0,
           "max_limit": 2227.621,
           "available": 2548.7658,
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783700542.8706324,
+      "fetched_at": 1783701107.9237058,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783700544.1179745,
+      "fetched_at": 1783701108.9614227,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -167,7 +167,7 @@
           "order_count": 205,
           "min_limit": 5.0,
           "max_limit": 3000.0,
-          "available": 11759.7,
+          "available": 10738.41,
           "payment_methods": [
             "Instant Transfer",
             "Bank Transfer",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783700545.5426555,
+      "fetched_at": 1783701110.0961785,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -220,7 +220,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "GBP",
-          "price": 0.895,
+          "price": 0.894,
           "merchant_name": "billtoken",
           "completion_rate": 0.95,
           "order_count": 68,
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783700548.133577,
+      "fetched_at": 1783701112.5655859,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
