@@ -1,5 +1,5 @@
 {
-  "last_update_id": 261520114,
+  "last_update_id": 261520116,
   "awaiting_amount": {},
   "last_request_at": {
     "5503157793": 1783626661.828241,
@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783705882.267313,
+      "fetched_at": 1783706407.0391302,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -73,7 +73,7 @@
           "order_count": 136,
           "min_limit": 30000.0,
           "max_limit": 51000.0,
-          "available": 265.0,
+          "available": 229.2475,
           "payment_methods": [],
           "adv_no": "2072879155975168000",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783705887.570192,
+      "fetched_at": 1783706411.9313126,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -90,10 +90,10 @@
           "price": 0.875,
           "merchant_name": "bestchange.kh",
           "completion_rate": 0.99,
-          "order_count": 1221,
+          "order_count": 1222,
           "min_limit": 25.0,
-          "max_limit": 2195.64,
-          "available": 2509.3036,
+          "max_limit": 2108.13,
+          "available": 2409.2922,
           "payment_methods": [],
           "adv_no": "1944632819764613120",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783705883.9113572,
+      "fetched_at": 1783706408.1674387,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -159,7 +159,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783705885.1059468,
+      "fetched_at": 1783706409.1736214,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -171,7 +171,7 @@
           "order_count": 205,
           "min_limit": 5.0,
           "max_limit": 3000.0,
-          "available": 8559.5,
+          "available": 8570.14,
           "payment_methods": [
             "Instant Transfer",
             "Bank Transfer",
@@ -201,7 +201,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783705886.286659,
+      "fetched_at": 1783706410.288704,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783705889.147447,
+      "fetched_at": 1783706413.3377693,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -260,14 +260,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "\ud835\udd3b\ud835\udd60\ud835\udd5f\ud835\udd56_\ud835\udd4f\ud835\udd54\ud835\udd59\ud835\udd52\ud835\udd5f\ud835\udd58\ud835\udd56\ud83c\udf1f",
+          "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 695,
+          "order_count": 116,
           "min_limit": 10.0,
-          "max_limit": 22138.791,
-          "available": 18448.9929,
+          "max_limit": 50000.0,
+          "available": 42469.0267,
           "payment_methods": [],
-          "adv_no": "2013559487527952384",
+          "adv_no": "1969417928054837248",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
