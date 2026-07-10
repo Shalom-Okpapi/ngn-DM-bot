@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783709456.500203,
+      "fetched_at": 1783709763.0726676,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -70,10 +70,10 @@
           "price": 1398.1,
           "merchant_name": "FLASH-PAY.\ud83d\udcca\ud83c\udfc5",
           "completion_rate": 0.97,
-          "order_count": 36,
+          "order_count": 37,
           "min_limit": 30000.0,
-          "max_limit": 100000.0,
-          "available": 311.5742,
+          "max_limit": 77745.12,
+          "available": 55.6077,
           "payment_methods": [],
           "adv_no": "2075568326732165120",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -81,21 +81,21 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783709459.394418,
+      "fetched_at": 1783709767.2205725,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "EUR",
-          "price": 0.875,
-          "merchant_name": "DiegoMRuiz1409",
-          "completion_rate": 0.98,
-          "order_count": 478,
-          "min_limit": 2.0,
-          "max_limit": 84.125,
-          "available": 96.1429,
+          "price": 0.876,
+          "merchant_name": "GEO_PAPA",
+          "completion_rate": 1.0,
+          "order_count": 2261,
+          "min_limit": 20.0,
+          "max_limit": 1000.0,
+          "available": 24624.4507,
           "payment_methods": [],
-          "adv_no": "2054884095609077760",
+          "adv_no": "1774441374821371904",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783709457.2215648,
+      "fetched_at": 1783709764.0453796,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -159,7 +159,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783709457.9429314,
+      "fetched_at": 1783709765.4506924,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -168,7 +168,7 @@
           "price": 0.939,
           "merchant_name": "Best_Twint_Exchange",
           "completion_rate": 0.996,
-          "order_count": 205,
+          "order_count": 206,
           "min_limit": 5.0,
           "max_limit": 3000.0,
           "available": 11568.01,
@@ -201,7 +201,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783709458.6637962,
+      "fetched_at": 1783709766.3014374,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783709460.4971824,
+      "fetched_at": 1783709768.0799325,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
