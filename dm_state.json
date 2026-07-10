@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783667456.6198118,
+      "fetched_at": 1783667741.755353,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -73,7 +73,7 @@
           "order_count": 177,
           "min_limit": 30000.0,
           "max_limit": 51000.0,
-          "available": 200.0,
+          "available": 98.1955,
           "payment_methods": [],
           "adv_no": "2074799385679966208",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783667460.7339678,
+      "fetched_at": 1783667745.4474776,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783667457.468674,
+      "fetched_at": 1783667742.7454474,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -125,10 +125,10 @@
           "price": 171.88,
           "merchant_name": "Haottt",
           "completion_rate": 0.996,
-          "order_count": 409,
+          "order_count": 410,
           "min_limit": 5000.0,
           "max_limit": 150000.0,
-          "available": 277.18,
+          "available": 207.31,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783667458.4523191,
+      "fetched_at": 1783667743.7384136,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -195,7 +195,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783667459.652288,
+      "fetched_at": 1783667744.5619423,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783667461.9227207,
+      "fetched_at": 1783667746.278731,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
