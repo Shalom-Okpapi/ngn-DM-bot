@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783643464.6982346,
+      "fetched_at": 1783643763.4699001,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783643467.7988167,
+      "fetched_at": 1783643768.8978782,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -90,7 +90,7 @@
           "price": 0.875,
           "merchant_name": "BMW_M5\ud83d\udc8e\ud83e\udd47",
           "completion_rate": 0.99,
-          "order_count": 948,
+          "order_count": 949,
           "min_limit": 2.0,
           "max_limit": 5500.0,
           "available": 12125.6879,
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783643465.4370022,
+      "fetched_at": 1783643765.0372996,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -153,7 +153,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783643466.2334964,
+      "fetched_at": 1783643766.1584182,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -195,7 +195,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783643467.0230243,
+      "fetched_at": 1783643767.8497515,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783643468.529639,
+      "fetched_at": 1783643769.8494272,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -249,8 +249,8 @@
           "completion_rate": 0.99,
           "order_count": 924,
           "min_limit": 2.0,
-          "max_limit": 18740.296,
-          "available": 23425.3705,
+          "max_limit": 18701.751,
+          "available": 23377.1896,
           "payment_methods": [],
           "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
