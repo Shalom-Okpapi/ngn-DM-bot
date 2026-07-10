@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783655138.757242,
+      "fetched_at": 1783655476.850407,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -73,7 +73,7 @@
           "order_count": 152,
           "min_limit": 50000.0,
           "max_limit": 2000000.0,
-          "available": 2000.0,
+          "available": 1880.0,
           "payment_methods": [],
           "adv_no": "2075343069049565184",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783655142.3540022,
+      "fetched_at": 1783655481.7811973,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783655139.670978,
+      "fetched_at": 1783655478.1899436,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783655140.4779322,
+      "fetched_at": 1783655479.3089895,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,24 +197,24 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783655141.4042675,
+      "fetched_at": 1783655480.4530025,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "GBP",
-          "price": 0.754,
-          "merchant_name": "\u6ef4\u6ef4wise-\u5feb\u901f\u4ea4\u6613fastest",
+          "price": 0.77,
+          "merchant_name": "FastEchangeTrading",
           "completion_rate": 1.0,
-          "order_count": 217,
-          "min_limit": 30.0,
-          "max_limit": 1000.0,
-          "available": 642.39,
+          "order_count": 41,
+          "min_limit": 10.0,
+          "max_limit": 5000.0,
+          "available": 109.57,
           "payment_methods": [
-            "Bank Transfer"
+            "Alipay"
           ],
-          "adv_no": "12904747158438912000",
-          "link": "https://c2c.binance.com/en/adv?code=12904747158438912000"
+          "adv_no": "12907037409809637376",
+          "link": "https://c2c.binance.com/en/adv?code=12907037409809637376"
         },
         "sell": {
           "platform": "Binance",
@@ -226,7 +226,7 @@
           "order_count": 137,
           "min_limit": 10.0,
           "max_limit": 5000.0,
-          "available": 29636.99,
+          "available": 29137.07,
           "payment_methods": [
             "Alipay"
           ],
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783655143.296933,
+      "fetched_at": 1783655482.9525685,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -260,7 +260,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 676,
+          "order_count": 677,
           "min_limit": 5.0,
           "max_limit": 20740.779,
           "available": 17283.9825,
