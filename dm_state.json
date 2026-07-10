@@ -1,5 +1,5 @@
 {
-  "last_update_id": 261520104,
+  "last_update_id": 261520106,
   "awaiting_amount": {},
   "last_request_at": {
     "5503157793": 1783626661.828241,
@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783696258.9408188,
+      "fetched_at": 1783696566.735687,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -70,7 +70,7 @@
           "price": 1393.4,
           "merchant_name": "COINS HUNTER",
           "completion_rate": 1.0,
-          "order_count": 520,
+          "order_count": 522,
           "min_limit": 50000.0,
           "max_limit": 100000.0,
           "available": 20000.0,
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783696262.0117648,
+      "fetched_at": 1783696571.7405522,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783696259.676805,
+      "fetched_at": 1783696568.2000444,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783696260.386851,
+      "fetched_at": 1783696569.3450806,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783696261.2737298,
+      "fetched_at": 1783696570.5578394,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -220,7 +220,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "GBP",
-          "price": 0.894,
+          "price": 0.895,
           "merchant_name": "billtoken",
           "completion_rate": 0.95,
           "order_count": 68,
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783696262.7329347,
+      "fetched_at": 1783696572.7932155,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
