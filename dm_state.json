@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783650653.183343,
+      "fetched_at": 1783650936.2167888,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -72,8 +72,8 @@
           "completion_rate": 0.96,
           "order_count": 9600,
           "min_limit": 40000.0,
-          "max_limit": 92046566.67,
-          "available": 66301.6399,
+          "max_limit": 90926819.14,
+          "available": 65495.0797,
           "payment_methods": [],
           "adv_no": "1942555186452398080",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783650658.4557645,
+      "fetched_at": 1783650941.595067,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783650654.462831,
+      "fetched_at": 1783650937.5698955,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783650655.625484,
+      "fetched_at": 1783650938.6220803,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783650657.2272727,
+      "fetched_at": 1783650940.129771,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -209,7 +209,7 @@
           "order_count": 215,
           "min_limit": 30.0,
           "max_limit": 1000.0,
-          "available": 270.22,
+          "available": 137.6,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783650659.6542978,
+      "fetched_at": 1783650942.8167267,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -260,7 +260,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 671,
+          "order_count": 672,
           "min_limit": 5.0,
           "max_limit": 20740.779,
           "available": 17283.9825,
