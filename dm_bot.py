@@ -221,17 +221,19 @@ def _looks_like_chat_id(text: str) -> bool:
 
 # ---------- Telegram I/O ----------
 
-def send_message(chat_id, text: str, parse_mode="Markdown") -> bool:
-    if chat_id == settings.DM_ADMIN_CHAT_ID:
-        parse_mode = None   # Disable Markdown for admin messages to avoid parsing bugs
-    # ... rest of function
+def send_message(chat_id, text: str) -> bool:
+    parse_mode = None
+    if chat_id != settings.DM_ADMIN_CHAT_ID:
+        parse_mode = "Markdown"   # Only use Markdown for regular users
+
     try:
         resp = requests.post(f"{API_BASE}/sendMessage", json={
             "chat_id": chat_id,
             "text": text,
-            "parse_mode": "Markdown",
+            "parse_mode": parse_mode,
             "disable_web_page_preview": True,
         }, timeout=15)
+        # ... rest of your existing error handling stays the same
         if resp.status_code == 403:
             log.info("Chat %s has blocked the bot or is unreachable — skipping.", chat_id)
             return False
