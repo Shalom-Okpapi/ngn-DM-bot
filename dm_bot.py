@@ -46,7 +46,7 @@ _BREAKING_CHARS = ("_", "*", "`", "[", "]")
 
 if settings.DM_ADMIN_CHAT_ID:
         log.info("Admin notifications enabled for chat_id: %s", settings.DM_ADMIN_CHAT_ID)
-    else:
+else:
         log.warning("DM_ADMIN_CHAT_ID is not set — new user notifications disabled!")
 
 def _sanitize(text: str) -> str:
