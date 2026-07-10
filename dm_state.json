@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783655476.850407,
+      "fetched_at": 1783655736.9454126,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783655481.7811973,
+      "fetched_at": 1783655741.193095,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783655478.1899436,
+      "fetched_at": 1783655737.9270353,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783655479.3089895,
+      "fetched_at": 1783655738.917738,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783655480.4530025,
+      "fetched_at": 1783655740.2066827,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -223,7 +223,7 @@
           "price": 0.728,
           "merchant_name": "ezswap2025",
           "completion_rate": 0.959,
-          "order_count": 137,
+          "order_count": 138,
           "min_limit": 10.0,
           "max_limit": 5000.0,
           "available": 29137.07,
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783655482.9525685,
+      "fetched_at": 1783655742.043758,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
