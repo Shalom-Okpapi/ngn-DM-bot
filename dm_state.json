@@ -46,7 +46,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783698679.0064788,
+      "fetched_at": 1783698964.4039488,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -70,7 +70,7 @@
           "price": 1393.2,
           "merchant_name": "SHARPERPAY\u2668\ufe0f\u26a1\ufe0f\ud83d\udc4c",
           "completion_rate": 0.97,
-          "order_count": 424,
+          "order_count": 425,
           "min_limit": 45000.0,
           "max_limit": 72000.0,
           "available": 391.1066,
@@ -81,7 +81,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783698688.8918614,
+      "fetched_at": 1783698968.9417577,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -116,7 +116,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783698681.5545805,
+      "fetched_at": 1783698965.546161,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -155,7 +155,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783698683.8534708,
+      "fetched_at": 1783698966.6610725,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,7 +197,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783698686.1422722,
+      "fetched_at": 1783698967.8290977,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783698690.916756,
+      "fetched_at": 1783698970.0878744,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
