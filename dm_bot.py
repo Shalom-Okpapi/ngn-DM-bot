@@ -44,6 +44,11 @@ API_BASE = f"https://api.telegram.org/bot{settings.DM_BOT_TOKEN}"
 _BREAKING_CHARS = ("_", "*", "`", "[", "]")
 
 
+if settings.DM_ADMIN_CHAT_ID:
+        log.info("Admin notifications enabled for chat_id: %s", settings.DM_ADMIN_CHAT_ID)
+    else:
+        log.warning("DM_ADMIN_CHAT_ID is not set — new user notifications disabled!")
+
 def _sanitize(text: str) -> str:
     """Strip characters that break Telegram's Markdown parser."""
     if not text:
