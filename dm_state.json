@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783762262.0044405,
+      "fetched_at": 1783762564.663917,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1393.7,
           "merchant_name": "Zeera-Pay",
           "completion_rate": 0.97,
-          "order_count": 416,
+          "order_count": 417,
           "min_limit": 30000.0,
           "max_limit": 100000.0,
           "available": 3788.6315,
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783762265.1539621,
+      "fetched_at": 1783762569.171359,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783762262.8466094,
+      "fetched_at": 1783762566.1243792,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783762263.644075,
+      "fetched_at": 1783762567.254141,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -168,7 +168,7 @@
           "order_count": 211,
           "min_limit": 5.0,
           "max_limit": 3000.0,
-          "available": 10747.1,
+          "available": 10214.62,
           "payment_methods": [
             "Instant Transfer",
             "Bank Transfer",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783762264.4252565,
+      "fetched_at": 1783762568.3861084,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783762265.91385,
+      "fetched_at": 1783762570.3376985,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
