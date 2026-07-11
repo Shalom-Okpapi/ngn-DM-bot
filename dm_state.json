@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783757763.0821164,
+      "fetched_at": 1783758053.1805434,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,7 +68,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1394.1,
+          "price": 1394.3,
           "merchant_name": "Daiber002",
           "completion_rate": 0.96,
           "order_count": 105,
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783757767.4191308,
+      "fetched_at": 1783758058.322711,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783757764.37122,
+      "fetched_at": 1783758054.7187684,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783757765.427942,
+      "fetched_at": 1783758056.2607636,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,19 +198,19 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783757766.4673264,
+      "fetched_at": 1783758057.3204844,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "GBP",
-          "price": 0.757,
+          "price": 0.756,
           "merchant_name": "\u6ef4\u6ef4wise-\u5feb\u901f\u4ea4\u6613fastest",
           "completion_rate": 1.0,
           "order_count": 219,
           "min_limit": 30.0,
           "max_limit": 1000.0,
-          "available": 800.0,
+          "available": 370.11,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783757768.5635734,
+      "fetched_at": 1783758059.423571,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
