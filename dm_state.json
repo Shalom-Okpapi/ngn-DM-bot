@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783737938.3360085,
+      "fetched_at": 1783738250.531259,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783737942.9514704,
+      "fetched_at": 1783738254.9039695,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,24 +117,24 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783737939.543036,
+      "fetched_at": 1783738251.6209018,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "JPY",
-          "price": 171.88,
-          "merchant_name": "Haottt",
+          "price": 170.89,
+          "merchant_name": "llbbp",
           "completion_rate": 0.996,
-          "order_count": 418,
-          "min_limit": 5000.0,
+          "order_count": 818,
+          "min_limit": 1500.0,
           "max_limit": 150000.0,
-          "available": 512.72,
+          "available": 631.21,
           "payment_methods": [
             "Bank Transfer"
           ],
-          "adv_no": "12908703033825841152",
-          "link": "https://c2c.binance.com/en/adv?code=12908703033825841152"
+          "adv_no": "12909090222422794240",
+          "link": "https://c2c.binance.com/en/adv?code=12909090222422794240"
         },
         "sell": {
           "platform": "Binance",
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783737940.6725345,
+      "fetched_at": 1783738252.6833417,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783737941.77203,
+      "fetched_at": 1783738253.7392228,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783737943.9910023,
+      "fetched_at": 1783738255.9751341,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
