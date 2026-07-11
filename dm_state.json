@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783741879.6142073,
+      "fetched_at": 1783742137.9066117,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,21 +68,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1387.0,
-          "merchant_name": "Abba Umar",
-          "completion_rate": 0.97,
-          "order_count": 183,
-          "min_limit": 50000.0,
-          "max_limit": 100000.0,
-          "available": 324.995,
+          "price": 1386.29,
+          "merchant_name": "GOODRATE",
+          "completion_rate": 1.0,
+          "order_count": 5092,
+          "min_limit": 40000.0,
+          "max_limit": 30719625.36,
+          "available": 22159.5953,
           "payment_methods": [],
-          "adv_no": "2074995803441987584",
+          "adv_no": "1841149104759021568",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783741883.6417568,
+      "fetched_at": 1783742140.8055923,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783741880.8387809,
+      "fetched_at": 1783742138.604518,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783741882.1111813,
+      "fetched_at": 1783742139.3734229,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783741882.9273736,
+      "fetched_at": 1783742140.076229,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783741884.5102131,
+      "fetched_at": 1783742141.5354276,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
