@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783792997.6860783,
+      "fetched_at": 1783793513.7205417,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -74,7 +74,7 @@
           "order_count": 340,
           "min_limit": 4500.0,
           "max_limit": 205000.0,
-          "available": 1654.97,
+          "available": 1619.0249,
           "payment_methods": [],
           "adv_no": "1962064964685570048",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783793002.6278071,
+      "fetched_at": 1783793518.1606474,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783792999.2188418,
+      "fetched_at": 1783793514.617026,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783793000.341687,
+      "fetched_at": 1783793515.7188435,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -184,11 +184,11 @@
           "fiat": "CHF",
           "price": 0.828,
           "merchant_name": "dejuredefacto",
-          "completion_rate": 0.959,
-          "order_count": 70,
+          "completion_rate": 0.96,
+          "order_count": 71,
           "min_limit": 50.0,
           "max_limit": 200.0,
-          "available": 241.55,
+          "available": 181.17,
           "payment_methods": [
             "Twint"
           ],
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783793001.4291406,
+      "fetched_at": 1783793517.046003,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783793003.740239,
+      "fetched_at": 1783793519.232186,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -259,7 +259,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 708,
+          "order_count": 709,
           "min_limit": 5.0,
           "max_limit": 20721.748,
           "available": 17268.1236,
