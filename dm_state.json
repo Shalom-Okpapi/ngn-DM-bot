@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783777253.4385543,
+      "fetched_at": 1783777537.7753727,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783777256.991576,
+      "fetched_at": 1783777542.2624276,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783777254.4072902,
+      "fetched_at": 1783777538.7661722,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -141,7 +141,7 @@
           "price": 162.33,
           "merchant_name": "PK_CRYPTO_PRO2026",
           "completion_rate": 0.984,
-          "order_count": 292,
+          "order_count": 293,
           "min_limit": 500.0,
           "max_limit": 100000.0,
           "available": 89.29,
@@ -154,7 +154,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783777255.2678788,
+      "fetched_at": 1783777539.835056,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -196,7 +196,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783777256.1385944,
+      "fetched_at": 1783777540.8097823,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -233,7 +233,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783777257.9277155,
+      "fetched_at": 1783777543.2105591,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
