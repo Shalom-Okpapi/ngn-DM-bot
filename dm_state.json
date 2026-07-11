@@ -1,8 +1,8 @@
 {
-  "last_update_id": 261520207,
+  "last_update_id": 261520215,
   "awaiting_amount": {},
   "last_request_at": {
-    "5503157793": 1783626661.828241,
+    "5503157793": 1783798721.386948,
     "8617443875": 1783371828.391422,
     "6671003365": 1783444699.2751603,
     "6458834875": 1783497978.5755217,
@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783796844.6620445,
+      "fetched_at": 1783798665.2726595,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,13 +68,13 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1398.0,
+          "price": 1401.0,
           "merchant_name": "PATEEMAR\u2604\ufe0f\ud83d\udca5",
-          "completion_rate": 1.0,
-          "order_count": 27,
+          "completion_rate": 0.96,
+          "order_count": 29,
           "min_limit": 30000.0,
           "max_limit": 120000.0,
-          "available": 351.3591,
+          "available": 262.1373,
           "payment_methods": [],
           "adv_no": "2075629083481960448",
           "link": "https://www.bybit.com/fiat/trade/otc"
