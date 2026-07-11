@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783786881.79356,
+      "fetched_at": 1783787137.8506184,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -74,7 +74,7 @@
           "order_count": 447,
           "min_limit": 45000.0,
           "max_limit": 72000.0,
-          "available": 257.8072,
+          "available": 222.937,
           "payment_methods": [],
           "adv_no": "2075580760664166400",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783786886.2576773,
+      "fetched_at": 1783787142.8274686,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,10 +91,10 @@
           "price": 0.876,
           "merchant_name": "GEO_PAPA",
           "completion_rate": 1.0,
-          "order_count": 2286,
+          "order_count": 2289,
           "min_limit": 20.0,
           "max_limit": 1000.0,
-          "available": 22027.3524,
+          "available": 21970.7212,
           "payment_methods": [],
           "adv_no": "1774441374821371904",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783786882.8406668,
+      "fetched_at": 1783787139.0393906,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -154,7 +154,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783786884.042431,
+      "fetched_at": 1783787140.244367,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -193,7 +193,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783786885.2067866,
+      "fetched_at": 1783787141.4955738,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -230,7 +230,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783786887.3020382,
+      "fetched_at": 1783787143.9342542,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -254,7 +254,7 @@
           "price": 1.2,
           "merchant_name": "\ud835\udd3b\ud835\udd60\ud835\udd5f\ud835\udd56_\ud835\udd4f\ud835\udd54\ud835\udd59\ud835\udd52\ud835\udd5f\ud835\udd58\ud835\udd56\ud83c\udf1f",
           "completion_rate": 1.0,
-          "order_count": 717,
+          "order_count": 718,
           "min_limit": 10.0,
           "max_limit": 20516.553,
           "available": 17097.1277,
