@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783791360.9496505,
+      "fetched_at": 1783791881.3633435,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,21 +82,21 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783791365.5252404,
+      "fetched_at": 1783791887.6439862,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "EUR",
           "price": 0.876,
-          "merchant_name": "GEO_PAPA",
-          "completion_rate": 1.0,
-          "order_count": 2301,
-          "min_limit": 20.0,
-          "max_limit": 1000.0,
-          "available": 21489.9726,
+          "merchant_name": "MohamedMos",
+          "completion_rate": 0.99,
+          "order_count": 271,
+          "min_limit": 2.0,
+          "max_limit": 100.0,
+          "available": 397.7915,
           "payment_methods": [],
-          "adv_no": "1774441374821371904",
+          "adv_no": "2075668183902441472",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783791362.166791,
+      "fetched_at": 1783791883.2695863,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783791363.0716095,
+      "fetched_at": 1783791884.6262803,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783791364.3296978,
+      "fetched_at": 1783791886.2972367,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783791366.5893376,
+      "fetched_at": 1783791889.0426433,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
