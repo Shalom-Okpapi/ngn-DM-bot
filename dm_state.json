@@ -1,5 +1,5 @@
 {
-  "last_update_id": 261520174,
+  "last_update_id": 261520175,
   "awaiting_amount": {},
   "last_request_at": {
     "5503157793": 1783626661.828241,
@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783759961.730733,
+      "fetched_at": 1783760524.8225293,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -64,11 +64,25 @@
           "adv_no": "2067732602720227328",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
-        "sell": null
+        "sell": {
+          "platform": "Bybit",
+          "trade_type": "SELL",
+          "fiat": "NGN",
+          "price": 1395.05,
+          "merchant_name": "Daiber002",
+          "completion_rate": 0.96,
+          "order_count": 105,
+          "min_limit": 30000.0,
+          "max_limit": 50000.0,
+          "available": 238.3077,
+          "payment_methods": [],
+          "adv_no": "2075674031971643392",
+          "link": "https://www.bybit.com/fiat/trade/otc"
+        }
       }
     },
     "EUR": {
-      "fetched_at": 1783759965.9280019,
+      "fetched_at": 1783760529.4227827,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -103,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783759962.7842774,
+      "fetched_at": 1783760525.9947445,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -142,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783759963.8846233,
+      "fetched_at": 1783760527.099295,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -151,10 +165,10 @@
           "price": 0.939,
           "merchant_name": "Best_Twint_Exchange",
           "completion_rate": 0.996,
-          "order_count": 210,
+          "order_count": 211,
           "min_limit": 5.0,
           "max_limit": 3000.0,
-          "available": 10661.91,
+          "available": 10741.78,
           "payment_methods": [
             "Instant Transfer",
             "Bank Transfer",
@@ -184,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783759964.9585576,
+      "fetched_at": 1783760528.3545973,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -221,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783759966.9795444,
+      "fetched_at": 1783760530.6223001,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -230,7 +244,7 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 929,
+          "order_count": 930,
           "min_limit": 2.0,
           "max_limit": 19996.675,
           "available": 24995.8438,
@@ -245,10 +259,10 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 695,
+          "order_count": 696,
           "min_limit": 5.0,
-          "max_limit": 20728.779,
-          "available": 17273.9825,
+          "max_limit": 20721.748,
+          "available": 17268.1236,
           "payment_methods": [],
           "adv_no": "1924026696129343488",
           "link": "https://www.bybit.com/fiat/trade/otc"
