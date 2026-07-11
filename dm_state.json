@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783760524.8225293,
+      "fetched_at": 1783761050.2150545,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -74,7 +74,7 @@
           "order_count": 105,
           "min_limit": 30000.0,
           "max_limit": 50000.0,
-          "available": 238.3077,
+          "available": 206.5677,
           "payment_methods": [],
           "adv_no": "2075674031971643392",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783760529.4227827,
+      "fetched_at": 1783761054.4728365,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,7 +91,7 @@
           "price": 0.875,
           "merchant_name": "Player123",
           "completion_rate": 1.0,
-          "order_count": 75,
+          "order_count": 76,
           "min_limit": 50.0,
           "max_limit": 100.0,
           "available": 115.0,
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783760525.9947445,
+      "fetched_at": 1783761051.3674924,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -143,10 +143,10 @@
           "price": 162.2,
           "merchant_name": "Dracula_99",
           "completion_rate": 0.975,
-          "order_count": 77,
+          "order_count": 78,
           "min_limit": 5000.0,
           "max_limit": 100000.0,
-          "available": 9633.31,
+          "available": 9576.31,
           "payment_methods": [
             "PayPay Money"
           ],
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783760527.099295,
+      "fetched_at": 1783761052.3627608,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783760528.3545973,
+      "fetched_at": 1783761053.3858073,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783760530.6223001,
+      "fetched_at": 1783761055.4470034,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
