@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783747858.8222494,
+      "fetched_at": 1783748163.1844242,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783747864.1741452,
+      "fetched_at": 1783748167.8472416,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783747860.4703357,
+      "fetched_at": 1783748164.3997848,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783747861.5971,
+      "fetched_at": 1783748165.5271769,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783747863.110288,
+      "fetched_at": 1783748166.6790385,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783747865.2916698,
+      "fetched_at": 1783748169.092543,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -246,7 +246,7 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 925,
+          "order_count": 926,
           "min_limit": 2.0,
           "max_limit": 19996.675,
           "available": 24995.8438,
