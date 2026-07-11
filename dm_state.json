@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783776052.9587896,
+      "fetched_at": 1783776336.125415,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,21 +68,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1396.01,
-          "merchant_name": "Zeera-Pay",
-          "completion_rate": 0.97,
-          "order_count": 430,
+          "price": 1395.8,
+          "merchant_name": "Daiber002",
+          "completion_rate": 0.96,
+          "order_count": 116,
           "min_limit": 30000.0,
-          "max_limit": 100000.0,
-          "available": 3288.3872,
+          "max_limit": 50000.0,
+          "available": 248.2816,
           "payment_methods": [],
-          "adv_no": "2075549499896745984",
+          "adv_no": "2075674031971643392",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783776056.259931,
+      "fetched_at": 1783776340.216473,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783776053.6739016,
+      "fetched_at": 1783776337.473089,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -154,7 +154,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783776054.480315,
+      "fetched_at": 1783776338.480181,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -196,7 +196,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783776055.2124915,
+      "fetched_at": 1783776339.3412185,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -233,7 +233,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783776056.9813788,
+      "fetched_at": 1783776341.0870714,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -242,7 +242,7 @@
           "price": 0.8,
           "merchant_name": "DagestanDentist",
           "completion_rate": 1.0,
-          "order_count": 189,
+          "order_count": 190,
           "min_limit": 50.0,
           "max_limit": 1853.2,
           "available": 2316.5,
