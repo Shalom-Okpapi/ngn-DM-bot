@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783751739.5095444,
+      "fetched_at": 1783752306.0899527,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,21 +68,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1391.0,
-          "merchant_name": "Zeera-Pay",
-          "completion_rate": 0.97,
-          "order_count": 414,
+          "price": 1391.7,
+          "merchant_name": "MACGERRY",
+          "completion_rate": 0.95,
+          "order_count": 83,
           "min_limit": 30000.0,
-          "max_limit": 100000.0,
-          "available": 3824.5072,
+          "max_limit": 60000.0,
+          "available": 195.0,
           "payment_methods": [],
-          "adv_no": "2075549499896745984",
+          "adv_no": "2075560952908337152",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783751744.5974028,
+      "fetched_at": 1783752309.4752932,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783751740.5437307,
+      "fetched_at": 1783752306.924518,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783751741.6396222,
+      "fetched_at": 1783752307.7493749,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -196,7 +196,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783751743.185889,
+      "fetched_at": 1783752308.6051388,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783751745.6295114,
+      "fetched_at": 1783752310.3485773,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
