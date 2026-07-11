@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783744485.7111003,
+      "fetched_at": 1783745027.9063845,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,21 +68,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1391.5,
-          "merchant_name": "FASTONE",
-          "completion_rate": 0.96,
-          "order_count": 78,
-          "min_limit": 40000.0,
-          "max_limit": 80000.0,
-          "available": 300.0,
+          "price": 1391.0,
+          "merchant_name": "Zeera-Pay",
+          "completion_rate": 0.98,
+          "order_count": 409,
+          "min_limit": 30000.0,
+          "max_limit": 100000.0,
+          "available": 3947.8715,
           "payment_methods": [],
-          "adv_no": "2067902383243005952",
+          "adv_no": "2075549499896745984",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783744490.3795257,
+      "fetched_at": 1783745031.599426,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783744486.818656,
+      "fetched_at": 1783745028.981346,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783744487.9755037,
+      "fetched_at": 1783745029.8960016,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783744489.040532,
+      "fetched_at": 1783745030.7367113,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783744491.608865,
+      "fetched_at": 1783745032.5068328,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
