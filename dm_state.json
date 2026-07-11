@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783747539.270506,
+      "fetched_at": 1783747858.8222494,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,21 +68,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1396.0,
-          "merchant_name": "AbduljalilFx",
-          "completion_rate": 0.95,
-          "order_count": 213,
-          "min_limit": 40000.0,
-          "max_limit": 60000.0,
-          "available": 50.0,
+          "price": 1390.0,
+          "merchant_name": "Zeera-Pay",
+          "completion_rate": 0.97,
+          "order_count": 413,
+          "min_limit": 30000.0,
+          "max_limit": 100000.0,
+          "available": 3889.9996,
           "payment_methods": [],
-          "adv_no": "2066121793318821888",
+          "adv_no": "2075549499896745984",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783747544.4974935,
+      "fetched_at": 1783747864.1741452,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783747540.4248755,
+      "fetched_at": 1783747860.4703357,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783747541.8578353,
+      "fetched_at": 1783747861.5971,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783747542.9848874,
+      "fetched_at": 1783747863.110288,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783747545.519673,
+      "fetched_at": 1783747865.2916698,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
