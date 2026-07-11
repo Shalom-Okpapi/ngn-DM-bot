@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783753396.5933683,
+      "fetched_at": 1783753936.997156,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,21 +68,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1392.5,
-          "merchant_name": "FASTONE",
-          "completion_rate": 0.96,
-          "order_count": 78,
-          "min_limit": 40000.0,
-          "max_limit": 80000.0,
-          "available": 300.0,
+          "price": 1394.0,
+          "merchant_name": "FLASH-PAY.\ud83d\udcca\ud83c\udfc5",
+          "completion_rate": 0.98,
+          "order_count": 53,
+          "min_limit": 30000.0,
+          "max_limit": 100000.0,
+          "available": 264.2451,
           "payment_methods": [],
-          "adv_no": "2067902383243005952",
+          "adv_no": "2075568326732165120",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783753402.3057692,
+      "fetched_at": 1783753941.8636742,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,7 +91,7 @@
           "price": 0.876,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 10935,
+          "order_count": 10936,
           "min_limit": 50.0,
           "max_limit": 300.0,
           "available": 49900.0,
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783753398.2201629,
+      "fetched_at": 1783753938.179988,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783753399.467781,
+      "fetched_at": 1783753938.9493606,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -196,7 +196,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783753401.236848,
+      "fetched_at": 1783753940.0807414,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -233,7 +233,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783753403.3546994,
+      "fetched_at": 1783753942.7906098,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -257,7 +257,7 @@
           "price": 1.2,
           "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 117,
+          "order_count": 118,
           "min_limit": 10.0,
           "max_limit": 50000.0,
           "available": 42389.0267,
