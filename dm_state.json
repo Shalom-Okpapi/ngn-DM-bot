@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783774883.3571842,
+      "fetched_at": 1783775161.375776,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783774886.8584142,
+      "fetched_at": 1783775166.0058227,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,7 +91,7 @@
           "price": 0.877,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 10989,
+          "order_count": 10990,
           "min_limit": 35.0,
           "max_limit": 38056.318,
           "available": 43393.7495,
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783774884.1839056,
+      "fetched_at": 1783775162.5002298,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -128,8 +128,8 @@
           "completion_rate": 1.0,
           "order_count": 128,
           "min_limit": 3000.0,
-          "max_limit": 258089.47,
-          "available": 1500.5202,
+          "max_limit": 249089.48,
+          "available": 1448.1947,
           "payment_methods": [],
           "adv_no": "1568966526221668352",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -144,7 +144,7 @@
           "order_count": 291,
           "min_limit": 500.0,
           "max_limit": 100000.0,
-          "available": 78.78,
+          "available": 95.0,
           "payment_methods": [
             "PayPay Money"
           ],
@@ -154,7 +154,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783774885.166843,
+      "fetched_at": 1783775163.5670726,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -196,7 +196,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783774885.9977431,
+      "fetched_at": 1783775164.7521448,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -233,7 +233,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783774887.6921089,
+      "fetched_at": 1783775167.2541165,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -257,7 +257,7 @@
           "price": 1.2,
           "merchant_name": "\ud835\udd3b\ud835\udd60\ud835\udd5f\ud835\udd56_\ud835\udd4f\ud835\udd54\ud835\udd59\ud835\udd52\ud835\udd5f\ud835\udd58\ud835\udd56\ud83c\udf1f",
           "completion_rate": 1.0,
-          "order_count": 716,
+          "order_count": 717,
           "min_limit": 10.0,
           "max_limit": 20537.753,
           "available": 17114.7943,
