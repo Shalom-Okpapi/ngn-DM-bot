@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783761050.2150545,
+      "fetched_at": 1783761365.7940934,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,21 +68,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1395.05,
-          "merchant_name": "Daiber002",
-          "completion_rate": 0.96,
-          "order_count": 105,
+          "price": 1393.0,
+          "merchant_name": "StraitOfHurmoz\u2694\ufe0f",
+          "completion_rate": 0.97,
+          "order_count": 231,
           "min_limit": 30000.0,
-          "max_limit": 50000.0,
-          "available": 206.5677,
+          "max_limit": 56000.0,
+          "available": 50.0,
           "payment_methods": [],
-          "adv_no": "2075674031971643392",
+          "adv_no": "2069892723853324289",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783761054.4728365,
+      "fetched_at": 1783761370.1087923,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783761051.3674924,
+      "fetched_at": 1783761366.8752382,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783761052.3627608,
+      "fetched_at": 1783761368.0333376,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -168,7 +168,7 @@
           "order_count": 211,
           "min_limit": 5.0,
           "max_limit": 3000.0,
-          "available": 10741.78,
+          "available": 10747.1,
           "payment_methods": [
             "Instant Transfer",
             "Bank Transfer",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783761053.3858073,
+      "fetched_at": 1783761369.1164494,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783761055.4470034,
+      "fetched_at": 1783761371.1608458,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -244,7 +244,7 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 930,
+          "order_count": 931,
           "min_limit": 2.0,
           "max_limit": 19996.675,
           "available": 24995.8438,
