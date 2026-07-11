@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783775451.983735,
+      "fetched_at": 1783775765.5477724,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,21 +68,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1398.0,
-          "merchant_name": "ABDUL~-~AZIZ\u260e\ufe0f\ud83d\udd25",
-          "completion_rate": 1.0,
-          "order_count": 150,
-          "min_limit": 10000.0,
-          "max_limit": 52000.0,
-          "available": 39.199,
+          "price": 1396.01,
+          "merchant_name": "Zeera-Pay",
+          "completion_rate": 0.97,
+          "order_count": 426,
+          "min_limit": 30000.0,
+          "max_limit": 100000.0,
+          "available": 3410.0911,
           "payment_methods": [],
-          "adv_no": "2075912980293529600",
+          "adv_no": "2075549499896745984",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783775456.5505188,
+      "fetched_at": 1783775769.168677,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,7 +91,7 @@
           "price": 0.877,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 10992,
+          "order_count": 10993,
           "min_limit": 35.0,
           "max_limit": 38056.318,
           "available": 43393.7495,
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783775453.24501,
+      "fetched_at": 1783775766.6761646,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -154,13 +154,13 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783775454.4908557,
+      "fetched_at": 1783775767.699116,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "CHF",
-          "price": 0.934,
+          "price": 0.936,
           "merchant_name": "dejuredefacto",
           "completion_rate": 0.958,
           "order_count": 67,
@@ -196,7 +196,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783775455.5584378,
+      "fetched_at": 1783775768.4316332,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -233,7 +233,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783775457.71356,
+      "fetched_at": 1783775770.2286992,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
