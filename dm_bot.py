@@ -72,8 +72,8 @@ def _format_money(fiat: str, value: float) -> str:
 def _command_list_text(is_admin: bool = False) -> str:
     admin_block = (
         "\n\nAdmin commands:\n"
-        "• /authorize <chat_id> — grant access (or just /authorize, and I'll ask for the id)\n"
-        "• /revoke <chat_id> — remove access (same — /revoke alone works too)\n"
+        "• /authorize <chat ID> — grant access (or just /authorize, and I'll ask for the id)\n"
+        "• /revoke <chat ID> — remove access (same — /revoke alone works too)\n"
         "• /pending — see who's inquired but isn't authorized yet\n"
         "• /users — see everyone currently authorized"
     ) if is_admin else ""
@@ -117,7 +117,7 @@ def _build_paywall_text(name: str) -> str:
         f"{_command_list_text(is_admin=False)}\n\n"
         "This is a paid tool: *$9.99/month*, paid in USDT (TRC20 network) to:\n"
         "`TAFHrQuCunTab2iK6vqfneKMLhJ3y4DmCD`\n\n"
-        "Once you've sent it, message `@Opps_io` directly to confirm — you'll "
+        "Once you've sent it, message @Opps\\_io directly to confirm — you'll "
         "be activated within minutes."
     )
 
@@ -308,7 +308,7 @@ def notify_admin_new_inquiry(state: dict, chat_key: str, display_name: str, sour
         return False
     source_line = f"\nCame from: {_sanitize(source)}" if source else ""
     success = _send_to_admin(state,
-        f"💰 New inquiry: {_sanitize(display_name)} (chat_id {chat_key}){source_line}\n"
+        f"💰 New inquiry: {_sanitize(display_name)} (chat ID {chat_key}){source_line}\n"
         f"Once they've paid: /authorize {chat_key}")
     if success:
         log.info("Notified admin about new inquiry from %s", chat_key)
