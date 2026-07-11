@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783792428.9752796,
+      "fetched_at": 1783792997.6860783,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,21 +68,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1390.0,
-          "merchant_name": "legitfast_pay\ud83d\udcaf\ud83d\udcaf",
-          "completion_rate": 0.96,
-          "order_count": 55,
-          "min_limit": 30000.0,
-          "max_limit": 70000.0,
-          "available": 20000.0,
+          "price": 1391.01,
+          "merchant_name": "NjeeFastPay",
+          "completion_rate": 0.95,
+          "order_count": 340,
+          "min_limit": 4500.0,
+          "max_limit": 205000.0,
+          "available": 1654.97,
           "payment_methods": [],
-          "adv_no": "2070825679420887040",
+          "adv_no": "1962064964685570048",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783792432.801918,
+      "fetched_at": 1783793002.6278071,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,10 +91,10 @@
           "price": 0.876,
           "merchant_name": "MohamedMos",
           "completion_rate": 0.99,
-          "order_count": 272,
+          "order_count": 273,
           "min_limit": 2.0,
           "max_limit": 100.0,
-          "available": 397.7915,
+          "available": 395.4171,
           "payment_methods": [],
           "adv_no": "2075668183902441472",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783792429.9305127,
+      "fetched_at": 1783792999.2188418,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783792430.914652,
+      "fetched_at": 1783793000.341687,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -185,7 +185,7 @@
           "price": 0.828,
           "merchant_name": "dejuredefacto",
           "completion_rate": 0.959,
-          "order_count": 69,
+          "order_count": 70,
           "min_limit": 50.0,
           "max_limit": 200.0,
           "available": 241.55,
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783792431.8119817,
+      "fetched_at": 1783793001.4291406,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -210,7 +210,7 @@
           "order_count": 93,
           "min_limit": 10.0,
           "max_limit": 1000.0,
-          "available": 400.36,
+          "available": 305.77,
           "payment_methods": [
             "Alipay"
           ],
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783792433.655694,
+      "fetched_at": 1783793003.740239,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
