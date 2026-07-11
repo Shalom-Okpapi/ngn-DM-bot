@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783796275.3662348,
+      "fetched_at": 1783796844.6620445,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,21 +68,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1394.0,
-          "merchant_name": "Chibson",
-          "completion_rate": 0.97,
-          "order_count": 137,
+          "price": 1398.0,
+          "merchant_name": "PATEEMAR\u2604\ufe0f\ud83d\udca5",
+          "completion_rate": 1.0,
+          "order_count": 27,
           "min_limit": 30000.0,
-          "max_limit": 51000.0,
-          "available": 233.578,
+          "max_limit": 120000.0,
+          "available": 351.3591,
           "payment_methods": [],
-          "adv_no": "2072879155975168000",
+          "adv_no": "2075629083481960448",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783796278.64931,
+      "fetched_at": 1783796850.4429126,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -104,20 +104,20 @@
           "trade_type": "SELL",
           "fiat": "EUR",
           "price": 1.051,
-          "merchant_name": "Latif_43",
+          "merchant_name": "tess223",
           "completion_rate": 1.0,
-          "order_count": 23,
+          "order_count": 22,
           "min_limit": 50.0,
-          "max_limit": 300.0,
-          "available": 20000.0,
+          "max_limit": 250.0,
+          "available": 19815.2,
           "payment_methods": [],
-          "adv_no": "2067861138340962304",
+          "adv_no": "2072287967043039232",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "JPY": {
-      "fetched_at": 1783796276.1414247,
+      "fetched_at": 1783796846.3351018,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783796276.9475615,
+      "fetched_at": 1783796847.4654446,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783796277.8451054,
+      "fetched_at": 1783796848.742885,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -210,7 +210,7 @@
           "order_count": 93,
           "min_limit": 10.0,
           "max_limit": 1000.0,
-          "available": 413.87,
+          "available": 313.79,
           "payment_methods": [
             "Alipay"
           ],
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783796279.8107712,
+      "fetched_at": 1783796851.7799122,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -259,7 +259,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 710,
+          "order_count": 709,
           "min_limit": 5.0,
           "max_limit": 20721.748,
           "available": 17268.1236,
@@ -271,5 +271,6 @@
     }
   },
   "consecutive_poll_failures": 0,
-  "awaiting_admin_action": {}
+  "awaiting_admin_action": {},
+  "last_admin_notify_failure": null
 }
