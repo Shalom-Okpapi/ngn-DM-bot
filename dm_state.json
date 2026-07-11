@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783740652.7648091,
+      "fetched_at": 1783740935.4491773,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783740657.0385895,
+      "fetched_at": 1783740939.8325756,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,7 +91,7 @@
           "price": 0.877,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 10922,
+          "order_count": 10923,
           "min_limit": 35.0,
           "max_limit": 41113.434,
           "available": 46879.6286,
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783740653.9145138,
+      "fetched_at": 1783740936.623863,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -146,7 +146,7 @@
           "order_count": 285,
           "min_limit": 500.0,
           "max_limit": 100000.0,
-          "available": 161.61,
+          "available": 179.0,
           "payment_methods": [
             "PayPay Money"
           ],
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783740654.856311,
+      "fetched_at": 1783740937.640296,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783740655.9808319,
+      "fetched_at": 1783740938.751513,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783740658.0001035,
+      "fetched_at": 1783740940.784324,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
