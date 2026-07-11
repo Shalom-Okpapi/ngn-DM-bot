@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783770407.2511659,
+      "fetched_at": 1783770953.5632386,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -64,25 +64,11 @@
           "adv_no": "2067732602720227328",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
-        "sell": {
-          "platform": "Bybit",
-          "trade_type": "SELL",
-          "fiat": "NGN",
-          "price": 1394.1,
-          "merchant_name": "FASTFundz",
-          "completion_rate": 0.95,
-          "order_count": 267,
-          "min_limit": 36980.0,
-          "max_limit": 69980.0,
-          "available": 229.1566,
-          "payment_methods": [],
-          "adv_no": "2075888652548583424",
-          "link": "https://www.bybit.com/fiat/trade/otc"
-        }
+        "sell": null
       }
     },
     "EUR": {
-      "fetched_at": 1783770411.9005282,
+      "fetched_at": 1783770957.0769854,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,10 +77,10 @@
           "price": 0.876,
           "merchant_name": "COINBroker",
           "completion_rate": 0.99,
-          "order_count": 2470,
+          "order_count": 2473,
           "min_limit": 2.0,
           "max_limit": 1000.0,
-          "available": 4810.1949,
+          "available": 4906.5206,
           "payment_methods": [],
           "adv_no": "1720101299226619904",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -117,7 +103,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783770408.4224439,
+      "fetched_at": 1783770954.4087677,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -140,8 +126,8 @@
           "fiat": "JPY",
           "price": 162.33,
           "merchant_name": "PK_CRYPTO_PRO2026",
-          "completion_rate": 0.983,
-          "order_count": 289,
+          "completion_rate": 0.984,
+          "order_count": 290,
           "min_limit": 500.0,
           "max_limit": 100000.0,
           "available": 78.78,
@@ -154,7 +140,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783770409.4646523,
+      "fetched_at": 1783770955.3166099,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -196,24 +182,24 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783770410.5217571,
+      "fetched_at": 1783770956.2058032,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "GBP",
-          "price": 0.778,
-          "merchant_name": "ezswap2025",
-          "completion_rate": 0.954,
-          "order_count": 142,
+          "price": 0.74,
+          "merchant_name": "Ahmed sts",
+          "completion_rate": 1.0,
+          "order_count": 177,
           "min_limit": 10.0,
-          "max_limit": 5000.0,
-          "available": 14606.39,
+          "max_limit": 1000.0,
+          "available": 100.0,
           "payment_methods": [
             "Alipay"
           ],
-          "adv_no": "12847826398982991872",
-          "link": "https://c2c.binance.com/en/adv?code=12847826398982991872"
+          "adv_no": "12908996154326892544",
+          "link": "https://c2c.binance.com/en/adv?code=12908996154326892544"
         },
         "sell": {
           "platform": "Bybit",
@@ -233,7 +219,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783770412.9451487,
+      "fetched_at": 1783770957.8827448,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
