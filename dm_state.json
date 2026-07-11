@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783734966.4744582,
+      "fetched_at": 1783735258.826132,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,10 +71,10 @@
           "price": 1388.05,
           "merchant_name": "Kess",
           "completion_rate": 0.95,
-          "order_count": 523,
+          "order_count": 511,
           "min_limit": 50000.0,
-          "max_limit": 581592.95,
-          "available": 419.0,
+          "max_limit": 95153.32,
+          "available": 68.5518,
           "payment_methods": [],
           "adv_no": "2075748096726650880",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783734969.365648,
+      "fetched_at": 1783735262.7297904,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783734967.2208245,
+      "fetched_at": 1783735259.7177696,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -154,7 +154,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783734967.9196205,
+      "fetched_at": 1783735260.6157696,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -196,7 +196,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783734968.6570184,
+      "fetched_at": 1783735261.8729432,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783734970.0545144,
+      "fetched_at": 1783735263.661427,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
