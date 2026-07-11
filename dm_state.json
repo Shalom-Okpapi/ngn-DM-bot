@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783784137.5835748,
+      "fetched_at": 1783784674.7065415,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783784142.204958,
+      "fetched_at": 1783784680.0220954,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783784138.7565968,
+      "fetched_at": 1783784676.4743438,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -154,7 +154,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783784139.9180143,
+      "fetched_at": 1783784677.6768532,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -193,7 +193,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783784141.0256274,
+      "fetched_at": 1783784678.9019344,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -230,7 +230,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783784143.2291756,
+      "fetched_at": 1783784681.329339,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -252,14 +252,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "ALKHABOSS-EX 02",
+          "merchant_name": "\ud835\udd3b\ud835\udd60\ud835\udd5f\ud835\udd56_\ud835\udd4f\ud835\udd54\ud835\udd59\ud835\udd52\ud835\udd5f\ud835\udd58\ud835\udd56\ud83c\udf1f",
           "completion_rate": 1.0,
-          "order_count": 698,
-          "min_limit": 5.0,
-          "max_limit": 20721.748,
-          "available": 17268.1236,
+          "order_count": 717,
+          "min_limit": 10.0,
+          "max_limit": 20537.753,
+          "available": 17114.7943,
           "payment_methods": [],
-          "adv_no": "1924026696129343488",
+          "adv_no": "2013559487527952384",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
