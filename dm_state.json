@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783763739.6695101,
+      "fetched_at": 1783764306.2256875,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,21 +68,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1393.7,
-          "merchant_name": "Zeera-Pay",
-          "completion_rate": 0.97,
-          "order_count": 418,
+          "price": 1396.5,
+          "merchant_name": "Daiber002",
+          "completion_rate": 0.96,
+          "order_count": 108,
           "min_limit": 30000.0,
-          "max_limit": 100000.0,
-          "available": 3719.7502,
+          "max_limit": 50000.0,
+          "available": 300.0,
           "payment_methods": [],
-          "adv_no": "2075549499896745984",
+          "adv_no": "2075674031971643392",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783763743.1688733,
+      "fetched_at": 1783764310.2533045,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783763740.7265732,
+      "fetched_at": 1783764307.1986616,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -126,10 +126,10 @@
           "price": 170.0,
           "merchant_name": "llbbp",
           "completion_rate": 0.996,
-          "order_count": 825,
+          "order_count": 826,
           "min_limit": 1500.0,
           "max_limit": 150000.0,
-          "available": 802.97,
+          "available": 744.1,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783763741.5237088,
+      "fetched_at": 1783764308.2031682,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -165,10 +165,10 @@
           "price": 0.939,
           "merchant_name": "Best_Twint_Exchange",
           "completion_rate": 0.996,
-          "order_count": 212,
+          "order_count": 213,
           "min_limit": 5.0,
           "max_limit": 3000.0,
-          "available": 10214.62,
+          "available": 10116.66,
           "payment_methods": [
             "Instant Transfer",
             "Bank Transfer",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783763742.362228,
+      "fetched_at": 1783764309.2653475,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -210,7 +210,7 @@
           "order_count": 221,
           "min_limit": 30.0,
           "max_limit": 1000.0,
-          "available": 600.0,
+          "available": 468.6,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783763743.9600403,
+      "fetched_at": 1783764311.2379405,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -259,7 +259,7 @@
           "price": 1.2,
           "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 119,
+          "order_count": 120,
           "min_limit": 10.0,
           "max_limit": 50000.0,
           "available": 42356.8601,
