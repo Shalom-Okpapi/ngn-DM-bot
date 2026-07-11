@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783790154.0095634,
+      "fetched_at": 1783790454.9109306,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,21 +68,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1392.03,
-          "merchant_name": "SHARPERPAY\u2668\ufe0f\u26a1\ufe0f\ud83d\udc4c",
+          "price": 1389.0,
+          "merchant_name": "StraitOfHurmoz\u2694\ufe0f",
           "completion_rate": 0.97,
-          "order_count": 463,
-          "min_limit": 45000.0,
-          "max_limit": 72000.0,
-          "available": 86.6922,
+          "order_count": 252,
+          "min_limit": 30000.0,
+          "max_limit": 56000.0,
+          "available": 50.0,
           "payment_methods": [],
-          "adv_no": "2075580760664166400",
+          "adv_no": "2069892723853324289",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783790159.2729442,
+      "fetched_at": 1783790459.1331809,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783790155.1070554,
+      "fetched_at": 1783790455.8914974,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -154,7 +154,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783790156.5682073,
+      "fetched_at": 1783790457.0719194,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -196,7 +196,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783790158.1799188,
+      "fetched_at": 1783790458.0621974,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -233,7 +233,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783790160.4473534,
+      "fetched_at": 1783790460.2197602,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
