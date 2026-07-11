@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783735258.826132,
+      "fetched_at": 1783735561.264266,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1388.05,
           "merchant_name": "Kess",
           "completion_rate": 0.95,
-          "order_count": 511,
+          "order_count": 513,
           "min_limit": 50000.0,
           "max_limit": 95153.32,
           "available": 68.5518,
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783735262.7297904,
+      "fetched_at": 1783735566.0167484,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783735259.7177696,
+      "fetched_at": 1783735562.3962286,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -154,7 +154,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783735260.6157696,
+      "fetched_at": 1783735563.7240298,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -196,7 +196,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783735261.8729432,
+      "fetched_at": 1783735564.9339206,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783735263.661427,
+      "fetched_at": 1783735567.126973,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
