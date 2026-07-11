@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783730141.1756346,
+      "fetched_at": 1783730475.543779,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783730144.7146945,
+      "fetched_at": 1783730479.3702285,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,24 +117,24 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783730142.1878994,
+      "fetched_at": 1783730476.6167378,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "JPY",
-          "price": 171.88,
-          "merchant_name": "Haottt",
-          "completion_rate": 0.996,
-          "order_count": 414,
-          "min_limit": 5000.0,
-          "max_limit": 150000.0,
-          "available": 83.08,
+          "price": 171.0,
+          "merchant_name": "anhhong01",
+          "completion_rate": 0.982,
+          "order_count": 53,
+          "min_limit": 1000.0,
+          "max_limit": 100000.0,
+          "available": 282.11,
           "payment_methods": [
             "Bank Transfer"
           ],
-          "adv_no": "12908703033825841152",
-          "link": "https://c2c.binance.com/en/adv?code=12908703033825841152"
+          "adv_no": "12847657901958201344",
+          "link": "https://c2c.binance.com/en/adv?code=12847657901958201344"
         },
         "sell": {
           "platform": "Binance",
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783730143.0126286,
+      "fetched_at": 1783730477.571839,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783730143.8123753,
+      "fetched_at": 1783730478.4299462,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -221,23 +221,26 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "GBP",
-          "price": 0.741,
-          "merchant_name": "Fast-USDT10",
-          "completion_rate": 0.998,
-          "order_count": 384,
-          "min_limit": 35.0,
-          "max_limit": 141.0,
-          "available": 189.0,
+          "price": 0.729,
+          "merchant_name": "SAS_Emperor10",
+          "completion_rate": 0.979,
+          "order_count": 1221,
+          "min_limit": 10.0,
+          "max_limit": 200.0,
+          "available": 385.83,
           "payment_methods": [
-            "Skrill (Moneybookers)"
+            "Instant Transfer",
+            "Bank Transfer",
+            "Faster Payments",
+            "Lloyds Bank"
           ],
-          "adv_no": "12892174620313612288",
-          "link": "https://c2c.binance.com/en/adv?code=12892174620313612288"
+          "adv_no": "12905771697563680768",
+          "link": "https://c2c.binance.com/en/adv?code=12905771697563680768"
         }
       }
     },
     "USD": {
-      "fetched_at": 1783730145.4974368,
+      "fetched_at": 1783730480.3254693,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
