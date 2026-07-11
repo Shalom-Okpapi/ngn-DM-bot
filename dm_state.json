@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783734686.9087045,
+      "fetched_at": 1783734966.4744582,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -73,8 +73,8 @@
           "completion_rate": 0.95,
           "order_count": 523,
           "min_limit": 50000.0,
-          "max_limit": 998007.95,
-          "available": 719.0,
+          "max_limit": 581592.95,
+          "available": 419.0,
           "payment_methods": [],
           "adv_no": "2075748096726650880",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783734690.0492928,
+      "fetched_at": 1783734969.365648,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,7 +91,7 @@
           "price": 0.876,
           "merchant_name": "Satoshi_Na.",
           "completion_rate": 0.98,
-          "order_count": 534,
+          "order_count": 535,
           "min_limit": 2.0,
           "max_limit": 2275.633,
           "available": 2597.7554,
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783734687.7130604,
+      "fetched_at": 1783734967.2208245,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -154,7 +154,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783734688.5662417,
+      "fetched_at": 1783734967.9196205,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -196,7 +196,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783734689.3391232,
+      "fetched_at": 1783734968.6570184,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783734690.7996454,
+      "fetched_at": 1783734970.0545144,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
