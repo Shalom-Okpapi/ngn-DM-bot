@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783757163.999751,
+      "fetched_at": 1783757479.0098605,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783757168.666087,
+      "fetched_at": 1783757485.0362885,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783757165.221158,
+      "fetched_at": 1783757480.2927146,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -126,7 +126,7 @@
           "price": 170.5,
           "merchant_name": "llbbp",
           "completion_rate": 0.996,
-          "order_count": 820,
+          "order_count": 821,
           "min_limit": 1500.0,
           "max_limit": 150000.0,
           "available": 284.93,
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783757166.3693364,
+      "fetched_at": 1783757482.2459676,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -165,7 +165,7 @@
           "price": 0.939,
           "merchant_name": "Best_Twint_Exchange",
           "completion_rate": 0.996,
-          "order_count": 209,
+          "order_count": 210,
           "min_limit": 5.0,
           "max_limit": 3000.0,
           "available": 10773.72,
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783757167.5659993,
+      "fetched_at": 1783757483.5684035,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783757169.776438,
+      "fetched_at": 1783757486.1482747,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -259,7 +259,7 @@
           "price": 1.2,
           "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 118,
+          "order_count": 119,
           "min_limit": 10.0,
           "max_limit": 50000.0,
           "available": 42379.8601,
