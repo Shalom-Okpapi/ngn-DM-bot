@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783791881.3633435,
+      "fetched_at": 1783792428.9752796,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783791887.6439862,
+      "fetched_at": 1783792432.801918,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,7 +91,7 @@
           "price": 0.876,
           "merchant_name": "MohamedMos",
           "completion_rate": 0.99,
-          "order_count": 271,
+          "order_count": 272,
           "min_limit": 2.0,
           "max_limit": 100.0,
           "available": 397.7915,
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783791883.2695863,
+      "fetched_at": 1783792429.9305127,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783791884.6262803,
+      "fetched_at": 1783792430.914652,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783791886.2972367,
+      "fetched_at": 1783792431.8119817,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -210,7 +210,7 @@
           "order_count": 93,
           "min_limit": 10.0,
           "max_limit": 1000.0,
-          "available": 413.87,
+          "available": 400.36,
           "payment_methods": [
             "Alipay"
           ],
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783791889.0426433,
+      "fetched_at": 1783792433.655694,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
