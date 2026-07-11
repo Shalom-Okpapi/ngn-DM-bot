@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783769896.054393,
+      "fetched_at": 1783770407.2511659,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -74,7 +74,7 @@
           "order_count": 267,
           "min_limit": 36980.0,
           "max_limit": 69980.0,
-          "available": 256.1566,
+          "available": 229.1566,
           "payment_methods": [],
           "adv_no": "2075888652548583424",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783769900.5790865,
+      "fetched_at": 1783770411.9005282,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -94,7 +94,7 @@
           "order_count": 2470,
           "min_limit": 2.0,
           "max_limit": 1000.0,
-          "available": 1899.5475,
+          "available": 4810.1949,
           "payment_methods": [],
           "adv_no": "1720101299226619904",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783769897.183896,
+      "fetched_at": 1783770408.4224439,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -154,7 +154,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783769898.5754561,
+      "fetched_at": 1783770409.4646523,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -196,7 +196,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783769899.6287534,
+      "fetched_at": 1783770410.5217571,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -208,7 +208,7 @@
           "order_count": 142,
           "min_limit": 10.0,
           "max_limit": 5000.0,
-          "available": 14619.24,
+          "available": 14606.39,
           "payment_methods": [
             "Alipay"
           ],
@@ -233,7 +233,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783769901.551408,
+      "fetched_at": 1783770412.9451487,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
