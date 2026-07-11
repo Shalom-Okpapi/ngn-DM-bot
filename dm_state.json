@@ -1,5 +1,5 @@
 {
-  "last_update_id": 261520177,
+  "last_update_id": 261520178,
   "awaiting_amount": {},
   "last_request_at": {
     "5503157793": 1783626661.828241,
@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783779998.4963894,
+      "fetched_at": 1783780538.7158446,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783780001.7534475,
+      "fetched_at": 1783780545.2908332,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,7 +91,7 @@
           "price": 0.877,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 11013,
+          "order_count": 11018,
           "min_limit": 35.0,
           "max_limit": 37783.848,
           "available": 43083.0654,
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783779999.2501106,
+      "fetched_at": 1783780541.017424,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -126,10 +126,10 @@
           "price": 169.5,
           "merchant_name": "llbbp",
           "completion_rate": 0.995,
-          "order_count": 832,
+          "order_count": 833,
           "min_limit": 1500.0,
           "max_limit": 150000.0,
-          "available": 798.55,
+          "available": 828.06,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783780000.150484,
+      "fetched_at": 1783780542.2169573,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -195,7 +195,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783780000.9236085,
+      "fetched_at": 1783780544.078027,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783780002.6185927,
+      "fetched_at": 1783780546.6264272,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
