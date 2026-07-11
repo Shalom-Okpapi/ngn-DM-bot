@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783749961.9479163,
+      "fetched_at": 1783750278.255998,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,10 +71,10 @@
           "price": 1391.35,
           "merchant_name": "DealHub",
           "completion_rate": 0.97,
-          "order_count": 263,
+          "order_count": 264,
           "min_limit": 40000.0,
           "max_limit": 150000.0,
-          "available": 9761.6128,
+          "available": 9503.4961,
           "payment_methods": [],
           "adv_no": "2068407765912752128",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783749965.2246802,
+      "fetched_at": 1783750282.6226287,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783749962.8923302,
+      "fetched_at": 1783750279.2566278,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -126,7 +126,7 @@
           "price": 170.5,
           "merchant_name": "llbbp",
           "completion_rate": 0.996,
-          "order_count": 819,
+          "order_count": 820,
           "min_limit": 1500.0,
           "max_limit": 150000.0,
           "available": 578.47,
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783749963.67105,
+      "fetched_at": 1783750280.3443308,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,24 +198,24 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783749964.4134448,
+      "fetched_at": 1783750281.4916124,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "GBP",
-          "price": 0.778,
-          "merchant_name": "ezswap2025",
-          "completion_rate": 0.952,
-          "order_count": 136,
+          "price": 0.77,
+          "merchant_name": "FastEchangeTrading",
+          "completion_rate": 1.0,
+          "order_count": 42,
           "min_limit": 10.0,
           "max_limit": 5000.0,
-          "available": 14920.38,
+          "available": 83.6,
           "payment_methods": [
             "Alipay"
           ],
-          "adv_no": "12847826398982991872",
-          "link": "https://c2c.binance.com/en/adv?code=12847826398982991872"
+          "adv_no": "12907037409809637376",
+          "link": "https://c2c.binance.com/en/adv?code=12907037409809637376"
         },
         "sell": {
           "platform": "Binance",
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783749965.9852898,
+      "fetched_at": 1783750283.8127906,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
