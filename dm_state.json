@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783749053.0264132,
+      "fetched_at": 1783749337.8351884,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,21 +68,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1396.0,
-          "merchant_name": "AbduljalilFx",
-          "completion_rate": 0.95,
-          "order_count": 213,
-          "min_limit": 40000.0,
-          "max_limit": 60000.0,
-          "available": 50.0,
+          "price": 1387.01,
+          "merchant_name": "Uguru Michael",
+          "completion_rate": 0.99,
+          "order_count": 12557,
+          "min_limit": 50000.0,
+          "max_limit": 1675679.09,
+          "available": 1208.1233,
           "payment_methods": [],
-          "adv_no": "2066121793318821888",
+          "adv_no": "1909593819274326016",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1783749056.758696,
+      "fetched_at": 1783749340.8601077,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,24 +117,24 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783749053.818638,
+      "fetched_at": 1783749338.5831928,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "JPY",
-          "price": 171.88,
-          "merchant_name": "Haottt",
+          "price": 170.5,
+          "merchant_name": "llbbp",
           "completion_rate": 0.996,
-          "order_count": 424,
-          "min_limit": 5000.0,
+          "order_count": 819,
+          "min_limit": 1500.0,
           "max_limit": 150000.0,
-          "available": 244.87,
+          "available": 596.07,
           "payment_methods": [
             "Bank Transfer"
           ],
-          "adv_no": "12908703033825841152",
-          "link": "https://c2c.binance.com/en/adv?code=12908703033825841152"
+          "adv_no": "12909136732317519872",
+          "link": "https://c2c.binance.com/en/adv?code=12909136732317519872"
         },
         "sell": {
           "platform": "Binance",
@@ -146,7 +146,7 @@
           "order_count": 285,
           "min_limit": 500.0,
           "max_limit": 100000.0,
-          "available": 179.0,
+          "available": 117.32,
           "payment_methods": [
             "PayPay Money"
           ],
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783749054.5602453,
+      "fetched_at": 1783749339.3252125,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783749055.5350366,
+      "fetched_at": 1783749340.1329486,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783749057.5833359,
+      "fetched_at": 1783749341.5913496,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -259,14 +259,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "FIGE FX\u2b50\u2b50",
+          "merchant_name": "\u2119\ud835\udd63\ud835\udd56\ud835\udd64\ud835\udd55\ud835\udd60\ud835\udd63~\ud835\udfd8\ud835\udfd8\ud835\udfd9",
           "completion_rate": 1.0,
-          "order_count": 737,
+          "order_count": 482,
           "min_limit": 10.0,
-          "max_limit": 32754.291,
-          "available": 27295.2431,
+          "max_limit": 18041.532,
+          "available": 15034.6106,
           "payment_methods": [],
-          "adv_no": "1925937600883937280",
+          "adv_no": "2013947881776095232",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
