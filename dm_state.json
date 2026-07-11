@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783730475.543779,
+      "fetched_at": 1783730766.2888696,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783730479.3702285,
+      "fetched_at": 1783730769.7643788,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783730476.6167378,
+      "fetched_at": 1783730767.173178,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -140,7 +140,7 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 161.55,
+          "price": 163.05,
           "merchant_name": "Dracula_99",
           "completion_rate": 0.973,
           "order_count": 72,
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783730477.571839,
+      "fetched_at": 1783730768.0733054,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783730478.4299462,
+      "fetched_at": 1783730768.924189,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -224,10 +224,10 @@
           "price": 0.729,
           "merchant_name": "SAS_Emperor10",
           "completion_rate": 0.979,
-          "order_count": 1221,
+          "order_count": 1222,
           "min_limit": 10.0,
           "max_limit": 200.0,
-          "available": 385.83,
+          "available": 364.44,
           "payment_methods": [
             "Instant Transfer",
             "Bank Transfer",
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783730480.3254693,
+      "fetched_at": 1783730770.5568786,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -264,7 +264,7 @@
           "price": 1.2,
           "merchant_name": "\ud835\udd3b\ud835\udd60\ud835\udd5f\ud835\udd56_\ud835\udd4f\ud835\udd54\ud835\udd59\ud835\udd52\ud835\udd5f\ud835\udd58\ud835\udd56\ud83c\udf1f",
           "completion_rate": 1.0,
-          "order_count": 705,
+          "order_count": 706,
           "min_limit": 10.0,
           "max_limit": 20713.464,
           "available": 17261.22,
