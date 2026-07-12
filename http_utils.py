@@ -24,3 +24,20 @@ def post_with_retry(url: str, json: dict, headers: dict, timeout: int = 15,
                             url, attempt + 1, retries + 1, e, backoff_seconds)
                 time.sleep(backoff_seconds)
     raise last_exc
+
+
+def get_with_retry(url: str, params: dict = None, timeout: int = 15,
+                    retries: int = 1, backoff_seconds: int = 2):
+    last_exc = None
+    for attempt in range(retries + 1):
+        try:
+            resp = requests.get(url, params=params, timeout=timeout)
+            resp.raise_for_status()
+            return resp
+        except Exception as e:
+            last_exc = e
+            if attempt < retries:
+                log.warning("Request to %s failed (attempt %d/%d): %s — retrying in %ds",
+                            url, attempt + 1, retries + 1, e, backoff_seconds)
+                time.sleep(backoff_seconds)
+    raise last_exc
