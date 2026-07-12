@@ -275,5 +275,6 @@
   },
   "consecutive_poll_failures": 0,
   "awaiting_admin_action": {},
-  "last_admin_notify_failure": null
+  "last_admin_notify_failure": null,
+  "market_cache": null
 }
