@@ -1,5 +1,5 @@
 {
-  "last_update_id": 261520235,
+  "last_update_id": 261520236,
   "awaiting_amount": {},
   "last_request_at": {
     "5503157793": 1783798721.386948,
@@ -12,7 +12,7 @@
     "1499517373": 1783540927.5702777,
     "7113359067": 1783583534.9440913,
     "8602259176": 1783805177.9314854,
-    "7706767247": 1783710086.5642424
+    "7706767247": 1783877143.9135878
   },
   "rate_cache": {
     "fetched_at": 1783371829.333584,
@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783876935.0650198,
+      "fetched_at": 1783877145.050002,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,7 +68,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1398.4,
+          "price": 1398.5,
           "merchant_name": "Chibson",
           "completion_rate": 0.96,
           "order_count": 154,
