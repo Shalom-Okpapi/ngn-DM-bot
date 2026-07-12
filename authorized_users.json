@@ -31,7 +31,9 @@
       "authorized_at": 1783802173.1643443
     }
   },
-  "notified_admin": [],
+  "notified_admin": [
+    "1499517373"
+  ],
   "inquiry_sources": {},
   "free_preview_used": [
     "6458834875",
