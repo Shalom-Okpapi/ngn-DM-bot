@@ -58,6 +58,13 @@
     "7706767247": "voidethvoid"
   },
   "alerts": {
-    "8602259176": []
+    "8602259176": [
+      {
+        "direction": "SELL",
+        "fiat": "NGN",
+        "threshold": 1500.0,
+        "created_at": 1783887543.1342068
+      }
+    ]
   }
 }
