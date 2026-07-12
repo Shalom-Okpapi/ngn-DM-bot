@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783826001.0099974,
+      "fetched_at": 1783829630.9334147,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783826005.366479,
+      "fetched_at": 1783829635.4212034,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1783826002.077439,
+      "fetched_at": 1783829632.2620895,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -126,10 +126,10 @@
           "price": 170.0,
           "merchant_name": "llbbp",
           "completion_rate": 0.993,
-          "order_count": 834,
+          "order_count": 838,
           "min_limit": 1500.0,
           "max_limit": 150000.0,
-          "available": 513.92,
+          "available": 1034.97,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783826003.2166138,
+      "fetched_at": 1783829633.7390537,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783826004.3410938,
+      "fetched_at": 1783829634.5519273,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -223,11 +223,11 @@
           "fiat": "GBP",
           "price": 0.729,
           "merchant_name": "SAS_Emperor10",
-          "completion_rate": 0.979,
+          "completion_rate": 0.978,
           "order_count": 1251,
           "min_limit": 10.0,
           "max_limit": 200.0,
-          "available": 671.2,
+          "available": 700.0,
           "payment_methods": [
             "Instant Transfer",
             "Bank Transfer",
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783826006.4341178,
+      "fetched_at": 1783829636.313986,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -249,7 +249,7 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 923,
+          "order_count": 925,
           "min_limit": 2.0,
           "max_limit": 19996.675,
           "available": 24995.8438,
