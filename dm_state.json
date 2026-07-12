@@ -1,8 +1,8 @@
 {
-  "last_update_id": 261520239,
+  "last_update_id": 261520242,
   "awaiting_amount": {},
   "last_request_at": {
-    "5503157793": 1783798721.386948,
+    "5503157793": 1783887199.3280451,
     "8617443875": 1783371828.391422,
     "6671003365": 1783444699.2751603,
     "6458834875": 1783497978.5755217,
@@ -276,5 +276,5 @@
   "consecutive_poll_failures": 0,
   "awaiting_admin_action": {},
   "last_admin_notify_failure": null,
-  "market_cache": null
+  "market_cache": {}
 }
