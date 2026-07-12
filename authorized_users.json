@@ -29,11 +29,12 @@
     },
     "8602259176": {
       "authorized_at": 1783802173.1643443
+    },
+    "1499517373": {
+      "authorized_at": 1783844756.5681746
     }
   },
-  "notified_admin": [
-    "1499517373"
-  ],
+  "notified_admin": [],
   "inquiry_sources": {},
   "free_preview_used": [
     "6458834875",
