@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783898035.0250869,
+      "fetched_at": 1783898321.6777828,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1394.0,
           "merchant_name": "SWAPP\ud83d\udcaf",
           "completion_rate": 0.96,
-          "order_count": 76,
+          "order_count": 77,
           "min_limit": 50000.0,
           "max_limit": 70000.0,
           "available": 297.594,
