@@ -34,6 +34,7 @@ import requests
 
 import settings
 import aggregator
+import market_client
 from time_utils import now_wat
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
@@ -78,6 +79,7 @@ def _command_list_text(is_admin: bool = False) -> str:
         "• /users — see everyone currently authorized"
     ) if is_admin else ""
     fiat_list = ", ".join(settings.SUPPORTED_FIATS)
+    coin_list = ", ".join(settings.TRACKED_MARKET_SYMBOLS.keys())
     return (
         "Here's what I can do:\n"
         "• /current currency — best rates right now (naira by default)\n"
@@ -87,8 +89,10 @@ def _command_list_text(is_admin: bool = False) -> str:
         "• /alert <BUY|SELL> <price> currency — get messaged the moment "
         "the rate crosses your target (e.g. /alert SELL 1650)\n"
         "• /alerts — see your active alerts\n"
-        "• /unalert <number> — cancel one\n\n"
-        f"I check: {fiat_list}."
+        "• /unalert <number> — cancel one\n"
+        "• /market — live crypto prices and trend (e.g. /market BTC)\n\n"
+        f"I check: {fiat_list}.\n"
+        f"I track: {coin_list}."
         f"{admin_block}"
     )
 
@@ -131,6 +135,7 @@ def _default_state() -> dict:
         "awaiting_admin_action": {},  # {chat_id: "authorize"|"revoke"} - bare command awaiting an id
         "last_request_at": {},
         "rate_cache": None,
+        "market_cache": None,
         "consecutive_poll_failures": 0,
         "last_admin_notify_failure": None,  # {"at": ts, "target": str} - set when a proactive send to DM_ADMIN_CHAT_ID fails
     }
@@ -238,6 +243,10 @@ def send_message(chat_id, text: str) -> bool:
             _last_send_error = "chat blocked the bot, or is otherwise unreachable (403)"
             return False
         if not resp.ok:
+            # Telegram's own error description (e.g. "chat not found",
+            # "can't parse entities") is plain text, not a secret — it
+            # survives GitHub's log masking even when chat_id itself gets
+            # redacted as ***. Far more actionable than "400 Client Error".
             try:
                 description = resp.json().get("description", resp.text[:200])
             except Exception:
@@ -381,6 +390,19 @@ def _parse_current_fiat(text: str):
     return fiat, None
 
 
+def _parse_market_symbol(text: str):
+    """Parses '/market' (show overview) or '/market BTC' (single coin)
+    into (symbol_or_None, error)."""
+    parts = text.split(maxsplit=1)
+    if len(parts) == 1:
+        return None, None
+    candidate = parts[1].strip().upper()
+    if candidate not in settings.TRACKED_MARKET_SYMBOLS:
+        tracked = ", ".join(settings.TRACKED_MARKET_SYMBOLS.keys())
+        return None, f"I don't track {parts[1].strip()}. I track: {tracked}."
+    return candidate, None
+
+
 def _parse_alert(text: str):
     """Parses '/alert SELL 1650' or '/alert 165 BUY JPY' (any token order)
     into (direction, threshold, fiat, error). fiat defaults to
@@ -461,6 +483,84 @@ def _get_snapshot_cached(state: dict, fiat: str) -> dict:
     snapshot = aggregator.get_market_snapshot(fiat=fiat)
     cache[fiat] = {"fetched_at": time.time(), "snapshot": snapshot}
     return snapshot
+
+
+# ---------- market prices (/market) ----------
+
+def _get_market_cached(state: dict, display_symbol: str) -> dict | None:
+    """Cached current price + 24h change + 7d-ago price for a tracked
+    coin. Returns None if the symbol isn't tracked or the fetch fails
+    with nothing usable cached."""
+    binance_symbol = settings.TRACKED_MARKET_SYMBOLS.get(display_symbol)
+    if not binance_symbol:
+        return None
+
+    cache = state.get("market_cache")
+    if not isinstance(cache, dict):
+        cache = {}
+    state["market_cache"] = cache
+
+    entry = cache.get(display_symbol)
+    if isinstance(entry, dict) and (time.time() - entry.get("fetched_at", 0)) <= settings.DM_MARKET_CACHE_TTL_SECONDS:
+        return entry["data"]
+
+    current = market_client.fetch_current(binance_symbol)
+    if current is None:
+        return None
+
+    price_7d_ago = market_client.fetch_price_days_ago(binance_symbol, 7)
+    data = {**current, "price_7d_ago": price_7d_ago}
+    cache[display_symbol] = {"fetched_at": time.time(), "data": data}
+    return data
+
+
+def _format_usd(value: float) -> str:
+    # sub-$1 assets (like a stablecoin checking its peg) need more
+    # decimal precision to actually show meaningful movement
+    if value < 1:
+        return f"${value:,.4f}"
+    return f"${value:,.2f}"
+
+
+def _format_pct(pct: float) -> str:
+    arrow = "🔺" if pct > 0 else ("🔻" if pct < 0 else "➖")
+    return f"{arrow} {abs(pct):.1f}%"
+
+
+def reply_market(state: dict, chat_id, symbol: str | None):
+    if symbol:
+        data = _get_market_cached(state, symbol)
+        if data is None:
+            send_message(chat_id, f"I couldn't get {symbol}'s price right now — try again shortly.")
+            return
+        lines = [f"📈 *{symbol}/USDT*\n"]
+        lines.append(f"Now: {_format_usd(data['price'])}")
+        lines.append(f"24h: {_format_pct(data['change_24h_pct'])}")
+        if data.get("price_7d_ago"):
+            pct_7d = (data["price"] - data["price_7d_ago"]) / data["price_7d_ago"] * 100
+            lines.append(f"7d: {_format_usd(data['price_7d_ago'])} ({_format_pct(pct_7d)})")
+        else:
+            lines.append("7d: not enough history yet")
+        lines.append(f"\n24h range: {_format_usd(data['low_24h'])} – {_format_usd(data['high_24h'])}")
+        lines.append(f"\n⏱ {now_wat()}")
+        send_message(chat_id, "\n".join(lines))
+        return
+
+    # bare /market - overview of every tracked coin
+    lines = ["📊 *Market Snapshot*\n"]
+    any_data = False
+    for sym in settings.TRACKED_MARKET_SYMBOLS:
+        data = _get_market_cached(state, sym)
+        if data is None:
+            continue
+        any_data = True
+        lines.append(f"{sym} — {_format_usd(data['price'])} ({_format_pct(data['change_24h_pct'])})")
+    if not any_data:
+        send_message(chat_id, "I couldn't fetch market prices right now — try again shortly.")
+        return
+    lines.append(f"\n⏱ {now_wat()}")
+    lines.append("Type /market <coin> for more — e.g. /market BTC")
+    send_message(chat_id, "\n".join(lines))
 
 
 # ---------- per-user fairness ----------
@@ -737,28 +837,28 @@ def handle_admin_command(state: dict, auth_data: dict, chat_id, text: str) -> bo
         if len(parts) == 2:
             target = parts[1].strip()
             if not _looks_like_chat_id(target):
-                send_message(chat_id, f"That doesn't look like a chat_id: {target}")
+                send_message(chat_id, f"That doesn't look like a chat ID: {target}")
                 return True
             state["awaiting_admin_action"].pop(chat_key, None)
             _do_authorize(auth_data, chat_id, target)
         else:
             state["awaiting_amount"].pop(chat_key, None)  # clear any stale /search prompt
             state["awaiting_admin_action"][chat_key] = "authorize"
-            send_message(chat_id, "Which chat_id do you want to authorize? Reply with the number.")
+            send_message(chat_id, "Which chat ID do you want to authorize? Reply with the number.")
         return True
 
     if command == "/revoke":
         if len(parts) == 2:
             target = parts[1].strip()
             if not _looks_like_chat_id(target):
-                send_message(chat_id, f"That doesn't look like a chat_id: {target}")
+                send_message(chat_id, f"That doesn't look like a chat ID: {target}")
                 return True
             state["awaiting_admin_action"].pop(chat_key, None)
             _do_revoke(auth_data, chat_id, target)
         else:
             state["awaiting_amount"].pop(chat_key, None)  # clear any stale /search prompt
             state["awaiting_admin_action"][chat_key] = "revoke"
-            send_message(chat_id, "Which chat_id do you want to revoke? Reply with the number.")
+            send_message(chat_id, "Which chat ID do you want to revoke? Reply with the number.")
         return True
 
     if command == "/users":
@@ -802,7 +902,7 @@ def handle_admin_command(state: dict, auth_data: dict, chat_id, text: str) -> bo
             return False
         target = text.strip()
         if not _looks_like_chat_id(target):
-            send_message(chat_id, f"That doesn't look like a chat_id: {target}")
+            send_message(chat_id, f"That doesn't look like a chat ID: {target}")
             return True  # keep waiting — don't clear the pending action
         state["awaiting_admin_action"].pop(chat_key, None)
         if pending_action == "authorize":
@@ -884,6 +984,18 @@ def handle_message(state: dict, auth_data: dict, history: dict, chat_id, text: s
         # No cooldown here — /trend only reads already-stored history,
         # it never triggers a live Binance/Bybit fetch on its own.
         reply_trend(chat_id, fiat, history)
+        return
+
+    if text.startswith("/market"):
+        state["awaiting_amount"].pop(chat_key, None)
+        symbol, error = _parse_market_symbol(text)
+        if error:
+            send_message(chat_id, error)
+            return
+        if not _check_cooldown(state, chat_key):
+            send_message(chat_id, "One moment — still working on your last request.")
+            return
+        reply_market(state, chat_id, symbol)
         return
 
     if text.startswith("/search"):
