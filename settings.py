@@ -83,3 +83,19 @@ ENABLE_BYBIT = os.getenv("ENABLE_BYBIT", "true").lower() == "true"
 ENABLE_NOONES = os.getenv("ENABLE_NOONES", "false").lower() == "true"
 NOONES_API_KEY = os.getenv("NOONES_API_KEY", "")
 NOONES_API_SECRET = os.getenv("NOONES_API_SECRET", "")
+
+# --- Market price tracking (/market) ---
+# Separate from the P2P rate-checking above — this hits Binance's public
+# SPOT market API (official, documented, no API key needed), not the P2P
+# endpoints. Real market prices, not P2P merchant quotes.
+# {display symbol: Binance spot trading pair}. USDC/USDT stands in for
+# "USDT" itself, since a coin can't be meaningfully priced in itself —
+# it's shown as a peg-stability check instead.
+TRACKED_MARKET_SYMBOLS = {
+    "BTC": "BTCUSDT",
+    "ETH": "ETHUSDT",
+    "USDC": "USDCUSDT",
+    "SOL": "SOLUSDT",
+    "BNB": "BNBUSDT",
+}
+DM_MARKET_CACHE_TTL_SECONDS = int(os.getenv("DM_MARKET_CACHE_TTL_SECONDS", "60"))
