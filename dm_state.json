@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783891435.4316747,
+      "fetched_at": 1783891725.3090627,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783887841.904729,
+      "fetched_at": 1783891568.7974226,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,10 +91,10 @@
           "price": 0.877,
           "merchant_name": "javelin",
           "completion_rate": 1.0,
-          "order_count": 981,
+          "order_count": 985,
           "min_limit": 2.0,
-          "max_limit": 3750.033,
-          "available": 4275.9785,
+          "max_limit": 761.16,
+          "available": 867.9139,
           "payment_methods": [],
           "adv_no": "2048153106069389312",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -104,20 +104,20 @@
           "trade_type": "SELL",
           "fiat": "EUR",
           "price": 1.052,
-          "merchant_name": "Latif_43",
+          "merchant_name": "SageMerchant",
           "completion_rate": 1.0,
-          "order_count": 30,
-          "min_limit": 50.0,
-          "max_limit": 300.0,
+          "order_count": 22,
+          "min_limit": 30.0,
+          "max_limit": 250.0,
           "available": 20000.0,
           "payment_methods": [],
-          "adv_no": "2067861138340962304",
+          "adv_no": "2076060134764908544",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "JPY": {
-      "fetched_at": 1783887838.2911885,
+      "fetched_at": 1783891565.096054,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -129,7 +129,7 @@
           "order_count": 266,
           "min_limit": 5000.0,
           "max_limit": 750000.0,
-          "available": 2800.0,
+          "available": 2626.92,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -140,27 +140,23 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 150.03,
-          "merchant_name": "NGUYEN_VAN_DONG",
-          "completion_rate": 0.954,
-          "order_count": 62,
-          "min_limit": 1000.0,
-          "max_limit": 500000.0,
-          "available": 46499.72,
+          "price": 160.0,
+          "merchant_name": "anhtuan1702",
+          "completion_rate": 0.95,
+          "order_count": 112,
+          "min_limit": 5000.0,
+          "max_limit": 140000.0,
+          "available": 170.0,
           "payment_methods": [
-            "PayPay Money",
-            "Kyash Money",
-            "Bank Transfer",
-            "Transfers with specific bank",
-            "au PAY"
+            "PayPay Money"
           ],
-          "adv_no": "11488310578541199360",
-          "link": "https://c2c.binance.com/en/adv?code=11488310578541199360"
+          "adv_no": "12877629535959822336",
+          "link": "https://c2c.binance.com/en/adv?code=12877629535959822336"
         }
       }
     },
     "CHF": {
-      "fetched_at": 1783887839.7219448,
+      "fetched_at": 1783891566.2295449,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -199,7 +195,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783887840.8213708,
+      "fetched_at": 1783891567.663998,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -238,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783887842.8858163,
+      "fetched_at": 1783891569.9853356,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
