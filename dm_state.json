@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783899501.8899279,
+      "fetched_at": 1783900049.0401762,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -72,9 +72,9 @@
           "merchant_name": "SWAPP\ud83d\udcaf",
           "completion_rate": 0.96,
           "order_count": 78,
-          "min_limit": 50000.0,
+          "min_limit": 40000.0,
           "max_limit": 70000.0,
-          "available": 409.7848,
+          "available": 460.0,
           "payment_methods": [],
           "adv_no": "2076227144710819840",
           "link": "https://www.bybit.com/fiat/trade/otc"
