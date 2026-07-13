@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783954779.0740879,
+      "fetched_at": 1783955049.4135447,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,7 +68,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1407.5,
+          "price": 1398.0,
           "merchant_name": "M-M.BARE\ud83d\udcb2",
           "completion_rate": 0.98,
           "order_count": 262,
@@ -230,7 +230,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783954778.2747915,
+      "fetched_at": 1783955047.8088768,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
