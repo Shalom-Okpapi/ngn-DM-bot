@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783976043.60733,
+      "fetched_at": 1783976324.2514424,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783976044.9839017,
+      "fetched_at": 1783976322.5446277,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -260,7 +260,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 731,
+          "order_count": 732,
           "min_limit": 5.0,
           "max_limit": 20721.748,
           "available": 17268.1236,
