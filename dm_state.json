@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783921440.656394,
+      "fetched_at": 1783921718.0684638,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1392.0,
-          "merchant_name": "FASTONE",
+          "price": 1388.5,
+          "merchant_name": "YANTUMAKI\u26a1\ufe0fFX\u26a1\ufe0f\u26a1\ufe0f",
           "completion_rate": 0.96,
-          "order_count": 79,
-          "min_limit": 25000.0,
-          "max_limit": 60000.0,
-          "available": 228.0,
+          "order_count": 55,
+          "min_limit": 50000.0,
+          "max_limit": 300000.0,
+          "available": 1796.7,
           "payment_methods": [],
-          "adv_no": "2076532066140672000",
+          "adv_no": "2072954169931997184",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
