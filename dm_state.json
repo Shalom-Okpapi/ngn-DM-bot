@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783930364.0451121,
+      "fetched_at": 1783930855.131331,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,7 +68,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1397.21,
+          "price": 1398.9,
           "merchant_name": "FLASH-PAY.\ud83d\udcca\ud83c\udfc5",
           "completion_rate": 0.95,
           "order_count": 64,
