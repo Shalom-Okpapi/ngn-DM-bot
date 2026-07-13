@@ -72,10 +72,10 @@
         "created_at": 1783938551.1046822
       },
       {
-        "direction": "BUY",
-        "fiat": "EUR",
+        "direction": "SELL",
+        "fiat": "USD",
         "threshold": 500.0,
-        "created_at": 1783941434.9548008
+        "created_at": 1783941839.3836827
       }
     ]
   }
