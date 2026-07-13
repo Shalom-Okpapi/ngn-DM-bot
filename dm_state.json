@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783965847.8879642,
+      "fetched_at": 1783966455.6153557,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1405.0,
-          "merchant_name": "M-M.BARE\ud83d\udcb2",
+          "price": 1397.0,
+          "merchant_name": "DEEJEHBABY",
           "completion_rate": 0.98,
-          "order_count": 274,
-          "min_limit": 15000.0,
-          "max_limit": 52000.0,
-          "available": 144.435,
+          "order_count": 57,
+          "min_limit": 40000.0,
+          "max_limit": 150000.0,
+          "available": 200.0,
           "payment_methods": [],
-          "adv_no": "2076607247418703872",
+          "adv_no": "2076420863030816768",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -239,7 +239,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783965846.315649,
+      "fetched_at": 1783966456.7170532,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
