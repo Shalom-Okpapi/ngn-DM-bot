@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783968037.7495039,
+      "fetched_at": 1783968653.5344481,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1400.0,
-          "merchant_name": "M-M.BARE\ud83d\udcb2",
-          "completion_rate": 0.98,
-          "order_count": 281,
-          "min_limit": 15000.0,
-          "max_limit": 52000.0,
-          "available": 230.0,
+          "price": 1397.3,
+          "merchant_name": "Daiber002",
+          "completion_rate": 0.95,
+          "order_count": 125,
+          "min_limit": 30000.0,
+          "max_limit": 50000.0,
+          "available": 120.0,
           "payment_methods": [],
-          "adv_no": "2076607247418703872",
+          "adv_no": "2075674031971643392",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -239,7 +239,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783968036.6905284,
+      "fetched_at": 1783968654.354163,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -248,7 +248,7 @@
           "price": 0.8,
           "merchant_name": "DagestanDentist",
           "completion_rate": 1.0,
-          "order_count": 197,
+          "order_count": 200,
           "min_limit": 50.0,
           "max_limit": 1853.2,
           "available": 2316.5,
@@ -263,7 +263,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 728,
+          "order_count": 729,
           "min_limit": 5.0,
           "max_limit": 20721.748,
           "available": 17268.1236,
