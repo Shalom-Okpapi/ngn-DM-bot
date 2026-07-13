@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783969724.6397543,
+      "fetched_at": 1783970094.2688296,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1397.0,
           "merchant_name": "DEEJEHBABY",
           "completion_rate": 0.98,
-          "order_count": 64,
+          "order_count": 65,
           "min_limit": 40000.0,
           "max_limit": 60071.0,
           "available": 43.0,
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783969722.8643124,
+      "fetched_at": 1783970095.5745971,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -256,7 +256,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 729,
+          "order_count": 730,
           "min_limit": 5.0,
           "max_limit": 20721.748,
           "available": 17268.1236,
