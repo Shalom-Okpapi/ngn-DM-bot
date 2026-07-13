@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783921718.0684638,
+      "fetched_at": 1783922090.3345811,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1388.5,
-          "merchant_name": "YANTUMAKI\u26a1\ufe0fFX\u26a1\ufe0f\u26a1\ufe0f",
+          "price": 1394.0,
+          "merchant_name": "Chibson",
           "completion_rate": 0.96,
-          "order_count": 55,
-          "min_limit": 50000.0,
-          "max_limit": 300000.0,
-          "available": 1796.7,
+          "order_count": 168,
+          "min_limit": 30000.0,
+          "max_limit": 51000.0,
+          "available": 100.0,
           "payment_methods": [],
-          "adv_no": "2072954169931997184",
+          "adv_no": "2072879155975168000",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
