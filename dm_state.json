@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783935519.6283605,
+      "fetched_at": 1783935845.5433502,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1783932142.075318,
+      "fetched_at": 1783935766.908202,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,33 +91,33 @@
           "price": 0.875,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 10666,
-          "min_limit": 50.0,
-          "max_limit": 300.0,
-          "available": 44232.9431,
+          "order_count": 10677,
+          "min_limit": 35.0,
+          "max_limit": 38229.918,
+          "available": 43691.3351,
           "payment_methods": [],
-          "adv_no": "2038225274208436224",
+          "adv_no": "2015767511592116224",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "EUR",
-          "price": 1.051,
-          "merchant_name": "kimcryptoguru98",
+          "price": 1.05,
+          "merchant_name": "Latif_43",
           "completion_rate": 1.0,
-          "order_count": 36,
-          "min_limit": 35.0,
-          "max_limit": 250.0,
-          "available": 19762.1313,
+          "order_count": 31,
+          "min_limit": 50.0,
+          "max_limit": 300.0,
+          "available": 20000.0,
           "payment_methods": [],
-          "adv_no": "2070961745792471040",
+          "adv_no": "2067861138340962304",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "JPY": {
-      "fetched_at": 1783932139.8757358,
+      "fetched_at": 1783935762.8459694,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -154,7 +154,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1783932140.591875,
+      "fetched_at": 1783935763.9536304,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -183,7 +183,7 @@
           "price": 0.788,
           "merchant_name": "Her Swiss Value ",
           "completion_rate": 0.953,
-          "order_count": 80,
+          "order_count": 81,
           "min_limit": 50.0,
           "max_limit": 4000.0,
           "available": 17807.71,
@@ -196,7 +196,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1783932141.3545218,
+      "fetched_at": 1783935765.7962193,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -219,7 +219,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "GBP",
-          "price": 0.895,
+          "price": 0.896,
           "merchant_name": "billtoken",
           "completion_rate": 0.95,
           "order_count": 69,
@@ -233,7 +233,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783932143.1429355,
+      "fetched_at": 1783935767.976661,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -260,7 +260,7 @@
           "order_count": 133,
           "min_limit": 10.0,
           "max_limit": 50000.0,
-          "available": 41770.3122,
+          "available": 41784.6122,
           "payment_methods": [],
           "adv_no": "1969417928054837248",
           "link": "https://www.bybit.com/fiat/trade/otc"
