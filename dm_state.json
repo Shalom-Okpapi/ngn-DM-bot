@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783922317.782118,
+      "fetched_at": 1783922691.821767,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1394.0,
-          "merchant_name": "Chibson",
-          "completion_rate": 0.96,
-          "order_count": 168,
-          "min_limit": 30000.0,
-          "max_limit": 51000.0,
-          "available": 100.0,
+          "price": 1393.03,
+          "merchant_name": "SHARPERPAY\u2668\ufe0f\u26a1\ufe0f\ud83d\udc4c",
+          "completion_rate": 0.95,
+          "order_count": 317,
+          "min_limit": 45000.0,
+          "max_limit": 72000.0,
+          "available": 302.8937,
           "payment_methods": [],
-          "adv_no": "2072879155975168000",
+          "adv_no": "2075580760664166400",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
