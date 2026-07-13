@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783980952.2364445,
+      "fetched_at": 1783981500.6698217,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,10 +71,10 @@
           "price": 1397.0,
           "merchant_name": "DEEJEHBABY",
           "completion_rate": 0.98,
-          "order_count": 81,
+          "order_count": 83,
           "min_limit": 40000.0,
-          "max_limit": 52194.57,
-          "available": 37.3619,
+          "max_limit": 150000.0,
+          "available": 137.4157,
           "payment_methods": [],
           "adv_no": "2076420863030816768",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783980953.028331,
+      "fetched_at": 1783981499.554611,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
