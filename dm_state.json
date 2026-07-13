@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783930855.131331,
+      "fetched_at": 1783931443.1567771,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1398.9,
-          "merchant_name": "FLASH-PAY.\ud83d\udcca\ud83c\udfc5",
-          "completion_rate": 0.95,
-          "order_count": 64,
-          "min_limit": 30000.0,
-          "max_limit": 80000.0,
-          "available": 343.42,
+          "price": 1399.0,
+          "merchant_name": "M-M.BARE\ud83d\udcb2",
+          "completion_rate": 0.99,
+          "order_count": 234,
+          "min_limit": 15000.0,
+          "max_limit": 52000.0,
+          "available": 100.0,
           "payment_methods": [],
-          "adv_no": "2075568326732165120",
+          "adv_no": "2076583554529411072",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
