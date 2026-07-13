@@ -64,6 +64,12 @@
         "fiat": "NGN",
         "threshold": 1500.0,
         "created_at": 1783887543.1342068
+      },
+      {
+        "direction": "SELL",
+        "fiat": "NGN",
+        "threshold": 5000.0,
+        "created_at": 1783938551.1046822
       }
     ]
   }
