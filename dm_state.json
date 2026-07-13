@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783955049.4135447,
+      "fetched_at": 1783955322.468873,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,7 +68,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1398.0,
+          "price": 1398.2,
           "merchant_name": "M-M.BARE\ud83d\udcb2",
           "completion_rate": 0.98,
           "order_count": 262,
@@ -230,7 +230,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783955047.8088768,
+      "fetched_at": 1783955323.4350865,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -254,7 +254,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 724,
+          "order_count": 725,
           "min_limit": 5.0,
           "max_limit": 20721.748,
           "available": 17268.1236,
