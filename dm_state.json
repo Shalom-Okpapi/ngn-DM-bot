@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783915171.8260643,
+      "fetched_at": 1783915440.3606966,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1388.0,
           "merchant_name": "fast(S)trade",
           "completion_rate": 0.98,
-          "order_count": 598,
+          "order_count": 599,
           "min_limit": 50000.0,
           "max_limit": 138368.05,
           "available": 99.6888,
