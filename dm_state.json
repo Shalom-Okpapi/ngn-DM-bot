@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783987828.089658,
+      "fetched_at": 1783988430.721951,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,10 +71,10 @@
           "price": 1392.17,
           "merchant_name": "DONT_PANIC\u2733\ufe0fIPAY",
           "completion_rate": 0.95,
-          "order_count": 726,
+          "order_count": 728,
           "min_limit": 12500.0,
           "max_limit": 157000.0,
-          "available": 47661.0482,
+          "available": 47505.5466,
           "payment_methods": [],
           "adv_no": "2076484922612502528",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -233,7 +233,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783987829.334263,
+      "fetched_at": 1783988432.0829456,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -257,7 +257,7 @@
           "price": 1.2,
           "merchant_name": "\ud835\udd3b\ud835\udd60\ud835\udd5f\ud835\udd56_\ud835\udd4f\ud835\udd54\ud835\udd59\ud835\udd52\ud835\udd5f\ud835\udd58\ud835\udd56\ud83c\udf1f",
           "completion_rate": 1.0,
-          "order_count": 724,
+          "order_count": 725,
           "min_limit": 10.0,
           "max_limit": 19826.79,
           "available": 16522.3253,
