@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784048658.9221172,
+      "fetched_at": 1784049295.045319,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1398.5,
-          "merchant_name": "ABDUL~-~AZIZ\u260e\ufe0f\ud83d\udd25",
-          "completion_rate": 0.99,
-          "order_count": 156,
-          "min_limit": 10000.0,
-          "max_limit": 70000.0,
-          "available": 100.0,
+          "price": 1398.7,
+          "merchant_name": "AVIATORPAY..",
+          "completion_rate": 1.0,
+          "order_count": 58,
+          "min_limit": 30000.0,
+          "max_limit": 105000.0,
+          "available": 19813.4255,
           "payment_methods": [],
-          "adv_no": "2077053070759735296",
+          "adv_no": "2076276622188810240",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784048659.6930275,
+      "fetched_at": 1784049296.5525143,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -257,14 +257,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "ALKHABOSS-EX 02",
+          "merchant_name": "\ud835\udd3b\ud835\udd60\ud835\udd5f\ud835\udd56_\ud835\udd4f\ud835\udd54\ud835\udd59\ud835\udd52\ud835\udd5f\ud835\udd58\ud835\udd56\ud83c\udf1f",
           "completion_rate": 1.0,
-          "order_count": 740,
-          "min_limit": 5.0,
-          "max_limit": 20715.748,
-          "available": 17263.1236,
+          "order_count": 726,
+          "min_limit": 10.0,
+          "max_limit": 19809.99,
+          "available": 16508.3253,
           "payment_methods": [],
-          "adv_no": "1924026696129343488",
+          "adv_no": "2013559487527952384",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
