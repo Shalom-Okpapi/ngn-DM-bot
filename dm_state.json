@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784027372.2306058,
+      "fetched_at": 1784027692.7373054,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1401.5,
-          "merchant_name": "HOTMAN-001",
-          "completion_rate": 1.0,
-          "order_count": 22,
-          "min_limit": 30000.0,
-          "max_limit": 110000.0,
-          "available": 19585.2595,
+          "price": 1402.04,
+          "merchant_name": "dangari",
+          "completion_rate": 0.97,
+          "order_count": 173,
+          "min_limit": 20000.0,
+          "max_limit": 70000.0,
+          "available": 250.0,
           "payment_methods": [],
-          "adv_no": "2076613204821528576",
+          "adv_no": "2076960954870493184",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784027373.9629562,
+      "fetched_at": 1784027691.6974428,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
