@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784028845.320717,
+      "fetched_at": 1784029171.4404266,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1402.5,
-          "merchant_name": "Muhammadu-las\u2620\ufe0f",
-          "completion_rate": 1.0,
-          "order_count": 41,
-          "min_limit": 50000.0,
-          "max_limit": 100000.0,
-          "available": 250.0,
+          "price": 1404.0,
+          "merchant_name": "ussyxm",
+          "completion_rate": 0.95,
+          "order_count": 113,
+          "min_limit": 10000.0,
+          "max_limit": 50000.0,
+          "available": 50.0,
           "payment_methods": [],
-          "adv_no": "2076992419731460096",
+          "adv_no": "2061537913512259584",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784028844.2512653,
+      "fetched_at": 1784029170.372726,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
