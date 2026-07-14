@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784028521.0733824,
+      "fetched_at": 1784028845.320717,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1402.04,
-          "merchant_name": "dangari",
-          "completion_rate": 0.97,
-          "order_count": 173,
-          "min_limit": 20000.0,
-          "max_limit": 70000.0,
-          "available": 200.2248,
+          "price": 1402.5,
+          "merchant_name": "Muhammadu-las\u2620\ufe0f",
+          "completion_rate": 1.0,
+          "order_count": 41,
+          "min_limit": 50000.0,
+          "max_limit": 100000.0,
+          "available": 250.0,
           "payment_methods": [],
-          "adv_no": "2076960954870493184",
+          "adv_no": "2076992419731460096",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784028519.9707243,
+      "fetched_at": 1784028844.2512653,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
