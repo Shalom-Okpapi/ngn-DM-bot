@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783996123.7228873,
+      "fetched_at": 1783996492.5053883,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1393.2,
-          "merchant_name": "M-B.BOY\ud83d\udc4d",
+          "price": 1393.5,
+          "merchant_name": "KANZULBARAYA\ud83c\udfc5",
           "completion_rate": 0.96,
-          "order_count": 349,
-          "min_limit": 19500.0,
-          "max_limit": 252000.0,
-          "available": 600.0,
+          "order_count": 394,
+          "min_limit": 50000.0,
+          "max_limit": 1000000.0,
+          "available": 32604.9627,
           "payment_methods": [],
-          "adv_no": "2076615906366861312",
+          "adv_no": "2044876975818706944",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -239,7 +239,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783996122.5819492,
+      "fetched_at": 1783996491.3564286,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -248,10 +248,10 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 896,
+          "order_count": 897,
           "min_limit": 2.0,
-          "max_limit": 23301.642,
-          "available": 29127.0529,
+          "max_limit": 23706.991,
+          "available": 29633.7395,
           "payment_methods": [],
           "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -263,7 +263,7 @@
           "price": 1.2,
           "merchant_name": "Huzzy xchange ",
           "completion_rate": 1.0,
-          "order_count": 5157,
+          "order_count": 5161,
           "min_limit": 10.0,
           "max_limit": 38777.752,
           "available": 32314.7936,
