@@ -1,5 +1,5 @@
 {
-  "last_update_id": 261520286,
+  "last_update_id": 261520290,
   "awaiting_amount": {},
   "last_request_at": {
     "5503157793": 1784023213.024492,
@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784033640.5101752,
+      "fetched_at": 1784033973.8606117,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1400.06,
-          "merchant_name": "THARD~PARTY\u2764\ufe0f\ud83d\udc95\ud83e\udea1",
+          "price": 1401.9,
+          "merchant_name": "dangari",
           "completion_rate": 0.97,
-          "order_count": 107,
-          "min_limit": 30000.0,
-          "max_limit": 120000.0,
-          "available": 18761.0725,
+          "order_count": 178,
+          "min_limit": 20000.0,
+          "max_limit": 70000.0,
+          "available": 250.0,
           "payment_methods": [],
-          "adv_no": "2008461252142161920",
+          "adv_no": "2077014553447297024",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784033641.4142535,
+      "fetched_at": 1784033974.73695,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -246,8 +246,8 @@
           "completion_rate": 1.0,
           "order_count": 202,
           "min_limit": 50.0,
-          "max_limit": 1853.2,
-          "available": 2316.5,
+          "max_limit": 1353.2,
+          "available": 1691.5,
           "payment_methods": [],
           "adv_no": "1768869022963105792",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -259,7 +259,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 733,
+          "order_count": 734,
           "min_limit": 5.0,
           "max_limit": 20721.748,
           "available": 17268.1236,
