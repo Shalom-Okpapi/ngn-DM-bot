@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784003235.0246913,
+      "fetched_at": 1784003786.1385381,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -239,7 +239,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784003236.2282155,
+      "fetched_at": 1784003785.028262,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -261,14 +261,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "\u2119\ud835\udd63\ud835\udd56\ud835\udd64\ud835\udd55\ud835\udd60\ud835\udd63~\ud835\udfd8\ud835\udfd8\ud835\udfd9",
+          "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 481,
-          "min_limit": 10.0,
-          "max_limit": 17778.052,
-          "available": 14815.044,
+          "order_count": 732,
+          "min_limit": 5.0,
+          "max_limit": 20721.748,
+          "available": 17268.1236,
           "payment_methods": [],
-          "adv_no": "2013947881776095232",
+          "adv_no": "1924026696129343488",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
