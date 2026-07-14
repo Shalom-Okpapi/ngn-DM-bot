@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783997376.9924843,
+      "fetched_at": 1783997693.8109367,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1393.5,
-          "merchant_name": "KANZULBARAYA\ud83c\udfc5",
-          "completion_rate": 0.96,
-          "order_count": 394,
-          "min_limit": 50000.0,
-          "max_limit": 1000000.0,
-          "available": 32604.9627,
+          "price": 1392.5,
+          "merchant_name": "EbeGod_FX",
+          "completion_rate": 0.98,
+          "order_count": 559,
+          "min_limit": 4500.0,
+          "max_limit": 200000.0,
+          "available": 548.7023,
           "payment_methods": [],
-          "adv_no": "2044876975818706944",
+          "adv_no": "2076491172708806656",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -239,7 +239,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783997376.1497214,
+      "fetched_at": 1783997692.3658717,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -263,7 +263,7 @@
           "price": 1.2,
           "merchant_name": "Huzzy xchange ",
           "completion_rate": 1.0,
-          "order_count": 5169,
+          "order_count": 5170,
           "min_limit": 10.0,
           "max_limit": 38777.752,
           "available": 32314.7936,
