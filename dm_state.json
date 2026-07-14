@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784005497.0632644,
+      "fetched_at": 1784005770.8018932,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1393.05,
           "merchant_name": "YANTUMAKI_FX\ud83d\udd25\ud83d\udd25\ud83d\udd25",
           "completion_rate": 0.96,
-          "order_count": 156,
+          "order_count": 157,
           "min_limit": 50000.0,
           "max_limit": 300000.0,
           "available": 823.219,
@@ -239,7 +239,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784005498.141615,
+      "fetched_at": 1784005769.994495,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -261,14 +261,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "ALKHABOSS-EX 02",
+          "merchant_name": "\u2119\ud835\udd63\ud835\udd56\ud835\udd64\ud835\udd55\ud835\udd60\ud835\udd63~\ud835\udfd8\ud835\udfd8\ud835\udfd9",
           "completion_rate": 1.0,
-          "order_count": 732,
-          "min_limit": 5.0,
-          "max_limit": 20721.748,
-          "available": 17268.1236,
+          "order_count": 481,
+          "min_limit": 10.0,
+          "max_limit": 17778.052,
+          "available": 14815.044,
           "payment_methods": [],
-          "adv_no": "1924026696129343488",
+          "adv_no": "2013947881776095232",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
