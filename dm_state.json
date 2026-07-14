@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784018643.878244,
+      "fetched_at": 1784019192.9151156,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,10 +71,10 @@
           "price": 1403.0,
           "merchant_name": "M-M.BARE\ud83d\udcb2",
           "completion_rate": 0.98,
-          "order_count": 295,
+          "order_count": 296,
           "min_limit": 15000.0,
           "max_limit": 52000.0,
-          "available": 168.792,
+          "available": 168.4792,
           "payment_methods": [],
           "adv_no": "2076914210382213120",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -233,7 +233,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784018645.299923,
+      "fetched_at": 1784019191.8964746,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -257,7 +257,7 @@
           "price": 1.2,
           "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 145,
+          "order_count": 147,
           "min_limit": 10.0,
           "max_limit": 49865.711,
           "available": 41554.7594,
