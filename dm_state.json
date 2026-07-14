@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784052917.6601198,
+      "fetched_at": 1784053515.9533339,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -69,14 +69,14 @@
           "trade_type": "SELL",
           "fiat": "NGN",
           "price": 1399.0,
-          "merchant_name": "Move2Earn",
-          "completion_rate": 0.97,
-          "order_count": 33,
-          "min_limit": 20000.0,
-          "max_limit": 75000.0,
-          "available": 19384.4492,
+          "merchant_name": "AVIATORPAY..",
+          "completion_rate": 1.0,
+          "order_count": 58,
+          "min_limit": 30000.0,
+          "max_limit": 105000.0,
+          "available": 19813.4255,
           "payment_methods": [],
-          "adv_no": "2076210866064576512",
+          "adv_no": "2076276622188810240",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -233,7 +233,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784052916.5701337,
+      "fetched_at": 1784053516.7042148,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
