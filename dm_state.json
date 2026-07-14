@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784026723.4521825,
+      "fetched_at": 1784027097.185642,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1401.0,
-          "merchant_name": "M-M.BARE\ud83d\udcb2",
-          "completion_rate": 0.98,
-          "order_count": 297,
-          "min_limit": 15000.0,
-          "max_limit": 52000.0,
-          "available": 106.9116,
+          "price": 1401.5,
+          "merchant_name": "HOTMAN-001",
+          "completion_rate": 0.95,
+          "order_count": 23,
+          "min_limit": 30000.0,
+          "max_limit": 110000.0,
+          "available": 19615.2595,
           "payment_methods": [],
-          "adv_no": "2076914210382213120",
+          "adv_no": "2076613204821528576",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784026722.3863127,
+      "fetched_at": 1784027098.3425577,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
