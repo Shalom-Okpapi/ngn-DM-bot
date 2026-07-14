@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783994377.7195547,
+      "fetched_at": 1783994620.3095925,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1392.5,
           "merchant_name": "EbeGod_FX",
           "completion_rate": 0.98,
-          "order_count": 549,
+          "order_count": 550,
           "min_limit": 4500.0,
           "max_limit": 200000.0,
           "available": 650.1742,
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783994378.805055,
+      "fetched_at": 1783994618.4650023,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -247,8 +247,8 @@
           "completion_rate": 0.99,
           "order_count": 895,
           "min_limit": 2.0,
-          "max_limit": 23365.642,
-          "available": 29207.0529,
+          "max_limit": 23301.642,
+          "available": 29127.0529,
           "payment_methods": [],
           "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -260,7 +260,7 @@
           "price": 1.2,
           "merchant_name": "Huzzy xchange ",
           "completion_rate": 1.0,
-          "order_count": 5145,
+          "order_count": 5146,
           "min_limit": 10.0,
           "max_limit": 38777.752,
           "available": 32314.7936,
