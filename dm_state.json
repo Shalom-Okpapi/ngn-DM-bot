@@ -1,5 +1,5 @@
 {
-  "last_update_id": 261520280,
+  "last_update_id": 261520286,
   "awaiting_amount": {},
   "last_request_at": {
     "5503157793": 1784023213.024492,
@@ -11,7 +11,7 @@
     "8658029962": 1783517185.8056793,
     "1499517373": 1783540927.5702777,
     "7113359067": 1783583534.9440913,
-    "8602259176": 1784023293.436369,
+    "8602259176": 1784023831.4721897,
     "7706767247": 1783877143.9135878
   },
   "rate_cache": {
@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784023406.7485518,
+      "fetched_at": 1784023939.0554214,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784023405.717164,
+      "fetched_at": 1784023940.750889,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -243,8 +243,8 @@
           "completion_rate": 1.0,
           "order_count": 201,
           "min_limit": 50.0,
-          "max_limit": 1803.2,
-          "available": 2254.0,
+          "max_limit": 1853.2,
+          "available": 2316.5,
           "payment_methods": [],
           "adv_no": "1768869022963105792",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -272,50 +272,50 @@
   "last_admin_notify_failure": null,
   "market_cache": {
     "BTC": {
-      "fetched_at": 1784023294.7880733,
+      "fetched_at": 1784023832.9004745,
       "data": {
-        "price": 62668.33,
-        "change_24h_pct": -0.693,
+        "price": 62724.0,
+        "change_24h_pct": -0.566,
         "high_24h": 63157.85,
         "low_24h": 61824.97,
         "price_7d_ago": 63363.99
       }
     },
     "ETH": {
-      "fetched_at": 1784023296.2987828,
+      "fetched_at": 1784023763.515034,
       "data": {
-        "price": 1788.05,
-        "change_24h_pct": 0.065,
+        "price": 1789.85,
+        "change_24h_pct": 0.374,
         "high_24h": 1794.47,
         "low_24h": 1750.2,
         "price_7d_ago": 1771.45
       }
     },
     "USDC": {
-      "fetched_at": 1784023297.5992846,
+      "fetched_at": 1784023764.6871347,
       "data": {
-        "price": 1.00096,
-        "change_24h_pct": 0.025,
+        "price": 1.00098,
+        "change_24h_pct": 0.027,
         "high_24h": 1.0014,
         "low_24h": 1.00055,
         "price_7d_ago": 1.00051
       }
     },
     "SOL": {
-      "fetched_at": 1784023298.894227,
+      "fetched_at": 1784023765.8624673,
       "data": {
-        "price": 75.1,
-        "change_24h_pct": -1.984,
-        "high_24h": 76.63,
+        "price": 75.2,
+        "change_24h_pct": -1.506,
+        "high_24h": 76.59,
         "low_24h": 74.1,
         "price_7d_ago": 80.58
       }
     },
     "BNB": {
-      "fetched_at": 1784023300.1935687,
+      "fetched_at": 1784023767.040309,
       "data": {
-        "price": 570.17,
-        "change_24h_pct": 0.06,
+        "price": 570.1,
+        "change_24h_pct": 0.105,
         "high_24h": 571.78,
         "low_24h": 562.37,
         "price_7d_ago": 576.82
