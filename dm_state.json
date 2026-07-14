@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784065743.2069485,
+      "fetched_at": 1784067285.1559532,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,13 +68,13 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1407.3,
+          "price": 1407.5,
           "merchant_name": "M-M.BARE\ud83d\udcb2",
           "completion_rate": 0.97,
-          "order_count": 304,
+          "order_count": 305,
           "min_limit": 15000.0,
           "max_limit": 52000.0,
-          "available": 145.0,
+          "available": 113.7389,
           "payment_methods": [],
           "adv_no": "2077145757869862912",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -237,36 +237,38 @@
       }
     },
     "USD": {
-      "fetched_at": 1784065742.0577102,
+      "fetched_at": 1784067286.058189,
       "snapshot": {
         "buy": {
-          "platform": "Bybit",
+          "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "USD",
-          "price": 0.8,
-          "merchant_name": "DagestanDentist",
-          "completion_rate": 1.0,
-          "order_count": 202,
-          "min_limit": 50.0,
-          "max_limit": 1853.2,
-          "available": 2316.5,
-          "payment_methods": [],
-          "adv_no": "1768869022963105792",
-          "link": "https://www.bybit.com/fiat/trade/otc"
+          "price": 0.997,
+          "merchant_name": "AnalistaCripto",
+          "completion_rate": 0.999,
+          "order_count": 1700,
+          "min_limit": 30.0,
+          "max_limit": 1500.0,
+          "available": 2697.18,
+          "payment_methods": [
+            "Banco Pichincha"
+          ],
+          "adv_no": "12909680510819258368",
+          "link": "https://c2c.binance.com/en/adv?code=12909680510819258368"
         },
         "sell": {
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "ALKHABOSS-EX 02",
+          "merchant_name": "Popular~",
           "completion_rate": 1.0,
-          "order_count": 746,
-          "min_limit": 5.0,
-          "max_limit": 20715.748,
-          "available": 17263.1236,
+          "order_count": 1235,
+          "min_limit": 10.0,
+          "max_limit": 46426.449,
+          "available": 38688.7075,
           "payment_methods": [],
-          "adv_no": "1924026696129343488",
+          "adv_no": "2008843091994337280",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
