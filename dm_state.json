@@ -1,8 +1,8 @@
 {
-  "last_update_id": 261520273,
+  "last_update_id": 261520276,
   "awaiting_amount": {},
   "last_request_at": {
-    "5503157793": 1783936316.674336,
+    "5503157793": 1784016278.1771655,
     "8617443875": 1783371828.391422,
     "6671003365": 1783444699.2751603,
     "6458834875": 1783497978.5755217,
@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784015970.9693782,
+      "fetched_at": 1784016291.015992,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1400.2,
-          "merchant_name": "SMARTASSIST\uf8ff",
-          "completion_rate": 0.99,
-          "order_count": 188,
-          "min_limit": 30000.0,
-          "max_limit": 51000.0,
-          "available": 200.0,
+          "price": 1400.4,
+          "merchant_name": "M-M.BARE\ud83d\udcb2",
+          "completion_rate": 0.97,
+          "order_count": 293,
+          "min_limit": 15000.0,
+          "max_limit": 52000.0,
+          "available": 151.2118,
           "payment_methods": [],
-          "adv_no": "2076711173753499648",
+          "adv_no": "2076914210382213120",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -233,7 +233,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784015969.8726432,
+      "fetched_at": 1784016290.2473352,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
