@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784027097.185642,
+      "fetched_at": 1784027372.2306058,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -70,11 +70,11 @@
           "fiat": "NGN",
           "price": 1401.5,
           "merchant_name": "HOTMAN-001",
-          "completion_rate": 0.95,
-          "order_count": 23,
+          "completion_rate": 1.0,
+          "order_count": 22,
           "min_limit": 30000.0,
           "max_limit": 110000.0,
-          "available": 19615.2595,
+          "available": 19585.2595,
           "payment_methods": [],
           "adv_no": "2076613204821528576",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784027098.3425577,
+      "fetched_at": 1784027373.9629562,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -258,8 +258,8 @@
           "completion_rate": 1.0,
           "order_count": 148,
           "min_limit": 10.0,
-          "max_limit": 49851.311,
-          "available": 41542.7594,
+          "max_limit": 49802.111,
+          "available": 41501.7594,
           "payment_methods": [],
           "adv_no": "1969417928054837248",
           "link": "https://www.bybit.com/fiat/trade/otc"
