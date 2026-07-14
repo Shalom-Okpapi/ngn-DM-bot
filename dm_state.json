@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784009927.9418938,
+      "fetched_at": 1784010294.4534836,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1395.49,
-          "merchant_name": "-Bamanga!",
-          "completion_rate": 0.96,
-          "order_count": 161,
-          "min_limit": 38000.0,
-          "max_limit": 58000.0,
-          "available": 60.27,
+          "price": 1399.0,
+          "merchant_name": "kanpolice",
+          "completion_rate": 1.0,
+          "order_count": 37,
+          "min_limit": 4500.0,
+          "max_limit": 27980000.0,
+          "available": 20000.0,
           "payment_methods": [],
-          "adv_no": "2075242043583696896",
+          "adv_no": "2076914813040783360",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784009927.1672177,
+      "fetched_at": 1784010293.1653523,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
