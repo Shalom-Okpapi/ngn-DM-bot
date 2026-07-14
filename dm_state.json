@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784025634.772386,
+      "fetched_at": 1784026185.9281893,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1401.0,
           "merchant_name": "M-M.BARE\ud83d\udcb2",
           "completion_rate": 0.98,
-          "order_count": 296,
+          "order_count": 297,
           "min_limit": 15000.0,
           "max_limit": 52000.0,
           "available": 137.5484,
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784025633.9283426,
+      "fetched_at": 1784026186.6296344,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
