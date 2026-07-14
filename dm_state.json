@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783991313.7275383,
+      "fetched_at": 1783991843.0943742,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1392.5,
-          "merchant_name": "EbeGod_FX",
-          "completion_rate": 0.98,
-          "order_count": 541,
-          "min_limit": 4500.0,
-          "max_limit": 100000.0,
-          "available": 200.0,
+          "price": 1392.57,
+          "merchant_name": "DONT_PANIC\u2733\ufe0fIPAY",
+          "completion_rate": 0.95,
+          "order_count": 740,
+          "min_limit": 12500.0,
+          "max_limit": 157000.0,
+          "available": 47058.1809,
           "payment_methods": [],
-          "adv_no": "2076491172708806656",
+          "adv_no": "2076484922612502528",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783991312.706506,
+      "fetched_at": 1783991844.056802,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -258,14 +258,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "\ud835\udd3b\ud835\udd60\ud835\udd5f\ud835\udd56_\ud835\udd4f\ud835\udd54\ud835\udd59\ud835\udd52\ud835\udd5f\ud835\udd58\ud835\udd56\ud83c\udf1f",
+          "merchant_name": "Huzzy xchange ",
           "completion_rate": 1.0,
-          "order_count": 725,
+          "order_count": 5141,
           "min_limit": 10.0,
-          "max_limit": 19826.79,
-          "available": 16522.3253,
+          "max_limit": 38777.752,
+          "available": 32314.7936,
           "payment_methods": [],
-          "adv_no": "2013559487527952384",
+          "adv_no": "1980385865481023488",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
