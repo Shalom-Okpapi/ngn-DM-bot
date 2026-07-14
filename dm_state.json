@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784034525.7932212,
+      "fetched_at": 1784035072.6490037,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,7 +68,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1401.9,
+          "price": 1402.59,
           "merchant_name": "dangari",
           "completion_rate": 0.97,
           "order_count": 178,
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784034525.0250635,
+      "fetched_at": 1784035073.3605862,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
