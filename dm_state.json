@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784055506.1009989,
+      "fetched_at": 1784056078.5559967,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1402.0,
-          "merchant_name": "ABDUL~-~AZIZ\u260e\ufe0f\ud83d\udd25",
-          "completion_rate": 0.98,
-          "order_count": 163,
-          "min_limit": 10000.0,
-          "max_limit": 70000.0,
-          "available": 60.8774,
+          "price": 1400.0,
+          "merchant_name": "AVIATORPAY..",
+          "completion_rate": 1.0,
+          "order_count": 58,
+          "min_limit": 30000.0,
+          "max_limit": 105000.0,
+          "available": 19813.4255,
           "payment_methods": [],
-          "adv_no": "2077053070759735296",
+          "adv_no": "2076276622188810240",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784055504.7135477,
+      "fetched_at": 1784056077.7345908,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -261,8 +261,8 @@
           "completion_rate": 1.0,
           "order_count": 726,
           "min_limit": 10.0,
-          "max_limit": 19809.99,
-          "available": 16508.3253,
+          "max_limit": 19795.99,
+          "available": 16496.6587,
           "payment_methods": [],
           "adv_no": "2013559487527952384",
           "link": "https://www.bybit.com/fiat/trade/otc"
