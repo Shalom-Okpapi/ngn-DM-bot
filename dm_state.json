@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784024539.219934,
+      "fetched_at": 1784025086.9674995,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,10 +71,10 @@
           "price": 1401.07,
           "merchant_name": "dangari",
           "completion_rate": 0.97,
-          "order_count": 167,
+          "order_count": 168,
           "min_limit": 20000.0,
           "max_limit": 70000.0,
-          "available": 177.0,
+          "available": 142.0,
           "payment_methods": [],
           "adv_no": "2076960954870493184",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784024539.9543238,
+      "fetched_at": 1784025085.8436887,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
