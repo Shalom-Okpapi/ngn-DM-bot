@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783992891.4867847,
+      "fetched_at": 1783993493.422071,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1392.5,
           "merchant_name": "EbeGod_FX",
           "completion_rate": 0.98,
-          "order_count": 547,
+          "order_count": 548,
           "min_limit": 4500.0,
           "max_limit": 200000.0,
           "available": 650.1742,
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783992892.7743793,
+      "fetched_at": 1783993494.5104308,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
