@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783994090.643584,
+      "fetched_at": 1783994377.7195547,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783994091.8674772,
+      "fetched_at": 1783994378.805055,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -260,7 +260,7 @@
           "price": 1.2,
           "merchant_name": "Huzzy xchange ",
           "completion_rate": 1.0,
-          "order_count": 5144,
+          "order_count": 5145,
           "min_limit": 10.0,
           "max_limit": 38777.752,
           "available": 32314.7936,
