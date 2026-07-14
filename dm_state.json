@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783996720.3109212,
+      "fetched_at": 1783997037.8657298,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -239,7 +239,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783996719.566341,
+      "fetched_at": 1783997038.9599185,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -248,7 +248,7 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 897,
+          "order_count": 898,
           "min_limit": 2.0,
           "max_limit": 23706.991,
           "available": 29633.7395,
@@ -263,7 +263,7 @@
           "price": 1.2,
           "merchant_name": "Huzzy xchange ",
           "completion_rate": 1.0,
-          "order_count": 5164,
+          "order_count": 5166,
           "min_limit": 10.0,
           "max_limit": 38777.752,
           "available": 32314.7936,
