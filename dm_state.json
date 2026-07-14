@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784051320.5607028,
+      "fetched_at": 1784051871.4552321,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -70,8 +70,8 @@
           "fiat": "NGN",
           "price": 1398.7,
           "merchant_name": "ABDUL~-~AZIZ\u260e\ufe0f\ud83d\udd25",
-          "completion_rate": 0.99,
-          "order_count": 158,
+          "completion_rate": 0.98,
+          "order_count": 159,
           "min_limit": 10000.0,
           "max_limit": 70000.0,
           "available": 74.3597,
@@ -233,7 +233,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784051321.6309114,
+      "fetched_at": 1784051870.3320465,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
