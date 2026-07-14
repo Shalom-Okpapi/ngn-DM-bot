@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1783997969.3449247,
+      "fetched_at": 1783998244.867424,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -239,7 +239,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1783997968.3734725,
+      "fetched_at": 1783998243.697356,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -261,14 +261,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "Huzzy xchange ",
+          "merchant_name": "Cubes\ud83c\udfc655",
           "completion_rate": 1.0,
-          "order_count": 5171,
-          "min_limit": 10.0,
-          "max_limit": 38777.752,
-          "available": 32314.7936,
+          "order_count": 355,
+          "min_limit": 20.0,
+          "max_limit": 100000.0,
+          "available": 99850.0,
           "payment_methods": [],
-          "adv_no": "1980385865481023488",
+          "adv_no": "2064046895888691200",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
