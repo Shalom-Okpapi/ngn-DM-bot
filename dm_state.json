@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784147840.2760372,
+      "fetched_at": 1784148337.7152376,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1407.0,
           "merchant_name": "MR_FLASH\ud83d\udc80\ud83d\udc8e",
           "completion_rate": 0.99,
-          "order_count": 186,
+          "order_count": 187,
           "min_limit": 20000.0,
           "max_limit": 50000.0,
           "available": 12349.2201,
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784147838.6944003,
+      "fetched_at": 1784148336.526345,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -243,8 +243,8 @@
           "completion_rate": 1.0,
           "order_count": 203,
           "min_limit": 50.0,
-          "max_limit": 1803.2,
-          "available": 2254.0,
+          "max_limit": 1853.2,
+          "available": 2316.5,
           "payment_methods": [],
           "adv_no": "1768869022963105792",
           "link": "https://www.bybit.com/fiat/trade/otc"
