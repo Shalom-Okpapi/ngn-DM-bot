@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784157634.6037543,
+      "fetched_at": 1784158186.3863893,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1784154087.3372245,
+      "fetched_at": 1784157951.8144145,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,7 +91,7 @@
           "price": 0.873,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 11083,
+          "order_count": 11093,
           "min_limit": 50.0,
           "max_limit": 300.0,
           "available": 49453.48,
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1784154083.612871,
+      "fetched_at": 1784157948.4418602,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -154,7 +154,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1784154085.0988505,
+      "fetched_at": 1784157949.5397875,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -193,28 +193,24 @@
       }
     },
     "GBP": {
-      "fetched_at": 1784154086.2709503,
+      "fetched_at": 1784157950.699479,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "GBP",
-          "price": 0.774,
-          "merchant_name": "Instant Payment Release",
-          "completion_rate": 1.0,
-          "order_count": 171,
-          "min_limit": 10.0,
-          "max_limit": 3000.0,
-          "available": 2599.44,
+          "price": 0.764,
+          "merchant_name": "Wise\u767d\u6cfd-Instant",
+          "completion_rate": 0.987,
+          "order_count": 754,
+          "min_limit": 30.0,
+          "max_limit": 2000.0,
+          "available": 10000.0,
           "payment_methods": [
-            "Monzo",
-            "Lloyds Bank",
-            "Starling Bank",
-            "Bank Transfer",
-            "Faster Payments"
+            "Bank Transfer"
           ],
-          "adv_no": "12910810790679953408",
-          "link": "https://c2c.binance.com/en/adv?code=12910810790679953408"
+          "adv_no": "13885729988932505600",
+          "link": "https://c2c.binance.com/en/adv?code=13885729988932505600"
         },
         "sell": {
           "platform": "Binance",
@@ -236,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784157633.4235039,
+      "fetched_at": 1784158185.3034065,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -245,7 +241,7 @@
           "price": 0.999,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 11092,
+          "order_count": 11093,
           "min_limit": 50.0,
           "max_limit": 43811.899,
           "available": 43855.7555,
