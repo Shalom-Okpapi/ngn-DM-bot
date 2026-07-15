@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784154887.828536,
+      "fetched_at": 1784155440.5305402,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784154882.6723058,
+      "fetched_at": 1784155439.3225226,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -245,7 +245,7 @@
           "price": 0.999,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 11087,
+          "order_count": 11088,
           "min_limit": 50.0,
           "max_limit": 43811.899,
           "available": 43855.7555,
@@ -260,7 +260,7 @@
           "price": 1.2,
           "merchant_name": "Popular~",
           "completion_rate": 1.0,
-          "order_count": 1239,
+          "order_count": 1240,
           "min_limit": 10.0,
           "max_limit": 46426.449,
           "available": 38688.7075,
