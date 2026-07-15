@@ -1,5 +1,5 @@
 {
-  "last_update_id": 261520302,
+  "last_update_id": 261520305,
   "awaiting_amount": {},
   "last_request_at": {
     "5503157793": 1784121457.285912,
@@ -11,7 +11,7 @@
     "8658029962": 1783517185.8056793,
     "1499517373": 1783540927.5702777,
     "7113359067": 1783583534.9440913,
-    "8602259176": 1784133629.0922604,
+    "8602259176": 1784136350.46258,
     "7706767247": 1783877143.9135878
   },
   "rate_cache": {
@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784135994.3884664,
+      "fetched_at": 1784136508.5041556,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -230,21 +230,21 @@
       }
     },
     "USD": {
-      "fetched_at": 1784135993.319458,
+      "fetched_at": 1784136507.2966278,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "USD",
-          "price": 0.8,
-          "merchant_name": "JackyChee",
-          "completion_rate": 0.99,
-          "order_count": 942,
+          "price": 0.999,
+          "merchant_name": "\u26a1\ufe0fExRUB24\ud83d\udcaf",
+          "completion_rate": 1.0,
+          "order_count": 2284,
           "min_limit": 2.0,
-          "max_limit": 23419.591,
-          "available": 29274.4895,
+          "max_limit": 100.0,
+          "available": 4735.7068,
           "payment_methods": [],
-          "adv_no": "2034594166346301440",
+          "adv_no": "2012902965841936384",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -252,14 +252,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "ALKHABOSS-EX 02",
+          "merchant_name": "Popular~",
           "completion_rate": 1.0,
-          "order_count": 771,
-          "min_limit": 5.0,
-          "max_limit": 20709.748,
-          "available": 17258.1236,
+          "order_count": 1237,
+          "min_limit": 10.0,
+          "max_limit": 46426.449,
+          "available": 38688.7075,
           "payment_methods": [],
-          "adv_no": "1924026696129343488",
+          "adv_no": "2008843091994337280",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -270,51 +270,51 @@
   "last_admin_notify_failure": null,
   "market_cache": {
     "BTC": {
-      "fetched_at": 1784121418.4549093,
+      "fetched_at": 1784136316.6336377,
       "data": {
-        "price": 65449.99,
-        "change_24h_pct": 2.448,
-        "high_24h": 65450.0,
-        "low_24h": 63580.99,
+        "price": 65072.0,
+        "change_24h_pct": 0.943,
+        "high_24h": 65600.0,
+        "low_24h": 64419.99,
         "price_7d_ago": 62290.0
       }
     },
     "ETH": {
-      "fetched_at": 1784121419.7103689,
+      "fetched_at": 1784136317.907609,
       "data": {
-        "price": 1939.48,
-        "change_24h_pct": 4.27,
-        "high_24h": 1945.3,
-        "low_24h": 1856.7,
+        "price": 1923.3,
+        "change_24h_pct": 3.075,
+        "high_24h": 1946.52,
+        "low_24h": 1864.38,
         "price_7d_ago": 1743.54
       }
     },
     "USDC": {
-      "fetched_at": 1784121420.6634984,
+      "fetched_at": 1784136319.0349886,
       "data": {
-        "price": 1.00068,
-        "change_24h_pct": -0.013,
-        "high_24h": 1.00089,
+        "price": 1.00067,
+        "change_24h_pct": 0.018,
+        "high_24h": 1.00078,
         "low_24h": 1.0004,
         "price_7d_ago": 1.00061
       }
     },
     "SOL": {
-      "fetched_at": 1784121421.6122255,
+      "fetched_at": 1784136320.1637669,
       "data": {
-        "price": 78.8,
-        "change_24h_pct": 2.818,
-        "high_24h": 79.0,
-        "low_24h": 76.6,
+        "price": 77.73,
+        "change_24h_pct": 1.027,
+        "high_24h": 79.04,
+        "low_24h": 76.9,
         "price_7d_ago": 77.83
       }
     },
     "BNB": {
-      "fetched_at": 1784121423.040384,
+      "fetched_at": 1784136321.6810353,
       "data": {
-        "price": 583.96,
-        "change_24h_pct": 1.222,
-        "high_24h": 584.64,
+        "price": 579.89,
+        "change_24h_pct": 0.048,
+        "high_24h": 585.3,
         "low_24h": 575.8,
         "price_7d_ago": 568.66
       }
