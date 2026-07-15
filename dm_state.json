@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784143600.8963046,
+      "fetched_at": 1784144202.3016253,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1398.9,
-          "merchant_name": "AVIATORPAY..",
-          "completion_rate": 0.98,
-          "order_count": 58,
+          "price": 1402.33,
+          "merchant_name": "MR_FLASH\ud83d\udc80\ud83d\udc8e",
+          "completion_rate": 0.99,
+          "order_count": 181,
           "min_limit": 30000.0,
-          "max_limit": 110000.0,
-          "available": 20000.0,
+          "max_limit": 50000.0,
+          "available": 12504.7711,
           "payment_methods": [],
-          "adv_no": "2077379470763421696",
+          "adv_no": "2067496087218999296",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -233,7 +233,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784143599.644073,
+      "fetched_at": 1784144203.8760338,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
