@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784143074.4828236,
+      "fetched_at": 1784143600.8963046,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -233,28 +233,22 @@
       }
     },
     "USD": {
-      "fetched_at": 1784143073.3423107,
+      "fetched_at": 1784143599.644073,
       "snapshot": {
         "buy": {
-          "platform": "Binance",
+          "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "USD",
-          "price": 0.999,
-          "merchant_name": "ThonyCM1",
+          "price": 0.8,
+          "merchant_name": "DagestanDentist",
           "completion_rate": 1.0,
-          "order_count": 567,
-          "min_limit": 20.0,
-          "max_limit": 600.0,
-          "available": 4263.84,
-          "payment_methods": [
-            "Banco Guayaquil",
-            "Banco Pichincha",
-            "Banco del pacifico",
-            "Banco Internacional",
-            "Banco del Austro"
-          ],
-          "adv_no": "12886499179067629568",
-          "link": "https://c2c.binance.com/en/adv?code=12886499179067629568"
+          "order_count": 203,
+          "min_limit": 50.0,
+          "max_limit": 1853.2,
+          "available": 2316.5,
+          "payment_methods": [],
+          "adv_no": "1768869022963105792",
+          "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
           "platform": "Bybit",
