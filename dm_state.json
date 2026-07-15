@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784152584.5534725,
+      "fetched_at": 1784153187.4042094,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1408.0,
           "merchant_name": "ABDULAZEEZ\u260e\ufe0f\ud83d\udd25",
           "completion_rate": 1.0,
-          "order_count": 85,
+          "order_count": 86,
           "min_limit": 10000.0,
           "max_limit": 80000.0,
           "available": 60.0143,
@@ -232,28 +232,24 @@
       }
     },
     "USD": {
-      "fetched_at": 1784152583.373248,
+      "fetched_at": 1784153188.277565,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "USD",
-          "price": 0.999,
-          "merchant_name": "Arigonza15",
+          "price": 0.997,
+          "merchant_name": "CAMBIOSJOSEBETT",
           "completion_rate": 1.0,
-          "order_count": 768,
-          "min_limit": 30.0,
-          "max_limit": 1500.0,
-          "available": 438.74,
+          "order_count": 52,
+          "min_limit": 15.0,
+          "max_limit": 7499.0,
+          "available": 8054.81,
           "payment_methods": [
-            "Banco del pacifico",
-            "Banco Pichincha",
-            "Banco Guayaquil",
-            "Banco Bolivariano",
-            "Banco del Austro"
+            "Banco Pichincha"
           ],
-          "adv_no": "12910146295226155008",
-          "link": "https://c2c.binance.com/en/adv?code=12910146295226155008"
+          "adv_no": "12910830861311016960",
+          "link": "https://c2c.binance.com/en/adv?code=12910830861311016960"
         },
         "sell": {
           "platform": "Bybit",
@@ -262,7 +258,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 772,
+          "order_count": 773,
           "min_limit": 5.0,
           "max_limit": 20709.748,
           "available": 17258.1236,
