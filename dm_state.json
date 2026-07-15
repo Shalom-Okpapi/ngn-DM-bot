@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784152086.8492258,
+      "fetched_at": 1784152584.5534725,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -74,7 +74,7 @@
           "order_count": 85,
           "min_limit": 10000.0,
           "max_limit": 80000.0,
-          "available": 100.0,
+          "available": 60.0143,
           "payment_methods": [],
           "adv_no": "2077503151019847680",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784152086.051091,
+      "fetched_at": 1784152583.373248,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -241,10 +241,10 @@
           "price": 0.999,
           "merchant_name": "Arigonza15",
           "completion_rate": 1.0,
-          "order_count": 766,
+          "order_count": 768,
           "min_limit": 30.0,
           "max_limit": 1500.0,
-          "available": 484.94,
+          "available": 438.74,
           "payment_methods": [
             "Banco del pacifico",
             "Banco Pichincha",
