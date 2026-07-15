@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784141689.1693385,
+      "fetched_at": 1784141922.1983786,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -230,24 +230,28 @@
       }
     },
     "USD": {
-      "fetched_at": 1784141687.91935,
+      "fetched_at": 1784141921.2359347,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "USD",
-          "price": 0.996,
-          "merchant_name": "CAMBIOSJOSEBETT",
+          "price": 0.999,
+          "merchant_name": "ThonyCM1",
           "completion_rate": 1.0,
-          "order_count": 48,
-          "min_limit": 15.0,
-          "max_limit": 6000.0,
-          "available": 827.92,
+          "order_count": 561,
+          "min_limit": 20.0,
+          "max_limit": 600.0,
+          "available": 4719.33,
           "payment_methods": [
-            "Banco Pichincha"
+            "Banco Guayaquil",
+            "Banco Pichincha",
+            "Banco del pacifico",
+            "Banco Internacional",
+            "Banco del Austro"
           ],
-          "adv_no": "12910768699890900992",
-          "link": "https://c2c.binance.com/en/adv?code=12910768699890900992"
+          "adv_no": "12886499179067629568",
+          "link": "https://c2c.binance.com/en/adv?code=12886499179067629568"
         },
         "sell": {
           "platform": "Bybit",
