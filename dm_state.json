@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784140534.9631248,
+      "fetched_at": 1784141036.7675033,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -230,7 +230,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784140536.1898925,
+      "fetched_at": 1784141036.0834506,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -239,10 +239,10 @@
           "price": 0.996,
           "merchant_name": "CAMBIOSJOSEBETT",
           "completion_rate": 1.0,
-          "order_count": 38,
+          "order_count": 43,
           "min_limit": 15.0,
           "max_limit": 6000.0,
-          "available": 5535.58,
+          "available": 2353.27,
           "payment_methods": [
             "Banco Pichincha"
           ],
