@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784150924.333863,
+      "fetched_at": 1784151531.5807414,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,10 +71,10 @@
           "price": 1408.0,
           "merchant_name": "ABDULAZEEZ\u260e\ufe0f\ud83d\udd25",
           "completion_rate": 1.0,
-          "order_count": 84,
+          "order_count": 85,
           "min_limit": 10000.0,
-          "max_limit": 70800.01,
-          "available": 50.2841,
+          "max_limit": 80000.0,
+          "available": 100.0,
           "payment_methods": [],
           "adv_no": "2077503151019847680",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784150925.097295,
+      "fetched_at": 1784151533.0556495,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
