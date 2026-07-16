@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784240787.6101022,
+      "fetched_at": 1784241332.5488236,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1401.4,
-          "merchant_name": "M-M.BARE\ud83d\udcb2",
+          "price": 1412.5,
+          "merchant_name": "ABDULAZEEZ\u260e\ufe0f\ud83d\udd25",
           "completion_rate": 0.95,
-          "order_count": 346,
+          "order_count": 136,
           "min_limit": 10000.0,
-          "max_limit": 85000.0,
-          "available": 82.4142,
+          "max_limit": 80000.0,
+          "available": 100.0,
           "payment_methods": [],
-          "adv_no": "2077792147802017792",
+          "adv_no": "2077810423047245824",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -238,21 +238,21 @@
       }
     },
     "USD": {
-      "fetched_at": 1784240788.6293118,
+      "fetched_at": 1784241333.2946992,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "USD",
-          "price": 0.998,
-          "merchant_name": "BONAQUA",
+          "price": 0.999,
+          "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 2995,
+          "order_count": 10997,
           "min_limit": 50.0,
-          "max_limit": 30000.0,
-          "available": 43992.663,
+          "max_limit": 42146.977,
+          "available": 42189.167,
           "payment_methods": [],
-          "adv_no": "1893563370708226048",
+          "adv_no": "1807122607564685312",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
