@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784182168.899069,
+      "fetched_at": 1784182437.4545097,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1391.0,
-          "merchant_name": "ACCEPTED\ud83d\udd25ONLY",
-          "completion_rate": 0.97,
-          "order_count": 71,
-          "min_limit": 20000.0,
-          "max_limit": 100000.0,
-          "available": 535.0,
+          "price": 1394.1,
+          "merchant_name": "SHARPERPAY\u2668\ufe0f\u26a1\ufe0f\ud83d\udc4c",
+          "completion_rate": 0.95,
+          "order_count": 130,
+          "min_limit": 45000.0,
+          "max_limit": 72000.0,
+          "available": 372.8357,
           "payment_methods": [],
-          "adv_no": "2034994043904425984",
+          "adv_no": "2075580760664166400",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -230,7 +230,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784182169.9432268,
+      "fetched_at": 1784182436.6953642,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -239,7 +239,7 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 914,
+          "order_count": 915,
           "min_limit": 2.0,
           "max_limit": 23419.591,
           "available": 29274.4895,
@@ -254,7 +254,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 780,
+          "order_count": 781,
           "min_limit": 5.0,
           "max_limit": 20709.748,
           "available": 17258.1236,
