@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784198293.729938,
+      "fetched_at": 1784198638.4625862,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,10 +68,10 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1410.0,
+          "price": 1412.0,
           "merchant_name": "ABDULAZEEZ\u260e\ufe0f\ud83d\udd25",
           "completion_rate": 0.98,
-          "order_count": 88,
+          "order_count": 90,
           "min_limit": 10000.0,
           "max_limit": 80000.0,
           "available": 100.0,
@@ -230,7 +230,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784198292.8099155,
+      "fetched_at": 1784198637.362464,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
