@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784237620.9391704,
+      "fetched_at": 1784237918.256806,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1413.1,
-          "merchant_name": "M-M.BARE\ud83d\udcb2",
-          "completion_rate": 0.95,
-          "order_count": 345,
-          "min_limit": 10000.0,
-          "max_limit": 85000.0,
-          "available": 139.0273,
+          "price": 1400.0,
+          "merchant_name": "Hemdy",
+          "completion_rate": 0.98,
+          "order_count": 128,
+          "min_limit": 5000.0,
+          "max_limit": 100000.0,
+          "available": 19554.0764,
           "payment_methods": [],
-          "adv_no": "2077792147802017792",
+          "adv_no": "2004096098338033664",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784237622.1598394,
+      "fetched_at": 1784237919.3342845,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
