@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784163846.7136464,
+      "fetched_at": 1784164442.89088,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1396.65,
           "merchant_name": "NO_DELAY\ud83d\udc4c\ud83e\udd33",
           "completion_rate": 1.0,
-          "order_count": 29,
+          "order_count": 30,
           "min_limit": 25000.0,
           "max_limit": 65000.0,
           "available": 19969.0,
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784163842.8743153,
+      "fetched_at": 1784164441.8502846,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -241,7 +241,7 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 904,
+          "order_count": 906,
           "min_limit": 2.0,
           "max_limit": 23419.591,
           "available": 29274.4895,
