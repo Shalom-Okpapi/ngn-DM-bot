@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784223577.4906418,
+      "fetched_at": 1784224075.7706897,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -74,7 +74,7 @@
           "order_count": 338,
           "min_limit": 10000.0,
           "max_limit": 85000.0,
-          "available": 117.0666,
+          "available": 108.5873,
           "payment_methods": [],
           "adv_no": "2077792147802017792",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -82,21 +82,21 @@
       }
     },
     "EUR": {
-      "fetched_at": 1784220289.518451,
+      "fetched_at": 1784223918.501958,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "EUR",
-          "price": 0.874,
-          "merchant_name": "Satoshi_Na.",
-          "completion_rate": 0.98,
-          "order_count": 617,
-          "min_limit": 2.0,
-          "max_limit": 3063.189,
-          "available": 3504.7931,
+          "price": 0.875,
+          "merchant_name": "GEO_PAPA",
+          "completion_rate": 1.0,
+          "order_count": 2452,
+          "min_limit": 20.0,
+          "max_limit": 1000.0,
+          "available": 21100.092,
           "payment_methods": [],
-          "adv_no": "2058559455802589184",
+          "adv_no": "1774441374821371904",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1784220286.838103,
+      "fetched_at": 1784223915.4762654,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -140,23 +140,23 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 161.3,
-          "merchant_name": "Dracula_99",
-          "completion_rate": 0.952,
-          "order_count": 79,
+          "price": 155.55,
+          "merchant_name": "PK_CRYPTO_PRO2026",
+          "completion_rate": 0.986,
+          "order_count": 277,
           "min_limit": 5000.0,
-          "max_limit": 100000.0,
-          "available": 7769.89,
+          "max_limit": 90000.0,
+          "available": 240.0,
           "payment_methods": [
             "PayPay Money"
           ],
-          "adv_no": "12905810156590796800",
-          "link": "https://c2c.binance.com/en/adv?code=12905810156590796800"
+          "adv_no": "12822939400706605056",
+          "link": "https://c2c.binance.com/en/adv?code=12822939400706605056"
         }
       }
     },
     "CHF": {
-      "fetched_at": 1784220287.736898,
+      "fetched_at": 1784223916.2078962,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -197,24 +197,24 @@
       }
     },
     "GBP": {
-      "fetched_at": 1784220288.658787,
+      "fetched_at": 1784223917.3659837,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "GBP",
-          "price": 0.768,
-          "merchant_name": "Wise\u767d\u6cfd-Instant",
-          "completion_rate": 0.987,
-          "order_count": 750,
-          "min_limit": 30.0,
-          "max_limit": 2000.0,
-          "available": 2495.09,
+          "price": 0.775,
+          "merchant_name": "Fast-USDT10",
+          "completion_rate": 1.0,
+          "order_count": 385,
+          "min_limit": 5.0,
+          "max_limit": 1000.0,
+          "available": 232.25,
           "payment_methods": [
-            "Bank Transfer"
+            "Skrill (Moneybookers)"
           ],
-          "adv_no": "13885729988932505600",
-          "link": "https://c2c.binance.com/en/adv?code=13885729988932505600"
+          "adv_no": "12892175219020922880",
+          "link": "https://c2c.binance.com/en/adv?code=12892175219020922880"
         },
         "sell": {
           "platform": "Binance",
@@ -223,7 +223,7 @@
           "price": 0.748,
           "merchant_name": "Sallam_96",
           "completion_rate": 0.995,
-          "order_count": 170,
+          "order_count": 171,
           "min_limit": 35.0,
           "max_limit": 500.0,
           "available": 105.0,
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784223578.7505975,
+      "fetched_at": 1784224076.5150158,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
