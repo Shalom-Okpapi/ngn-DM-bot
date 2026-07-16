@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784162977.333517,
+      "fetched_at": 1784163215.8218904,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1396.25,
-          "merchant_name": "NO_DELAY\ud83d\udc4c\ud83e\udd33",
-          "completion_rate": 1.0,
-          "order_count": 29,
-          "min_limit": 25000.0,
-          "max_limit": 60000.0,
-          "available": 19899.2786,
+          "price": 1392.0,
+          "merchant_name": "Abba Umar",
+          "completion_rate": 0.97,
+          "order_count": 235,
+          "min_limit": 45000.0,
+          "max_limit": 153120.0,
+          "available": 110.0,
           "payment_methods": [],
-          "adv_no": "2077331808905162752",
+          "adv_no": "2074995803441987584",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784162978.1481693,
+      "fetched_at": 1784163214.9824228,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
