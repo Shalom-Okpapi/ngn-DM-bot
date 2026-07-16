@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784242359.441541,
+      "fetched_at": 1784242907.5089433,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,10 +71,10 @@
           "price": 1413.0,
           "merchant_name": "ABDULAZEEZ\u260e\ufe0f\ud83d\udd25",
           "completion_rate": 0.95,
-          "order_count": 137,
+          "order_count": 138,
           "min_limit": 10000.0,
-          "max_limit": 80000.0,
-          "available": 100.0,
+          "max_limit": 76380.98,
+          "available": 54.0559,
           "payment_methods": [],
           "adv_no": "2077810423047245824",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784242358.3480256,
+      "fetched_at": 1784242908.4029694,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -247,7 +247,7 @@
           "price": 0.999,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 11005,
+          "order_count": 11006,
           "min_limit": 50.0,
           "max_limit": 42146.977,
           "available": 42189.167,
@@ -260,14 +260,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "FIGE FX\u2b50\u2b50",
+          "merchant_name": "Zoloto",
           "completion_rate": 1.0,
-          "order_count": 896,
-          "min_limit": 10.0,
-          "max_limit": 32754.291,
-          "available": 27295.2431,
+          "order_count": 650,
+          "min_limit": 50.0,
+          "max_limit": 3200.0,
+          "available": 66644.8049,
           "payment_methods": [],
-          "adv_no": "1925937600883937280",
+          "adv_no": "2033544081232252928",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
