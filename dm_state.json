@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784227727.0955415,
+      "fetched_at": 1784228306.2568448,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -74,7 +74,7 @@
           "order_count": 117,
           "min_limit": 10000.0,
           "max_limit": 80000.0,
-          "available": 100.0,
+          "available": 74.4618,
           "payment_methods": [],
           "adv_no": "2077810423047245824",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784227726.3205945,
+      "fetched_at": 1784228305.334994,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -245,7 +245,7 @@
           "price": 0.998,
           "merchant_name": "BONAQUA",
           "completion_rate": 1.0,
-          "order_count": 2978,
+          "order_count": 2979,
           "min_limit": 50.0,
           "max_limit": 30000.0,
           "available": 44474.6269,
