@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784239687.1609106,
+      "fetched_at": 1784240183.3360786,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784239686.363463,
+      "fetched_at": 1784240184.131667,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -247,7 +247,7 @@
           "price": 0.998,
           "merchant_name": "BONAQUA",
           "completion_rate": 1.0,
-          "order_count": 2991,
+          "order_count": 2994,
           "min_limit": 50.0,
           "max_limit": 30000.0,
           "available": 43992.663,
@@ -262,7 +262,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 802,
+          "order_count": 804,
           "min_limit": 5.0,
           "max_limit": 20697.948,
           "available": 17248.2906,
