@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784298899.656833,
+      "fetched_at": 1784299427.7599783,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1504.54,
           "merchant_name": "GoldenPrimeEx",
           "completion_rate": 0.98,
-          "order_count": 531,
+          "order_count": 532,
           "min_limit": 5000.0,
           "max_limit": 700000.0,
           "available": 50000.0,
@@ -233,7 +233,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784298900.382654,
+      "fetched_at": 1784299429.2053912,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
