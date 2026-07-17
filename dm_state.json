@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784322097.518159,
+      "fetched_at": 1784322647.729773,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,10 +71,10 @@
           "price": 1400.9,
           "merchant_name": "AVIATORPAY..",
           "completion_rate": 0.96,
-          "order_count": 87,
+          "order_count": 88,
           "min_limit": 30000.0,
           "max_limit": 102000.0,
-          "available": 18538.2374,
+          "available": 18505.4872,
           "payment_methods": [],
           "adv_no": "2077379470763421696",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -239,7 +239,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784322096.1921406,
+      "fetched_at": 1784322646.9879668,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
