@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784311386.1904573,
+      "fetched_at": 1784311880.9138575,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,10 +71,10 @@
           "price": 1401.1,
           "merchant_name": "Maturity 01",
           "completion_rate": 1.0,
-          "order_count": 30,
+          "order_count": 31,
           "min_limit": 30000.0,
           "max_limit": 110000.0,
-          "available": 224.83,
+          "available": 129.6705,
           "payment_methods": [],
           "adv_no": "2078111931981672448",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784311385.1414342,
+      "fetched_at": 1784311879.8769238,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -261,7 +261,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 815,
+          "order_count": 816,
           "min_limit": 5.0,
           "max_limit": 20697.948,
           "available": 17248.2906,
