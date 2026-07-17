@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784265890.441796,
+      "fetched_at": 1784266174.2602646,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,7 +56,7 @@
           "price": 1340.0,
           "merchant_name": "Yomicash ",
           "completion_rate": 1.0,
-          "order_count": 25,
+          "order_count": 23,
           "min_limit": 50000.0,
           "max_limit": 64320.0,
           "available": 48.0,
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784265889.5705206,
+      "fetched_at": 1784266175.8870916,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
