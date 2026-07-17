@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784257101.045578,
+      "fetched_at": 1784257489.2253652,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1394.0,
           "merchant_name": "KANZULBARAYA\ud83c\udfc5",
           "completion_rate": 0.96,
-          "order_count": 404,
+          "order_count": 383,
           "min_limit": 50000.0,
           "max_limit": 200000.0,
           "available": 47689.5788,
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784257099.9144447,
+      "fetched_at": 1784257490.3972206,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -246,10 +246,10 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 910,
+          "order_count": 911,
           "min_limit": 2.0,
-          "max_limit": 21922.748,
-          "available": 27403.4358,
+          "max_limit": 21964.348,
+          "available": 27455.4358,
           "payment_methods": [],
           "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -261,7 +261,7 @@
           "price": 1.2,
           "merchant_name": "FIGE FX\u2b50\u2b50",
           "completion_rate": 1.0,
-          "order_count": 888,
+          "order_count": 889,
           "min_limit": 10.0,
           "max_limit": 32754.291,
           "available": 27295.2431,
