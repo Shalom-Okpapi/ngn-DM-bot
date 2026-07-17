@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784246181.5631993,
+      "fetched_at": 1784246764.8094378,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,10 +71,10 @@
           "price": 1396.0,
           "merchant_name": "AVIATORPAY..",
           "completion_rate": 0.97,
-          "order_count": 71,
+          "order_count": 72,
           "min_limit": 30000.0,
           "max_limit": 105000.0,
-          "available": 19307.3573,
+          "available": 19200.6422,
           "payment_methods": [],
           "adv_no": "2077379470763421696",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784246183.0240507,
+      "fetched_at": 1784246763.7214208,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -247,8 +247,8 @@
           "completion_rate": 0.99,
           "order_count": 936,
           "min_limit": 2.0,
-          "max_limit": 22893.697,
-          "available": 28617.1224,
+          "max_limit": 22885.697,
+          "available": 28607.1224,
           "payment_methods": [],
           "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -258,14 +258,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "FIGE FX\u2b50\u2b50",
+          "merchant_name": "\ud835\udd44\ud835\udd5a\ud835\udd5f\ud835\udd66\ud835\udd65\ud835\udd56-\ud835\udd61\ud835\udd52\ud835\udd6a\ud835\udd5e\ud835\udd56\ud835\udd5f\ud835\udd65",
           "completion_rate": 1.0,
-          "order_count": 897,
+          "order_count": 1074,
           "min_limit": 10.0,
-          "max_limit": 32754.291,
-          "available": 27295.2431,
+          "max_limit": 50000.0,
+          "available": 99404.7485,
           "payment_methods": [],
-          "adv_no": "1925937600883937280",
+          "adv_no": "2023205727115177984",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
