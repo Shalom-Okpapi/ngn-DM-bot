@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784260176.195351,
+      "fetched_at": 1784260479.644913,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1393.0,
           "merchant_name": "XBDC",
           "completion_rate": 0.97,
-          "order_count": 202,
+          "order_count": 203,
           "min_limit": 50000.0,
           "max_limit": 73829.0,
           "available": 53.0,
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784260174.972615,
+      "fetched_at": 1784260478.763228,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
