@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784304022.462647,
+      "fetched_at": 1784304566.914581,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784304023.396814,
+      "fetched_at": 1784304567.6899831,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -246,7 +246,7 @@
           "price": 0.8,
           "merchant_name": "DagestanDentist",
           "completion_rate": 1.0,
-          "order_count": 218,
+          "order_count": 220,
           "min_limit": 50.0,
           "max_limit": 1713.2,
           "available": 2141.5,
@@ -261,7 +261,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 813,
+          "order_count": 814,
           "min_limit": 5.0,
           "max_limit": 20697.948,
           "available": 17248.2906,
