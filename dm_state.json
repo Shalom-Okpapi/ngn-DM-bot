@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784249024.208722,
+      "fetched_at": 1784249388.6506693,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1392.22,
           "merchant_name": "Quick\ud83d\ude0dPayment\ud83d\udd36\ud83d\udd37",
           "completion_rate": 0.98,
-          "order_count": 988,
+          "order_count": 985,
           "min_limit": 4500.0,
           "max_limit": 50000.0,
           "available": 19701.0932,
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784249025.0523791,
+      "fetched_at": 1784249389.7360137,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -260,7 +260,7 @@
           "price": 1.2,
           "merchant_name": "Cubes\ud83c\udfc655",
           "completion_rate": 1.0,
-          "order_count": 366,
+          "order_count": 365,
           "min_limit": 20.0,
           "max_limit": 100000.0,
           "available": 99321.5717,
