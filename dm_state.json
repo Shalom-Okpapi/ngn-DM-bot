@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784306323.8173432,
+      "fetched_at": 1784306930.6022787,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1400.7,
-          "merchant_name": "Daiber002",
-          "completion_rate": 0.95,
-          "order_count": 101,
+          "price": 1398.99,
+          "merchant_name": "AVIATORPAY..",
+          "completion_rate": 0.96,
+          "order_count": 82,
           "min_limit": 30000.0,
-          "max_limit": 50000.0,
-          "available": 150.0,
+          "max_limit": 102000.0,
+          "available": 18663.4339,
           "payment_methods": [],
-          "adv_no": "2075674031971643392",
+          "adv_no": "2077379470763421696",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784306322.6015375,
+      "fetched_at": 1784306929.6336172,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
