@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784253107.6649165,
+      "fetched_at": 1784253638.5790284,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,42 +82,42 @@
       }
     },
     "EUR": {
-      "fetched_at": 1784249684.2707384,
+      "fetched_at": 1784253404.3447464,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "EUR",
-          "price": 0.874,
-          "merchant_name": "alvik",
+          "price": 0.875,
+          "merchant_name": "GEO_PAPA",
           "completion_rate": 1.0,
-          "order_count": 10678,
-          "min_limit": 50.0,
-          "max_limit": 300.0,
-          "available": 46785.7658,
+          "order_count": 2480,
+          "min_limit": 20.0,
+          "max_limit": 1000.0,
+          "available": 18129.5438,
           "payment_methods": [],
-          "adv_no": "2038225274208436224",
+          "adv_no": "1774441374821371904",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "EUR",
-          "price": 1.048,
-          "merchant_name": "corporate \ud83d\udcaf",
-          "completion_rate": 0.99,
-          "order_count": 629,
-          "min_limit": 10.0,
-          "max_limit": 85500.0,
-          "available": 99940.0,
+          "price": 0.955,
+          "merchant_name": "XPrimeAlphaX",
+          "completion_rate": 0.96,
+          "order_count": 300,
+          "min_limit": 4.0,
+          "max_limit": 120.0,
+          "available": 49940.354,
           "payment_methods": [],
-          "adv_no": "2070957163008937984",
+          "adv_no": "2028640456638803968",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "JPY": {
-      "fetched_at": 1784249681.7436101,
+      "fetched_at": 1784253401.3245184,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -138,23 +138,24 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 163.1,
-          "merchant_name": "LKRcrypto",
+          "price": 165.0,
+          "merchant_name": "User-71886",
           "completion_rate": 1.0,
-          "order_count": 122,
-          "min_limit": 1000.0,
+          "order_count": 27,
+          "min_limit": 5000.0,
           "max_limit": 150000.0,
-          "available": 45.11,
+          "available": 100.0,
           "payment_methods": [
-            "PayPay Money"
+            "PayPay Money",
+            "Bank Transfer"
           ],
-          "adv_no": "12791020722413551616",
-          "link": "https://c2c.binance.com/en/adv?code=12791020722413551616"
+          "adv_no": "12903362867104456704",
+          "link": "https://c2c.binance.com/en/adv?code=12903362867104456704"
         }
       }
     },
     "CHF": {
-      "fetched_at": 1784249682.55523,
+      "fetched_at": 1784253402.3404632,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -198,7 +199,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1784249683.426735,
+      "fetched_at": 1784253403.393785,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -207,10 +208,10 @@
           "price": 0.768,
           "merchant_name": "Wise\u767d\u6cfd-Instant",
           "completion_rate": 0.989,
-          "order_count": 763,
+          "order_count": 764,
           "min_limit": 30.0,
           "max_limit": 2000.0,
-          "available": 2495.09,
+          "available": 2378.01,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -223,11 +224,11 @@
           "fiat": "GBP",
           "price": 0.728,
           "merchant_name": "ezswap2025",
-          "completion_rate": 0.957,
+          "completion_rate": 0.95,
           "order_count": 131,
           "min_limit": 10.0,
           "max_limit": 5000.0,
-          "available": 18819.18,
+          "available": 19229.1,
           "payment_methods": [
             "Alipay"
           ],
@@ -237,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784253108.7489796,
+      "fetched_at": 1784253637.5115643,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -261,7 +262,7 @@
           "price": 1.2,
           "merchant_name": "Cubes\ud83c\udfc655",
           "completion_rate": 1.0,
-          "order_count": 367,
+          "order_count": 368,
           "min_limit": 20.0,
           "max_limit": 100000.0,
           "available": 98259.6141,
