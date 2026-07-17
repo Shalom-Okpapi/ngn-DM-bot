@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784248179.9809258,
+      "fetched_at": 1784248481.6015162,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,7 +68,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1394.22,
+          "price": 1392.22,
           "merchant_name": "Quick\ud83d\ude0dPayment\ud83d\udd36\ud83d\udd37",
           "completion_rate": 0.98,
           "order_count": 984,
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784248178.7915142,
+      "fetched_at": 1784248480.8035586,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -245,10 +245,10 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 936,
+          "order_count": 903,
           "min_limit": 2.0,
-          "max_limit": 22893.697,
-          "available": 28617.1224,
+          "max_limit": 22890.497,
+          "available": 28613.1224,
           "payment_methods": [],
           "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -258,14 +258,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "\ud835\udd44\ud835\udd5a\ud835\udd5f\ud835\udd66\ud835\udd65\ud835\udd56-\ud835\udd61\ud835\udd52\ud835\udd6a\ud835\udd5e\ud835\udd56\ud835\udd5f\ud835\udd65",
+          "merchant_name": "Cubes\ud83c\udfc655",
           "completion_rate": 1.0,
-          "order_count": 1074,
-          "min_limit": 10.0,
-          "max_limit": 50000.0,
-          "available": 99404.7485,
+          "order_count": 366,
+          "min_limit": 20.0,
+          "max_limit": 100000.0,
+          "available": 99321.5717,
           "payment_methods": [],
-          "adv_no": "2023205727115177984",
+          "adv_no": "2064046895888691200",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
