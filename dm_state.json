@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784315479.7691338,
+      "fetched_at": 1784316019.2960224,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -74,7 +74,7 @@
           "order_count": 150,
           "min_limit": 30000.0,
           "max_limit": 51000.0,
-          "available": 436.018,
+          "available": 400.4688,
           "payment_methods": [],
           "adv_no": "2076711173753499648",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1784312253.4156332,
+      "fetched_at": 1784315862.7869694,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,10 +91,10 @@
           "price": 0.875,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 10936,
+          "order_count": 10963,
           "min_limit": 35.0,
-          "max_limit": 38842.089,
-          "available": 44390.9595,
+          "max_limit": 36879.569,
+          "available": 42148.0796,
           "payment_methods": [],
           "adv_no": "2015767511592116224",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1784312249.647466,
+      "fetched_at": 1784315859.7150161,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1784312251.2301176,
+      "fetched_at": 1784315860.833998,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -195,7 +195,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1784312252.3374918,
+      "fetched_at": 1784315862.0327744,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784315484.706048,
+      "fetched_at": 1784316020.3154857,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -258,7 +258,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 820,
+          "order_count": 821,
           "min_limit": 5.0,
           "max_limit": 20697.948,
           "available": 17248.2906,
