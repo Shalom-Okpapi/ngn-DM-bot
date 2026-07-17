@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784310784.645539,
+      "fetched_at": 1784311386.1904573,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1399.2,
-          "merchant_name": "AVIATORPAY..",
-          "completion_rate": 0.96,
-          "order_count": 84,
+          "price": 1401.1,
+          "merchant_name": "Maturity 01",
+          "completion_rate": 1.0,
+          "order_count": 30,
           "min_limit": 30000.0,
-          "max_limit": 102000.0,
-          "available": 18624.6374,
+          "max_limit": 110000.0,
+          "available": 224.83,
           "payment_methods": [],
-          "adv_no": "2077379470763421696",
+          "adv_no": "2078111931981672448",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784310783.1539612,
+      "fetched_at": 1784311385.1414342,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
