@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784360675.1593223,
+      "fetched_at": 1784360978.3224494,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1400.1,
-          "merchant_name": "funtuajr\ud83e\udd49\ud83e\udd47",
-          "completion_rate": 0.95,
-          "order_count": 22,
+          "price": 1400.0,
+          "merchant_name": "Move2earn",
+          "completion_rate": 1.0,
+          "order_count": 46,
           "min_limit": 20000.0,
-          "max_limit": 50000.0,
-          "available": 19788.8224,
+          "max_limit": 75000.0,
+          "available": 19813.4118,
           "payment_methods": [],
-          "adv_no": "2078046193522618368",
+          "adv_no": "2076585624343425024",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784360675.8691707,
+      "fetched_at": 1784360979.0659153,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -256,7 +256,7 @@
           "price": 1.2,
           "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 179,
+          "order_count": 178,
           "min_limit": 10.0,
           "max_limit": 47382.686,
           "available": 39485.5723,
