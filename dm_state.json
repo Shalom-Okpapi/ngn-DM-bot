@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784412043.5571222,
+      "fetched_at": 1784412522.6818194,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1784408530.0164046,
+      "fetched_at": 1784412366.8858058,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,10 +91,10 @@
           "price": 0.875,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 10947,
+          "order_count": 10957,
           "min_limit": 35.0,
-          "max_limit": 22223.777,
-          "available": 25398.6026,
+          "max_limit": 21798.433,
+          "available": 24912.4954,
           "payment_methods": [],
           "adv_no": "2015767511592116224",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -106,7 +106,7 @@
           "price": 1.039,
           "merchant_name": "3_star\u2b50\u2b50\u2b50",
           "completion_rate": 0.98,
-          "order_count": 404,
+          "order_count": 405,
           "min_limit": 2.0,
           "max_limit": 85500.0,
           "available": 100000.0,
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1784408527.3831742,
+      "fetched_at": 1784412364.483894,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -156,52 +156,50 @@
       }
     },
     "CHF": {
-      "fetched_at": 1784408528.2530556,
+      "fetched_at": 1784412365.3016899,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "CHF",
-          "price": 0.9,
-          "merchant_name": "ZenovaExchange",
-          "completion_rate": 0.957,
-          "order_count": 441,
+          "price": 0.93,
+          "merchant_name": "Best_Twint_Exchange",
+          "completion_rate": 0.992,
+          "order_count": 228,
           "min_limit": 5.0,
-          "max_limit": 20000.0,
-          "available": 10438.0,
+          "max_limit": 3000.0,
+          "available": 18081.47,
           "payment_methods": [
-            "Bank Transfer",
             "Instant Transfer",
+            "Bank Transfer",
             "Cash Deposit to Bank",
             "Twint"
           ],
-          "adv_no": "13907423697261449216",
-          "link": "https://c2c.binance.com/en/adv?code=13907423697261449216"
+          "adv_no": "13894664478762012672",
+          "link": "https://c2c.binance.com/en/adv?code=13894664478762012672"
         },
         "sell": {
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "CHF",
-          "price": 0.785,
-          "merchant_name": "ZenovaExchange",
-          "completion_rate": 0.957,
-          "order_count": 441,
+          "price": 0.806,
+          "merchant_name": "CryptoThun",
+          "completion_rate": 0.963,
+          "order_count": 26,
           "min_limit": 50.0,
-          "max_limit": 70000.0,
-          "available": 1126960.47,
+          "max_limit": 630.0,
+          "available": 322.08,
           "payment_methods": [
             "Twint",
-            "Instant Transfer",
-            "Bank Transfer",
-            "Cash Deposit to Bank"
+            "Instant Transfer"
           ],
-          "adv_no": "12900066635997364224",
-          "link": "https://c2c.binance.com/en/adv?code=12900066635997364224"
+          "adv_no": "12849959951714267136",
+          "link": "https://c2c.binance.com/en/adv?code=12849959951714267136"
         }
       }
     },
     "GBP": {
-      "fetched_at": 1784408529.0736241,
+      "fetched_at": 1784412366.107189,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -240,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784412042.7800744,
+      "fetched_at": 1784412523.841671,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -249,7 +247,7 @@
           "price": 0.997,
           "merchant_name": "BONAQUA",
           "completion_rate": 1.0,
-          "order_count": 2909,
+          "order_count": 2910,
           "min_limit": 50.0,
           "max_limit": 30000.0,
           "available": 44734.9259,
