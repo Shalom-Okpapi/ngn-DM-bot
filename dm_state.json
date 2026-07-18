@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784415285.3604925,
+      "fetched_at": 1784415518.24348,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -238,21 +238,21 @@
       }
     },
     "USD": {
-      "fetched_at": 1784415284.633427,
+      "fetched_at": 1784415519.5215654,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "USD",
-          "price": 0.997,
-          "merchant_name": "BONAQUA",
-          "completion_rate": 1.0,
-          "order_count": 2911,
-          "min_limit": 50.0,
-          "max_limit": 30000.0,
-          "available": 44079.7534,
+          "price": 0.8,
+          "merchant_name": "JackyChee",
+          "completion_rate": 0.99,
+          "order_count": 945,
+          "min_limit": 2.0,
+          "max_limit": 18307.981,
+          "available": 22884.9767,
           "payment_methods": [],
-          "adv_no": "1893563370708226048",
+          "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
