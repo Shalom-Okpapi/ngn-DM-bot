@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784373694.6384718,
+      "fetched_at": 1784374193.7222896,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1399.5,
           "merchant_name": "AVIATORPAY..",
           "completion_rate": 0.96,
-          "order_count": 96,
+          "order_count": 97,
           "min_limit": 30000.0,
           "max_limit": 102000.0,
           "available": 18128.112,
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784373696.3654432,
+      "fetched_at": 1784374194.8422036,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
