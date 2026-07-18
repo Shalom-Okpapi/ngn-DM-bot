@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784414147.071669,
+      "fetched_at": 1784414687.9718702,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1410.0,
-          "merchant_name": "Sweetsnow022",
-          "completion_rate": 0.96,
-          "order_count": 130,
-          "min_limit": 10500.0,
-          "max_limit": 60000.0,
-          "available": 42.98,
+          "price": 1459.0,
+          "merchant_name": "IssymoniE",
+          "completion_rate": 0.99,
+          "order_count": 17002,
+          "min_limit": 20000.0,
+          "max_limit": 131595027.17,
+          "available": 90195.3579,
           "payment_methods": [],
-          "adv_no": "2078557330861240320",
+          "adv_no": "2057466098401476608",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784414148.1809027,
+      "fetched_at": 1784414688.9569974,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
