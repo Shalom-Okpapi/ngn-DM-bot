@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784339023.4037418,
+      "fetched_at": 1784339320.416152,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784339022.6859698,
+      "fetched_at": 1784339319.4479432,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -247,7 +247,7 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 913,
+          "order_count": 911,
           "min_limit": 2.0,
           "max_limit": 20029.726,
           "available": 25037.1584,
