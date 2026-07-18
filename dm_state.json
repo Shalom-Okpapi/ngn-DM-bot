@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784402328.7540717,
+      "fetched_at": 1784402621.9426696,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784402327.765533,
+      "fetched_at": 1784402622.7042184,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -244,7 +244,7 @@
           "price": 0.8,
           "merchant_name": "DagestanDentist",
           "completion_rate": 1.0,
-          "order_count": 224,
+          "order_count": 225,
           "min_limit": 50.0,
           "max_limit": 1615.6,
           "available": 2019.5,
