@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784411439.3670483,
+      "fetched_at": 1784412043.5571222,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1414.0,
-          "merchant_name": "mazii4058",
-          "completion_rate": 0.99,
-          "order_count": 1458,
-          "min_limit": 20000.0,
-          "max_limit": 50000.0,
-          "available": 171.0,
+          "price": 1410.0,
+          "merchant_name": "Sweetsnow022",
+          "completion_rate": 0.96,
+          "order_count": 130,
+          "min_limit": 10500.0,
+          "max_limit": 60000.0,
+          "available": 42.98,
           "payment_methods": [],
-          "adv_no": "2078591712070144000",
+          "adv_no": "2078557330861240320",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -240,21 +240,21 @@
       }
     },
     "USD": {
-      "fetched_at": 1784411438.5531118,
+      "fetched_at": 1784412042.7800744,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "USD",
-          "price": 0.8,
-          "merchant_name": "DagestanDentist",
+          "price": 0.997,
+          "merchant_name": "BONAQUA",
           "completion_rate": 1.0,
-          "order_count": 226,
+          "order_count": 2909,
           "min_limit": 50.0,
-          "max_limit": 1615.6,
-          "available": 2019.5,
+          "max_limit": 30000.0,
+          "available": 44734.9259,
           "payment_methods": [],
-          "adv_no": "1768869022963105792",
+          "adv_no": "1893563370708226048",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
