@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784417166.3411112,
+      "fetched_at": 1784417769.198485,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784417167.1457884,
+      "fetched_at": 1784417767.76149,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -249,8 +249,8 @@
           "completion_rate": 0.99,
           "order_count": 946,
           "min_limit": 2.0,
-          "max_limit": 18295.308,
-          "available": 22869.1352,
+          "max_limit": 18300.716,
+          "available": 22875.8952,
           "payment_methods": [],
           "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -262,7 +262,7 @@
           "price": 1.2,
           "merchant_name": "FIGE FX\u2b50\u2b50",
           "completion_rate": 1.0,
-          "order_count": 1002,
+          "order_count": 1003,
           "min_limit": 10.0,
           "max_limit": 32754.291,
           "available": 27295.2431,
