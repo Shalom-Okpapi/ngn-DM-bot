@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784388727.3145676,
+      "fetched_at": 1784389321.4277165,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784388726.3071356,
+      "fetched_at": 1784389322.1898575,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -261,10 +261,10 @@
           "price": 1.2,
           "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 185,
+          "order_count": 186,
           "min_limit": 10.0,
-          "max_limit": 47254.286,
-          "available": 39378.5723,
+          "max_limit": 47196.686,
+          "available": 39330.5723,
           "payment_methods": [],
           "adv_no": "1969417928054837248",
           "link": "https://www.bybit.com/fiat/trade/otc"
