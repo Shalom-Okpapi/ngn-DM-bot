@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784398968.4301734,
+      "fetched_at": 1784399575.7146304,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1413.0,
           "merchant_name": "Zeera-Pay",
           "completion_rate": 0.97,
-          "order_count": 477,
+          "order_count": 478,
           "min_limit": 30000.0,
           "max_limit": 85000.0,
           "available": 4940.0,
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784398969.369035,
+      "fetched_at": 1784399574.55239,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
