@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784501760.0345361,
+      "fetched_at": 1784502308.9372425,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1401.5,
-          "merchant_name": "NO-DELAY\ud83d\udcf5\ud83d\udcf5\ud83d\udcf5",
-          "completion_rate": 0.97,
-          "order_count": 38,
-          "min_limit": 30000.0,
-          "max_limit": 55000.0,
-          "available": 20000.0,
+          "price": 1410.0,
+          "merchant_name": "Alwaysreadterms",
+          "completion_rate": 0.99,
+          "order_count": 118,
+          "min_limit": 5000.0,
+          "max_limit": 50000.0,
+          "available": 360.0,
           "payment_methods": [],
-          "adv_no": "2078880596888850432",
+          "adv_no": "2078804010118352896",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784501761.1630456,
+      "fetched_at": 1784502308.0984504,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
