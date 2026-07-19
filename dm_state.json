@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784427225.3515923,
+      "fetched_at": 1784427573.830841,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784427223.9208102,
+      "fetched_at": 1784427574.9138594,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -247,7 +247,7 @@
           "price": 0.999,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 10638,
+          "order_count": 10640,
           "min_limit": 50.0,
           "max_limit": 35552.691,
           "available": 35588.2795,
