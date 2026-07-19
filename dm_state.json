@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784505220.880949,
+      "fetched_at": 1784505521.6859543,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -241,21 +241,21 @@
       }
     },
     "USD": {
-      "fetched_at": 1784505222.0600624,
+      "fetched_at": 1784505520.7475147,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "USD",
-          "price": 0.999,
-          "merchant_name": "alvik",
-          "completion_rate": 1.0,
-          "order_count": 10843,
-          "min_limit": 50.0,
-          "max_limit": 31087.222,
-          "available": 31118.3409,
+          "price": 0.8,
+          "merchant_name": "JackyChee",
+          "completion_rate": 0.99,
+          "order_count": 944,
+          "min_limit": 2.0,
+          "max_limit": 17174.424,
+          "available": 21468.031,
           "payment_methods": [],
-          "adv_no": "1807122607564685312",
+          "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -265,7 +265,7 @@
           "price": 1.2,
           "merchant_name": "FIGE FX\u2b50\u2b50",
           "completion_rate": 1.0,
-          "order_count": 1013,
+          "order_count": 1015,
           "min_limit": 10.0,
           "max_limit": 32754.291,
           "available": 27295.2431,
