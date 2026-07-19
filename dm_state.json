@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784471815.2937396,
+      "fetched_at": 1784472313.3831515,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1410.03,
-          "merchant_name": "wakire",
+          "price": 1403.55,
+          "merchant_name": "bigbholad",
           "completion_rate": 1.0,
-          "order_count": 24,
-          "min_limit": 20000.0,
-          "max_limit": 70000.0,
-          "available": 151.0649,
+          "order_count": 35,
+          "min_limit": 36000.0,
+          "max_limit": 72000.0,
+          "available": 20000.0,
           "payment_methods": [],
-          "adv_no": "2078837466456178688",
+          "adv_no": "2078793820849614848",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784471814.521056,
+      "fetched_at": 1784472314.1952548,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -264,8 +264,8 @@
           "completion_rate": 1.0,
           "order_count": 200,
           "min_limit": 10.0,
-          "max_limit": 47035.191,
-          "available": 39195.9925,
+          "max_limit": 47049.42,
+          "available": 39207.8502,
           "payment_methods": [],
           "adv_no": "1969417928054837248",
           "link": "https://www.bybit.com/fiat/trade/otc"
