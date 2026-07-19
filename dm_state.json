@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784428720.8864825,
+      "fetched_at": 1784429024.8453083,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1410.0,
-          "merchant_name": "Sweetsnow022",
-          "completion_rate": 0.96,
-          "order_count": 129,
-          "min_limit": 10500.0,
-          "max_limit": 60000.0,
-          "available": 42.98,
+          "price": 1398.0,
+          "merchant_name": "Zikconnect",
+          "completion_rate": 0.99,
+          "order_count": 248,
+          "min_limit": 50000.0,
+          "max_limit": 1000000.0,
+          "available": 1898.3089,
           "payment_methods": [],
-          "adv_no": "2078612753169969152",
+          "adv_no": "2077769467030605824",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784428722.017577,
+      "fetched_at": 1784429025.6754246,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
