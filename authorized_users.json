@@ -35,11 +35,12 @@
     },
     "6620987964": {
       "authorized_at": 1784131260.8376658
+    },
+    "7245819372": {
+      "authorized_at": 1784478133.2666204
     }
   },
-  "notified_admin": [
-    "7245819372"
-  ],
+  "notified_admin": [],
   "inquiry_sources": {},
   "free_preview_used": [
     "6458834875",
