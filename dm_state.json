@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784470664.1585174,
+      "fetched_at": 1784471215.658945,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -74,7 +74,7 @@
           "order_count": 24,
           "min_limit": 20000.0,
           "max_limit": 70000.0,
-          "available": 200.0,
+          "available": 151.0649,
           "payment_methods": [],
           "adv_no": "2078837466456178688",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784470662.3221257,
+      "fetched_at": 1784471214.5877771,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -247,7 +247,7 @@
           "price": 0.8,
           "merchant_name": "DagestanDentist",
           "completion_rate": 1.0,
-          "order_count": 215,
+          "order_count": 216,
           "min_limit": 50.0,
           "max_limit": 1615.6,
           "available": 2019.5,
@@ -264,8 +264,8 @@
           "completion_rate": 1.0,
           "order_count": 200,
           "min_limit": 10.0,
-          "max_limit": 47049.42,
-          "available": 39207.8502,
+          "max_limit": 47035.191,
+          "available": 39195.9925,
           "payment_methods": [],
           "adv_no": "1969417928054837248",
           "link": "https://www.bybit.com/fiat/trade/otc"
