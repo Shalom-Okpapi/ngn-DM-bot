@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784504921.7750933,
+      "fetched_at": 1784505220.880949,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -241,21 +241,21 @@
       }
     },
     "USD": {
-      "fetched_at": 1784504923.1615741,
+      "fetched_at": 1784505222.0600624,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "USD",
-          "price": 0.8,
-          "merchant_name": "DagestanDentist",
+          "price": 0.999,
+          "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 218,
+          "order_count": 10843,
           "min_limit": 50.0,
-          "max_limit": 1615.6,
-          "available": 2019.5,
+          "max_limit": 31087.222,
+          "available": 31118.3409,
           "payment_methods": [],
-          "adv_no": "1768869022963105792",
+          "adv_no": "1807122607564685312",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
