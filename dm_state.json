@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784434868.2486868,
+      "fetched_at": 1784435402.7917483,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784434869.44076,
+      "fetched_at": 1784435404.341891,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -249,8 +249,8 @@
           "completion_rate": 0.99,
           "order_count": 918,
           "min_limit": 2.0,
-          "max_limit": 18280.055,
-          "available": 22850.0693,
+          "max_limit": 18160.906,
+          "available": 22701.1332,
           "payment_methods": [],
           "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -260,14 +260,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "QUEEN-AYSH\ud83d\udc78\ud83d\udc8e",
+          "merchant_name": "ABnasReen\u2014Fx",
           "completion_rate": 1.0,
-          "order_count": 186,
-          "min_limit": 10.0,
-          "max_limit": 30254.612,
-          "available": 25212.1771,
+          "order_count": 730,
+          "min_limit": 30.0,
+          "max_limit": 96407.628,
+          "available": 80339.6903,
           "payment_methods": [],
-          "adv_no": "1994668393470828544",
+          "adv_no": "2029883488154591232",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
