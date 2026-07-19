@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784458510.727637,
+      "fetched_at": 1784459053.719321,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,7 +68,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1404.65,
+          "price": 1406.35,
           "merchant_name": "NO_DELAY\ud83d\udc4c\ud83e\udd33",
           "completion_rate": 1.0,
           "order_count": 50,
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784458511.4703212,
+      "fetched_at": 1784459054.8044648,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
