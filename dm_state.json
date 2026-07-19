@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784423322.115379,
+      "fetched_at": 1784423681.2996607,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784423322.81347,
+      "fetched_at": 1784423680.4018657,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -260,7 +260,7 @@
           "price": 1.2,
           "merchant_name": "Swift-Prime",
           "completion_rate": 1.0,
-          "order_count": 1156,
+          "order_count": 1157,
           "min_limit": 20.0,
           "max_limit": 57485.612,
           "available": 47904.6773,
