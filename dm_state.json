@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784441028.2395542,
+      "fetched_at": 1784441377.699137,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1784437777.3752623,
+      "fetched_at": 1784441382.1142745,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,10 +91,10 @@
           "price": 0.875,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 10646,
+          "order_count": 10648,
           "min_limit": 35.0,
-          "max_limit": 20398.925,
-          "available": 23313.0579,
+          "max_limit": 20284.925,
+          "available": 23182.7722,
           "payment_methods": [],
           "adv_no": "2015767511592116224",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1784437773.8105571,
+      "fetched_at": 1784441379.3430285,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -126,7 +126,7 @@
           "price": 172.0,
           "merchant_name": "WUN-USDT-STORE",
           "completion_rate": 1.0,
-          "order_count": 135,
+          "order_count": 131,
           "min_limit": 3000.0,
           "max_limit": 258023.3,
           "available": 1500.1355,
@@ -138,7 +138,7 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 164.6,
+          "price": 163.75,
           "merchant_name": "Dracula_99",
           "completion_rate": 0.958,
           "order_count": 91,
@@ -154,7 +154,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1784437774.9589477,
+      "fetched_at": 1784441380.1323755,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -199,7 +199,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1784437776.2096982,
+      "fetched_at": 1784441380.9433029,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -208,7 +208,7 @@
           "price": 0.772,
           "merchant_name": "Wise\u767d\u6cfd-Instant",
           "completion_rate": 0.988,
-          "order_count": 866,
+          "order_count": 869,
           "min_limit": 30.0,
           "max_limit": 2000.0,
           "available": 301.96,
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784441029.0472455,
+      "fetched_at": 1784441378.573959,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
