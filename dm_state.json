@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784541578.5115728,
+      "fetched_at": 1784541828.1659536,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784541579.6123922,
+      "fetched_at": 1784541827.1725705,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -262,14 +262,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "Aliyous",
+          "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 208,
-          "min_limit": 10.0,
-          "max_limit": 46850.191,
-          "available": 39041.8259,
+          "order_count": 847,
+          "min_limit": 5.0,
+          "max_limit": 20697.948,
+          "available": 17248.2906,
           "payment_methods": [],
-          "adv_no": "1969417928054837248",
+          "adv_no": "1924026696129343488",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
