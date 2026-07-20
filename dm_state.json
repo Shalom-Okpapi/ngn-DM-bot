@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784550283.0319223,
+      "fetched_at": 1784550572.153729,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1403.0,
           "merchant_name": "ABDULKADI\ud83e\udd11\ud83d\udcaf",
           "completion_rate": 0.96,
-          "order_count": 121,
+          "order_count": 122,
           "min_limit": 30000.0,
           "max_limit": 120000.0,
           "available": 19816.0537,
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784550282.2450788,
+      "fetched_at": 1784550573.2022746,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
