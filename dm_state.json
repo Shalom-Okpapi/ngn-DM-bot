@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784547821.582651,
+      "fetched_at": 1784548124.1139958,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784547822.7226887,
+      "fetched_at": 1784548123.0096285,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -264,8 +264,8 @@
           "completion_rate": 1.0,
           "order_count": 212,
           "min_limit": 10.0,
-          "max_limit": 46835.791,
-          "available": 39029.8259,
+          "max_limit": 46785.791,
+          "available": 38988.1593,
           "payment_methods": [],
           "adv_no": "1969417928054837248",
           "link": "https://www.bybit.com/fiat/trade/otc"
