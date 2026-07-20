@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784576977.4812653,
+      "fetched_at": 1784577225.3470032,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1410.5,
-          "merchant_name": "fair_policy\ud83d\udd4a\ufe0f",
-          "completion_rate": 0.95,
-          "order_count": 59,
-          "min_limit": 11000.0,
-          "max_limit": 50000.0,
-          "available": 2395.2926,
+          "price": 1412.0,
+          "merchant_name": "SPHERE_X",
+          "completion_rate": 0.97,
+          "order_count": 333,
+          "min_limit": 50000.0,
+          "max_limit": 500000.0,
+          "available": 1000.0,
           "payment_methods": [],
-          "adv_no": "2079189932502728704",
+          "adv_no": "2009342809704759296",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784576978.7488902,
+      "fetched_at": 1784577226.5481231,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -249,7 +249,7 @@
           "price": 0.8,
           "merchant_name": "DagestanDentist",
           "completion_rate": 1.0,
-          "order_count": 211,
+          "order_count": 212,
           "min_limit": 50.0,
           "max_limit": 1615.6,
           "available": 2019.5,
