@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784577823.6709268,
+      "fetched_at": 1784578176.2592256,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1412.0,
-          "merchant_name": "SPHERE_X",
-          "completion_rate": 0.97,
-          "order_count": 333,
-          "min_limit": 50000.0,
-          "max_limit": 500000.0,
-          "available": 1000.0,
+          "price": 1404.99,
+          "merchant_name": "wakire",
+          "completion_rate": 1.0,
+          "order_count": 26,
+          "min_limit": 20000.0,
+          "max_limit": 70000.0,
+          "available": 154.3566,
           "payment_methods": [],
-          "adv_no": "2009342809704759296",
+          "adv_no": "2079267467717627904",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784577824.9618096,
+      "fetched_at": 1784578177.3817549,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
