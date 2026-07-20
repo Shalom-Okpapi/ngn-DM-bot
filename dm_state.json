@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784523761.4598222,
+      "fetched_at": 1784524315.1258276,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -242,7 +242,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784523760.361611,
+      "fetched_at": 1784524314.020092,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -266,7 +266,7 @@
           "price": 1.2,
           "merchant_name": "FIGE FX\u2b50\u2b50",
           "completion_rate": 1.0,
-          "order_count": 1012,
+          "order_count": 1014,
           "min_limit": 10.0,
           "max_limit": 32754.291,
           "available": 27295.2431,
