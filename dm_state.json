@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784548722.877225,
+      "fetched_at": 1784549080.8794851,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1403.0,
           "merchant_name": "ABDULKADI\ud83e\udd11\ud83d\udcaf",
           "completion_rate": 0.96,
-          "order_count": 120,
+          "order_count": 121,
           "min_limit": 30000.0,
           "max_limit": 120000.0,
           "available": 19816.0537,
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784548721.7926846,
+      "fetched_at": 1784549081.6901152,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -247,7 +247,7 @@
           "price": 0.8,
           "merchant_name": "DagestanDentist",
           "completion_rate": 1.0,
-          "order_count": 208,
+          "order_count": 209,
           "min_limit": 50.0,
           "max_limit": 1615.6,
           "available": 2019.5,
@@ -262,7 +262,7 @@
           "price": 1.2,
           "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 212,
+          "order_count": 213,
           "min_limit": 10.0,
           "max_limit": 45978.191,
           "available": 38315.1593,
