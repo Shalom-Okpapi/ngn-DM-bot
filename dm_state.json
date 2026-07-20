@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784550822.8164804,
+      "fetched_at": 1784551175.8994904,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784550824.068099,
+      "fetched_at": 1784551174.870714,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -264,7 +264,7 @@
           "price": 1.2,
           "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 213,
+          "order_count": 214,
           "min_limit": 10.0,
           "max_limit": 45722.089,
           "available": 38101.7413,
