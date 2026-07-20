@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784532826.2879663,
+      "fetched_at": 1784533121.661771,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1407.0,
           "merchant_name": "SMARTASSIST\uf8ff",
           "completion_rate": 0.98,
-          "order_count": 132,
+          "order_count": 133,
           "min_limit": 30000.0,
           "max_limit": 51000.0,
           "available": 1785.4398,
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784532825.2008991,
+      "fetched_at": 1784533122.8579988,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
