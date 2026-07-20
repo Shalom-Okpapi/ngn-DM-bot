@@ -1,5 +1,5 @@
 {
-  "last_update_id": 261520315,
+  "last_update_id": 261520320,
   "awaiting_amount": {},
   "last_request_at": {
     "5503157793": 1784121457.285912,
@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784528077.7198155,
+      "fetched_at": 1784528324.2188783,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784528079.0882428,
+      "fetched_at": 1784528325.381986,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
