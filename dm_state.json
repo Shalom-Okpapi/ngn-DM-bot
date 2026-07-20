@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784581174.708945,
+      "fetched_at": 1784581486.9198217,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784581175.562293,
+      "fetched_at": 1784581487.8201172,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -262,14 +262,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "Popular~",
+          "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 222,
+          "order_count": 223,
           "min_limit": 10.0,
-          "max_limit": 46426.449,
-          "available": 38688.7075,
+          "max_limit": 45509.996,
+          "available": 37924.9973,
           "payment_methods": [],
-          "adv_no": "2008843091994337280",
+          "adv_no": "1969417928054837248",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
