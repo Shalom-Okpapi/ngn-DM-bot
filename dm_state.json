@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784585973.993103,
+      "fetched_at": 1784586592.9437008,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1401.0,
           "merchant_name": "ABDULKADI\ud83e\udd11\ud83d\udcaf",
           "completion_rate": 0.97,
-          "order_count": 141,
+          "order_count": 143,
           "min_limit": 30000.0,
           "max_limit": 150000.0,
           "available": 19558.5552,
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784585972.7899458,
+      "fetched_at": 1784586594.2553267,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -251,8 +251,8 @@
           "completion_rate": 1.0,
           "order_count": 218,
           "min_limit": 50.0,
-          "max_limit": 1615.6,
-          "available": 2019.5,
+          "max_limit": 1415.6,
+          "available": 1769.5,
           "payment_methods": [],
           "adv_no": "1768869022963105792",
           "link": "https://www.bybit.com/fiat/trade/otc"
