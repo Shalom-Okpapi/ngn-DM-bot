@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784580884.9583797,
+      "fetched_at": 1784581174.708945,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1404.99,
           "merchant_name": "wakire",
           "completion_rate": 1.0,
-          "order_count": 27,
+          "order_count": 28,
           "min_limit": 20000.0,
           "max_limit": 70000.0,
           "available": 154.3566,
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784580886.053505,
+      "fetched_at": 1784581175.562293,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
