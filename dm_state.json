@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784567678.493006,
+      "fetched_at": 1784567979.489805,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,7 +68,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1412.0,
+          "price": 1413.2,
           "merchant_name": "SMARTASSIST\uf8ff",
           "completion_rate": 0.98,
           "order_count": 150,
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784567679.8015585,
+      "fetched_at": 1784567980.7927368,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
