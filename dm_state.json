@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784521120.1429634,
+      "fetched_at": 1784521427.6504078,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,21 +82,21 @@
       }
     },
     "EUR": {
-      "fetched_at": 1784517643.245618,
+      "fetched_at": 1784521272.4489944,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "EUR",
-          "price": 0.875,
-          "merchant_name": "GEO_PAPA",
-          "completion_rate": 1.0,
-          "order_count": 2579,
-          "min_limit": 20.0,
-          "max_limit": 3000.0,
-          "available": 22045.9471,
+          "price": 0.874,
+          "merchant_name": "Marckk",
+          "completion_rate": 0.97,
+          "order_count": 818,
+          "min_limit": 2.0,
+          "max_limit": 2670.364,
+          "available": 3055.3364,
           "payment_methods": [],
-          "adv_no": "1774441374821371904",
+          "adv_no": "1912990998647541760",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1784517640.3489788,
+      "fetched_at": 1784521269.6118922,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -126,10 +126,10 @@
           "price": 172.0,
           "merchant_name": "WUN-USDT-STORE",
           "completion_rate": 1.0,
-          "order_count": 125,
+          "order_count": 126,
           "min_limit": 3000.0,
-          "max_limit": 232023.32,
-          "available": 1348.9728,
+          "max_limit": 182023.33,
+          "available": 1058.2752,
           "payment_methods": [],
           "adv_no": "1568966526221668352",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -144,7 +144,7 @@
           "order_count": 129,
           "min_limit": 1000.0,
           "max_limit": 150000.0,
-          "available": 143.84,
+          "available": 82.54,
           "payment_methods": [
             "PayPay Money"
           ],
@@ -154,7 +154,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1784517641.3678303,
+      "fetched_at": 1784521270.5350034,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -199,7 +199,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1784517642.3129973,
+      "fetched_at": 1784521271.544565,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -242,7 +242,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784521121.2227714,
+      "fetched_at": 1784521428.62281,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -251,7 +251,7 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 924,
+          "order_count": 925,
           "min_limit": 2.0,
           "max_limit": 20105.476,
           "available": 25131.8462,
