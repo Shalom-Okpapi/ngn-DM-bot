@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784590179.5229595,
+      "fetched_at": 1784590474.90675,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784590178.0771055,
+      "fetched_at": 1784590474.078262,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -249,7 +249,7 @@
           "price": 0.999,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 10857,
+          "order_count": 10858,
           "min_limit": 50.0,
           "max_limit": 27694.049,
           "available": 27721.7714,
@@ -264,7 +264,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 861,
+          "order_count": 862,
           "min_limit": 5.0,
           "max_limit": 20697.948,
           "available": 17248.2906,
