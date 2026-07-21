@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784634479.6710906,
+      "fetched_at": 1784635029.823361,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1396.99,
-          "merchant_name": "GoldenPrimeEx",
-          "completion_rate": 0.98,
-          "order_count": 331,
-          "min_limit": 4500.0,
-          "max_limit": 80000.0,
-          "available": 78.9142,
+          "price": 1397.0,
+          "merchant_name": "SKY EXCHANGE ",
+          "completion_rate": 1.0,
+          "order_count": 34,
+          "min_limit": 50000.0,
+          "max_limit": 70000.0,
+          "available": 335.3827,
           "payment_methods": [],
-          "adv_no": "2019258612501901312",
+          "adv_no": "2060067788376535040",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784634478.5600085,
+      "fetched_at": 1784635030.7521548,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
