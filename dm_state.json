@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784594921.5344696,
+      "fetched_at": 1784595279.2990036,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1398.0,
-          "merchant_name": "Girgiri12",
+          "price": 1395.0,
+          "merchant_name": "SUNDAY.JOSEPH.",
           "completion_rate": 0.95,
-          "order_count": 243,
-          "min_limit": 40000.0,
-          "max_limit": 167760.0,
-          "available": 120.0,
+          "order_count": 42,
+          "min_limit": 20000.0,
+          "max_limit": 500000.0,
+          "available": 4069.7433,
           "payment_methods": [],
-          "adv_no": "2078487491261960192",
+          "adv_no": "2078170343333478400",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784594920.628607,
+      "fetched_at": 1784595280.1608722,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
