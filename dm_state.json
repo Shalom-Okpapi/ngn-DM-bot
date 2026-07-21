@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784627327.2601314,
+      "fetched_at": 1784627881.3523917,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1396.0,
-          "merchant_name": "Best\ud83e\udd70\ud83d\udc4c",
-          "completion_rate": 0.99,
-          "order_count": 1060,
-          "min_limit": 50000.0,
-          "max_limit": 60921.44,
-          "available": 43.64,
+          "price": 1396.5,
+          "merchant_name": "BITFORCE",
+          "completion_rate": 1.0,
+          "order_count": 35,
+          "min_limit": 20000.0,
+          "max_limit": 103369.06,
+          "available": 74.0201,
           "payment_methods": [],
-          "adv_no": "2064763801622646784",
+          "adv_no": "2056062628198739968",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -71,7 +71,7 @@
           "price": 1411.1,
           "merchant_name": "FLASH-PAY.\ud83d\udcca\ud83c\udfc5",
           "completion_rate": 0.95,
-          "order_count": 64,
+          "order_count": 65,
           "min_limit": 30000.0,
           "max_limit": 80000.0,
           "available": 409.9778,
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784627326.0966265,
+      "fetched_at": 1784627880.231289,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -255,8 +255,8 @@
           "completion_rate": 1.0,
           "order_count": 210,
           "min_limit": 50.0,
-          "max_limit": 1615.6,
-          "available": 2019.5,
+          "max_limit": 1565.6,
+          "available": 1957.0,
           "payment_methods": [],
           "adv_no": "1768869022963105792",
           "link": "https://www.bybit.com/fiat/trade/otc"
