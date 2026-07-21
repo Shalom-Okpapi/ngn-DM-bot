@@ -47,36 +47,36 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784624072.7949824,
+      "fetched_at": 1784624373.2720232,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1390.0,
-          "merchant_name": "Sampsparadofx\ud83d\udd25\ud83e\udd11",
+          "price": 1396.9,
+          "merchant_name": "MOMODU",
           "completion_rate": 1.0,
-          "order_count": 46,
-          "min_limit": 10000.0,
-          "max_limit": 50000.0,
-          "available": 188.5541,
+          "order_count": 520,
+          "min_limit": 50000.0,
+          "max_limit": 50410.2,
+          "available": 36.0872,
           "payment_methods": [],
-          "adv_no": "2070871177930596352",
+          "adv_no": "2050509335966056448",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1404.0,
-          "merchant_name": "SPARTACUS\ud83e\udd81\ud83e\udd81",
-          "completion_rate": 0.97,
-          "order_count": 184,
+          "price": 1404.99,
+          "merchant_name": "wakire",
+          "completion_rate": 1.0,
+          "order_count": 33,
           "min_limit": 20000.0,
-          "max_limit": 88850.0,
-          "available": 50000.0,
+          "max_limit": 70000.0,
+          "available": 200.0,
           "payment_methods": [],
-          "adv_no": "2079454308704915456",
+          "adv_no": "2079473917938642944",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -241,7 +241,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784624073.8273666,
+      "fetched_at": 1784624374.2652884,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -263,14 +263,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "FIGE FX\u2b50\u2b50",
+          "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 1079,
+          "order_count": 221,
           "min_limit": 10.0,
-          "max_limit": 32754.291,
-          "available": 27295.2431,
+          "max_limit": 45509.996,
+          "available": 37924.9973,
           "payment_methods": [],
-          "adv_no": "1925937600883937280",
+          "adv_no": "1969417928054837248",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
