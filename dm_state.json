@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784608726.0696976,
+      "fetched_at": 1784609276.4766247,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1398.0,
-          "merchant_name": "KANZULBARAYA\ud83c\udfc5",
-          "completion_rate": 0.96,
-          "order_count": 362,
-          "min_limit": 30000.0,
-          "max_limit": 200000.0,
-          "available": 40460.6821,
+          "price": 1398.5,
+          "merchant_name": "bigbholad",
+          "completion_rate": 0.97,
+          "order_count": 35,
+          "min_limit": 35000.0,
+          "max_limit": 72000.0,
+          "available": 20000.0,
           "payment_methods": [],
-          "adv_no": "2066661251986059264",
+          "adv_no": "2079224533092601856",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784608727.1562116,
+      "fetched_at": 1784609275.73424,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
