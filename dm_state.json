@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784616223.364708,
+      "fetched_at": 1784616526.3330848,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1396.5,
-          "merchant_name": "SPARTACUS\ud83e\udd81\ud83e\udd81",
-          "completion_rate": 0.97,
-          "order_count": 183,
+          "price": 1397.0,
+          "merchant_name": "sobitanexchange",
+          "completion_rate": 1.0,
+          "order_count": 215,
           "min_limit": 50000.0,
-          "max_limit": 66631.2,
-          "available": 47.713,
+          "max_limit": 200000.0,
+          "available": 2701.7442,
           "payment_methods": [],
-          "adv_no": "2079254408302104576",
+          "adv_no": "1972901597876752384",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784616221.9762251,
+      "fetched_at": 1784616525.3672152,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
