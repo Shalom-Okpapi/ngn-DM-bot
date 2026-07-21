@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784639297.3778408,
+      "fetched_at": 1784639849.0990622,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,56 +68,56 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1410.0,
-          "merchant_name": "keepbuying",
-          "completion_rate": 1.0,
-          "order_count": 22,
-          "min_limit": 5000.0,
-          "max_limit": 50000.0,
-          "available": 469.01,
+          "price": 1411.0,
+          "merchant_name": "Deejey\ud83d\udcaf\ud83d\ude4f\ud83c\udffc",
+          "completion_rate": 0.95,
+          "order_count": 23,
+          "min_limit": 50000.0,
+          "max_limit": 60000.0,
+          "available": 200.0,
           "payment_methods": [],
-          "adv_no": "2079451990763073536",
+          "adv_no": "2079224170753081344",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "EUR": {
-      "fetched_at": 1784636052.8193722,
+      "fetched_at": 1784639691.631287,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "EUR",
-          "price": 0.875,
-          "merchant_name": "Blue_Tick",
-          "completion_rate": 0.96,
-          "order_count": 230,
-          "min_limit": 50.0,
-          "max_limit": 112.9,
-          "available": 129.0286,
+          "price": 0.876,
+          "merchant_name": "GEO_PAPA",
+          "completion_rate": 1.0,
+          "order_count": 2624,
+          "min_limit": 20.0,
+          "max_limit": 1500.0,
+          "available": 22173.0154,
           "payment_methods": [],
-          "adv_no": "2079493881770397696",
+          "adv_no": "1774441374821371904",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "EUR",
-          "price": 1.05,
-          "merchant_name": "Zizi23",
-          "completion_rate": 1.0,
-          "order_count": 22,
+          "price": 1.0,
+          "merchant_name": "Adi_Melo",
+          "completion_rate": 0.96,
+          "order_count": 126,
           "min_limit": 50.0,
-          "max_limit": 250.0,
-          "available": 20000.0,
+          "max_limit": 85500.0,
+          "available": 99900.0,
           "payment_methods": [],
-          "adv_no": "2072606182156193792",
+          "adv_no": "2005920017344888832",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "JPY": {
-      "fetched_at": 1784636050.40791,
+      "fetched_at": 1784639688.9092739,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -154,19 +154,19 @@
       }
     },
     "CHF": {
-      "fetched_at": 1784636051.2547688,
+      "fetched_at": 1784639689.6848433,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "CHF",
-          "price": 0.92,
+          "price": 0.918,
           "merchant_name": "ZenovaExchange",
           "completion_rate": 0.967,
-          "order_count": 521,
+          "order_count": 522,
           "min_limit": 5.0,
           "max_limit": 20000.0,
-          "available": 366.0,
+          "available": 1253.49,
           "payment_methods": [
             "Bank Transfer",
             "Instant Transfer",
@@ -183,7 +183,7 @@
           "price": 0.785,
           "merchant_name": "ZenovaExchange",
           "completion_rate": 0.967,
-          "order_count": 521,
+          "order_count": 522,
           "min_limit": 50.0,
           "max_limit": 70000.0,
           "available": 1126851.39,
@@ -199,13 +199,13 @@
       }
     },
     "GBP": {
-      "fetched_at": 1784636052.055801,
+      "fetched_at": 1784639690.8338876,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "GBP",
-          "price": 0.753,
+          "price": 0.748,
           "merchant_name": "User-a482c",
           "completion_rate": 0.959,
           "order_count": 70,
@@ -222,27 +222,27 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "GBP",
-          "price": 0.733,
-          "merchant_name": "Ichaw",
-          "completion_rate": 1.0,
-          "order_count": 42,
-          "min_limit": 30.0,
-          "max_limit": 500.0,
-          "available": 326.11,
+          "price": 0.747,
+          "merchant_name": "DeftonesRadio",
+          "completion_rate": 0.959,
+          "order_count": 93,
+          "min_limit": 10.0,
+          "max_limit": 210.0,
+          "available": 267.62,
           "payment_methods": [
-            "Instant Transfer",
-            "Bank Transfer",
             "Faster Payments",
+            "Lloyds Bank",
             "Monzo",
-            "Starling Bank"
+            "Starling Bank",
+            "Bank Transfer"
           ],
-          "adv_no": "12720073031711649792",
-          "link": "https://c2c.binance.com/en/adv?code=12720073031711649792"
+          "adv_no": "12906852082256068608",
+          "link": "https://c2c.binance.com/en/adv?code=12906852082256068608"
         }
       }
     },
     "USD": {
-      "fetched_at": 1784639298.5742285,
+      "fetched_at": 1784639847.6326203,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
