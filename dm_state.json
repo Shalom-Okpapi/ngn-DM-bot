@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784623174.517636,
+      "fetched_at": 1784623475.9083643,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1407.0,
-          "merchant_name": "NO-DELAY\ud83d\udcf5\ud83d\udcf5\ud83d\udcf5",
-          "completion_rate": 0.95,
-          "order_count": 39,
-          "min_limit": 30000.0,
-          "max_limit": 60000.0,
-          "available": 19892.3324,
+          "price": 1402.09,
+          "merchant_name": "wakire",
+          "completion_rate": 1.0,
+          "order_count": 33,
+          "min_limit": 20000.0,
+          "max_limit": 70000.0,
+          "available": 200.0,
           "payment_methods": [],
-          "adv_no": "2079444191645208576",
+          "adv_no": "2079473917938642944",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -241,7 +241,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784623172.4687219,
+      "fetched_at": 1784623475.191869,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
