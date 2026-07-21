@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784613578.1757314,
+      "fetched_at": 1784613887.4072022,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784613577.4882784,
+      "fetched_at": 1784613888.3419964,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -266,14 +266,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "\u2119\ud835\udd63\ud835\udd56\ud835\udd64\ud835\udd55\ud835\udd60\ud835\udd63~\ud835\udfd8\ud835\udfd8\ud835\udfd9",
+          "merchant_name": "Zoloto",
           "completion_rate": 1.0,
-          "order_count": 415,
-          "min_limit": 10.0,
-          "max_limit": 17649.105,
-          "available": 14707.5878,
+          "order_count": 630,
+          "min_limit": 50.0,
+          "max_limit": 3200.0,
+          "available": 65510.7384,
           "payment_methods": [],
-          "adv_no": "2013947881776095232",
+          "adv_no": "2033544081232252928",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
