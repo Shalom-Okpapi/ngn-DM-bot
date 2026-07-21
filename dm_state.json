@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784604575.2800224,
+      "fetched_at": 1784604878.8376036,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1398.0,
           "merchant_name": "KANZULBARAYA\ud83c\udfc5",
           "completion_rate": 0.96,
-          "order_count": 358,
+          "order_count": 359,
           "min_limit": 30000.0,
           "max_limit": 1000000.0,
           "available": 40067.7753,
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784604576.424411,
+      "fetched_at": 1784604878.053805,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -268,7 +268,7 @@
           "price": 1.2,
           "merchant_name": "Zoloto",
           "completion_rate": 1.0,
-          "order_count": 646,
+          "order_count": 630,
           "min_limit": 50.0,
           "max_limit": 3200.0,
           "available": 65510.7384,
