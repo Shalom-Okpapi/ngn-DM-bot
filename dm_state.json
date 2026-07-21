@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784614119.035486,
+      "fetched_at": 1784614475.9871702,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1395.0,
-          "merchant_name": "SUNDAY.JOSEPH.",
-          "completion_rate": 0.95,
-          "order_count": 42,
+          "price": 1396.5,
+          "merchant_name": "Honey-Badger",
+          "completion_rate": 1.0,
+          "order_count": 28,
           "min_limit": 20000.0,
-          "max_limit": 500000.0,
-          "available": 4069.7433,
+          "max_limit": 300000.0,
+          "available": 20000.0,
           "payment_methods": [],
-          "adv_no": "2078170343333478400",
+          "adv_no": "2079323490962124800",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784614118.0480897,
+      "fetched_at": 1784614475.305862,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
