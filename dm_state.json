@@ -47,18 +47,18 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784630983.6852987,
+      "fetched_at": 1784631277.6985457,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1396.5,
+          "price": 1396.0,
           "merchant_name": "INDARABBANA",
           "completion_rate": 0.96,
           "order_count": 104,
           "min_limit": 50000.0,
-          "max_limit": 64803.46,
+          "max_limit": 64780.26,
           "available": 46.4042,
           "payment_methods": [],
           "adv_no": "2076682801822494720",
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784630985.3422828,
+      "fetched_at": 1784631276.8361013,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
