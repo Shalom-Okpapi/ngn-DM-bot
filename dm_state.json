@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784669396.366173,
+      "fetched_at": 1784669981.4206734,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1405.0,
-          "merchant_name": "ABDULKADI\ud83e\udd11\ud83d\udcaf",
-          "completion_rate": 0.95,
-          "order_count": 165,
-          "min_limit": 30000.0,
-          "max_limit": 150000.0,
-          "available": 19856.0858,
+          "price": 1403.0,
+          "merchant_name": "Zikconnect",
+          "completion_rate": 0.99,
+          "order_count": 240,
+          "min_limit": 50000.0,
+          "max_limit": 1000000.0,
+          "available": 2643.7618,
           "payment_methods": [],
-          "adv_no": "2076204793646592000",
+          "adv_no": "2077769467030605824",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -243,7 +243,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784669394.5291524,
+      "fetched_at": 1784669980.4338274,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -265,14 +265,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "Aliyous",
+          "merchant_name": "\ud835\udd3b\ud835\udd60\ud835\udd5f\ud835\udd56_\ud835\udd4f\ud835\udd54\ud835\udd59\ud835\udd52\ud835\udd5f\ud835\udd58\ud835\udd56\ud83c\udf1f",
           "completion_rate": 1.0,
-          "order_count": 228,
+          "order_count": 708,
           "min_limit": 10.0,
-          "max_limit": 43026.996,
-          "available": 35855.8307,
+          "max_limit": 19809.99,
+          "available": 16508.3253,
           "payment_methods": [],
-          "adv_no": "1969417928054837248",
+          "adv_no": "2013559487527952384",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
