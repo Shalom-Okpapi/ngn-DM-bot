@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784617424.197039,
+      "fetched_at": 1784617773.5160441,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1403.0,
-          "merchant_name": "NO-DELAY\ud83d\udcf5\ud83d\udcf5\ud83d\udcf5",
+          "price": 1404.0,
+          "merchant_name": "SPARTACUS\ud83e\udd81\ud83e\udd81",
           "completion_rate": 0.97,
-          "order_count": 39,
-          "min_limit": 30000.0,
-          "max_limit": 60000.0,
-          "available": 19959.9155,
+          "order_count": 184,
+          "min_limit": 20000.0,
+          "max_limit": 88850.0,
+          "available": 50000.0,
           "payment_methods": [],
-          "adv_no": "2079444191645208576",
+          "adv_no": "2079454308704915456",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784617422.383303,
+      "fetched_at": 1784617772.5345728,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -245,7 +245,7 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 952,
+          "order_count": 953,
           "min_limit": 2.0,
           "max_limit": 16995.319,
           "available": 21244.1495,
