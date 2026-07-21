@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784594375.321182,
+      "fetched_at": 1784594677.5024476,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1784591030.406008,
+      "fetched_at": 1784594681.024151,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,7 +91,7 @@
           "price": 0.876,
           "merchant_name": "DiegoMRuiz1409",
           "completion_rate": 0.97,
-          "order_count": 666,
+          "order_count": 667,
           "min_limit": 2.0,
           "max_limit": 96.36,
           "available": 110.0,
@@ -117,7 +117,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1784591027.5227964,
+      "fetched_at": 1784594678.2776222,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -126,10 +126,10 @@
           "price": 172.0,
           "merchant_name": "llbbp",
           "completion_rate": 0.995,
-          "order_count": 683,
+          "order_count": 675,
           "min_limit": 1500.0,
           "max_limit": 150000.0,
-          "available": 1874.4,
+          "available": 1187.72,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -156,27 +156,27 @@
       }
     },
     "CHF": {
-      "fetched_at": 1784591028.711951,
+      "fetched_at": 1784594679.1358035,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "CHF",
-          "price": 0.935,
-          "merchant_name": "Best_Twint_Exchange",
-          "completion_rate": 0.992,
-          "order_count": 223,
+          "price": 0.94,
+          "merchant_name": "ZenovaExchange",
+          "completion_rate": 0.966,
+          "order_count": 476,
           "min_limit": 5.0,
-          "max_limit": 3000.0,
-          "available": 10349.9,
+          "max_limit": 20000.0,
+          "available": 8653.3,
           "payment_methods": [
-            "Instant Transfer",
             "Bank Transfer",
+            "Instant Transfer",
             "Cash Deposit to Bank",
             "Twint"
           ],
-          "adv_no": "13894664478762012672",
-          "link": "https://c2c.binance.com/en/adv?code=13894664478762012672"
+          "adv_no": "13907423697261449216",
+          "link": "https://c2c.binance.com/en/adv?code=13907423697261449216"
         },
         "sell": {
           "platform": "Binance",
@@ -184,8 +184,8 @@
           "fiat": "CHF",
           "price": 0.785,
           "merchant_name": "ZenovaExchange",
-          "completion_rate": 0.967,
-          "order_count": 484,
+          "completion_rate": 0.966,
+          "order_count": 476,
           "min_limit": 50.0,
           "max_limit": 70000.0,
           "available": 1126851.39,
@@ -201,7 +201,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1784591029.4821434,
+      "fetched_at": 1784594679.9843059,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -210,7 +210,7 @@
           "price": 0.774,
           "merchant_name": "Wise\u767d\u6cfd-Instant",
           "completion_rate": 0.987,
-          "order_count": 964,
+          "order_count": 968,
           "min_limit": 30.0,
           "max_limit": 2000.0,
           "available": 3964.92,
@@ -224,23 +224,27 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "GBP",
-          "price": 0.73,
-          "merchant_name": "crypto_rev_wise_sepa",
-          "completion_rate": 1.0,
-          "order_count": 23,
-          "min_limit": 20.0,
-          "max_limit": 1000.0,
-          "available": 19405.74,
+          "price": 0.729,
+          "merchant_name": "DeftonesRadio",
+          "completion_rate": 0.956,
+          "order_count": 86,
+          "min_limit": 10.0,
+          "max_limit": 99.0,
+          "available": 95.76,
           "payment_methods": [
-            "Skrill (Moneybookers)"
+            "Faster Payments",
+            "Lloyds Bank",
+            "Monzo",
+            "Starling Bank",
+            "Bank Transfer"
           ],
-          "adv_no": "12879583591175729152",
-          "link": "https://c2c.binance.com/en/adv?code=12879583591175729152"
+          "adv_no": "12906852082256068608",
+          "link": "https://c2c.binance.com/en/adv?code=12906852082256068608"
         }
       }
     },
     "USD": {
-      "fetched_at": 1784594376.428751,
+      "fetched_at": 1784594676.3778658,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -264,7 +268,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 863,
+          "order_count": 865,
           "min_limit": 5.0,
           "max_limit": 20697.948,
           "available": 17248.2906,
