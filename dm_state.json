@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784600679.6723106,
+      "fetched_at": 1784600975.2695496,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784600680.5502367,
+      "fetched_at": 1784600976.5001702,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -266,14 +266,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "ALKHABOSS-EX 02",
+          "merchant_name": "Zoloto",
           "completion_rate": 1.0,
-          "order_count": 867,
-          "min_limit": 5.0,
-          "max_limit": 20697.948,
-          "available": 17248.2906,
+          "order_count": 646,
+          "min_limit": 50.0,
+          "max_limit": 3200.0,
+          "available": 65510.7384,
           "payment_methods": [],
-          "adv_no": "1924026696129343488",
+          "adv_no": "2033544081232252928",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
