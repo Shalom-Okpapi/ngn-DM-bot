@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784641780.595019,
+      "fetched_at": 1784642076.0176144,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,7 +68,7 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1410.0,
+          "price": 1404.0,
           "merchant_name": "keepbuying",
           "completion_rate": 0.95,
           "order_count": 22,
@@ -242,7 +242,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784641782.121199,
+      "fetched_at": 1784642077.1409702,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
