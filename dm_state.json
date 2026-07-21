@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784617178.8315337,
+      "fetched_at": 1784617424.197039,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1397.0,
-          "merchant_name": "sobitanexchange",
+          "price": 1396.9,
+          "merchant_name": "MOMODU",
           "completion_rate": 1.0,
-          "order_count": 216,
+          "order_count": 520,
           "min_limit": 50000.0,
-          "max_limit": 200000.0,
-          "available": 2615.1301,
+          "max_limit": 120000.0,
+          "available": 107.6742,
           "payment_methods": [],
-          "adv_no": "1972901597876752384",
+          "adv_no": "2050509335966056448",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784617177.6413493,
+      "fetched_at": 1784617422.383303,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -245,10 +245,10 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 950,
+          "order_count": 952,
           "min_limit": 2.0,
-          "max_limit": 16953.719,
-          "available": 21192.1495,
+          "max_limit": 16995.319,
+          "available": 21244.1495,
           "payment_methods": [],
           "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
