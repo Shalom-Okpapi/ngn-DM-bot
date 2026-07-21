@@ -47,36 +47,36 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784615374.8620691,
+      "fetched_at": 1784615620.5683186,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1397.0,
-          "merchant_name": "Jerrys xchange",
-          "completion_rate": 0.98,
-          "order_count": 87,
-          "min_limit": 20000.0,
-          "max_limit": 63393.34,
-          "available": 45.3782,
+          "price": 1396.5,
+          "merchant_name": "SPARTACUS\ud83e\udd81\ud83e\udd81",
+          "completion_rate": 0.97,
+          "order_count": 183,
+          "min_limit": 50000.0,
+          "max_limit": 66631.2,
+          "available": 47.713,
           "payment_methods": [],
-          "adv_no": "2067663724041302016",
+          "adv_no": "2079254408302104576",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1401.3,
-          "merchant_name": "NO-DELAY\ud83d\udcf5\ud83d\udcf5\ud83d\udcf5",
+          "price": 1402.0,
+          "merchant_name": "SPARTACUS\ud83e\udd81\ud83e\udd81",
           "completion_rate": 0.97,
-          "order_count": 38,
-          "min_limit": 30000.0,
-          "max_limit": 60000.0,
-          "available": 20000.0,
+          "order_count": 183,
+          "min_limit": 20000.0,
+          "max_limit": 88850.0,
+          "available": 50000.0,
           "payment_methods": [],
-          "adv_no": "2079444191645208576",
+          "adv_no": "2079454308704915456",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784615374.163588,
+      "fetched_at": 1784615621.711631,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
