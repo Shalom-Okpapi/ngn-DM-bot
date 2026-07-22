@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784702078.8653834,
+      "fetched_at": 1784702373.2094042,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1398.45,
-          "merchant_name": "Olaexchange1",
-          "completion_rate": 0.99,
-          "order_count": 304,
+          "price": 1398.99,
+          "merchant_name": "GoldenPrimeEx",
+          "completion_rate": 0.98,
+          "order_count": 340,
           "min_limit": 4500.0,
-          "max_limit": 321500.29,
-          "available": 229.8976,
+          "max_limit": 80000.0,
+          "available": 268.4772,
           "payment_methods": [],
-          "adv_no": "2045323116362084353",
+          "adv_no": "2019258612501901312",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -238,21 +238,21 @@
       }
     },
     "USD": {
-      "fetched_at": 1784702077.6092446,
+      "fetched_at": 1784702376.360123,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "USD",
           "price": 0.8,
-          "merchant_name": "JackyChee",
-          "completion_rate": 0.99,
-          "order_count": 962,
-          "min_limit": 2.0,
-          "max_limit": 15509.246,
-          "available": 19386.5586,
+          "merchant_name": "DagestanDentist",
+          "completion_rate": 1.0,
+          "order_count": 211,
+          "min_limit": 50.0,
+          "max_limit": 1565.6,
+          "available": 1957.0,
           "payment_methods": [],
-          "adv_no": "2034594166346301440",
+          "adv_no": "1768869022963105792",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
