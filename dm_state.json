@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784748878.5834072,
+      "fetched_at": 1784749175.4144013,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,7 +56,7 @@
           "price": 1395.0,
           "merchant_name": "Abdulyoung",
           "completion_rate": 0.97,
-          "order_count": 42,
+          "order_count": 43,
           "min_limit": 20000.0,
           "max_limit": 50000.0,
           "available": 99.9375,
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784748877.3662322,
+      "fetched_at": 1784749176.663005,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
