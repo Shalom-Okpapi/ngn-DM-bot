@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784745828.8933957,
+      "fetched_at": 1784746175.2737243,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1405.5,
           "merchant_name": "MAYA\ud83d\udd25\ud83d\udd25",
           "completion_rate": 0.97,
-          "order_count": 150,
+          "order_count": 151,
           "min_limit": 30000.0,
           "max_limit": 90000.0,
           "available": 19553.3806,
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784745827.976273,
+      "fetched_at": 1784746176.2393327,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -264,7 +264,7 @@
           "price": 1.2,
           "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 237,
+          "order_count": 238,
           "min_limit": 10.0,
           "max_limit": 42504.446,
           "available": 35420.3719,
