@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784718278.4749212,
+      "fetched_at": 1784718577.576841,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784718279.5969956,
+      "fetched_at": 1784718578.7760017,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
