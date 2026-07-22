@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784746175.2737243,
+      "fetched_at": 1784746478.0722866,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1394.8,
-          "merchant_name": "Abdulyoung",
-          "completion_rate": 0.97,
-          "order_count": 38,
-          "min_limit": 20000.0,
-          "max_limit": 50000.0,
-          "available": 59.935,
+          "price": 1395.4,
+          "merchant_name": "Blissful_001",
+          "completion_rate": 1.0,
+          "order_count": 53,
+          "min_limit": 50000.0,
+          "max_limit": 72730.34,
+          "available": 52.1215,
           "payment_methods": [],
-          "adv_no": "2079932335745298432",
+          "adv_no": "1862399744585089024",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784746176.2393327,
+      "fetched_at": 1784746478.8751547,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
