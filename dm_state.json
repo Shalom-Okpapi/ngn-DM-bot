@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784684743.6493318,
+      "fetched_at": 1784685287.496556,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784684742.7313943,
+      "fetched_at": 1784685286.223426,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -260,14 +260,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "ALKHABOSS-EX 02",
+          "merchant_name": "QUEEN-AYSH\ud83d\udc78\ud83d\udc8e",
           "completion_rate": 1.0,
-          "order_count": 885,
-          "min_limit": 5.0,
-          "max_limit": 20697.948,
-          "available": 17248.2906,
+          "order_count": 222,
+          "min_limit": 10.0,
+          "max_limit": 30160.328,
+          "available": 25133.6073,
           "payment_methods": [],
-          "adv_no": "1924026696129343488",
+          "adv_no": "1994668393470828544",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
