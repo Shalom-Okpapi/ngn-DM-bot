@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784703287.0301466,
+      "fetched_at": 1784703571.529991,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1398.99,
-          "merchant_name": "Tripple\u26a1\ufe0f\ud83e\udd77",
+          "price": 1396.2,
+          "merchant_name": "ChuksEXCHANGE",
           "completion_rate": 0.99,
-          "order_count": 1334,
-          "min_limit": 20000.0,
-          "max_limit": 2860090.11,
-          "available": 2044.3964,
+          "order_count": 309,
+          "min_limit": 5000.0,
+          "max_limit": 139620.0,
+          "available": 100.0,
           "payment_methods": [],
-          "adv_no": "2061836335534936064",
+          "adv_no": "1986668072028913664",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": null
@@ -224,7 +224,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784703285.173003,
+      "fetched_at": 1784703572.404514,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
