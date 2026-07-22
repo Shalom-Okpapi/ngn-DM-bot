@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784743680.0630689,
+      "fetched_at": 1784744232.6668448,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1394.5,
-          "merchant_name": "Jerrys xchange",
+          "price": 1395.4,
+          "merchant_name": "Blissful_001",
           "completion_rate": 1.0,
-          "order_count": 116,
-          "min_limit": 20000.0,
-          "max_limit": 79645.61,
-          "available": 57.1141,
+          "order_count": 53,
+          "min_limit": 50000.0,
+          "max_limit": 72730.34,
+          "available": 52.1215,
           "payment_methods": [],
-          "adv_no": "2067663724041302016",
+          "adv_no": "1862399744585089024",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -70,7 +70,7 @@
           "fiat": "NGN",
           "price": 1405.5,
           "merchant_name": "MAYA\ud83d\udd25\ud83d\udd25",
-          "completion_rate": 0.98,
+          "completion_rate": 0.97,
           "order_count": 150,
           "min_limit": 30000.0,
           "max_limit": 90000.0,
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784743679.008237,
+      "fetched_at": 1784744231.9294834,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
