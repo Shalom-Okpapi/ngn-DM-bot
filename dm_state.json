@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784718577.576841,
+      "fetched_at": 1784718880.01152,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
           "price": 1398.0,
-          "merchant_name": "GoldenPrimeEx",
-          "completion_rate": 0.98,
-          "order_count": 344,
-          "min_limit": 4500.0,
-          "max_limit": 80000.0,
-          "available": 438.2835,
+          "merchant_name": "Jerrys xchange",
+          "completion_rate": 1.0,
+          "order_count": 90,
+          "min_limit": 20000.0,
+          "max_limit": 400000.0,
+          "available": 1340.186,
           "payment_methods": [],
-          "adv_no": "2019258612501901312",
+          "adv_no": "2067663724041302016",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784718578.7760017,
+      "fetched_at": 1784718879.232211,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -266,14 +266,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "\ud835\udd3b\ud835\udd60\ud835\udd5f\ud835\udd56_\ud835\udd4f\ud835\udd54\ud835\udd59\ud835\udd52\ud835\udd5f\ud835\udd58\ud835\udd56\ud83c\udf1f",
+          "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 591,
+          "order_count": 231,
           "min_limit": 10.0,
-          "max_limit": 19799.19,
-          "available": 16499.3253,
+          "max_limit": 42981.775,
+          "available": 35818.1462,
           "payment_methods": [],
-          "adv_no": "2013559487527952384",
+          "adv_no": "1969417928054837248",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
