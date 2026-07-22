@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784724881.2029097,
+      "fetched_at": 1784725174.5339391,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1397.0,
-          "merchant_name": "FLASHKUDI",
-          "completion_rate": 0.99,
-          "order_count": 1533,
-          "min_limit": 4500.0,
-          "max_limit": 100000.0,
-          "available": 3561.0011,
+          "price": 1396.99,
+          "merchant_name": "INNOSONEXCHANGE",
+          "completion_rate": 0.97,
+          "order_count": 105,
+          "min_limit": 50000.0,
+          "max_limit": 139047.3,
+          "available": 99.5335,
           "payment_methods": [],
-          "adv_no": "2074994031358910464",
+          "adv_no": "2079185071140814848",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784724880.3876145,
+      "fetched_at": 1784725173.4394975,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
