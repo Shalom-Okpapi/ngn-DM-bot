@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784746775.5109923,
+      "fetched_at": 1784747077.558787,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
           "price": 1395.0,
-          "merchant_name": "\ud83d\udc9eWAR-LORD",
-          "completion_rate": 0.98,
-          "order_count": 177,
-          "min_limit": 50000.0,
-          "max_limit": 162612.49,
-          "available": 116.5681,
+          "merchant_name": "MACHUA_B",
+          "completion_rate": 0.99,
+          "order_count": 1219,
+          "min_limit": 5000.0,
+          "max_limit": 618053.07,
+          "available": 443.0488,
           "payment_methods": [],
-          "adv_no": "1988144294361284608",
+          "adv_no": "2025021845203087360",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784746776.6516612,
+      "fetched_at": 1784747078.7783723,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -251,8 +251,8 @@
           "completion_rate": 1.0,
           "order_count": 214,
           "min_limit": 50.0,
-          "max_limit": 1565.6,
-          "available": 1957.0,
+          "max_limit": 1615.6,
+          "available": 2019.5,
           "payment_methods": [],
           "adv_no": "1768869022963105792",
           "link": "https://www.bybit.com/fiat/trade/otc"
