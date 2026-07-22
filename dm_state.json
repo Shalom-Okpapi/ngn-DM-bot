@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784713956.0373838,
+      "fetched_at": 1784714541.852615,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1398.0,
-          "merchant_name": "Best\ud83e\udd70\ud83d\udc4c",
-          "completion_rate": 0.99,
-          "order_count": 1193,
-          "min_limit": 50000.0,
-          "max_limit": 75503.6,
-          "available": 54.0083,
+          "price": 1397.99,
+          "merchant_name": "FlowstrideLtd",
+          "completion_rate": 0.98,
+          "order_count": 358,
+          "min_limit": 4500.0,
+          "max_limit": 56624.6,
+          "available": 40.5043,
           "payment_methods": [],
-          "adv_no": "2064763801622646784",
+          "adv_no": "2067716637300281344",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784713957.1930666,
+      "fetched_at": 1784714540.701486,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -268,7 +268,7 @@
           "price": 1.2,
           "merchant_name": "\ud835\udd3b\ud835\udd60\ud835\udd5f\ud835\udd56_\ud835\udd4f\ud835\udd54\ud835\udd59\ud835\udd52\ud835\udd5f\ud835\udd58\ud835\udd56\ud83c\udf1f",
           "completion_rate": 1.0,
-          "order_count": 589,
+          "order_count": 590,
           "min_limit": 10.0,
           "max_limit": 19809.99,
           "available": 16508.3253,
