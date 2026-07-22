@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784746478.0722866,
+      "fetched_at": 1784746775.5109923,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1395.4,
-          "merchant_name": "Blissful_001",
-          "completion_rate": 1.0,
-          "order_count": 53,
+          "price": 1395.0,
+          "merchant_name": "\ud83d\udc9eWAR-LORD",
+          "completion_rate": 0.98,
+          "order_count": 177,
           "min_limit": 50000.0,
-          "max_limit": 72730.34,
-          "available": 52.1215,
+          "max_limit": 162612.49,
+          "available": 116.5681,
           "payment_methods": [],
-          "adv_no": "1862399744585089024",
+          "adv_no": "1988144294361284608",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784746478.8751547,
+      "fetched_at": 1784746776.6516612,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
