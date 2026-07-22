@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784719773.3188453,
+      "fetched_at": 1784720079.4159114,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,7 +56,7 @@
           "price": 1398.0,
           "merchant_name": "FASTPAY\u26a1",
           "completion_rate": 0.99,
-          "order_count": 15526,
+          "order_count": 15527,
           "min_limit": 20000.0,
           "max_limit": 1000000.0,
           "available": 1488.8438,
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784719774.5341294,
+      "fetched_at": 1784720078.4656072,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
