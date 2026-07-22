@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784705330.8154266,
+      "fetched_at": 1784705889.5925035,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1398.9,
-          "merchant_name": "BMXEXCHANGE",
-          "completion_rate": 0.95,
-          "order_count": 59,
-          "min_limit": 4500.0,
-          "max_limit": 50000.0,
-          "available": 37.0,
+          "price": 1398.99,
+          "merchant_name": "Tripple\u26a1\ufe0f\ud83e\udd77",
+          "completion_rate": 0.99,
+          "order_count": 1337,
+          "min_limit": 20000.0,
+          "max_limit": 819090.45,
+          "available": 585.487,
           "payment_methods": [],
-          "adv_no": "2079830827141853185",
+          "adv_no": "2061836335534936064",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784705330.0560079,
+      "fetched_at": 1784705891.2973511,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -262,7 +262,7 @@
           "price": 1.2,
           "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 230,
+          "order_count": 231,
           "min_limit": 10.0,
           "max_limit": 42994.596,
           "available": 35828.8307,
