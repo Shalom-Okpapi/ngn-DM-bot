@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784737123.0286014,
+      "fetched_at": 1784737421.111379,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1396.0,
-          "merchant_name": "Abdulyoung",
-          "completion_rate": 1.0,
-          "order_count": 21,
-          "min_limit": 20000.0,
-          "max_limit": 50000.0,
-          "available": 81.964,
+          "price": 1395.8,
+          "merchant_name": "MAIQARAI\u2666\ufe0f",
+          "completion_rate": 0.96,
+          "order_count": 168,
+          "min_limit": 50000.0,
+          "max_limit": 2526225.89,
+          "available": 1809.8767,
           "payment_methods": [],
-          "adv_no": "2079932335745298432",
+          "adv_no": "1981787461658046464",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784737124.3356464,
+      "fetched_at": 1784737422.069129,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
