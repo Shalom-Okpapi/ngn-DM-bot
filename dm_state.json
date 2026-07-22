@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784724524.9105453,
+      "fetched_at": 1784724881.2029097,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
           "price": 1397.0,
-          "merchant_name": "Galllaxy22",
-          "completion_rate": 0.98,
-          "order_count": 188,
-          "min_limit": 10000.0,
-          "max_limit": 1000000.0,
-          "available": 1023.8282,
+          "merchant_name": "FLASHKUDI",
+          "completion_rate": 0.99,
+          "order_count": 1533,
+          "min_limit": 4500.0,
+          "max_limit": 100000.0,
+          "available": 3561.0011,
           "payment_methods": [],
-          "adv_no": "1976203546022993920",
+          "adv_no": "2074994031358910464",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1784721106.2917342,
+      "fetched_at": 1784724725.017267,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,10 +91,10 @@
           "price": 0.876,
           "merchant_name": "\u0412oss",
           "completion_rate": 1.0,
-          "order_count": 78,
+          "order_count": 80,
           "min_limit": 50.0,
           "max_limit": 300.0,
-          "available": 1261.9823,
+          "available": 538.5668,
           "payment_methods": [],
           "adv_no": "2078574689928278016",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -103,21 +103,21 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "EUR",
-          "price": 1.052,
-          "merchant_name": "joyasmi",
+          "price": 1.051,
+          "merchant_name": "SELLTOME",
           "completion_rate": 1.0,
-          "order_count": 25,
-          "min_limit": 50.0,
+          "order_count": 21,
+          "min_limit": 40.0,
           "max_limit": 250.0,
-          "available": 19442.1811,
+          "available": 17935.0,
           "payment_methods": [],
-          "adv_no": "2065109789787123712",
+          "adv_no": "2070817838667354112",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "JPY": {
-      "fetched_at": 1784721102.7945602,
+      "fetched_at": 1784724721.9736807,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -126,10 +126,10 @@
           "price": 170.3,
           "merchant_name": "llbbp",
           "completion_rate": 0.995,
-          "order_count": 696,
+          "order_count": 699,
           "min_limit": 1500.0,
           "max_limit": 150000.0,
-          "available": 1074.67,
+          "available": 528.09,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -156,27 +156,27 @@
       }
     },
     "CHF": {
-      "fetched_at": 1784721103.8030102,
+      "fetched_at": 1784724723.0824106,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "CHF",
-          "price": 0.91,
-          "merchant_name": "ZenovaExchange",
-          "completion_rate": 0.969,
-          "order_count": 525,
-          "min_limit": 5.0,
-          "max_limit": 20000.0,
-          "available": 470.83,
+          "price": 0.909,
+          "merchant_name": "FastPrivateSwiss",
+          "completion_rate": 1.0,
+          "order_count": 39,
+          "min_limit": 50.0,
+          "max_limit": 1000.0,
+          "available": 741.91,
           "payment_methods": [
+            "Twint",
             "Bank Transfer",
-            "Instant Transfer",
-            "Cash Deposit to Bank",
-            "Twint"
+            "International Wire (SWIFT)",
+            "Instant Transfer"
           ],
-          "adv_no": "13907423697261449216",
-          "link": "https://c2c.binance.com/en/adv?code=13907423697261449216"
+          "adv_no": "12912043732607877120",
+          "link": "https://c2c.binance.com/en/adv?code=12912043732607877120"
         },
         "sell": {
           "platform": "Binance",
@@ -185,7 +185,7 @@
           "price": 0.78,
           "merchant_name": "ZenovaExchange",
           "completion_rate": 0.969,
-          "order_count": 525,
+          "order_count": 526,
           "min_limit": 50.0,
           "max_limit": 70000.0,
           "available": 1126538.63,
@@ -201,24 +201,24 @@
       }
     },
     "GBP": {
-      "fetched_at": 1784721105.1192794,
+      "fetched_at": 1784724723.8259,
       "snapshot": {
         "buy": {
           "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "GBP",
-          "price": 0.763,
-          "merchant_name": "AxionExchange",
-          "completion_rate": 0.957,
-          "order_count": 22,
-          "min_limit": 25.0,
-          "max_limit": 100000.0,
-          "available": 111.04,
+          "price": 0.758,
+          "merchant_name": "User-a482c",
+          "completion_rate": 0.959,
+          "order_count": 92,
+          "min_limit": 30.0,
+          "max_limit": 150.0,
+          "available": 645.13,
           "payment_methods": [
             "Bank Transfer"
           ],
-          "adv_no": "13913195489422942208",
-          "link": "https://c2c.binance.com/en/adv?code=13913195489422942208"
+          "adv_no": "12907128455516598272",
+          "link": "https://c2c.binance.com/en/adv?code=12907128455516598272"
         },
         "sell": {
           "platform": "Binance",
@@ -227,10 +227,10 @@
           "price": 0.739,
           "merchant_name": "Ichaw",
           "completion_rate": 1.0,
-          "order_count": 59,
+          "order_count": 62,
           "min_limit": 30.0,
           "max_limit": 500.0,
-          "available": 146.66,
+          "available": 354.51,
           "payment_methods": [
             "Instant Transfer",
             "Bank Transfer",
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784724525.6807702,
+      "fetched_at": 1784724880.3876145,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
