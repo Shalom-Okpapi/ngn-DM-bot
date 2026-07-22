@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784700222.73444,
+      "fetched_at": 1784700576.5475516,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1397.0,
-          "merchant_name": "Axeex",
-          "completion_rate": 0.96,
-          "order_count": 25,
-          "min_limit": 50000.0,
-          "max_limit": 60000.0,
-          "available": 71.1527,
+          "price": 1398.5,
+          "merchant_name": "FASTPAY\u26a1",
+          "completion_rate": 0.99,
+          "order_count": 15388,
+          "min_limit": 20000.0,
+          "max_limit": 1000000.0,
+          "available": 1542.4759,
           "payment_methods": [],
-          "adv_no": "2079804850244313088",
+          "adv_no": "2046603189319974912",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784700223.8826025,
+      "fetched_at": 1784700577.358322,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -249,8 +249,8 @@
           "completion_rate": 0.99,
           "order_count": 961,
           "min_limit": 2.0,
-          "max_limit": 15518.758,
-          "available": 19398.4486,
+          "max_limit": 15494.758,
+          "available": 19368.4486,
           "payment_methods": [],
           "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
