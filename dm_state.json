@@ -47,36 +47,36 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784724274.2041721,
+      "fetched_at": 1784724524.9105453,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
           "price": 1397.0,
-          "merchant_name": "FLASHKUDI",
-          "completion_rate": 0.99,
-          "order_count": 1529,
-          "min_limit": 4500.0,
-          "max_limit": 100000.0,
-          "available": 3567.5865,
+          "merchant_name": "Galllaxy22",
+          "completion_rate": 0.98,
+          "order_count": 188,
+          "min_limit": 10000.0,
+          "max_limit": 1000000.0,
+          "available": 1023.8282,
           "payment_methods": [],
-          "adv_no": "2074994031358910464",
+          "adv_no": "1976203546022993920",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1405.0,
-          "merchant_name": "Honey-Badger",
-          "completion_rate": 1.0,
-          "order_count": 31,
+          "price": 1408.1,
+          "merchant_name": "FLASH-PAY.\ud83d\udcca\ud83c\udfc5",
+          "completion_rate": 0.95,
+          "order_count": 85,
           "min_limit": 20000.0,
-          "max_limit": 300000.0,
-          "available": 19766.9102,
+          "max_limit": 101000.0,
+          "available": 234.0,
           "payment_methods": [],
-          "adv_no": "2079323490962124800",
+          "adv_no": "2075568326732165120",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784724274.9590595,
+      "fetched_at": 1784724525.6807702,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
