@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784759977.9727678,
+      "fetched_at": 1784760277.6706169,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1395.8,
-          "merchant_name": "SpeedOfLight",
+          "price": 1395.95,
+          "merchant_name": "Oscarxchange1",
           "completion_rate": 0.99,
-          "order_count": 1644,
-          "min_limit": 20000.0,
-          "max_limit": 200000.0,
-          "available": 2008.4218,
+          "order_count": 797,
+          "min_limit": 30000.0,
+          "max_limit": 400000.0,
+          "available": 479.1242,
           "payment_methods": [],
-          "adv_no": "2013753088297594880",
+          "adv_no": "2074386830791233536",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784759976.4748025,
+      "fetched_at": 1784760276.571553,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -253,7 +253,7 @@
           "price": 0.999,
           "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 10932,
+          "order_count": 10933,
           "min_limit": 50.0,
           "max_limit": 19354.733,
           "available": 19374.1073,
@@ -270,8 +270,8 @@
           "completion_rate": 1.0,
           "order_count": 241,
           "min_limit": 10.0,
-          "max_limit": 42458.446,
-          "available": 35382.0386,
+          "max_limit": 42398.446,
+          "available": 35332.0386,
           "payment_methods": [],
           "adv_no": "1969417928054837248",
           "link": "https://www.bybit.com/fiat/trade/otc"
