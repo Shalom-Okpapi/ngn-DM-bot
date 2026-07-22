@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784702973.0834248,
+      "fetched_at": 1784703287.0301466,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
           "price": 1398.99,
-          "merchant_name": "GoldenPrimeEx",
-          "completion_rate": 0.98,
-          "order_count": 340,
-          "min_limit": 4500.0,
-          "max_limit": 80000.0,
-          "available": 268.4772,
+          "merchant_name": "Tripple\u26a1\ufe0f\ud83e\udd77",
+          "completion_rate": 0.99,
+          "order_count": 1334,
+          "min_limit": 20000.0,
+          "max_limit": 2860090.11,
+          "available": 2044.3964,
           "payment_methods": [],
-          "adv_no": "2019258612501901312",
+          "adv_no": "2061836335534936064",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": null
@@ -224,7 +224,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784702971.9705374,
+      "fetched_at": 1784703285.173003,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -248,7 +248,7 @@
           "price": 1.2,
           "merchant_name": "FIGE FX\u2b50\u2b50",
           "completion_rate": 1.0,
-          "order_count": 1097,
+          "order_count": 1098,
           "min_limit": 10.0,
           "max_limit": 32754.291,
           "available": 27295.2431,
