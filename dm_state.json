@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784756376.7265542,
+      "fetched_at": 1784756674.9062989,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1394.0,
-          "merchant_name": "Primmybtc",
-          "completion_rate": 0.98,
-          "order_count": 59,
-          "min_limit": 10000.0,
-          "max_limit": 56927.05,
-          "available": 40.8372,
+          "price": 1395.0,
+          "merchant_name": "SUHAAB@",
+          "completion_rate": 1.0,
+          "order_count": 150,
+          "min_limit": 50000.0,
+          "max_limit": 281802.69,
+          "available": 202.0091,
           "payment_methods": [],
-          "adv_no": "1788500810856390656",
+          "adv_no": "2038916156550537216",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784756375.8446703,
+      "fetched_at": 1784756675.9410734,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
