@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784712873.3092685,
+      "fetched_at": 1784713190.4570243,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
           "price": 1398.0,
-          "merchant_name": "KAREFA\ud83e\udd11\ud83e\udd11",
-          "completion_rate": 0.97,
-          "order_count": 1104,
-          "min_limit": 4500.0,
-          "max_limit": 69900.0,
-          "available": 50.0,
+          "merchant_name": "The-ApexAssets",
+          "completion_rate": 0.98,
+          "order_count": 1480,
+          "min_limit": 5000.0,
+          "max_limit": 60904.42,
+          "available": 43.5654,
           "payment_methods": [],
-          "adv_no": "2043703729743454208",
+          "adv_no": "2078967186294427648",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784712872.47968,
+      "fetched_at": 1784713189.191448,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -270,8 +270,8 @@
           "completion_rate": 1.0,
           "order_count": 589,
           "min_limit": 10.0,
-          "max_limit": 19809.99,
-          "available": 16508.3253,
+          "max_limit": 19796.825,
+          "available": 16497.3543,
           "payment_methods": [],
           "adv_no": "2013559487527952384",
           "link": "https://www.bybit.com/fiat/trade/otc"
