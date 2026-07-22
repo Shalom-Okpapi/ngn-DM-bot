@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784740330.0933647,
+      "fetched_at": 1784740889.4674053,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
           "price": 1394.0,
-          "merchant_name": "CROWN\ud83d\udcab",
-          "completion_rate": 1.0,
-          "order_count": 20,
-          "min_limit": 50000.0,
-          "max_limit": 157772.78,
-          "available": 113.1799,
+          "merchant_name": "Abdulyoung",
+          "completion_rate": 0.96,
+          "order_count": 28,
+          "min_limit": 20000.0,
+          "max_limit": 50000.0,
+          "available": 89.4131,
           "payment_methods": [],
-          "adv_no": "2079822394397093888",
+          "adv_no": "2079932335745298432",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -74,7 +74,7 @@
           "order_count": 88,
           "min_limit": 20000.0,
           "max_limit": 101000.0,
-          "available": 116.2652,
+          "available": 91.1771,
           "payment_methods": [],
           "adv_no": "2075568326732165120",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784740331.402054,
+      "fetched_at": 1784740890.6745605,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
