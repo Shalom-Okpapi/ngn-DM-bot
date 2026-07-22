@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784699673.4486833,
+      "fetched_at": 1784699972.2134356,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,10 +56,10 @@
           "price": 1397.0,
           "merchant_name": "Axeex",
           "completion_rate": 0.96,
-          "order_count": 24,
+          "order_count": 25,
           "min_limit": 50000.0,
           "max_limit": 60000.0,
-          "available": 114.1018,
+          "available": 71.1527,
           "payment_methods": [],
           "adv_no": "2079804850244313088",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784699672.39971,
+      "fetched_at": 1784699973.3190901,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -249,8 +249,8 @@
           "completion_rate": 0.99,
           "order_count": 960,
           "min_limit": 2.0,
-          "max_limit": 15598.758,
-          "available": 19498.4486,
+          "max_limit": 15518.758,
+          "available": 19398.4486,
           "payment_methods": [],
           "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
