@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784723680.619914,
+      "fetched_at": 1784723971.3208401,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,10 +56,10 @@
           "price": 1397.0,
           "merchant_name": "FLASHKUDI",
           "completion_rate": 0.99,
-          "order_count": 1524,
+          "order_count": 1529,
           "min_limit": 4500.0,
           "max_limit": 100000.0,
-          "available": 3581.5448,
+          "available": 3570.8076,
           "payment_methods": [],
           "adv_no": "2074994031358910464",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784723681.6276495,
+      "fetched_at": 1784723972.037751,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
