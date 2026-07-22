@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784695967.2023818,
+      "fetched_at": 1784696462.9878085,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1398.5,
           "merchant_name": "MAIGWANJO.EXCHA",
           "completion_rate": 0.96,
-          "order_count": 364,
+          "order_count": 365,
           "min_limit": 9999.0,
           "max_limit": 1000000.0,
           "available": 49558.789,
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784695966.4776537,
+      "fetched_at": 1784696461.8502545,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -260,14 +260,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "Zoloto",
+          "merchant_name": "FIGE FX\u2b50\u2b50",
           "completion_rate": 1.0,
-          "order_count": 637,
-          "min_limit": 50.0,
-          "max_limit": 3200.0,
-          "available": 65398.7384,
+          "order_count": 1096,
+          "min_limit": 10.0,
+          "max_limit": 32754.291,
+          "available": 27295.2431,
           "payment_methods": [],
-          "adv_no": "2033544081232252928",
+          "adv_no": "1925937600883937280",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
