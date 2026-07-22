@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784708621.6883209,
+      "fetched_at": 1784708973.9907367,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
           "price": 1398.5,
-          "merchant_name": "sultantech",
-          "completion_rate": 1.0,
-          "order_count": 23,
-          "min_limit": 20000.0,
-          "max_limit": 100000.0,
-          "available": 105.9325,
+          "merchant_name": "EDDYWISE.FX",
+          "completion_rate": 0.99,
+          "order_count": 420,
+          "min_limit": 4500.0,
+          "max_limit": 50000.0,
+          "available": 400.0,
           "payment_methods": [],
-          "adv_no": "2079775819001475072",
+          "adv_no": "2073148067790548992",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -243,7 +243,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784708622.9244041,
+      "fetched_at": 1784708975.127883,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
