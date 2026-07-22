@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784742577.3320844,
+      "fetched_at": 1784742821.133185,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1395.4,
-          "merchant_name": "Blissful_001",
+          "price": 1395.0,
+          "merchant_name": "DG HUB",
           "completion_rate": 1.0,
-          "order_count": 49,
-          "min_limit": 50000.0,
-          "max_limit": 1387174.95,
-          "available": 994.1056,
+          "order_count": 58,
+          "min_limit": 20000.0,
+          "max_limit": 648959.16,
+          "available": 465.2037,
           "payment_methods": [],
-          "adv_no": "1862399744585089024",
+          "adv_no": "1788577954890608640",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784742578.2243643,
+      "fetched_at": 1784742820.0676806,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -262,14 +262,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "ALKHABOSS-EX 02",
+          "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 890,
-          "min_limit": 5.0,
-          "max_limit": 20697.948,
-          "available": 17248.2906,
+          "order_count": 236,
+          "min_limit": 10.0,
+          "max_limit": 42535.468,
+          "available": 35446.2238,
           "payment_methods": [],
-          "adv_no": "1924026696129343488",
+          "adv_no": "1969417928054837248",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
