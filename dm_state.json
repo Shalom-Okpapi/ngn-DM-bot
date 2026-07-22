@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784723971.3208401,
+      "fetched_at": 1784724274.2041721,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -59,7 +59,7 @@
           "order_count": 1529,
           "min_limit": 4500.0,
           "max_limit": 100000.0,
-          "available": 3570.8076,
+          "available": 3567.5865,
           "payment_methods": [],
           "adv_no": "2074994031358910464",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1413.0,
-          "merchant_name": "SMARTASSIST\uf8ff",
-          "completion_rate": 0.98,
-          "order_count": 149,
+          "price": 1405.0,
+          "merchant_name": "Honey-Badger",
+          "completion_rate": 1.0,
+          "order_count": 31,
           "min_limit": 20000.0,
-          "max_limit": 51000.0,
-          "available": 714.0768,
+          "max_limit": 300000.0,
+          "available": 19766.9102,
           "payment_methods": [],
-          "adv_no": "2076711173753499648",
+          "adv_no": "2079323490962124800",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784723972.037751,
+      "fetched_at": 1784724274.9590595,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -268,7 +268,7 @@
           "price": 1.2,
           "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 231,
+          "order_count": 232,
           "min_limit": 10.0,
           "max_limit": 42957.775,
           "available": 35798.1462,
