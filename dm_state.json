@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784736522.264928,
+      "fetched_at": 1784736875.0948997,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,7 +56,7 @@
           "price": 1396.0,
           "merchant_name": "Abdulyoung",
           "completion_rate": 1.0,
-          "order_count": 24,
+          "order_count": 21,
           "min_limit": 20000.0,
           "max_limit": 50000.0,
           "available": 81.964,
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784736520.7734203,
+      "fetched_at": 1784736876.0100212,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -259,7 +259,7 @@
           "price": 1.2,
           "merchant_name": "Aliyous",
           "completion_rate": 1.0,
-          "order_count": 234,
+          "order_count": 235,
           "min_limit": 10.0,
           "max_limit": 42681.604,
           "available": 35568.0038,
