@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784692474.0375087,
+      "fetched_at": 1784692721.06725,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1398.0,
           "merchant_name": "KANZULBARAYA\ud83c\udfc5",
           "completion_rate": 0.96,
-          "order_count": 372,
+          "order_count": 373,
           "min_limit": 30000.0,
           "max_limit": 200000.0,
           "available": 39485.568,
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784692475.1946657,
+      "fetched_at": 1784692721.8098903,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
