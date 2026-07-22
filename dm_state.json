@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784706389.6509788,
+      "fetched_at": 1784706990.638338,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1398.99,
-          "merchant_name": "Tripple\u26a1\ufe0f\ud83e\udd77",
+          "price": 1398.0,
+          "merchant_name": "Doubleprince",
           "completion_rate": 0.99,
-          "order_count": 1339,
-          "min_limit": 20000.0,
-          "max_limit": 769090.55,
-          "available": 549.747,
+          "order_count": 1153,
+          "min_limit": 4500.0,
+          "max_limit": 50000.0,
+          "available": 96.47,
           "payment_methods": [],
-          "adv_no": "2061836335534936064",
+          "adv_no": "2079184394096263168",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -243,7 +243,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784706390.4730396,
+      "fetched_at": 1784706991.4017963,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
