@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784818477.0916567,
+      "fetched_at": 1784818723.8540606,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,7 +56,7 @@
           "price": 1396.5,
           "merchant_name": "DAX_XCHANGE\ud83d\udc8e\u2b50",
           "completion_rate": 0.99,
-          "order_count": 411,
+          "order_count": 413,
           "min_limit": 20000.0,
           "max_limit": 50000.0,
           "available": 67.7392,
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784818477.9065075,
+      "fetched_at": 1784818722.514463,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
