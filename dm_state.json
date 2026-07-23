@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784780302.6410613,
+      "fetched_at": 1784780622.0353289,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,7 +56,7 @@
           "price": 1394.7,
           "merchant_name": "sobitanexchange",
           "completion_rate": 1.0,
-          "order_count": 294,
+          "order_count": 295,
           "min_limit": 5000.0,
           "max_limit": 200000.0,
           "available": 441.0563,
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784780301.6068795,
+      "fetched_at": 1784780621.3016036,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -264,7 +264,7 @@
           "price": 1.2,
           "merchant_name": "QUEEN-AYSH\ud83d\udc78\ud83d\udc8e",
           "completion_rate": 1.0,
-          "order_count": 228,
+          "order_count": 229,
           "min_limit": 10.0,
           "max_limit": 30160.328,
           "available": 25133.6073,
