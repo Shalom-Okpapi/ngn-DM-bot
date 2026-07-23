@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784834324.001268,
+      "fetched_at": 1784834678.9055123,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -71,7 +71,7 @@
           "price": 1401.0,
           "merchant_name": "DEEJEHBABY",
           "completion_rate": 0.95,
-          "order_count": 217,
+          "order_count": 218,
           "min_limit": 40000.0,
           "max_limit": 280200.0,
           "available": 200.0,
@@ -242,7 +242,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784834323.1287584,
+      "fetched_at": 1784834680.1221898,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
