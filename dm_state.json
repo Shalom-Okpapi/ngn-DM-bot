@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784828659.8501327,
+      "fetched_at": 1784829272.4820905,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1397.25,
-          "merchant_name": "NEWAGEVIBS\u2b50\u2b50\u2b50\ud83d\udc8e\ud83c\udf1f",
-          "completion_rate": 1.0,
-          "order_count": 44,
+          "price": 1397.3,
+          "merchant_name": "Oma_xchange",
+          "completion_rate": 0.99,
+          "order_count": 417,
           "min_limit": 4500.0,
-          "max_limit": 530218.09,
-          "available": 379.4726,
+          "max_limit": 89301.3,
+          "available": 63.9099,
           "payment_methods": [],
-          "adv_no": "2079333309152505856",
+          "adv_no": "2042704545288970240",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -242,7 +242,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784828658.2879176,
+      "fetched_at": 1784829273.461618,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
