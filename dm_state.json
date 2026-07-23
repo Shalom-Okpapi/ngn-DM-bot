@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784819976.2567267,
+      "fetched_at": 1784820220.1867487,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1396.0,
-          "merchant_name": "adamsygraphics",
+          "price": 1396.9,
+          "merchant_name": "MOMODU",
           "completion_rate": 1.0,
-          "order_count": 286,
-          "min_limit": 20000.0,
-          "max_limit": 100000.0,
-          "available": 95.0739,
+          "order_count": 528,
+          "min_limit": 50000.0,
+          "max_limit": 120000.0,
+          "available": 221.0078,
           "payment_methods": [],
-          "adv_no": "1942296185320587264",
+          "adv_no": "2050509335966056448",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784819977.560697,
+      "fetched_at": 1784820221.4382799,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
