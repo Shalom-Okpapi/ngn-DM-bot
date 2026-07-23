@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784835881.072587,
+      "fetched_at": 1784836174.757489,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1396.5,
-          "merchant_name": "Ems Global ",
+          "price": 1396.9,
+          "merchant_name": "A.B_TRADING",
           "completion_rate": 1.0,
-          "order_count": 193,
-          "min_limit": 50000.0,
-          "max_limit": 18061160.31,
-          "available": 12933.1617,
+          "order_count": 116,
+          "min_limit": 4500.0,
+          "max_limit": 67662.34,
+          "available": 48.4375,
           "payment_methods": [],
-          "adv_no": "1979121959575638016",
+          "adv_no": "2080060899081740288",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784835879.8773417,
+      "fetched_at": 1784836173.8371325,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
