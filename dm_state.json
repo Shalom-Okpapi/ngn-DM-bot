@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784822201.5991452,
+      "fetched_at": 1784822751.2644346,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1396.5,
-          "merchant_name": "DAX_XCHANGE\ud83d\udc8e\u2b50",
-          "completion_rate": 0.99,
-          "order_count": 414,
-          "min_limit": 20000.0,
-          "max_limit": 50000.0,
-          "available": 41.1012,
+          "price": 1397.45,
+          "merchant_name": "Ricch-exchange",
+          "completion_rate": 0.98,
+          "order_count": 2672,
+          "min_limit": 50000.0,
+          "max_limit": 105333.49,
+          "available": 75.3755,
           "payment_methods": [],
-          "adv_no": "2050179882544918528",
+          "adv_no": "1627632154568613888",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784822202.7164974,
+      "fetched_at": 1784822752.0658813,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -244,7 +244,7 @@
           "price": 0.8,
           "merchant_name": "DagestanDentist",
           "completion_rate": 1.0,
-          "order_count": 210,
+          "order_count": 209,
           "min_limit": 50.0,
           "max_limit": 1615.6,
           "available": 2019.5,
