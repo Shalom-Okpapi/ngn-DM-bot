@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784765756.200915,
+      "fetched_at": 1784766364.0363219,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1395.3,
-          "merchant_name": "kagawa",
-          "completion_rate": 0.98,
-          "order_count": 12067,
-          "min_limit": 30000.0,
-          "max_limit": 300000.0,
-          "available": 1599.3622,
+          "price": 1394.79,
+          "merchant_name": "GEEBENZ01",
+          "completion_rate": 0.99,
+          "order_count": 273,
+          "min_limit": 20000.0,
+          "max_limit": 1821769.53,
+          "available": 1306.1246,
           "payment_methods": [],
-          "adv_no": "2075508272362352640",
+          "adv_no": "2049247830517608448",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -244,7 +244,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784765755.1174088,
+      "fetched_at": 1784766364.9175828,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -266,14 +266,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "Zoloto",
+          "merchant_name": "QUEEN-AYSH\ud83d\udc78\ud83d\udc8e",
           "completion_rate": 1.0,
-          "order_count": 652,
-          "min_limit": 50.0,
-          "max_limit": 3200.0,
-          "available": 64998.7384,
+          "order_count": 227,
+          "min_limit": 10.0,
+          "max_limit": 30160.328,
+          "available": 25133.6073,
           "payment_methods": [],
-          "adv_no": "2033544081232252928",
+          "adv_no": "1994668393470828544",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
