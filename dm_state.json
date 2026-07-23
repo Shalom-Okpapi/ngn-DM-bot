@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784797197.6004107,
+      "fetched_at": 1784797426.3869958,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
           "price": 1395.0,
-          "merchant_name": "Best\ud83e\udd70\ud83d\udc4c",
-          "completion_rate": 0.99,
-          "order_count": 1231,
-          "min_limit": 50000.0,
-          "max_limit": 55914.52,
-          "available": 40.0821,
+          "merchant_name": "WYEMAX\ud83c\uddf3\ud83c\uddec",
+          "completion_rate": 1.0,
+          "order_count": 26,
+          "min_limit": 4500.0,
+          "max_limit": 64196.36,
+          "available": 46.0189,
           "payment_methods": [],
-          "adv_no": "2064763801622646784",
+          "adv_no": "2066059152743034880",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784797198.3438735,
+      "fetched_at": 1784797425.2871113,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -262,7 +262,7 @@
           "price": 1.2,
           "merchant_name": "\ud835\udd3b\ud835\udd60\ud835\udd5f\ud835\udd56_\ud835\udd4f\ud835\udd54\ud835\udd59\ud835\udd52\ud835\udd5f\ud835\udd58\ud835\udd56\ud83c\udf1f",
           "completion_rate": 1.0,
-          "order_count": 532,
+          "order_count": 533,
           "min_limit": 10.0,
           "max_limit": 19799.19,
           "available": 16499.3253,
