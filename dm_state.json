@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784836720.4591887,
+      "fetched_at": 1784837267.1039386,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1396.99,
-          "merchant_name": "SUHAAB@",
+          "price": 1396.0,
+          "merchant_name": "Rock_Crypto",
           "completion_rate": 1.0,
-          "order_count": 151,
-          "min_limit": 50000.0,
-          "max_limit": 76211.95,
-          "available": 54.5544,
+          "order_count": 46,
+          "min_limit": 5000.0,
+          "max_limit": 215109.77,
+          "available": 154.0901,
           "payment_methods": [],
-          "adv_no": "2038916156550537216",
+          "adv_no": "2046829999897337856",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -74,7 +74,7 @@
           "order_count": 79,
           "min_limit": 30000.0,
           "max_limit": 75000.0,
-          "available": 210.0546,
+          "available": 263.5,
           "payment_methods": [],
           "adv_no": "2078523078794924032",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784836721.2450433,
+      "fetched_at": 1784837268.4527798,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
