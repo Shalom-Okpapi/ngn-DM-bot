@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784814131.3589938,
+      "fetched_at": 1784814674.999503,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -59,7 +59,7 @@
           "order_count": 405,
           "min_limit": 20000.0,
           "max_limit": 50000.0,
-          "available": 276.7174,
+          "available": 220.8036,
           "payment_methods": [],
           "adv_no": "2050179882544918528",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -69,14 +69,14 @@
           "trade_type": "SELL",
           "fiat": "NGN",
           "price": 1406.0,
-          "merchant_name": "Honey-Badger",
-          "completion_rate": 0.97,
-          "order_count": 44,
-          "min_limit": 50000.0,
-          "max_limit": 300000.0,
-          "available": 18981.6307,
+          "merchant_name": "MAYA\ud83d\udd25\ud83d\udd25",
+          "completion_rate": 0.96,
+          "order_count": 155,
+          "min_limit": 30000.0,
+          "max_limit": 90000.0,
+          "available": 19379.3502,
           "payment_methods": [],
-          "adv_no": "2079323490962124800",
+          "adv_no": "2079855047669825536",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784814130.4551697,
+      "fetched_at": 1784814674.056586,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -249,8 +249,8 @@
           "completion_rate": 1.0,
           "order_count": 209,
           "min_limit": 50.0,
-          "max_limit": 1615.6,
-          "available": 2019.5,
+          "max_limit": 1565.6,
+          "available": 1957.0,
           "payment_methods": [],
           "adv_no": "1768869022963105792",
           "link": "https://www.bybit.com/fiat/trade/otc"
