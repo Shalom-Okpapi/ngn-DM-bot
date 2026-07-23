@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784810372.2846823,
+      "fetched_at": 1784810677.068275,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,10 +56,10 @@
           "price": 1395.0,
           "merchant_name": "Faster@olason",
           "completion_rate": 1.0,
-          "order_count": 326,
+          "order_count": 327,
           "min_limit": 4500.0,
           "max_limit": 50000.0,
-          "available": 74.5531,
+          "available": 38.7109,
           "payment_methods": [],
           "adv_no": "2015303588283719680",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784810371.497145,
+      "fetched_at": 1784810676.0540767,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
