@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784812177.4134395,
+      "fetched_at": 1784812425.0160916,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,7 +56,7 @@
           "price": 1395.0,
           "merchant_name": "DAX_XCHANGE\ud83d\udc8e\u2b50",
           "completion_rate": 0.99,
-          "order_count": 402,
+          "order_count": 404,
           "min_limit": 20000.0,
           "max_limit": 50000.0,
           "available": 276.7174,
@@ -74,7 +74,7 @@
           "order_count": 43,
           "min_limit": 50000.0,
           "max_limit": 300000.0,
-          "available": 19051.8594,
+          "available": 18981.6307,
           "payment_methods": [],
           "adv_no": "2079323490962124800",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784812176.5656202,
+      "fetched_at": 1784812426.260882,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
