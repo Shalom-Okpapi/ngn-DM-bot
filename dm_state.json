@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784775878.129542,
+      "fetched_at": 1784776175.8408284,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -242,7 +242,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784775876.9862518,
+      "fetched_at": 1784776176.6339493,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -266,7 +266,7 @@
           "price": 1.2,
           "merchant_name": "QUEEN-AYSH\ud83d\udc78\ud83d\udc8e",
           "completion_rate": 1.0,
-          "order_count": 226,
+          "order_count": 227,
           "min_limit": 10.0,
           "max_limit": 30160.328,
           "available": 25133.6073,
