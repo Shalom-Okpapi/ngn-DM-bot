@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784825625.97141,
+      "fetched_at": 1784825920.7323966,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
           "price": 1396.0,
-          "merchant_name": "shams2002",
-          "completion_rate": 1.0,
-          "order_count": 44,
-          "min_limit": 4500.0,
-          "max_limit": 711503.22,
-          "available": 509.6728,
+          "merchant_name": "Dqueensacademy",
+          "completion_rate": 0.96,
+          "order_count": 25,
+          "min_limit": 20000.0,
+          "max_limit": 69800.0,
+          "available": 50.0,
           "payment_methods": [],
-          "adv_no": "1811475576114962432",
+          "adv_no": "1988731049552539648",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -242,7 +242,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784825626.760877,
+      "fetched_at": 1784825919.598224,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
