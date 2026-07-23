@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784834678.9055123,
+      "fetched_at": 1784834978.1960068,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1396.8,
-          "merchant_name": "DG HUB",
+          "price": 1396.99,
+          "merchant_name": "SUHAAB@",
           "completion_rate": 1.0,
-          "order_count": 59,
-          "min_limit": 20000.0,
-          "max_limit": 257864.64,
-          "available": 184.611,
+          "order_count": 150,
+          "min_limit": 50000.0,
+          "max_limit": 76211.95,
+          "available": 54.5544,
           "payment_methods": [],
-          "adv_no": "1788577954890608640",
+          "adv_no": "2038916156550537216",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -242,7 +242,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784834680.1221898,
+      "fetched_at": 1784834977.3934674,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
