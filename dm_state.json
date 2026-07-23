@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784788773.3351426,
+      "fetched_at": 1784789019.3142707,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,7 +56,7 @@
           "price": 1395.0,
           "merchant_name": "Jetkeyglobal",
           "completion_rate": 1.0,
-          "order_count": 31,
+          "order_count": 32,
           "min_limit": 4500.0,
           "max_limit": 70000.0,
           "available": 78.3155,
@@ -74,7 +74,7 @@
           "order_count": 203,
           "min_limit": 30000.0,
           "max_limit": 120000.0,
-          "available": 14587.628,
+          "available": 14437.7352,
           "payment_methods": [],
           "adv_no": "2059909751180750848",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -243,7 +243,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784788774.4835167,
+      "fetched_at": 1784789018.0489662,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
