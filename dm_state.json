@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784793378.3802495,
+      "fetched_at": 1784793876.5838106,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1395.5,
-          "merchant_name": "Doubleprince",
-          "completion_rate": 0.99,
-          "order_count": 1185,
-          "min_limit": 4500.0,
-          "max_limit": 50000.0,
-          "available": 101.2049,
+          "price": 1393.0,
+          "merchant_name": "MOHDEEDERTNG\ud83d\udd25\u2604\ufe0f",
+          "completion_rate": 1.0,
+          "order_count": 471,
+          "min_limit": 30000.0,
+          "max_limit": 77170.8,
+          "available": 55.399,
           "payment_methods": [],
-          "adv_no": "2079184394096263168",
+          "adv_no": "2078471996968808448",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784793379.202723,
+      "fetched_at": 1784793877.7156804,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -262,7 +262,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 843,
+          "order_count": 844,
           "min_limit": 5.0,
           "max_limit": 20697.948,
           "available": 17248.2906,
