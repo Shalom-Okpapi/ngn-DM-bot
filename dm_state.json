@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784808625.1849258,
+      "fetched_at": 1784809171.0767698,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1395.8,
-          "merchant_name": "Concretemedias",
-          "completion_rate": 0.95,
-          "order_count": 249,
-          "min_limit": 50000.0,
-          "max_limit": 100000.0,
-          "available": 3893.5899,
+          "price": 1395.0,
+          "merchant_name": "DAX_XCHANGE\ud83d\udc8e\u2b50",
+          "completion_rate": 0.99,
+          "order_count": 401,
+          "min_limit": 20000.0,
+          "max_limit": 50000.0,
+          "available": 372.4018,
           "payment_methods": [],
-          "adv_no": "2078251679920541696",
+          "adv_no": "2050179882544918528",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784808626.3640702,
+      "fetched_at": 1784809170.0679317,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -262,7 +262,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 846,
+          "order_count": 847,
           "min_limit": 5.0,
           "max_limit": 20691.948,
           "available": 17243.2906,
