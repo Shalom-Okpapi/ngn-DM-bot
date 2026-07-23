@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784818178.7682905,
+      "fetched_at": 1784818477.0916567,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1395.88,
-          "merchant_name": "Nissi@blink_",
-          "completion_rate": 0.97,
-          "order_count": 67,
-          "min_limit": 50000.0,
-          "max_limit": 1012584.05,
-          "available": 725.4091,
+          "price": 1396.5,
+          "merchant_name": "DAX_XCHANGE\ud83d\udc8e\u2b50",
+          "completion_rate": 0.99,
+          "order_count": 411,
+          "min_limit": 20000.0,
+          "max_limit": 50000.0,
+          "available": 67.7392,
           "payment_methods": [],
-          "adv_no": "2064467530905690112",
+          "adv_no": "2050179882544918528",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784818177.481825,
+      "fetched_at": 1784818477.9065075,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -258,7 +258,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS-EX 02",
           "completion_rate": 1.0,
-          "order_count": 853,
+          "order_count": 854,
           "min_limit": 5.0,
           "max_limit": 20691.948,
           "available": 17243.2906,
