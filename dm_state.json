@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784812425.0160916,
+      "fetched_at": 1784813038.4367325,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,7 +56,7 @@
           "price": 1395.0,
           "merchant_name": "DAX_XCHANGE\ud83d\udc8e\u2b50",
           "completion_rate": 0.99,
-          "order_count": 404,
+          "order_count": 405,
           "min_limit": 20000.0,
           "max_limit": 50000.0,
           "available": 276.7174,
@@ -71,10 +71,10 @@
           "price": 1406.0,
           "merchant_name": "Honey-Badger",
           "completion_rate": 0.97,
-          "order_count": 43,
+          "order_count": 44,
           "min_limit": 50000.0,
           "max_limit": 300000.0,
-          "available": 18981.6307,
+          "available": 18910.507,
           "payment_methods": [],
           "adv_no": "2079323490962124800",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784812426.260882,
+      "fetched_at": 1784813037.0885966,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
