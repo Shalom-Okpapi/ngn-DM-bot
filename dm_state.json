@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784837798.5344245,
+      "fetched_at": 1784838352.390973,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,10 +56,10 @@
           "price": 1396.6,
           "merchant_name": "Zubbywill",
           "completion_rate": 0.99,
-          "order_count": 213,
+          "order_count": 217,
           "min_limit": 4500.0,
-          "max_limit": 62000.1,
-          "available": 44.3936,
+          "max_limit": 309760.01,
+          "available": 221.7958,
           "payment_methods": [],
           "adv_no": "1823812150778957824",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -74,7 +74,7 @@
           "order_count": 79,
           "min_limit": 30000.0,
           "max_limit": 75000.0,
-          "available": 263.5,
+          "available": 233.5,
           "payment_methods": [],
           "adv_no": "2078523078794924032",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -234,22 +234,27 @@
       }
     },
     "USD": {
-      "fetched_at": 1784837796.983495,
+      "fetched_at": 1784838351.1571372,
       "snapshot": {
         "buy": {
-          "platform": "Bybit",
+          "platform": "Binance",
           "trade_type": "BUY",
           "fiat": "USD",
           "price": 0.997,
-          "merchant_name": "Joo001",
-          "completion_rate": 0.99,
-          "order_count": 110,
+          "merchant_name": "Merle Kaye VbCr",
+          "completion_rate": 1.0,
+          "order_count": 219,
           "min_limit": 50.0,
-          "max_limit": 2592.2,
-          "available": 2600.0,
-          "payment_methods": [],
-          "adv_no": "2080183493937573888",
-          "link": "https://www.bybit.com/fiat/trade/otc"
+          "max_limit": 4000.0,
+          "available": 50.48,
+          "payment_methods": [
+            "Banco Pichincha",
+            "Produbanco",
+            "Banco Bolivariano",
+            "Banco Guayaquil"
+          ],
+          "adv_no": "12855340750021935104",
+          "link": "https://c2c.binance.com/en/adv?code=12855340750021935104"
         },
         "sell": {
           "platform": "Bybit",
