@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784780622.0353289,
+      "fetched_at": 1784780972.9386039,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1403.0,
-          "merchant_name": "sultantech",
+          "price": 1399.9,
+          "merchant_name": "Zikconnect",
           "completion_rate": 1.0,
-          "order_count": 60,
+          "order_count": 213,
           "min_limit": 50000.0,
-          "max_limit": 150000.0,
-          "available": 300.0,
+          "max_limit": 1000000.0,
+          "available": 2643.7618,
           "payment_methods": [],
-          "adv_no": "2079868779479150592",
+          "adv_no": "2077769467030605824",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784780621.3016036,
+      "fetched_at": 1784780974.1181092,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
