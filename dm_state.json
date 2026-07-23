@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784773479.220326,
+      "fetched_at": 1784773774.2511604,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -242,7 +242,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784773478.3800883,
+      "fetched_at": 1784773775.0245893,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -251,10 +251,10 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 967,
+          "order_count": 969,
           "min_limit": 2.0,
-          "max_limit": 11744.272,
-          "available": 14680.3409,
+          "max_limit": 11547.034,
+          "available": 14433.7926,
           "payment_methods": [],
           "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -266,7 +266,7 @@
           "price": 1.2,
           "merchant_name": "QUEEN-AYSH\ud83d\udc78\ud83d\udc8e",
           "completion_rate": 1.0,
-          "order_count": 225,
+          "order_count": 226,
           "min_limit": 10.0,
           "max_limit": 30160.328,
           "available": 25133.6073,
