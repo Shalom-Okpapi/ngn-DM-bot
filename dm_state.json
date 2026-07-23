@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784816973.511728,
+      "fetched_at": 1784817280.4384842,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
           "price": 1396.0,
-          "merchant_name": "Concretemedias",
-          "completion_rate": 0.95,
-          "order_count": 292,
+          "merchant_name": "Best\ud83e\udd70\ud83d\udc4c",
+          "completion_rate": 0.99,
+          "order_count": 1329,
           "min_limit": 50000.0,
-          "max_limit": 100000.0,
-          "available": 1060.4604,
+          "max_limit": 52728.87,
+          "available": 37.7714,
           "payment_methods": [],
-          "adv_no": "2078251679920541696",
+          "adv_no": "2064763801622646784",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784816974.4661412,
+      "fetched_at": 1784817279.111746,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
