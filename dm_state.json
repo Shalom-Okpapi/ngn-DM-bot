@@ -47,36 +47,36 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784831787.9312081,
+      "fetched_at": 1784832377.7403195,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1396.0,
-          "merchant_name": "MACHUA_B",
+          "price": 1396.8,
+          "merchant_name": "EDDYWISE.FX",
           "completion_rate": 0.99,
-          "order_count": 1257,
-          "min_limit": 5000.0,
-          "max_limit": 60456.01,
-          "available": 43.3066,
+          "order_count": 482,
+          "min_limit": 4500.0,
+          "max_limit": 50000.0,
+          "available": 372.7908,
           "payment_methods": [],
-          "adv_no": "2025021845203087360",
+          "adv_no": "2073148067790548992",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1411.92,
-          "merchant_name": "Z\u00a3\u00a3N\u0150\ud83d\udca5",
+          "price": 1406.0,
+          "merchant_name": "MAYA\ud83d\udd25\ud83d\udd25",
           "completion_rate": 0.95,
-          "order_count": 23,
+          "order_count": 160,
           "min_limit": 30000.0,
-          "max_limit": 51000.0,
-          "available": 100.0,
+          "max_limit": 80000.0,
+          "available": 19803.4354,
           "payment_methods": [],
-          "adv_no": "2080284995802705920",
+          "adv_no": "2080299488523255808",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -242,7 +242,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784831786.5985806,
+      "fetched_at": 1784832379.251584,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
