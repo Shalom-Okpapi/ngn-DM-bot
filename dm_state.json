@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784849927.2766054,
+      "fetched_at": 1784850200.4713824,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1784846599.6508238,
+      "fetched_at": 1784850203.6233392,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -104,20 +104,20 @@
           "trade_type": "SELL",
           "fiat": "EUR",
           "price": 1.054,
-          "merchant_name": "tess223",
+          "merchant_name": "Eurfasst2",
           "completion_rate": 1.0,
-          "order_count": 29,
+          "order_count": 39,
           "min_limit": 50.0,
-          "max_limit": 250.0,
-          "available": 19742.0572,
+          "max_limit": 90.0,
+          "available": 20000.0,
           "payment_methods": [],
-          "adv_no": "2072287967043039232",
+          "adv_no": "2079993908144005120",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "JPY": {
-      "fetched_at": 1784846596.9628506,
+      "fetched_at": 1784850201.3192344,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -125,11 +125,11 @@
           "fiat": "JPY",
           "price": 172.0,
           "merchant_name": "DCMNB",
-          "completion_rate": 0.982,
-          "order_count": 109,
+          "completion_rate": 0.983,
+          "order_count": 111,
           "min_limit": 1000.0,
           "max_limit": 93000.0,
-          "available": 529.68,
+          "available": 160.17,
           "payment_methods": [
             "Bank Transfer"
           ],
@@ -156,7 +156,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1784846597.8301578,
+      "fetched_at": 1784850202.0818303,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -199,7 +199,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1784846598.65329,
+      "fetched_at": 1784850202.8179781,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -223,7 +223,7 @@
           "price": 0.721,
           "merchant_name": "ProfessionalTR",
           "completion_rate": 0.98,
-          "order_count": 597,
+          "order_count": 599,
           "min_limit": 15.0,
           "max_limit": 3000.0,
           "available": 49166.3039,
@@ -234,7 +234,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784849928.3179028,
+      "fetched_at": 1784850199.3370621,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
