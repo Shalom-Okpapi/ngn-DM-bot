@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784811276.2687874,
+      "fetched_at": 1784811574.7073147,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1405.0,
-          "merchant_name": "sultantech",
-          "completion_rate": 1.0,
-          "order_count": 66,
+          "price": 1406.0,
+          "merchant_name": "Honey-Badger",
+          "completion_rate": 0.97,
+          "order_count": 43,
           "min_limit": 50000.0,
-          "max_limit": 150000.0,
-          "available": 622.7888,
+          "max_limit": 300000.0,
+          "available": 19051.8594,
           "payment_methods": [],
-          "adv_no": "2079868779479150592",
+          "adv_no": "2079323490962124800",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784811277.288891,
+      "fetched_at": 1784811573.616191,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
