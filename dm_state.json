@@ -47,36 +47,36 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784800983.9734704,
+      "fetched_at": 1784801534.5668147,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1394.0,
-          "merchant_name": "Abdulyoung",
-          "completion_rate": 0.97,
-          "order_count": 48,
-          "min_limit": 20000.0,
+          "price": 1395.0,
+          "merchant_name": "\ud835\ude4f\ud835\ude56\ud835\ude6c\ud835\ude66\ud835\ude56\u261d\ufe0f\ud835\ude53\ud835\ude58\ud835\ude5d\ud835\ude56\ud835\ude63\ud835\ude5c\ud835\ude5a\ud83d\udc51",
+          "completion_rate": 1.0,
+          "order_count": 237,
+          "min_limit": 4500.0,
           "max_limit": 50000.0,
-          "available": 68.3572,
+          "available": 986.3451,
           "payment_methods": [],
-          "adv_no": "2079932335745298432",
+          "adv_no": "2078327070759071744",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1411.0,
-          "merchant_name": "FLASH-PAY.\ud83d\udcca\ud83c\udfc5",
-          "completion_rate": 0.96,
-          "order_count": 98,
-          "min_limit": 20000.0,
-          "max_limit": 101000.0,
-          "available": 125.0,
+          "price": 1405.0,
+          "merchant_name": "sultantech",
+          "completion_rate": 1.0,
+          "order_count": 61,
+          "min_limit": 50000.0,
+          "max_limit": 150000.0,
+          "available": 1000.0,
           "payment_methods": [],
-          "adv_no": "2075568326732165120",
+          "adv_no": "2079868779479150592",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784800985.4236255,
+      "fetched_at": 1784801535.6449533,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
