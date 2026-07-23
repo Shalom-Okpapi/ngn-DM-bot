@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784810922.6324246,
+      "fetched_at": 1784811276.2687874,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
           "price": 1395.0,
-          "merchant_name": "Faster@olason",
-          "completion_rate": 1.0,
-          "order_count": 329,
-          "min_limit": 4500.0,
+          "merchant_name": "DAX_XCHANGE\ud83d\udc8e\u2b50",
+          "completion_rate": 0.99,
+          "order_count": 402,
+          "min_limit": 20000.0,
           "max_limit": 50000.0,
-          "available": 74.5531,
+          "available": 372.4018,
           "payment_methods": [],
-          "adv_no": "2015303588283719680",
+          "adv_no": "2050179882544918528",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -71,7 +71,7 @@
           "price": 1405.0,
           "merchant_name": "sultantech",
           "completion_rate": 1.0,
-          "order_count": 65,
+          "order_count": 66,
           "min_limit": 50000.0,
           "max_limit": 150000.0,
           "available": 622.7888,
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784810921.0989149,
+      "fetched_at": 1784811277.288891,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
