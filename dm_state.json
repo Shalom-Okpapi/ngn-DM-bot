@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784797778.5403867,
+      "fetched_at": 1784798076.8170857,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1393.0,
-          "merchant_name": "MOHDEEDERTNG\ud83d\udd25\u2604\ufe0f",
+          "price": 1394.0,
+          "merchant_name": "A.B_TRADING",
           "completion_rate": 1.0,
-          "order_count": 473,
-          "min_limit": 30000.0,
-          "max_limit": 86005.63,
-          "available": 61.7413,
+          "order_count": 66,
+          "min_limit": 4500.0,
+          "max_limit": 331603.46,
+          "available": 237.8791,
           "payment_methods": [],
-          "adv_no": "2078471996968808448",
+          "adv_no": "2080060899081740288",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -74,7 +74,7 @@
           "order_count": 97,
           "min_limit": 20000.0,
           "max_limit": 101000.0,
-          "available": 140.8738,
+          "available": 180.0,
           "payment_methods": [],
           "adv_no": "2075568326732165120",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784797779.85457,
+      "fetched_at": 1784798077.9231138,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
