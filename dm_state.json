@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784843923.06636,
+      "fetched_at": 1784844467.8027136,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -69,14 +69,14 @@
           "trade_type": "SELL",
           "fiat": "NGN",
           "price": 1401.0,
-          "merchant_name": "\ud835\udc13\ud835\udc07\ud835\udc04\u267b\ufe0f\ud835\udc06\ud835\udc04\ud835\udc06\ud835\udc04",
-          "completion_rate": 0.96,
-          "order_count": 222,
+          "merchant_name": "StraitOfHurmoz\u2694\ufe0f",
+          "completion_rate": 0.97,
+          "order_count": 263,
           "min_limit": 30000.0,
-          "max_limit": 120000.0,
-          "available": 13838.9341,
+          "max_limit": 56000.0,
+          "available": 50.0,
           "payment_methods": [],
-          "adv_no": "2059909751180750848",
+          "adv_no": "2069892723853324289",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -236,7 +236,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784843924.2040648,
+      "fetched_at": 1784844468.876791,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
