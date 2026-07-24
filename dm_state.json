@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784867075.6577933,
+      "fetched_at": 1784867375.9829886,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784867076.7795968,
+      "fetched_at": 1784867377.2592301,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -244,10 +244,10 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 981,
+          "order_count": 982,
           "min_limit": 2.0,
-          "max_limit": 20447.507,
-          "available": 25559.3843,
+          "max_limit": 20527.507,
+          "available": 25659.3843,
           "payment_methods": [],
           "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
