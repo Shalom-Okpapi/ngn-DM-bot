@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784862580.215245,
+      "fetched_at": 1784862874.585677,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1395.0,
-          "merchant_name": "Dualite",
-          "completion_rate": 0.99,
-          "order_count": 258,
-          "min_limit": 50000.0,
-          "max_limit": 55800.0,
-          "available": 40.0,
+          "price": 1397.0,
+          "merchant_name": "\ud835\ude4f\ud835\ude56\ud835\ude6c\ud835\ude66\ud835\ude56\u261d\ufe0f\ud835\ude53\ud835\ude58\ud835\ude5d\ud835\ude56\ud835\ude63\ud835\ude5c\ud835\ude5a\ud83d\udc51",
+          "completion_rate": 1.0,
+          "order_count": 299,
+          "min_limit": 4500.0,
+          "max_limit": 50000.0,
+          "available": 628.5918,
           "payment_methods": [],
-          "adv_no": "1967574687267196928",
+          "adv_no": "2078327070759071744",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784862579.1601682,
+      "fetched_at": 1784862876.0934238,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -259,7 +259,7 @@
           "price": 1.2,
           "merchant_name": "QUEEN-AYYSSH",
           "completion_rate": 1.0,
-          "order_count": 232,
+          "order_count": 235,
           "min_limit": 10.0,
           "max_limit": 30160.328,
           "available": 25133.6073,
