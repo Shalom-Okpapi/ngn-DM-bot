@@ -47,38 +47,24 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784901880.7955635,
+      "fetched_at": 1784902174.8671815,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1395.0,
-          "merchant_name": "Johnson_Fx",
-          "completion_rate": 0.98,
-          "order_count": 513,
-          "min_limit": 4500.0,
-          "max_limit": 50000.0,
-          "available": 405.2978,
+          "price": 1395.9,
+          "merchant_name": "Zikconnect",
+          "completion_rate": 1.0,
+          "order_count": 221,
+          "min_limit": 30000.0,
+          "max_limit": 109536.41,
+          "available": 78.4701,
           "payment_methods": [],
-          "adv_no": "2078519499063652352",
+          "adv_no": "2031760777403531264",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
-        "sell": {
-          "platform": "Bybit",
-          "trade_type": "SELL",
-          "fiat": "NGN",
-          "price": 1401.0,
-          "merchant_name": "Zeera-Pay",
-          "completion_rate": 0.97,
-          "order_count": 497,
-          "min_limit": 30000.0,
-          "max_limit": 85000.0,
-          "available": 4485.9851,
-          "payment_methods": [],
-          "adv_no": "2078468515254620160",
-          "link": "https://www.bybit.com/fiat/trade/otc"
-        }
+        "sell": null
       }
     },
     "EUR": {
@@ -237,7 +223,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784901879.8035176,
+      "fetched_at": 1784902176.0763378,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
