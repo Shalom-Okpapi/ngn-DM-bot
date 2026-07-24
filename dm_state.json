@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784859875.8783295,
+      "fetched_at": 1784860175.8105116,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,7 +56,7 @@
           "price": 1397.0,
           "merchant_name": "\ud835\ude4f\ud835\ude56\ud835\ude6c\ud835\ude66\ud835\ude56\u261d\ufe0f\ud835\ude53\ud835\ude58\ud835\ude5d\ud835\ude56\ud835\ude63\ud835\ude5c\ud835\ude5a\ud83d\udc51",
           "completion_rate": 1.0,
-          "order_count": 297,
+          "order_count": 298,
           "min_limit": 4500.0,
           "max_limit": 50000.0,
           "available": 670.8249,
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784859875.1257932,
+      "fetched_at": 1784860175.0308232,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
