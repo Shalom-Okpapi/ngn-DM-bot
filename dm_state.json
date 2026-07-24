@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784894446.9781172,
+      "fetched_at": 1784895029.6783102,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,15 +68,15 @@
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1410.0,
-          "merchant_name": "Favour4L",
-          "completion_rate": 0.95,
-          "order_count": 221,
-          "min_limit": 50000.0,
-          "max_limit": 112800.0,
-          "available": 80.0,
+          "price": 1401.0,
+          "merchant_name": "Zeera-Pay",
+          "completion_rate": 0.97,
+          "order_count": 497,
+          "min_limit": 30000.0,
+          "max_limit": 85000.0,
+          "available": 4485.9851,
           "payment_methods": [],
-          "adv_no": "2048368213095149568",
+          "adv_no": "2078468515254620160",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784894445.8722448,
+      "fetched_at": 1784895028.1286047,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -257,14 +257,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "Aliyous",
+          "merchant_name": "ALKHABOSS_Ex",
           "completion_rate": 1.0,
-          "order_count": 263,
-          "min_limit": 10.0,
-          "max_limit": 40705.248,
-          "available": 33921.0407,
+          "order_count": 855,
+          "min_limit": 5.0,
+          "max_limit": 20691.948,
+          "available": 17243.2906,
           "payment_methods": [],
-          "adv_no": "1969417928054837248",
+          "adv_no": "1924026696129343488",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
