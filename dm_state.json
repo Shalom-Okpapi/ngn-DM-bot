@@ -47,36 +47,36 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784871873.975147,
+      "fetched_at": 1784872121.5755155,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1397.5,
-          "merchant_name": "Ayreal1",
+          "price": 1395.0,
+          "merchant_name": "Dualite",
           "completion_rate": 0.99,
-          "order_count": 7065,
-          "min_limit": 4500.0,
-          "max_limit": 370143.38,
-          "available": 264.8611,
+          "order_count": 258,
+          "min_limit": 50000.0,
+          "max_limit": 55800.0,
+          "available": 40.0,
           "payment_methods": [],
-          "adv_no": "2061106351627960320",
+          "adv_no": "1967574687267196928",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
           "platform": "Bybit",
           "trade_type": "SELL",
           "fiat": "NGN",
-          "price": 1403.0,
-          "merchant_name": "Z\u00a3\u00a3N\u0150\ud83d\udca5",
-          "completion_rate": 1.0,
-          "order_count": 23,
-          "min_limit": 30000.0,
-          "max_limit": 51000.0,
-          "available": 100.0,
+          "price": 1398.5,
+          "merchant_name": "MAIGWANJO.EXCHA",
+          "completion_rate": 0.95,
+          "order_count": 481,
+          "min_limit": 9999.0,
+          "max_limit": 1000000.0,
+          "available": 49558.789,
           "payment_methods": [],
-          "adv_no": "2080284995802705920",
+          "adv_no": "2074033239451897856",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
@@ -232,7 +232,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784871873.1224873,
+      "fetched_at": 1784872122.8130774,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
