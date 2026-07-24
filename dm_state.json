@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784896480.1391442,
+      "fetched_at": 1784896771.3244462,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,7 +56,7 @@
           "price": 1396.0,
           "merchant_name": "Jerrys xchange",
           "completion_rate": 1.0,
-          "order_count": 118,
+          "order_count": 120,
           "min_limit": 20000.0,
           "max_limit": 64122.32,
           "available": 45.9329,
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784896478.4435136,
+      "fetched_at": 1784896772.3636894,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -246,8 +246,8 @@
           "completion_rate": 1.0,
           "order_count": 215,
           "min_limit": 50.0,
-          "max_limit": 1565.6,
-          "available": 1957.0,
+          "max_limit": 1465.6,
+          "available": 1832.0,
           "payment_methods": [],
           "adv_no": "1768869022963105792",
           "link": "https://www.bybit.com/fiat/trade/otc"
