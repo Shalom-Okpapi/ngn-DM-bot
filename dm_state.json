@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784872775.6390126,
+      "fetched_at": 1784873083.1768706,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784872776.550378,
+      "fetched_at": 1784873083.8912048,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -246,7 +246,7 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 984,
+          "order_count": 985,
           "min_limit": 2.0,
           "max_limit": 20466.334,
           "available": 25582.9182,
@@ -261,7 +261,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS_Ex",
           "completion_rate": 1.0,
-          "order_count": 839,
+          "order_count": 840,
           "min_limit": 5.0,
           "max_limit": 20691.948,
           "available": 17243.2906,
