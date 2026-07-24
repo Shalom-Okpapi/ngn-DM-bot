@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784887643.864865,
+      "fetched_at": 1784888139.8983622,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1395.99,
-          "merchant_name": "Karimous",
+          "price": 1397.0,
+          "merchant_name": "sobitanexchange",
           "completion_rate": 1.0,
-          "order_count": 28,
+          "order_count": 323,
           "min_limit": 5000.0,
-          "max_limit": 169005.66,
-          "available": 121.0651,
+          "max_limit": 367265.71,
+          "available": 262.896,
           "payment_methods": [],
-          "adv_no": "1886294839923064832",
+          "adv_no": "1972901597876752384",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784887644.7319818,
+      "fetched_at": 1784888140.742524,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
