@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784901576.6743557,
+      "fetched_at": 1784901880.7955635,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,10 +56,10 @@
           "price": 1395.0,
           "merchant_name": "Johnson_Fx",
           "completion_rate": 0.98,
-          "order_count": 512,
+          "order_count": 513,
           "min_limit": 4500.0,
           "max_limit": 50000.0,
-          "available": 466.2295,
+          "available": 405.2978,
           "payment_methods": [],
           "adv_no": "2078519499063652352",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -82,7 +82,7 @@
       }
     },
     "EUR": {
-      "fetched_at": 1784898005.9047434,
+      "fetched_at": 1784901645.465481,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -91,10 +91,10 @@
           "price": 0.878,
           "merchant_name": "Vault_EX_trader",
           "completion_rate": 1.0,
-          "order_count": 34,
+          "order_count": 41,
           "min_limit": 2.0,
           "max_limit": 50.0,
-          "available": 1000.0,
+          "available": 691.163,
           "payment_methods": [],
           "adv_no": "2078591207558287360",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -104,20 +104,20 @@
           "trade_type": "SELL",
           "fiat": "EUR",
           "price": 1.054,
-          "merchant_name": "tess223",
+          "merchant_name": "Pyzzy",
           "completion_rate": 1.0,
-          "order_count": 29,
+          "order_count": 24,
           "min_limit": 50.0,
           "max_limit": 250.0,
-          "available": 19742.0572,
+          "available": 19976.0,
           "payment_methods": [],
-          "adv_no": "2072287967043039232",
+          "adv_no": "2072308678054817792",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
     },
     "JPY": {
-      "fetched_at": 1784898003.3402238,
+      "fetched_at": 1784901642.1668153,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -138,13 +138,13 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 171.1,
+          "price": 172.1,
           "merchant_name": "LKRcrypto",
           "completion_rate": 1.0,
           "order_count": 140,
           "min_limit": 1000.0,
           "max_limit": 150000.0,
-          "available": 421.64,
+          "available": 419.19,
           "payment_methods": [
             "PayPay Money"
           ],
@@ -154,7 +154,7 @@
       }
     },
     "CHF": {
-      "fetched_at": 1784898004.065371,
+      "fetched_at": 1784901643.2680593,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -163,10 +163,10 @@
           "price": 0.898,
           "merchant_name": "FastPrivateSwiss",
           "completion_rate": 1.0,
-          "order_count": 36,
+          "order_count": 38,
           "min_limit": 50.0,
           "max_limit": 1000.0,
-          "available": 296.41,
+          "available": 185.06,
           "payment_methods": [
             "Twint",
             "International Wire (SWIFT)",
@@ -198,7 +198,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1784898004.8028414,
+      "fetched_at": 1784901644.3000083,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784901575.6610255,
+      "fetched_at": 1784901879.8035176,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
