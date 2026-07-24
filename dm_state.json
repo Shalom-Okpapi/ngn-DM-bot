@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784885020.5232396,
+      "fetched_at": 1784885374.5524588,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1396.97,
-          "merchant_name": "Powertech9",
-          "completion_rate": 1.0,
-          "order_count": 207,
-          "min_limit": 40000.0,
-          "max_limit": 53879.31,
-          "available": 38.5687,
+          "price": 1396.7,
+          "merchant_name": "MYBROTHER313",
+          "completion_rate": 0.96,
+          "order_count": 1143,
+          "min_limit": 50000.0,
+          "max_limit": 496595.28,
+          "available": 355.549,
           "payment_methods": [],
-          "adv_no": "1994744277163937792",
+          "adv_no": "2072996947582652416",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784885019.312574,
+      "fetched_at": 1784885375.6844563,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -249,7 +249,7 @@
           "price": 0.8,
           "merchant_name": "DagestanDentist",
           "completion_rate": 1.0,
-          "order_count": 212,
+          "order_count": 214,
           "min_limit": 50.0,
           "max_limit": 1565.6,
           "available": 1957.0,
