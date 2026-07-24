@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784856792.920564,
+      "fetched_at": 1784857283.32263,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -59,7 +59,7 @@
           "order_count": 291,
           "min_limit": 4500.0,
           "max_limit": 50000.0,
-          "available": 770.395,
+          "available": 754.647,
           "payment_methods": [],
           "adv_no": "2078327070759071744",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -70,7 +70,7 @@
           "fiat": "NGN",
           "price": 1403.0,
           "merchant_name": "Z\u00a3\u00a3N\u0150\ud83d\udca5",
-          "completion_rate": 0.95,
+          "completion_rate": 1.0,
           "order_count": 23,
           "min_limit": 30000.0,
           "max_limit": 51000.0,
@@ -239,7 +239,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784856792.1594298,
+      "fetched_at": 1784857284.2733738,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -263,7 +263,7 @@
           "price": 1.2,
           "merchant_name": "QUEEN-AYSH\ud83d\udc78\ud83d\udc8e",
           "completion_rate": 1.0,
-          "order_count": 232,
+          "order_count": 231,
           "min_limit": 10.0,
           "max_limit": 30160.328,
           "available": 25133.6073,
