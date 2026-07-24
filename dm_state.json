@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784899300.8967924,
+      "fetched_at": 1784899915.4845715,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1395.99,
-          "merchant_name": "AbuSARZ1",
-          "completion_rate": 0.99,
-          "order_count": 596,
-          "min_limit": 4500.0,
-          "max_limit": 200000.0,
-          "available": 3642.3411,
+          "price": 1396.0,
+          "merchant_name": "INNOSONEXCHANGE",
+          "completion_rate": 0.98,
+          "order_count": 201,
+          "min_limit": 50000.0,
+          "max_limit": 75258.49,
+          "available": 53.9101,
           "payment_methods": [],
-          "adv_no": "2074479811940675584",
+          "adv_no": "2079185071140814848",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784899301.6509027,
+      "fetched_at": 1784899916.8170216,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -246,7 +246,7 @@
           "price": 0.8,
           "merchant_name": "DagestanDentist",
           "completion_rate": 1.0,
-          "order_count": 215,
+          "order_count": 216,
           "min_limit": 50.0,
           "max_limit": 1565.6,
           "available": 1957.0,
