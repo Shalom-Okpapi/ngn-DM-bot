@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784874878.88683,
+      "fetched_at": 1784875172.7613444,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,7 +56,7 @@
           "price": 1396.0,
           "merchant_name": "CROWN\ud83d\udcab",
           "completion_rate": 0.95,
-          "order_count": 40,
+          "order_count": 41,
           "min_limit": 50000.0,
           "max_limit": 54362.75,
           "available": 38.9418,
@@ -237,7 +237,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784874877.8508255,
+      "fetched_at": 1784875171.6716304,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -246,10 +246,10 @@
           "price": 0.8,
           "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 986,
+          "order_count": 987,
           "min_limit": 2.0,
-          "max_limit": 20457.202,
-          "available": 25571.5027,
+          "max_limit": 20417.202,
+          "available": 25521.5027,
           "payment_methods": [],
           "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
