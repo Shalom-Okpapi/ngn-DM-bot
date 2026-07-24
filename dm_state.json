@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784866170.9334416,
+      "fetched_at": 1784866471.8759537,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1397.5,
-          "merchant_name": "ROBOT_PAY",
+          "price": 1396.0,
+          "merchant_name": "Emmanuel@Osinde",
           "completion_rate": 0.99,
-          "order_count": 1357,
-          "min_limit": 4500.0,
-          "max_limit": 644396.33,
-          "available": 461.1065,
+          "order_count": 1376,
+          "min_limit": 5000.0,
+          "max_limit": 151419.51,
+          "available": 108.4667,
           "payment_methods": [],
-          "adv_no": "2079925806803042304",
+          "adv_no": "2080242350871580672",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -235,7 +235,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784866172.2473948,
+      "fetched_at": 1784866473.1965978,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -246,8 +246,8 @@
           "completion_rate": 0.99,
           "order_count": 980,
           "min_limit": 2.0,
-          "max_limit": 20455.507,
-          "available": 25569.3843,
+          "max_limit": 20447.507,
+          "available": 25559.3843,
           "payment_methods": [],
           "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -257,14 +257,14 @@
           "trade_type": "SELL",
           "fiat": "USD",
           "price": 1.2,
-          "merchant_name": "QUEEN-AYYSSH",
+          "merchant_name": "Noorah_trades\ud83c\udf1f",
           "completion_rate": 1.0,
-          "order_count": 237,
-          "min_limit": 10.0,
-          "max_limit": 30160.328,
-          "available": 25133.6073,
+          "order_count": 20,
+          "min_limit": 15.0,
+          "max_limit": 17120.156,
+          "available": 14266.797,
           "payment_methods": [],
-          "adv_no": "1994668393470828544",
+          "adv_no": "1991045051578216448",
           "link": "https://www.bybit.com/fiat/trade/otc"
         }
       }
