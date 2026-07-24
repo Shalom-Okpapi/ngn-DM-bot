@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784890147.4675155,
+      "fetched_at": 1784890475.524779,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,10 +56,10 @@
           "price": 1396.0,
           "merchant_name": "SKY EXCHANGE ",
           "completion_rate": 1.0,
-          "order_count": 20,
+          "order_count": 21,
           "min_limit": 50000.0,
           "max_limit": 70000.0,
-          "available": 310.8345,
+          "available": 275.0179,
           "payment_methods": [],
           "adv_no": "2060067788376535040",
           "link": "https://www.bybit.com/fiat/trade/otc"
@@ -226,7 +226,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784890146.5146363,
+      "fetched_at": 1784890474.845879,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
