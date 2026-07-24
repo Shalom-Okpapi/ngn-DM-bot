@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784875776.2689667,
+      "fetched_at": 1784875999.6005304,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -68,21 +68,21 @@
       }
     },
     "EUR": {
-      "fetched_at": 1784872246.7069361,
+      "fetched_at": 1784875921.9975743,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "EUR",
           "price": 0.879,
-          "merchant_name": "GEO_PAPA",
+          "merchant_name": "alvik",
           "completion_rate": 1.0,
-          "order_count": 2603,
-          "min_limit": 20.0,
-          "max_limit": 1500.0,
-          "available": 18406.4647,
+          "order_count": 10533,
+          "min_limit": 50.0,
+          "max_limit": 300.0,
+          "available": 47313.2166,
           "payment_methods": [],
-          "adv_no": "1774441374821371904",
+          "adv_no": "2038225274208436224",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -103,7 +103,7 @@
       }
     },
     "JPY": {
-      "fetched_at": 1784872243.2096367,
+      "fetched_at": 1784875919.4678583,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -124,23 +124,23 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "JPY",
-          "price": 167.3,
-          "merchant_name": "LKRcrypto",
-          "completion_rate": 1.0,
-          "order_count": 138,
-          "min_limit": 1000.0,
-          "max_limit": 150000.0,
-          "available": 80.18,
+          "price": 167.2,
+          "merchant_name": "Dracula_99",
+          "completion_rate": 0.967,
+          "order_count": 115,
+          "min_limit": 5000.0,
+          "max_limit": 100000.0,
+          "available": 9242.12,
           "payment_methods": [
             "PayPay Money"
           ],
-          "adv_no": "12791020722413551616",
-          "link": "https://c2c.binance.com/en/adv?code=12791020722413551616"
+          "adv_no": "12905810156590796800",
+          "link": "https://c2c.binance.com/en/adv?code=12905810156590796800"
         }
       }
     },
     "CHF": {
-      "fetched_at": 1784872244.3848608,
+      "fetched_at": 1784875920.3331547,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -152,7 +152,7 @@
           "order_count": 36,
           "min_limit": 50.0,
           "max_limit": 1000.0,
-          "available": 396.83,
+          "available": 341.09,
           "payment_methods": [
             "International Wire (SWIFT)",
             "Bank Transfer"
@@ -183,7 +183,7 @@
       }
     },
     "GBP": {
-      "fetched_at": 1784872245.4282193,
+      "fetched_at": 1784875921.1419892,
       "snapshot": {
         "buy": {
           "platform": "Binance",
@@ -206,24 +206,27 @@
           "platform": "Binance",
           "trade_type": "SELL",
           "fiat": "GBP",
-          "price": 0.711,
-          "merchant_name": "CosmosInvestments",
-          "completion_rate": 0.957,
-          "order_count": 44,
-          "min_limit": 10.0,
-          "max_limit": 100000.0,
-          "available": 75.85,
+          "price": 0.722,
+          "merchant_name": "wis-fast-to-wis",
+          "completion_rate": 0.966,
+          "order_count": 704,
+          "min_limit": 20.0,
+          "max_limit": 5000.0,
+          "available": 815783.08,
           "payment_methods": [
             "Bank Transfer",
-            "Lloyds Bank"
+            "Lloyds Bank",
+            "Starling Bank",
+            "Monzo",
+            "Faster Payments"
           ],
-          "adv_no": "12913758508362137600",
-          "link": "https://c2c.binance.com/en/adv?code=12913758508362137600"
+          "adv_no": "12883290030906519552",
+          "link": "https://c2c.binance.com/en/adv?code=12883290030906519552"
         }
       }
     },
     "USD": {
-      "fetched_at": 1784875777.4258661,
+      "fetched_at": 1784876000.8275523,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
