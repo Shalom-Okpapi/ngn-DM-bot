@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784888139.8983622,
+      "fetched_at": 1784888736.9871233,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1397.0,
-          "merchant_name": "sobitanexchange",
-          "completion_rate": 1.0,
-          "order_count": 323,
-          "min_limit": 5000.0,
-          "max_limit": 367265.71,
-          "available": 262.896,
+          "price": 1396.0,
+          "merchant_name": "VeltrixPay",
+          "completion_rate": 0.96,
+          "order_count": 59,
+          "min_limit": 50000.0,
+          "max_limit": 150000.0,
+          "available": 775.5828,
           "payment_methods": [],
-          "adv_no": "1972901597876752384",
+          "adv_no": "2024868508153749504",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784888140.742524,
+      "fetched_at": 1784888738.3603654,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -264,7 +264,7 @@
           "price": 1.2,
           "merchant_name": "ALKHABOSS_Ex",
           "completion_rate": 1.0,
-          "order_count": 849,
+          "order_count": 851,
           "min_limit": 5.0,
           "max_limit": 20691.948,
           "available": 17243.2906,
