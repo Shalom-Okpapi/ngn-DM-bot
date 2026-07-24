@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784884423.60838,
+      "fetched_at": 1784884773.7795086,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1396.0,
-          "merchant_name": "Odanye",
+          "price": 1396.97,
+          "merchant_name": "Powertech9",
           "completion_rate": 1.0,
-          "order_count": 337,
-          "min_limit": 20000.0,
-          "max_limit": 52369.26,
-          "available": 37.5138,
+          "order_count": 207,
+          "min_limit": 40000.0,
+          "max_limit": 53879.31,
+          "available": 38.5687,
           "payment_methods": [],
-          "adv_no": "2067910093682946048",
+          "adv_no": "1994744277163937792",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -240,7 +240,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784884422.3372893,
+      "fetched_at": 1784884772.5726092,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
