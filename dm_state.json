@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784880872.9910896,
+      "fetched_at": 1784881120.3575947,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1396.97,
-          "merchant_name": "Powertech9",
-          "completion_rate": 1.0,
-          "order_count": 207,
-          "min_limit": 40000.0,
-          "max_limit": 53879.31,
-          "available": 38.5687,
+          "price": 1396.0,
+          "merchant_name": "Danpha0001",
+          "completion_rate": 0.98,
+          "order_count": 425,
+          "min_limit": 4500.0,
+          "max_limit": 69800.0,
+          "available": 50.0,
           "payment_methods": [],
-          "adv_no": "1994744277163937792",
+          "adv_no": "1974210928469245952",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -242,7 +242,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784880871.9590554,
+      "fetched_at": 1784881121.4498646,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
