@@ -47,21 +47,21 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784851367.352499,
+      "fetched_at": 1784851919.5206609,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "NGN",
-          "price": 1395.0,
-          "merchant_name": "Ems Global ",
-          "completion_rate": 1.0,
-          "order_count": 199,
-          "min_limit": 50000.0,
-          "max_limit": 74064.87,
-          "available": 53.0931,
+          "price": 1396.3,
+          "merchant_name": "Zubbywill",
+          "completion_rate": 0.99,
+          "order_count": 245,
+          "min_limit": 20000.0,
+          "max_limit": 2000000.0,
+          "available": 3479.9471,
           "payment_methods": [],
-          "adv_no": "1979121959575638016",
+          "adv_no": "1823812150778957824",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
@@ -234,21 +234,21 @@
       }
     },
     "USD": {
-      "fetched_at": 1784851368.521043,
+      "fetched_at": 1784851921.9311564,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
           "trade_type": "BUY",
           "fiat": "USD",
-          "price": 0.997,
-          "merchant_name": "Joo001",
+          "price": 0.8,
+          "merchant_name": "JackyChee",
           "completion_rate": 0.99,
-          "order_count": 110,
-          "min_limit": 50.0,
-          "max_limit": 2592.2,
-          "available": 2600.0,
+          "order_count": 998,
+          "min_limit": 2.0,
+          "max_limit": 21444.846,
+          "available": 26806.0582,
           "payment_methods": [],
-          "adv_no": "2080183493937573888",
+          "adv_no": "2034594166346301440",
           "link": "https://www.bybit.com/fiat/trade/otc"
         },
         "sell": {
