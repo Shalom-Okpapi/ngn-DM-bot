@@ -47,7 +47,7 @@
       }
     },
     "NGN": {
-      "fetched_at": 1784907820.8763256,
+      "fetched_at": 1784908171.4078057,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
@@ -56,7 +56,7 @@
           "price": 1396.0,
           "merchant_name": "ArikeXCHANGE",
           "completion_rate": 0.99,
-          "order_count": 683,
+          "order_count": 684,
           "min_limit": 4500.0,
           "max_limit": 150000.0,
           "available": 733.6776,
@@ -238,7 +238,7 @@
       }
     },
     "USD": {
-      "fetched_at": 1784907819.772089,
+      "fetched_at": 1784908172.7243974,
       "snapshot": {
         "buy": {
           "platform": "Bybit",
